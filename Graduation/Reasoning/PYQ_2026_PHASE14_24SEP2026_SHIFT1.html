@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SELECTION POST - PHASE 14 - GRADUATION - 24 SEP 2026 - SHIFT 1 | General Intelligence & Reasoning</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --zoom: 1;
+  --blue:#3b6df0;
+  --blue-dark:#2952c8;
+  --blue-light:#eaf0ff;
+  --green:#17a668;
+  --green-dark:#0f8a56;
+  --purple:#8b3fe8;
+  --purple-dark:#6a24c4;
+  --red:#f0432f;
+  --red-dark:#c92c1a;
+  --gold:#e0a100;
+  --grey:#9aa2b1;
+  --ink:#1a2233;
+  --panel-border:#e2e6ee;
+  --bg:#f4f6fb;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;font-family:'Inter',Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:calc(14px * var(--zoom));}
+h1,h2,h3{font-family:'Poppins',Arial,sans-serif;}
+a{cursor:pointer;}
+img{max-width:100%;}
+.hidden-page{display:none;}
+
+/* ============ HEADER ============ */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;background:#fff;border-bottom:1px solid #eceff5;flex-wrap:wrap;gap:8px;box-shadow:0 1px 3px rgba(20,30,60,.04);}
+.topbar-left{display:flex;align-items:center;gap:10px;}
+.logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#3b6df0,#8b3fe8);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px;box-shadow:0 3px 8px rgba(59,109,240,.35);flex-shrink:0;}
+.brandname{font-weight:800;font-size:calc(11.5px*var(--zoom));letter-spacing:.3px;color:var(--blue-dark);text-transform:uppercase;white-space:nowrap;}
+.btn{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;border:none;padding:8px 15px;border-radius:7px;font-weight:600;font-size:calc(13px*var(--zoom));cursor:pointer;transition:transform .12s ease, box-shadow .12s ease;box-shadow:0 2px 6px rgba(59,109,240,.28);}
+.btn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(59,109,240,.38);}
+.btn:active{transform:translateY(0);}
+.btn.submitbtn{background:linear-gradient(135deg,#17a668,#0f8a56);box-shadow:0 2px 6px rgba(23,166,104,.35);}
+.btn.submitbtn:hover{box-shadow:0 5px 14px rgba(23,166,104,.45);}
+.btn.purplebtn{background:linear-gradient(135deg,var(--purple),var(--purple-dark));box-shadow:0 2px 6px rgba(139,63,232,.32);}
+.btn.purplebtn:hover{box-shadow:0 5px 14px rgba(139,63,232,.42);}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none !important;}
+.btn-outline{background:#fff;color:var(--blue);border:1.5px solid var(--blue);padding:5px 11px;border-radius:7px;font-size:calc(12px*var(--zoom));font-weight:600;cursor:pointer;transition:.12s;}
+.btn-outline:hover{background:var(--blue-light);}
+.btn-gold{background:linear-gradient(135deg,#f5c451,var(--gold));color:#4a3300;border:none;padding:8px 15px;border-radius:7px;font-weight:700;font-size:calc(13px*var(--zoom));cursor:pointer;box-shadow:0 2px 6px rgba(224,161,0,.35);}
+.title-block{text-align:center;font-weight:700;font-size:calc(17px*var(--zoom));line-height:1.3;flex:1;min-width:260px;letter-spacing:.2px;}
+.title-block .sub{display:block;font-size:calc(11.5px*var(--zoom));font-weight:600;color:#7d8494;margin-top:1px;text-transform:none;letter-spacing:0;}
+.topbar-right{display:flex;align-items:center;gap:14px;}
+.timeleft{font-weight:700;font-size:calc(15px*var(--zoom));background:#fff3f0;padding:6px 12px;border-radius:8px;border:1px solid #ffd9d1;}
+.timeleft span{color:var(--red);}
+.timeleft.low{background:#ffdcdc;}
+.pausebtn{display:flex;align-items:center;gap:5px;font-weight:600;color:var(--ink);background:#eef1f7;border:none;cursor:pointer;font-size:calc(13px*var(--zoom));padding:7px 12px;border-radius:8px;transition:.12s;}
+.pausebtn:hover{background:#e3e7f1;}
+
+/* ============ SUBBAR ============ */
+.subbar{display:flex;justify-content:space-between;align-items:center;padding:8px 18px;flex-wrap:wrap;gap:6px;background:#fff;border-bottom:1px solid #eceff5;}
+.subbar .taglist a{color:var(--red);font-weight:700;text-decoration:none;margin-right:16px;font-size:calc(12.5px*var(--zoom));border-bottom:2px solid transparent;transition:.12s;}
+.subbar .topictag{display:inline-block;background:var(--blue-light);color:var(--blue-dark);font-weight:700;font-size:calc(11.5px*var(--zoom));padding:3px 11px;border-radius:20px;}
+.qanswered{font-weight:700;font-size:calc(13px*var(--zoom));}
+.qanswered span{color:#e08e00;background:#fff6e5;padding:2px 9px;border-radius:6px;}
+
+/* ============ CONTROL ROW ============ */
+.controlrow{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;flex-wrap:wrap;gap:8px;}
+.section-tab{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;border:none;padding:10px 18px;border-radius:8px;font-weight:700;font-size:calc(14px*var(--zoom));box-shadow:0 3px 8px rgba(23,166,104,.3);}
+.navbtns{display:flex;gap:9px;flex-wrap:wrap;}
+.navbtns .btn{padding:10px 17px;}
+.collapse-arrow{width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;cursor:pointer;user-select:none;background:linear-gradient(135deg,var(--blue),var(--blue-dark));border-radius:50%;box-shadow:0 3px 8px rgba(59,109,240,.3);transition:.15s;}
+.collapse-arrow:hover{transform:scale(1.08);}
+
+/* ============ MAIN LAYOUT ============ */
+.mainwrap{display:flex;gap:0;padding:6px 18px 18px;align-items:flex-start;}
+.qpanel{flex:1;min-width:0;border:1px solid var(--panel-border);border-radius:12px;min-height:520px;background:#fff;box-shadow:0 4px 18px rgba(30,40,80,.06);overflow:hidden;}
+.qpanel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid #f0f2f7;flex-wrap:wrap;gap:8px;background:linear-gradient(180deg,#fbfcff,#fff);}
+.qpanel-head h3{margin:0;font-size:calc(17px*var(--zoom));color:var(--blue-dark);}
+.lang-select{padding:5px 9px;border:1px solid #d8dded;border-radius:6px;font-family:inherit;}
+.zoomgrp{display:flex;gap:6px;align-items:center;}
+.zoomgrp button{width:30px;height:30px;border-radius:7px;border:1px solid #d8dded;background:#fff;color:var(--blue-dark);font-weight:800;cursor:pointer;}
+.zoomgrp button:hover{background:var(--blue-light);}
+.qbody{padding:22px 24px;font-size:calc(15.5px*var(--zoom));line-height:1.6;}
+.qtext{margin-bottom:20px;font-weight:500;}
+.qtext p{margin:0 0 10px;}
+.qimg{margin:10px 0 18px;}
+.options label{display:flex;align-items:flex-start;gap:10px;margin:10px 0;padding:11px 14px;border-radius:9px;cursor:pointer;font-size:calc(15px*var(--zoom));border:1.5px solid #eef0f6;transition:.12s;position:relative;}
+.options label:hover{background:var(--blue-light);border-color:#cdddff;}
+.options input{margin-top:3px;transform:scale(1.2);accent-color:var(--blue);flex-shrink:0;}
+.options label.selected{background:var(--blue-light);border-color:var(--blue);}
+.options label.fb-correct{background:#e9f9f0;border-color:var(--green);}
+.options label.fb-wrong{background:#fdecea;border-color:var(--red);}
+.opt-badge{margin-left:auto;font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:20px;white-space:nowrap;}
+.opt-badge.ok{background:var(--green);color:#fff;}
+.opt-badge.no{background:var(--red);color:#fff;}
+.fb-strip{margin:6px 0 18px;padding:10px 14px;border-radius:9px;font-weight:700;font-size:calc(13.5px*var(--zoom));display:none;}
+.fb-strip.show{display:block;}
+.fb-strip.ok{background:#e9f9f0;color:var(--green-dark);}
+.fb-strip.no{background:#fdecea;color:var(--red-dark);}
+.qfooter{display:flex;gap:10px;padding:16px 24px;border-top:1px solid #f0f2f7;flex-wrap:wrap;align-items:center;}
+.btn-clear{background:#fff;color:#555;border:1.5px solid #d8dded;padding:9px 16px;border-radius:8px;font-weight:600;cursor:pointer;transition:.12s;}
+.btn-clear:hover{background:#f5f6fa;}
+
+.palette-wrap{width:330px;flex-shrink:0;margin-left:16px;transition:all .2s ease;}
+.palette-wrap.hidden{width:0;margin-left:0;overflow:hidden;opacity:0;}
+.palette-title{background:linear-gradient(135deg,#eef1fb,#e6ecff);font-weight:700;text-align:center;padding:10px;border:1px solid var(--panel-border);border-bottom:none;border-radius:12px 12px 0 0;color:var(--blue-dark);}
+.palette-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;padding:16px;border:1px solid var(--panel-border);border-top:none;max-height:260px;overflow-y:auto;background:#fff;}
+.qnum{aspect-ratio:1;border:none;border-radius:7px;color:#fff;font-weight:700;cursor:pointer;font-size:calc(13px*var(--zoom));position:relative;transition:transform .1s ease, box-shadow .1s ease;}
+.qnum:hover{transform:scale(1.08);}
+.qnum.notvisited{background:#aab1c0;}
+.qnum.notanswered{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.answered{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.marked{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans::after{content:"";position:absolute;bottom:3px;right:3px;width:8px;height:8px;background:#17a668;border-radius:50%;border:1.5px solid #fff;}
+.qnum.current{outline:3px solid #1a2233;outline-offset:2px;}
+.qnum.solcorrect{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.solwrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.solskipped{background:#aab1c0;}
+
+.analytics{border:1px solid var(--panel-border);border-radius:12px;margin-top:16px;overflow:hidden;box-shadow:0 3px 10px rgba(30,40,80,.05);}
+.analytics-head{background:linear-gradient(135deg,#2a3245,#1a2233);color:#fff;text-align:center;font-weight:700;padding:9px;font-size:calc(13.5px*var(--zoom));}
+.analytics table{width:100%;border-collapse:collapse;font-size:calc(13px*var(--zoom));background:#fff;}
+.analytics td{padding:10px 14px;border-bottom:1px solid #f0f2f7;}
+.analytics td:last-child{text-align:right;font-weight:700;color:#e08e00;width:40px;}
+.legend{padding:12px 14px;font-size:calc(12px*var(--zoom));display:flex;flex-direction:column;gap:7px;border:1px solid var(--panel-border);border-top:none;background:#fff;border-radius:0 0 12px 12px;}
+.legend div{display:flex;align-items:center;gap:8px;}
+.legend .dot{width:14px;height:14px;border-radius:4px;display:inline-block;flex-shrink:0;}
+
+.submitbar{text-align:center;padding:18px 0 4px;}
+.submitbar .btn{padding:11px 28px;font-size:calc(14px*var(--zoom));}
+
+/* pause overlay */
+.pauseoverlay{position:fixed;inset:0;background:rgba(15,18,30,.9);backdrop-filter:blur(3px);color:#fff;display:none;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:18px;text-align:center;padding:20px;}
+.pauseoverlay.show{display:flex;}
+.pauseoverlay h2{font-size:26px;margin:0;}
+.pauseoverlay p{margin:0;color:#c7c9d6;max-width:360px;}
+.pauseoverlay .btn{font-size:15px;padding:11px 30px;}
+
+/* modal */
+.modal-bg{position:fixed;inset:0;background:rgba(15,18,30,.55);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px;}
+.modal-bg.show{display:flex;}
+.modal{background:#fff;border-radius:14px;width:430px;max-width:92vw;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+.modal h3{margin-top:0;font-size:20px;}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0;}
+.modal-grid div{background:#f4f6fb;border-radius:9px;padding:12px;text-align:center;}
+.modal-grid b{display:block;font-size:21px;}
+.modal-actions{display:flex;justify-content:flex-end;gap:10px;}
+.modal-actions button{padding:9px 18px;border-radius:8px;border:none;font-weight:700;cursor:pointer;transition:.12s;}
+.modal-actions .cancel{background:#eef0f5;color:#333;}
+.modal-actions .cancel:hover{background:#e2e5ee;}
+.modal-actions .confirm{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;}
+.modal-actions .confirm:hover{filter:brightness(1.06);}
+
+/* ============ WELCOME PAGE ============ */
+.welcomewrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+.welcomecard{width:100%;max-width:640px;background:#fff;border-radius:18px;box-shadow:0 16px 50px rgba(30,40,80,.14);overflow:hidden;}
+.welcomehero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);color:#fff;padding:26px 30px 22px;text-align:center;}
+.welcomehero .wbrand{font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;opacity:.9;}
+.welcomehero h1{margin:8px 0 3px;font-size:22px;}
+.welcomehero .wsub{opacity:.92;font-size:13.5px;}
+.welcomebody{padding:26px 30px 30px;}
+.wmeta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px;}
+.wmeta div{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:10px;text-align:center;}
+.wmeta b{display:block;font-size:19px;color:var(--blue-dark);font-family:'Poppins',sans-serif;}
+.wmeta span{font-size:10.5px;color:#7d8494;text-transform:uppercase;letter-spacing:.3px;}
+.winstr{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:14px 16px;margin-bottom:18px;max-height:180px;overflow-y:auto;}
+.winstr h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:#7d8494;}
+.winstr ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.65;color:#374151;}
+.wlegend{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px;font-size:12px;color:#374151;}
+.wlegend span{display:inline-flex;align-items:center;gap:6px;}
+.wtoggle{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--blue-light);border:1px solid #cddcff;border-radius:12px;padding:12px 16px;margin-bottom:20px;}
+.wtoggle .ttl{font-weight:700;font-size:14px;color:var(--blue-dark);}
+.wtoggle .desc{font-size:12px;color:#5c6478;margin-top:2px;}
+.switch{position:relative;width:46px;height:26px;flex-shrink:0;}
+.switch input{opacity:0;width:0;height:0;}
+.slider{position:absolute;cursor:pointer;inset:0;background:#c9c9d6;border-radius:999px;transition:.2s;}
+.slider:before{content:"";position:absolute;height:20px;width:20px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s;box-shadow:0 1px 3px rgba(0,0,0,.3);}
+.switch input:checked + .slider{background:var(--blue);}
+.switch input:checked + .slider:before{transform:translateX(20px);}
+.btn-startbig{width:100%;padding:15px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;font-size:16px;font-weight:700;letter-spacing:.3px;box-shadow:0 8px 20px rgba(59,109,240,.35);cursor:pointer;}
+.btn-startbig:hover{box-shadow:0 10px 26px rgba(59,109,240,.45);}
+
+/* ============ RESULT / ANALYSIS PAGE ============ */
+.resultwrap{max-width:1020px;margin:28px auto;padding:0 18px;}
+.score-hero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);border-radius:18px;color:#fff;padding:34px 36px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;box-shadow:0 16px 40px rgba(59,109,240,.3);}
+.score-hero h1{margin:0 0 6px;font-size:30px;}
+.score-hero p{margin:0;opacity:.92;font-size:15px;}
+.score-ring{width:126px;height:126px;border-radius:50%;background:#fff;color:var(--blue);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:30px;box-shadow:0 10px 26px rgba(0,0,0,.22);font-family:'Poppins',sans-serif;flex-shrink:0;}
+.score-ring span{font-size:12px;font-weight:600;color:#888;font-family:'Inter',sans-serif;}
+.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0;}
+.statcard{background:#fff;border:1px solid #eceff5;border-radius:14px;padding:18px;text-align:center;box-shadow:0 4px 14px rgba(30,40,80,.06);transition:.15s;}
+.statcard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(30,40,80,.1);}
+.statcard b{display:block;font-size:26px;margin-bottom:5px;font-family:'Poppins',sans-serif;}
+.statcard.correct b{color:var(--green);}
+.statcard.wrong b{color:var(--red);}
+.statcard.unattempt b{color:var(--grey);}
+.statcard.accuracy b{color:var(--blue);}
+.resultactions{display:flex;gap:12px;justify-content:center;margin:28px 0;flex-wrap:wrap;}
+.resultactions button{padding:12px 24px;border-radius:9px;border:none;font-weight:700;cursor:pointer;font-size:14px;transition:.15s;}
+.resultactions .primary{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 4px 14px rgba(59,109,240,.3);}
+.resultactions .primary:hover{transform:translateY(-2px);}
+.resultactions .secondary{background:#fff;color:var(--blue);border:1.5px solid var(--blue);}
+.resultactions .secondary:hover{background:var(--blue-light);}
+
+/* ============ SOLUTIONS PAGE (exam-style paginated) ============ */
+.sol-badge{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;color:#fff;}
+.sol-badge.correct{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.sol-badge.wrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.sol-badge.skipped{background:#aab1c0;}
+.soloption{padding:11px 14px;border-radius:9px;margin:8px 0;border:1.5px solid #eef0f6;font-size:calc(15px*var(--zoom));display:flex;gap:8px;align-items:flex-start;}
+.soloption.right{background:#e9f9f0;border-color:var(--green);color:#0f6b41;font-weight:700;}
+.soloption.picked-wrong{background:#fdecea;border-color:var(--red);color:#9c2b1c;font-weight:700;}
+.soloption .tagmini{font-size:10.5px;font-weight:800;padding:1px 7px;border-radius:10px;margin-left:auto;white-space:nowrap;}
+.soloption.right .tagmini{background:var(--green);color:#fff;}
+.soloption.picked-wrong .tagmini{background:var(--red);color:#fff;}
+.explbox{margin-top:14px;background:linear-gradient(180deg,#f2f6ff,#eef2ff);border-left:4px solid var(--blue);padding:13px 16px;font-size:calc(13.5px*var(--zoom));border-radius:0 10px 10px 0;line-height:1.55;}
+.explbox b{color:var(--blue-dark);}
+.explbox h4{margin:0 0 6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--blue-dark);}
+
+/* ============ IMAGE ZOOM + LIGHTBOX (Selection Post: image-based questions) ============ */
+.qbody img,.explbox img,.soloption img,.options img{max-width:none !important;height:auto !important;vertical-align:middle;}
+.qbody,.explbox{overflow-x:auto;}
+.zwrap{position:relative;display:inline-block;max-width:none;line-height:0;vertical-align:middle;}
+.zwrap img{display:block;}
+.zwrap .zbtn{position:absolute;top:3px;right:3px;width:24px;height:24px;border-radius:50%;border:none;background:rgba(26,34,51,.72);color:#fff;font-size:12px;line-height:24px;padding:0;cursor:pointer;opacity:.55;transition:.12s;}
+.zwrap:hover .zbtn{opacity:1;}
+.qtext .zwrap img,.explbox .zwrap img{cursor:zoom-in;}
+.zoomgrp .zlabel{min-width:44px;width:auto;padding:0 6px;font-size:11.5px;font-weight:700;}
+#imgLightbox{position:fixed;inset:0;background:rgba(10,14,25,.92);z-index:9999;display:none;flex-direction:column;}
+#imgLightbox.show{display:flex;}
+#imgLightbox .lbbar{display:flex;gap:8px;align-items:center;justify-content:center;padding:10px;flex-wrap:wrap;}
+#imgLightbox .lbbar button{min-width:42px;height:38px;border-radius:8px;border:1px solid #3a4560;background:#1e2740;color:#fff;font-weight:800;font-size:16px;cursor:pointer;padding:0 12px;}
+#imgLightbox .lbbar button:hover{background:#2f3d66;}
+#imgLightbox .lbbar span{color:#cfd6ea;font-size:13px;font-weight:600;min-width:56px;text-align:center;}
+#imgLightbox .lbstage{flex:1;overflow:hidden;position:relative;cursor:grab;touch-action:none;}
+#imgLightbox .lbstage.drag{cursor:grabbing;}
+#imgLightbox .lbstage img{position:absolute;left:0;top:0;max-width:none !important;transform-origin:0 0;user-select:none;-webkit-user-drag:none;background:#fff;border-radius:4px;}
+#imgLightbox .lbhint{color:#8d97b5;font-size:11.5px;text-align:center;padding:6px 0 10px;}
+
+.mathfb{font-family:"Cambria Math","Times New Roman",serif;font-size:1.05em;white-space:nowrap;}
+.katex{font-size:1.08em;}
+.qtext .katex-display,.options .katex-display{margin:.4em 0;}
+
+@media(max-width:900px){
+  .mainwrap{flex-direction:column;}
+  .palette-wrap{width:100%;margin-left:0;margin-top:14px;}
+  .palette-wrap.hidden{width:100%;height:0;margin-top:0;}
+  .statgrid{grid-template-columns:repeat(2,1fr);}
+  .score-hero{flex-direction:column;text-align:center;}
+  .wmeta{grid-template-columns:1fr 1fr;}
+  .title-block{order:3;flex-basis:100%;}
+}
+
+</style>
+</head>
+<body>
+
+<!-- ============ WELCOME PAGE ============ -->
+<div id="welcomePage">
+  <div class="welcomewrap">
+    <div class="welcomecard">
+      <div class="welcomehero">
+        <div class="wbrand">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="wTitle">Exam Title</h1>
+        <div class="wsub" id="wSub">Section</div>
+      </div>
+      <div class="welcomebody">
+        <div class="wmeta">
+          <div><b id="wTotalQ">-</b><span>Questions</span></div>
+          <div><b id="wTotalTime">-</b><span>Minutes</span></div>
+          <div><b id="wMarks">-</b><span>Marking</span></div>
+        </div>
+        <div class="winstr">
+          <h4>Quick Instructions</h4>
+          <ul>
+            <li>Click an option to select your answer for the current question.</li>
+            <li>Use <b>Save &amp; Next</b> to move on, or <b>Mark for Review</b> to flag a question and come back later.</li>
+            <li>The question palette on the right shows your progress &mdash; click any number to jump straight to it.</li>
+            <li>You can <b>Pause</b> the test any time; your progress auto-saves, even if you close this tab.</li>
+            <li>The test auto-submits the moment the timer hits zero.</li>
+          </ul>
+        </div>
+        <div class="wlegend">
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#aab1c0"></i>Not Visited</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#f0432f"></i>Not Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#17a668"></i>Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#8b3fe8"></i>Marked</span>
+        </div>
+        <div class="wtoggle">
+          <div>
+            <div class="ttl">Instant Feedback Mode</div>
+            <div class="desc">See right / wrong the moment you pick an option, plus an on-demand Show Solution button.</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="instantFeedbackToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <button class="btn-startbig" id="startTestBtn" type="button">Start Test</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TEST PAGE ============ -->
+<div id="testPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+      <button class="btn-outline" id="fsBtn" type="button" onclick="toggleFullscreen()">Full Screen</button>
+    </div>
+    <div class="title-block">
+      <span id="hdrTitle">Exam Title</span>
+      <span class="sub" id="hdrSub">Section</span>
+    </div>
+    <div class="topbar-right">
+      <div class="timeleft" id="timeleftBox">Time Left: <span id="timeLeft">--:--</span></div>
+      <button class="pausebtn" onclick="togglePause()">&#10074;&#10074; <span id="pauseLabel">Pause Test</span></button>
+    </div>
+  </div>
+
+  <div class="subbar">
+    <div class="taglist"><span class="topictag" id="qTopicTag" style="display:none;"></span></div>
+    <div class="qanswered">Total Questions Answered: <span id="totalAnsweredTop">0</span></div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="sectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" onclick="goPrev()">Previous</button>
+      <button class="btn purplebtn" onclick="markForReview()">Mark for Review</button>
+      <button class="btn" onclick="saveAndNext()">Save &amp; Next</button>
+      <button class="btn submitbtn" onclick="confirmSubmit()">Submit Test</button>
+    </div>
+    <div class="collapse-arrow" onclick="togglePalette()" id="collapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="qNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="font-weight:600;font-size:12.5px;" id="langLabel">Language:</span>
+          <select class="lang-select" id="langSelect" onchange="setLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="qText"></div>
+        <div class="qimg" id="qImg" style="display:none;"></div>
+        <div class="options" id="qOptions"></div>
+        <div class="fb-strip" id="fbStrip"></div>
+        <div class="explbox" id="liveSolutionBox" style="display:none;"></div>
+      </div>
+      <div class="qfooter">
+        <button class="btn-clear" onclick="clearResponse()">Clear Response</button>
+        <button class="btn-gold" id="showSolBtn" type="button" onclick="toggleLiveSolution()" style="display:none;">Show Solution</button>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="paletteWrap">
+      <div class="palette-title" id="paletteTitle">Section:</div>
+      <div class="palette-grid" id="paletteGrid"></div>
+
+      <div class="analytics">
+        <div class="analytics-head">Analytics</div>
+        <table>
+          <tr><td>Answered</td><td id="stAnswered">0</td></tr>
+          <tr><td>Not Answered</td><td id="stNotAnswered">0</td></tr>
+          <tr><td>Marked for review</td><td id="stMarked">0</td></tr>
+          <tr><td>Answered &amp; Marked</td><td id="stAnsMarked">0</td></tr>
+          <tr><td>Not Visited</td><td id="stNotVisited">0</td></tr>
+        </table>
+      </div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#aab1c0"></span> Not Visited</div>
+        <div><span class="dot" style="background:#f0432f"></span> Not Answered</div>
+        <div><span class="dot" style="background:#17a668"></span> Answered</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Marked for Review</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Answered &amp; Marked</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RESULT PAGE ============ -->
+<div id="resultPage" class="hidden-page">
+  <div class="resultwrap">
+    <div class="score-hero">
+      <div>
+        <div class="wbrand" style="opacity:.85;">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="resTitle">Test Completed &#127881;</h1>
+        <p id="resSub">Exam Title</p>
+      </div>
+      <div class="score-ring"><span>SCORE</span><div id="finalScore">0</div></div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard correct"><b id="stCorrect">0</b>Correct</div>
+      <div class="statcard wrong"><b id="stWrong">0</b>Wrong</div>
+      <div class="statcard unattempt"><b id="stUnattempt">0</b>Unattempted</div>
+      <div class="statcard accuracy"><b id="stAccuracy">0%</b>Accuracy</div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard"><b id="stTimeTaken">--</b>Time Taken</div>
+      <div class="statcard"><b id="stMaxMarks">0</b>Max Marks</div>
+      <div class="statcard"><b id="stNegMarks">0</b>Negative Marks</div>
+      <div class="statcard"><b id="stAvgTime">--</b>Avg Time / Q</div>
+    </div>
+    <div class="resultactions">
+      <button class="secondary" onclick="showSolutions()">View Solutions</button>
+      <button class="primary" onclick="restartTest()">Retake Test</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SOLUTIONS PAGE ============ -->
+<div id="solutionPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+    </div>
+    <div class="title-block">
+      <span id="solHdrTitle">Exam Title</span>
+      <span class="sub">Solutions</span>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" onclick="backToResult()">&larr; Back to Analysis</button>
+    </div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="solSectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" id="solPrevBtn" onclick="solGoPrev()">Previous</button>
+      <button class="btn" id="solNextBtn" onclick="solGoNext()">Next</button>
+    </div>
+    <div class="collapse-arrow" onclick="toggleSolPalette()" id="solCollapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="solQNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span id="solBadgeHolder"></span>
+          <select class="lang-select" id="solLangSelect" onchange="setSolLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="solQText"></div>
+        <div class="qimg" id="solQImg" style="display:none;"></div>
+        <div id="solOptions"></div>
+        <div class="explbox" id="solExpl"></div>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="solPaletteWrap">
+      <div class="palette-title" id="solPaletteTitle">Section:</div>
+      <div class="palette-grid" id="solPaletteGrid"></div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#17a668"></span> Correct</div>
+        <div><span class="dot" style="background:#f0432f"></span> Wrong</div>
+        <div><span class="dot" style="background:#aab1c0"></span> Skipped</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pauseoverlay" id="pauseOverlay">
+  <h2>Test Paused</h2>
+  <p>Your timer is on hold and your progress is saved &mdash; you can even close this tab. Click resume when you're ready.</p>
+  <button class="btn" onclick="togglePause()">Resume Test</button>
+</div>
+
+<div class="modal-bg" id="submitModal">
+  <div class="modal">
+    <h3>Submit Test?</h3>
+    <div class="modal-grid">
+      <div><b id="mAnswered">0</b>Answered</div>
+      <div><b id="mNotAnswered">0</b>Not Answered</div>
+      <div><b id="mMarked">0</b>Marked for Review</div>
+      <div><b id="mNotVisited">0</b>Not Visited</div>
+    </div>
+    <p style="font-size:13px;color:#666;">Once submitted, you cannot change your answers.</p>
+    <div class="modal-actions">
+      <button class="cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="confirm" onclick="doSubmit()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<div id="imgLightbox">
+  <div class="lbbar">
+    <button type="button" onclick="lbZoom(-1)" title="Zoom out">&minus;</button>
+    <span id="lbPct">100%</span>
+    <button type="button" onclick="lbZoom(1)" title="Zoom in">+</button>
+    <button type="button" onclick="lbFit()" title="Fit to screen">Fit</button>
+    <button type="button" onclick="lbActual()" title="Actual size">1:1</button>
+    <button type="button" onclick="lbClose()" title="Close (Esc)">&#10005; Close</button>
+  </div>
+  <div class="lbstage" id="lbStage"><img id="lbImg" alt="zoomed image"></div>
+  <div class="lbhint">Mouse wheel = zoom &middot; drag = move &middot; double-click = fit / 2x &middot; Esc = close</div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+<script>
+
+/* ============================================================
+   THE SSC SCHOLARS OFFICIAL -- Mock Test Engine
+   UI/UX pattern matched to the user's reference CPO mock file.
+   ============================================================ */
+var CFG = {"examTitle": "SELECTION POST - PHASE 14 - GRADUATION - 24 SEP 2026 - SHIFT 1", "sectionLabel": "General Intelligence & Reasoning", "storageKey": "sscscholars_mock::PYQ_2026_PHASE14_24SEP2026_SHIFT1_SELECTION-POST-GRAD-24-SEP-2026-SHIFT-1_section", "totalTimeSeconds": 900, "correctScoreDisplay": "2", "negativeScoreDisplay": "0.5", "defaultCorrectScore": 2.0, "defaultNegativeScore": 0.5};
+var QUESTIONS = [{"q_no": 1, "id": "50001", "topic": "", "difficulty_level": "", "question": {"en": "In a certain code language, \"STONE\" is written as \"PQLKB.\" How will \"CHAIR\" be written in the same code language?", "hi": "एक निश्चित कूट भाषा में, \"STONE\" को \"PQLKB\" लिखा जाता है। उसी कूट भाषा में \"CHAIR\" को कैसे लिखा जाएगा?"}, "question_image": "", "options": {"option_1": {"en": "ZFXEO", "hi": "", "image": ""}, "option_2": {"en": "ZEXFO", "hi": "", "image": ""}, "option_3": {"en": "ZEFXQ", "hi": "", "image": ""}, "option_4": {"en": "ZFEXQ", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In STONE → PQLKB, each letter is shifted 3 positions backward (−3) in the English alphabet:<br>S(19) − 3 = P(16), T(20) − 3 = Q(17), O(15) − 3 = L(12), N(14) − 3 = K(11), E(5) − 3 = B(2).<br>Similarly, for CHAIR:<br>C(3) − 3 = Z(26), H(8) − 3 = E(5), A(1) − 3 = X(24), I(9) − 3 = F(6), R(18) − 3 = O(15) → <b>ZEXFO<\/b>.", "hi": "STONE → PQLKB में, प्रत्येक अक्षर को अंग्रेजी वर्णमाला में 3 स्थान पीछे (−3) खिसकाया गया है:<br>S(19) − 3 = P(16), T(20) − 3 = Q(17), O(15) − 3 = L(12), N(14) − 3 = K(11), E(5) − 3 = B(2)।<br>इसी प्रकार, CHAIR के लिए:<br>C(3) − 3 = Z(26), H(8) − 3 = E(5), A(1) − 3 = X(24), I(9) − 3 = F(6), R(18) − 3 = O(15) → <b>ZEXFO<\/b>।"}, "solution_image": ""}, {"q_no": 2, "id": "50002", "topic": "", "difficulty_level": "", "question": {"en": "In a certain code language, \"HUNTERS\" is written as \" TSFUOVI.\" How will \"FARMERS\" be written?", "hi": "एक निश्चित कूट भाषा में, \"HUNTERS\" को \"TSFUOVI\" लिखा जाता है। \"FARMERS\" को कैसे लिखा जाएगा?"}, "question_image": "", "options": {"option_1": {"en": "TSFNSBG", "hi": "", "image": ""}, "option_2": {"en": "TREMRAG", "hi": "", "image": ""}, "option_3": {"en": "TSEMRBG", "hi": "", "image": ""}, "option_4": {"en": "TRFNSAG", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In HUNTERS → TSFUOVI, reverse the word (SRETNUH) and shift each letter 1 position forward (+1):<br>S(+1)=T, R(+1)=S, E(+1)=F, T(+1)=U, N(+1)=O, U(+1)=V, H(+1)=I.<br>Similarly, reversing FARMERS gives SREMRAF, and shifting each letter by +1 gives:<br>S(+1)=T, R(+1)=S, E(+1)=F, M(+1)=N, R(+1)=S, A(+1)=B, F(+1)=G → <b>TSFNSBG<\/b>.", "hi": "HUNTERS → TSFUOVI में, शब्द को उलटने (SRETNUH) के बाद प्रत्येक अक्षर को 1 स्थान आगे (+1) बढ़ाया गया है:<br>S(+1)=T, R(+1)=S, E(+1)=F, T(+1)=U, N(+1)=O, U(+1)=V, H(+1)=I।<br>इसी प्रकार, FARMERS को उलटने पर SREMRAF मिलता है और +1 करने पर:<br>S(+1)=T, R(+1)=S, E(+1)=F, M(+1)=N, R(+1)=S, A(+1)=B, F(+1)=G → <b>TSFNSBG<\/b>।"}, "solution_image": ""}, {"q_no": 3, "id": "50003", "topic": "", "difficulty_level": "", "question": {"en": "Ten years ago, the age of A was twice that of B. Five years hence, the age of C will be three times that of D. Currently, the sum of ages of A and C is 80, and B is 5 years younger than D.<br>Find the present age of A.", "hi": "दस वर्ष पहले, A की आयु B की आयु की दोगुनी थी। पाँच वर्ष बाद, C की आयु D की आयु की तीन गुनी होगी। वर्तमान में, A और C की आयु का योग 80 है, और B, D से 5 वर्ष छोटा है।<br>A की वर्तमान आयु ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "12 years", "hi": "12 वर्ष", "image": ""}, "option_2": {"en": "14 years", "hi": "14 वर्ष", "image": ""}, "option_3": {"en": "16 years", "hi": "16 वर्ष", "image": ""}, "option_4": {"en": "18 years", "hi": "18 वर्ष", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "From the given conditions:<br>• 10 years ago, A − 10 = 2(B − 10) ⇒ A = 2B − 10.<br>• B is 5 years younger than D ⇒ D = B + 5.<br>• 5 years hence, C + 5 = 3(D + 5) = 3(B + 10) ⇒ C = 3B + 25.<br>• Given A + C = 80:<br>(2B − 10) + (3B + 25) = 80 ⇒ 5B + 15 = 80 ⇒ 5B = 65 ⇒ B = 13.<br>Therefore, present age of A = 2(13) − 10 = <b>16 years<\/b>.", "hi": "दी गई शर्तों के अनुसार:<br>• 10 वर्ष पूर्व, A − 10 = 2(B − 10) ⇒ A = 2B − 10।<br>• B, D से 5 वर्ष छोटा है ⇒ D = B + 5।<br>• 5 वर्ष बाद, C + 5 = 3(D + 5) = 3(B + 10) ⇒ C = 3B + 25।<br>• दिया है A + C = 80:<br>(2B − 10) + (3B + 25) = 80 ⇒ 5B + 15 = 80 ⇒ 5B = 65 ⇒ B = 13।<br>अतः A की वर्तमान आयु = 2(13) − 10 = <b>16 वर्ष<\/b>।"}, "solution_image": ""}, {"q_no": 4, "id": "50004", "topic": "", "difficulty_level": "", "question": {"en": "A vessel contains milk and water in the ratio 11 : 4. If 15 litres of water is added, the ratio becomes 11 : 7.<br>What was the initial quantity of milk?", "hi": "एक बर्तन में दूध और पानी का अनुपात 11 : 4 है। यदि 15 लीटर पानी मिलाया जाता है, तो अनुपात 11 : 7 हो जाता है।<br>दूध की प्रारंभिक मात्रा क्या थी?"}, "question_image": "", "options": {"option_1": {"en": "44 litres", "hi": "44 लीटर", "image": ""}, "option_2": {"en": "55 litres", "hi": "55 लीटर", "image": ""}, "option_3": {"en": "66 litres", "hi": "66 लीटर", "image": ""}, "option_4": {"en": "77 litres", "hi": "77 लीटर", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Let the initial quantities of milk and water be 11x and 4x litres.<br>When 15 litres of water is added, the ratio becomes 11 : 7:<br>11x / (4x + 15) = 11 / 7<br>⇒ 7x = 4x + 15 ⇒ 3x = 15 ⇒ x = 5.<br>Therefore, initial quantity of milk = 11x = 11 × 5 = <b>55 litres<\/b>.", "hi": "माना दूध और पानी की प्रारंभिक मात्रा क्रमशः 11x और 4x लीटर है।<br>15 लीटर पानी मिलाने पर नया अनुपात 11 : 7 हो जाता है:<br>11x / (4x + 15) = 11 / 7<br>⇒ 7x = 4x + 15 ⇒ 3x = 15 ⇒ x = 5।<br>अतः दूध की प्रारंभिक मात्रा = 11x = 11 × 5 = <b>55 लीटर<\/b>।"}, "solution_image": ""}, {"q_no": 5, "id": "50005", "topic": "", "difficulty_level": "", "question": {"en": "Three pipes, A, B and C, can fill a tank in 24 hours, 30 hours and 40 hours, respectively. If all are opened together and pipe C is closed after 8 hours, how much additional time will A and B together take to fill the remaining tank?", "hi": "तीन पाइप, A, B और C, एक टैंक को क्रमशः 24 घंटे, 30 घंटे और 40 घंटे में भर सकते हैं। यदि सभी को एक साथ खोला जाता है और 8 घंटे बाद पाइप C को बंद कर दिया जाता है, तो शेष टैंक को भरने में A और B को एक साथ कितना अतिरिक्त समय लगेगा?"}, "question_image": "", "options": {"option_1": {"en": "2 hours 20 minutes", "hi": "2 घंटे 20 मिनट", "image": ""}, "option_2": {"en": "2 hours 40 minutes", "hi": "2 घंटे 40 मिनट", "image": ""}, "option_3": {"en": "3 hours 12 minutes", "hi": "3 घंटे 12 मिनट", "image": ""}, "option_4": {"en": "3 hours 40 minutes", "hi": "3 घंटे 40 मिनट", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Let the total capacity of the tank be LCM(24, 30, 40) = 120 units.<br>Hourly rates:<br>• Pipe A = 120 ÷ 24 = 5 units/hr<br>• Pipe B = 120 ÷ 30 = 4 units/hr<br>• Pipe C = 120 ÷ 40 = 3 units/hr<br>In 8 hours together, (A + B + C) fill = (5 + 4 + 3) × 8 = 96 units.<br>Remaining capacity = 120 − 96 = 24 units.<br>Time taken by A and B together (5 + 4 = 9 units/hr) = 24 / 9 = 8 / 3 hours = <b>2 hours 40 minutes<\/b>.", "hi": "माना टंकी की कुल क्षमता = LCM(24, 30, 40) = 120 इकाई।<br>प्रति घंटा क्षमता:<br>• पाइप A = 120 ÷ 24 = 5 इकाई/घंटा<br>• पाइप B = 120 ÷ 30 = 4 इकाई/घंटा<br>• पाइप C = 120 ÷ 40 = 3 इकाई/घंटा<br>8 घंटे में (A + B + C) द्वारा भरा गया भाग = (5 + 4 + 3) × 8 = 96 इकाई।<br>शेष भाग = 120 − 96 = 24 इकाई।<br>A और B (5 + 4 = 9 इकाई/घंटा) द्वारा शेष टंकी भरने में लगा समय = 24 / 9 = 8 / 3 घंटे = <b>2 घंटे 40 मिनट<\/b>।"}, "solution_image": ""}, {"q_no": 6, "id": "50006", "topic": "", "difficulty_level": "", "question": {"en": "Find the missing number in the following series:<br>1, 24, 58, 125, 247, 446, ?", "hi": "निम्नलिखित श्रृंखला में लुप्त संख्या ज्ञात कीजिए:<br>1, 24, 58, 125, 247, 446, ?"}, "question_image": "", "options": {"option_1": {"en": "724", "hi": "", "image": ""}, "option_2": {"en": "735", "hi": "", "image": ""}, "option_3": {"en": "744", "hi": "", "image": ""}, "option_4": {"en": "774", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Find the successive differences of the series 1, 24, 58, 125, 247, 446, ?:<br>• 1st differences: 23, 34, 67, 122, 199<br>• 2nd differences: 11, 33, 55, 77 (consecutive odd multiples of 11: 11×1, 11×3, 11×5, 11×7)<br>Next 2nd difference = 11 × 9 = 99.<br>Next 1st difference = 199 + 99 = 298.<br>Missing term = 446 + 298 = <b>744<\/b>.", "hi": "श्रृंखला 1, 24, 58, 125, 247, 446, ? के क्रमिक अंतर निकालें:<br>• प्रथम अंतर: 23, 34, 67, 122, 199<br>• द्वितीय अंतर: 11, 33, 55, 77 (11 के विषम गुणज: 11×1, 11×3, 11×5, 11×7)<br>अगला द्वितीय अंतर = 11 × 9 = 99।<br>अगला प्रथम अंतर = 199 + 99 = 298।<br>लुप्त संख्या = 446 + 298 = <b>744<\/b>।"}, "solution_image": ""}, {"q_no": 7, "id": "50007", "topic": "", "difficulty_level": "", "question": {"en": "If in the word TEACHING the first and second letters are interchanged, in the same way the third and fourth, fifth and sixth and so on are interchanged, then what will be the 2nd letter from the right?", "hi": "यदि शब्द TEACHING में पहले और दूसरे अक्षर को आपस में बदल दिया जाए, इसी प्रकार तीसरे और चौथे, पाँचवें और छठे तथा आगे भी अक्षरों को आपस में बदल दिया जाए, तो दाएँ से दूसरा अक्षर कौन-सा होगा?"}, "question_image": "", "options": {"option_1": {"en": "I", "hi": "", "image": ""}, "option_2": {"en": "N", "hi": "", "image": ""}, "option_3": {"en": "H", "hi": "", "image": ""}, "option_4": {"en": "G", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Given word: T E A C H I N G.<br>Interchanging adjacent pairs (1st–2nd, 3rd–4th, 5th–6th, 7th–8th):<br>(T E)(A C)(H I)(N G) → E T C A I H G N.<br>Counting from the right end (N is 1st, G is 2nd), the 2nd letter from the right is <b>G<\/b>.", "hi": "दिया गया शब्द: T E A C H I N G।<br>आसन्न जोड़ों को आपस में बदलने पर:<br>(T E)(A C)(H I)(N G) → E T C A I H G N।<br>दाएँ छोर से गिनने पर (N पहला, G दूसरा), दाएँ से दूसरा अक्षर <b>G<\/b> है।"}, "solution_image": ""}, {"q_no": 8, "id": "50008", "topic": "", "difficulty_level": "", "question": {"en": "Identify the alternative set of numbers that correctly codes the word. The code uses [Row, Column] format.<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><th><\/th><th>1<\/th><th>2<\/th><th>3<\/th><th>4<\/th><th>5<\/th><th>6<\/th><\/tr><tr><th>1<\/th><td>G<\/td><td>A<\/td><td>T<\/td><td>E<\/td><td>R<\/td><td>P<\/td><\/tr><tr><th>2<\/th><td>L<\/td><td>O<\/td><td>N<\/td><td>I<\/td><td>C<\/td><td>S<\/td><\/tr><tr><th>3<\/th><td>B<\/td><td>D<\/td><td>F<\/td><td>H<\/td><td>U<\/td><td>K<\/td><\/tr><tr><th>4<\/th><td>Q<\/td><td>M<\/td><td>V<\/td><td>W<\/td><td>J<\/td><td>Y<\/td><\/tr><tr><th>5<\/th><td>X<\/td><td>Z<\/td><td>O<\/td><td>A<\/td><td>E<\/td><td>R<\/td><\/tr><tr><th>6<\/th><td>N<\/td><td>I<\/td><td>L<\/td><td>T<\/td><td>B<\/td><td>C<\/td><\/tr><\/table>What is the correct code for \"MARKED\"?", "hi": "संख्याओं के उस वैकल्पिक समूह की पहचान कीजिए जो शब्द को सही ढंग से कूटबद्ध करता है। कूट में [पंक्ति, स्तंभ] प्रारूप का उपयोग किया गया है।<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><th><\/th><th>1<\/th><th>2<\/th><th>3<\/th><th>4<\/th><th>5<\/th><th>6<\/th><\/tr><tr><th>1<\/th><td>G<\/td><td>A<\/td><td>T<\/td><td>E<\/td><td>R<\/td><td>P<\/td><\/tr><tr><th>2<\/th><td>L<\/td><td>O<\/td><td>N<\/td><td>I<\/td><td>C<\/td><td>S<\/td><\/tr><tr><th>3<\/th><td>B<\/td><td>D<\/td><td>F<\/td><td>H<\/td><td>U<\/td><td>K<\/td><\/tr><tr><th>4<\/th><td>Q<\/td><td>M<\/td><td>V<\/td><td>W<\/td><td>J<\/td><td>Y<\/td><\/tr><tr><th>5<\/th><td>X<\/td><td>Z<\/td><td>O<\/td><td>A<\/td><td>E<\/td><td>R<\/td><\/tr><tr><th>6<\/th><td>N<\/td><td>I<\/td><td>L<\/td><td>T<\/td><td>B<\/td><td>C<\/td><\/tr><\/table>\"MARKED\" के लिए सही कूट क्या है?"}, "question_image": "", "options": {"option_1": {"en": "(4,2)(1,2)(1,5)(3,2)(5,4)(3,2)", "hi": "", "image": ""}, "option_2": {"en": "(4,2)(1,2)(1,2)(3,6)(4,5)(1,2)", "hi": "", "image": ""}, "option_3": {"en": "(4,2)(1,2)(1,5)(2,6)(5,1)(5,2)", "hi": "", "image": ""}, "option_4": {"en": "(4,2)(1,2)(1,5)(3,6)(5,5)(3,2)", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Using [Row, Column] coordinates from the matrix for the word 'MARKED':<br>• M → (4,2)<br>• A → (1,2) or (5,4)<br>• R → (1,5) or (5,6)<br>• K → (3,6)<br>• E → (1,4) or (5,5)<br>• D → (3,2)<br>Matching with the options gives <b>(4,2)(1,2)(1,5)(3,6)(5,5)(3,2)<\/b>.", "hi": "आव्यूह से [पंक्ति, स्तंभ] प्रारूप में 'MARKED' शब्द का कूट मिलान करने पर:<br>• M → (4,2)<br>• A → (1,2) या (5,4)<br>• R → (1,5) या (5,6)<br>• K → (3,6)<br>• E → (1,4) या (5,5)<br>• D → (3,2)<br>विकल्पों से मिलान करने पर सही विकल्प <b>(4,2)(1,2)(1,5)(3,6)(5,5)(3,2)<\/b> है।"}, "solution_image": ""}, {"q_no": 9, "id": "50009", "topic": "", "difficulty_level": "", "question": {"en": "In a coded blood relation problem: P $Q means P is the mother of Q; P # Q means P is the father of Q; P @ Q means P is the husband of Q; P % Q means P is the sister of Q. If A # B @ C$ D, how is A related to D?", "hi": "एक कूटबद्ध रक्त संबंध प्रश्न में: P $Q का अर्थ है कि P, Q की माता है; P # Q का अर्थ है कि P, Q का पिता है; P @ Q का अर्थ है कि P, Q का पति है; P % Q का अर्थ है कि P, Q की बहन है। यदि A # B @ C$ D है, तो A का D से क्या संबंध है?"}, "question_image": "", "options": {"option_1": {"en": "Paternal Grandfather", "hi": "दादा", "image": ""}, "option_2": {"en": "Father", "hi": "पिता", "image": ""}, "option_3": {"en": "Great-grandfather", "hi": "परदादा", "image": ""}, "option_4": {"en": "Paternal Uncle", "hi": "चाचा/ताऊ", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Decoding A # B @ C $ D:<br>• A # B → A is the father of B.<br>• B @ C → B is the husband of C.<br>• C $ D → C is the mother of D (so B is the father of D).<br>Since A is the father of D's father B, A is the <b>Paternal Grandfather<\/b> of D.", "hi": "व्यंजक A # B @ C $ D को हल करने पर:<br>• A # B → A, B का पिता है।<br>• B @ C → B, C का पति है।<br>• C $ D → C, D की माता है (अतः B, D का पिता है)।<br>चूँकि A, D के पिता B का पिता है, इसलिए A, D का <b>दादा (Paternal Grandfather)<\/b> है।"}, "solution_image": ""}, {"q_no": 10, "id": "50010", "topic": "", "difficulty_level": "", "question": {"en": "Showing a man, a woman said, \"He is the grandson of my husband’s father, but he is not my son.\" How is the man related to the woman?", "hi": "एक पुरुष की ओर इशारा करते हुए, एक महिला ने कहा, \"वह मेरे पति के पिता का पोता है, लेकिन वह मेरा पुत्र नहीं है।\" वह पुरुष उस महिला से किस प्रकार संबंधित है?"}, "question_image": "", "options": {"option_1": {"en": "Son", "hi": "पुत्र", "image": ""}, "option_2": {"en": "Nephew", "hi": "भतीजा", "image": ""}, "option_3": {"en": "Brother-in-law", "hi": "देवर/जेठ", "image": ""}, "option_4": {"en": "Paternal Uncle", "hi": "चाचा", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "'The grandson of my husband's father' means either the woman's own son or the son of her husband's sibling.<br>Since she specifies 'but he is not my son', the man must be the son of her brother-in-law or sister-in-law, which means he is her <b>Nephew<\/b>.", "hi": "'मेरे पति के पिता का पोता' का अर्थ या तो महिला का स्वयं का पुत्र होगा या उसके पति के भाई/बहन का पुत्र।<br>चूँकि वह कहती है 'लेकिन वह मेरा पुत्र नहीं है', इसलिए वह व्यक्ति उसका <b>भतीजा/भांजा (Nephew)<\/b> है।"}, "solution_image": ""}, {"q_no": 11, "id": "50011", "topic": "", "difficulty_level": "", "question": {"en": "Select the odd number pair from the given alternatives.", "hi": "दिए गए विकल्पों में से विषम संख्या-युग्म का चयन कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "16, 250", "hi": "", "image": ""}, "option_2": {"en": "15, 225", "hi": "", "image": ""}, "option_3": {"en": "18, 324", "hi": "", "image": ""}, "option_4": {"en": "13, 169", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In options 2, 3, and 4, the second number is the exact square of the first number:<br>• 15² = 225<br>• 18² = 324<br>• 13² = 169<br>However, 16² = 256 ≠ 250. Hence, <b>16, 250<\/b> is the odd number pair.", "hi": "विकल्प 2, 3 और 4 में, दूसरी संख्या पहली संख्या का पूर्ण वर्ग है:<br>• 15² = 225<br>• 18² = 324<br>• 13² = 169<br>परंतु 16² = 256 ≠ 250 है। अतः <b>16, 250<\/b> विषम संख्या-युग्म है।"}, "solution_image": ""}, {"q_no": 12, "id": "50012", "topic": "", "difficulty_level": "", "question": {"en": "From the numbered letters of the word ‘MONETARY’ (1-M, 2-O, 3-N, 4-E, 5-T, 6-A, 7-R, 8-Y), identify the correct sequence that forms the word ‘MENTOR’.", "hi": "शब्द ‘MONETARY’ के क्रमांकित अक्षरों (1-M, 2-O, 3-N, 4-E, 5-T, 6-A, 7-R, 8-Y) में से उस सही अनुक्रम की पहचान कीजिए जो शब्द ‘MENTOR’ बनाता है।"}, "question_image": "", "options": {"option_1": {"en": "1 4 3 5 2 7", "hi": "", "image": ""}, "option_2": {"en": "1 4 3 5 7 2", "hi": "", "image": ""}, "option_3": {"en": "1 3 4 5 2 7", "hi": "", "image": ""}, "option_4": {"en": "1 4 5 3 2 7", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Given letter numbering: 1-M, 2-O, 3-N, 4-E, 5-T, 6-A, 7-R, 8-Y.<br>Matching the letters of MENTOR:<br>M(1) – E(4) – N(3) – T(5) – O(2) – R(7) → <b>1 4 3 5 2 7<\/b>.", "hi": "दिए गए अक्षर क्रमांक: 1-M, 2-O, 3-N, 4-E, 5-T, 6-A, 7-R, 8-Y।<br>MENTOR के अक्षरों का क्रमांक लिखने पर:<br>M(1) – E(4) – N(3) – T(5) – O(2) – R(7) → <b>1 4 3 5 2 7<\/b>।"}, "solution_image": ""}, {"q_no": 13, "id": "50013", "topic": "", "difficulty_level": "", "question": {"en": "Which center code does NOT follow the digit-letter-digit-letter pattern?", "hi": "कौन-सा केंद्र कोड अंक-अक्षर-अंक-अक्षर (digit-letter-digit-letter) पैटर्न का अनुसरण नहीं करता है?"}, "question_image": "", "options": {"option_1": {"en": "1A2B", "hi": "", "image": ""}, "option_2": {"en": "3C4D", "hi": "", "image": ""}, "option_3": {"en": "E5F6", "hi": "", "image": ""}, "option_4": {"en": "7G8H", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "1A2B, 3C4D, and 7G8H all follow the Digit–Letter–Digit–Letter pattern.<br>However, <b>E5F6<\/b> follows the Letter–Digit–Letter–Digit pattern. Hence, <b>E5F6<\/b> is the odd one out.", "hi": "1A2B, 3C4D और 7G8H सभी 'अंक–अक्षर–अंक–अक्षर' पैटर्न का पालन करते हैं।<br>परंतु <b>E5F6<\/b> 'अक्षर–अंक–अक्षर–अंक' पैटर्न में है। अतः <b>E5F6<\/b> भिन्न है।"}, "solution_image": ""}, {"q_no": 14, "id": "50014", "topic": "", "difficulty_level": "", "question": {"en": "In the given question, a few statements have been given followed by conclusions based on them. Consider the statements to be true and answer which of the given conclusions logically follow the statement.<br><br>Statements<br>1. All carnivores are predators.<br>2. Some predators are endangered.<br>3. All endangered species are protected.<br><br>Conclusions<br>I. Some carnivores are endangered.<br>II. Some predators are protected.<br>III. All carnivores are protected.<br>IV. Some protected species are predators.", "hi": "दिए गए प्रश्न में कुछ कथन और उन पर आधारित निष्कर्ष दिए गए हैं। कथनों को सत्य मानते हुए उत्तर दीजिए कि दिए गए निष्कर्षों में से कौन-से कथन का तार्किक रूप से अनुसरण करते हैं।<br><br>कथन<br>1. सभी मांसाहारी (carnivores) शिकारी (predators) हैं।<br>2. कुछ शिकारी लुप्तप्राय (endangered) हैं।<br>3. सभी लुप्तप्राय प्रजातियाँ संरक्षित (protected) हैं।<br><br>निष्कर्ष<br>I. कुछ मांसाहारी लुप्तप्राय हैं।<br>II. कुछ शिकारी संरक्षित हैं।<br>III. सभी मांसाहारी संरक्षित हैं।<br>IV. कुछ संरक्षित प्रजातियाँ शिकारी हैं।"}, "question_image": "", "options": {"option_1": {"en": "Only III and IV follow", "hi": "केवल III और IV अनुसरण करते हैं", "image": ""}, "option_2": {"en": "Only II follows", "hi": "केवल II अनुसरण करता है", "image": ""}, "option_3": {"en": "Only I, II and IV follow", "hi": "केवल I, II और IV अनुसरण करते हैं", "image": ""}, "option_4": {"en": "Only II and IV follow", "hi": "केवल II और IV अनुसरण करते हैं", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "From the statements:<br>1. All carnivores are predators (C ⊆ P).<br>2. Some predators are endangered (P ∩ E ≠ ∅).<br>3. All endangered species are protected (E ⊆ Pr).<br>Checking conclusions:<br>• I. Some carnivores are endangered: No definite link between C and E (Does not follow).<br>• II. Some predators are protected: Since P ∩ E ≠ ∅ and E ⊆ Pr, P ∩ Pr ≠ ∅ (Follows).<br>• III. All carnivores are protected: Does not follow.<br>• IV. Some protected species are predators: Converse of Conclusion II (Follows).<br>Hence, <b>Only II and IV follow<\/b>.", "hi": "कथनों के अनुसार:<br>1. सभी मांसाहारी शिकारी हैं (C ⊆ P)।<br>2. कुछ शिकारी लुप्तप्राय हैं (P ∩ E ≠ ∅)।<br>3. सभी लुप्तप्राय प्रजातियाँ संरक्षित हैं (E ⊆ Pr)।<br>निष्कर्षों की जाँच:<br>• I. कुछ मांसाहारी लुप्तप्राय हैं: अनुसरण नहीं करता है।<br>• II. कुछ शिकारी संरक्षित हैं: चूँकि P ∩ E ≠ ∅ और E ⊆ Pr, इसलिए अनुसरण करता है।<br>• III. सभी मांसाहारी संरक्षित हैं: अनुसरण नहीं करता है।<br>• IV. कुछ संरक्षित प्रजातियाँ शिकारी हैं: निष्कर्ष II का व्युत्क्रम (अनुसरण करता है)।<br>अतः <b>केवल II और IV अनुसरण करते हैं<\/b>।"}, "solution_image": ""}, {"q_no": 15, "id": "50015", "topic": "", "difficulty_level": "", "question": {"en": "If 14#7@2 = 4 and 24#6@3 = 12, then what is the value of 40#5@4?", "hi": "यदि 14#7@2 = 4 और 24#6@3 = 12 है, तो 40#5@4 का मान क्या है?"}, "question_image": "", "options": {"option_1": {"en": "30", "hi": "", "image": ""}, "option_2": {"en": "32", "hi": "", "image": ""}, "option_3": {"en": "28", "hi": "", "image": ""}, "option_4": {"en": "24", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In the given pattern, '#' stands for '÷' and '@' stands for '×':<br>• (14 ÷ 7) × 2 = 2 × 2 = 4<br>• (24 ÷ 6) × 3 = 4 × 3 = 12<br>Similarly, for 40 # 5 @ 4:<br>(40 ÷ 5) × 4 = 8 × 4 = <b>32<\/b>.", "hi": "दिए गए पैटर्न में, '#' का अर्थ '÷' और '@' का अर्थ '×' है:<br>• (14 ÷ 7) × 2 = 2 × 2 = 4<br>• (24 ÷ 6) × 3 = 4 × 3 = 12<br>इसी प्रकार, 40 # 5 @ 4 के लिए:<br>(40 ÷ 5) × 4 = 8 × 4 = <b>32<\/b>।"}, "solution_image": ""}, {"q_no": 16, "id": "50016", "topic": "", "difficulty_level": "", "question": {"en": "If 15 Φ 3 = 10 and 24 Φ 4 = 12, find the value of 35 Φ 5.", "hi": "यदि 15 Φ 3 = 10 और 24 Φ 4 = 12 है, तो 35 Φ 5 का मान ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "14", "hi": "", "image": ""}, "option_2": {"en": "12", "hi": "", "image": ""}, "option_3": {"en": "16", "hi": "", "image": ""}, "option_4": {"en": "18", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "The operation a Φ b is defined as (a ÷ b) × 2:<br>• (15 ÷ 3) × 2 = 5 × 2 = 10<br>• (24 ÷ 4) × 2 = 6 × 2 = 12<br>Similarly, for 35 Φ 5:<br>(35 ÷ 5) × 2 = 7 × 2 = <b>14<\/b>.", "hi": "यहाँ संक्रिया a Φ b का नियम (a ÷ b) × 2 है:<br>• (15 ÷ 3) × 2 = 5 × 2 = 10<br>• (24 ÷ 4) × 2 = 6 × 2 = 12<br>इसी प्रकार, 35 Φ 5 के लिए:<br>(35 ÷ 5) × 2 = 7 × 2 = <b>14<\/b>।"}, "solution_image": ""}, {"q_no": 17, "id": "50017", "topic": "", "difficulty_level": "", "question": {"en": "If □ = +, ○ = –, Δ = ×, ∇ = ÷, find the value of (12 Δ 4) ∇ 8 ○ 2 □ 5.", "hi": "यदि □ = +, ○ = –, Δ = ×, ∇ = ÷ हो, तो (12 Δ 4) ∇ 8 ○ 2 □ 5 का मान ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "3", "hi": "", "image": ""}, "option_2": {"en": "5", "hi": "", "image": ""}, "option_3": {"en": "7", "hi": "", "image": ""}, "option_4": {"en": "9", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Substituting □ = +, ○ = −, Δ = ×, ∇ = ÷ into (12 Δ 4) ∇ 8 ○ 2 □ 5:<br>= (12 × 4) ÷ 8 − 2 + 5<br>= 48 ÷ 8 − 2 + 5<br>= 6 − 2 + 5 = <b>9<\/b>.", "hi": "प्रतीकों □ = +, ○ = −, Δ = ×, ∇ = ÷ को (12 Δ 4) ∇ 8 ○ 2 □ 5 में रखने पर:<br>= (12 × 4) ÷ 8 − 2 + 5<br>= 48 ÷ 8 − 2 + 5<br>= 6 − 2 + 5 = <b>9<\/b>।"}, "solution_image": ""}, {"q_no": 18, "id": "50018", "topic": "", "difficulty_level": "", "question": {"en": "In the following question a statement is given followed by some assumptions. Read the assumptions carefully and choose the appropriate option.<br>Statement:<br>A school is introducing smart classrooms and investing heavily in digital learning tools. To fund the project, the school intends to reduce certain administrative expenses and apply for grants.<br>Assumptions:<br>I. Digital learning tools can enhance students' learning experience.<br>II. The school has already received the grants.", "hi": "निम्नलिखित प्रश्न में एक कथन और उसके बाद कुछ पूर्वधारणाएँ दी गई हैं। पूर्वधारणाओं को ध्यानपूर्वक पढ़ें और उपयुक्त विकल्प चुनें।<br>कथन:<br>एक स्कूल स्मार्ट क्लासरूम शुरू कर रहा है और डिजिटल शिक्षण उपकरणों में भारी निवेश कर रहा है। परियोजना के वित्तपोषण के लिए, स्कूल कुछ प्रशासनिक खर्चों को कम करने और अनुदान के लिए आवेदन करने का इरादा रखता है।<br>पूर्वधारणाएँ:<br>I. डिजिटल शिक्षण उपकरण छात्रों के सीखने के अनुभव को बेहतर बना सकते हैं।<br>II. स्कूल को पहले ही अनुदान मिल चुका है।"}, "question_image": "", "options": {"option_1": {"en": "Only I is implicit.", "hi": "केवल I अंतर्निहित है।", "image": ""}, "option_2": {"en": "Only II is implicit.", "hi": "केवल II अंतर्निहित है।", "image": ""}, "option_3": {"en": "Neither I nor II is implicit.", "hi": "न तो I और न ही II अंतर्निहित है।", "image": ""}, "option_4": {"en": "Both I and II are implicit.", "hi": "I और II दोनों अंतर्निहित हैं।", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "• Assumption I is implicit because investing heavily in smart classrooms and digital learning tools presupposes that they can enhance students' learning experience.<br>• Assumption II is not implicit because the statement says the school 'intends to... apply for grants', meaning the grants have not yet been received.<br>Hence, <b>Only I is implicit.<\/b>", "hi": "• पूर्वधारणा I अंतर्निहित है क्योंकि स्मार्ट क्लासरूम और डिजिटल शिक्षण उपकरणों में निवेश करने के पीछे यही धारणा होती है कि इससे छात्रों के सीखने के अनुभव में सुधार होगा।<br>• पूर्वधारणा II अंतर्निहित नहीं है क्योंकि स्कूल अभी अनुदान के लिए 'आवेदन करने का इरादा रखता है', अर्थात् अनुदान अभी प्राप्त नहीं हुआ है।<br>अतः <b>केवल I अंतर्निहित है<\/b>।"}, "solution_image": ""}, {"q_no": 19, "id": "50019", "topic": "", "difficulty_level": "", "question": {"en": "Read the given conditions carefully and determine the appropriate outcome for the case provided. If any exception applies, identify the authority to whom the case should be referred.<br>Criteria for receiving a 50% subsidy on high-yield hybrid seeds:<br>(i) Must own or lease at least 5 acres of agricultural land.<br>(ii) Must be a member of the local 'Farmer Producer Organisation' (FPO).<br>(iii) Must not have received any government agricultural subsidy in the last 2 years.<br>Exceptions:<br>Exception (A): If the farmer fails criterion (iii) but was hit by a government-declared drought in the last year, refer the case to the Block Development Officer (BDO).<br>Exception (B): If the farmer meets all criteria (i), (ii), and (iii) but has an active loan default with a cooperative bank, refer the case to the District Agricultural Credit Committee.<br>Case: Farmer Harpreet is the owner of 8 acres of land and is an active member of his local FPO. Last year, he received a fertiliser subsidy. His district was officially declared 'drought-hit' by the state government in 2025.", "hi": "दी गई शर्तों को ध्यानपूर्वक पढ़ें और दिए गए मामले के लिए उपयुक्त परिणाम निर्धारित करें। यदि कोई अपवाद लागू होता है, तो उस प्राधिकारी की पहचान करें जिसे मामला भेजा जाना चाहिए।<br>उच्च उपज वाले संकर बीजों पर 50% सब्सिडी प्राप्त करने के लिए मानदंड:<br>(i) कम-से-कम 5 एकड़ कृषि भूमि का मालिक या पट्टेदार होना चाहिए।<br>(ii) स्थानीय 'किसान उत्पादक संगठन' (FPO) का सदस्य होना चाहिए।<br>(iii) पिछले 2 वर्षों में कोई सरकारी कृषि सब्सिडी प्राप्त नहीं की होनी चाहिए।<br>अपवाद:<br>अपवाद (A): यदि किसान मानदंड (iii) में विफल रहता है लेकिन पिछले वर्ष सरकार द्वारा घोषित सूखे से प्रभावित हुआ था, तो मामला प्रखंड विकास पदाधिकारी (BDO) को भेजें।<br>अपवाद (B): यदि किसान सभी मानदंडों (i), (ii) और (iii) को पूरा करता है लेकिन सहकारी बैंक के साथ सक्रिय ऋण डिफ़ॉल्ट है, तो मामला जिला कृषि ऋण समिति को भेजें।<br>मामला: किसान हरप्रीत 8 एकड़ भूमि का मालिक है और अपने स्थानीय FPO का सक्रिय सदस्य है। पिछले वर्ष उसे उर्वरक सब्सिडी मिली थी। उसके जिले को 2025 में राज्य सरकार द्वारा आधिकारिक तौर पर 'सूखाग्रस्त' घोषित किया गया था।"}, "question_image": "", "options": {"option_1": {"en": "Subsidy to be granted", "hi": "सब्सिडी प्रदान की जाए", "image": ""}, "option_2": {"en": "Case to be referred to the Block Development Officer (BDO)", "hi": "मामला प्रखंड विकास पदाधिकारी (BDO) को भेजा जाए", "image": ""}, "option_3": {"en": "Subsidy to be rejected", "hi": "सब्सिडी अस्वीकार की जाए", "image": ""}, "option_4": {"en": "Case to be referred to the District Agricultural Credit Committee", "hi": "मामला जिला कृषि ऋण समिति को भेजा जाए", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Evaluating Farmer Harpreet's case:<br>• Criterion (i): Owns 8 (≥ 5) acres of land → Met.<br>• Criterion (ii): Active member of local FPO → Met.<br>• Criterion (iii): Received a fertiliser subsidy last year → Fails Criterion (iii).<br>Since he fails Criterion (iii) and his district was officially declared drought-hit last year, Exception (A) applies: <b>Case to be referred to the Block Development Officer (BDO)<\/b>.", "hi": "किसान हरप्रीत के मामले की जाँच:<br>• मानदंड (i): 8 (≥ 5) एकड़ भूमि के मालिक हैं → पूर्ण।<br>• मानदंड (ii): स्थानीय FPO के सक्रिय सदस्य हैं → पूर्ण।<br>• मानदंड (iii): पिछले वर्ष उर्वरक सब्सिडी प्राप्त की थी → मानदंड (iii) अपूर्ण।<br>चूँकि वह मानदंड (iii) में विफल हैं परंतु उनका जिला पिछले वर्ष सूखाग्रस्त घोषित किया गया था, इसलिए अपवाद (A) लागू होता है: <b>मामले को खंड विकास अधिकारी (BDO) को भेजा जाना चाहिए<\/b>।"}, "solution_image": ""}, {"q_no": 20, "id": "50020", "topic": "", "difficulty_level": "", "question": {"en": "You are the CEO of an organisation where an excellent performer has been reported for sexually harassing a junior member of the staff without any physical proof apart from the conflicting statements between the parties involved. On the one hand, according to the principle of zero tolerance, it becomes necessary to immediately suspend the accused pending completion of an investigation into this case. On the other hand, the fact that “an accused person is presumed to be innocent until proven guilty” should not be overlooked. What decision would you take in this situation?", "hi": "आप एक ऐसे संगठन के CEO हैं जहाँ उत्कृष्ट प्रदर्शन करने वाले एक कर्मचारी के विरुद्ध स्टाफ के एक कनिष्ठ सदस्य के यौन उत्पीड़न की शिकायत की गई है, जिसमें संबंधित पक्षों के परस्पर विरोधी बयानों के अलावा कोई भौतिक प्रमाण नहीं है। एक ओर, जीरो टॉलरेंस के सिद्धांत के अनुसार, इस मामले की जाँच पूरी होने तक आरोपी को तुरंत निलंबित करना आवश्यक हो जाता है। दूसरी ओर, इस तथ्य को भी नजरअंदाज नहीं किया जाना चाहिए कि “दोष सिद्ध होने तक आरोपी व्यक्ति को निर्दोष माना जाता है”। इस स्थिति में आप क्या निर्णय लेंगे?"}, "question_image": "", "options": {"option_1": {"en": "Terminate the accused immediately to protect the company’s reputation.", "hi": "कंपनी की प्रतिष्ठा की रक्षा के लिए आरोपी को तुरंत बर्खास्त करें।", "image": ""}, "option_2": {"en": "Ignore the claim because there is no hard evidence.", "hi": "दावे को अनदेखा करें क्योंकि कोई ठोस सबूत नहीं है।", "image": ""}, "option_3": {"en": "Suspend accused, investigate independently, and relocate junior staff for safety.", "hi": "आरोपी को निलंबित करें, स्वतंत्र रूप से जाँच करें, और सुरक्षा के लिए कनिष्ठ स्टाफ को स्थानांतरित करें।", "image": ""}, "option_4": {"en": "Mediate between the two and ask them to shake hands.", "hi": "दोनों के बीच मध्यस्थता करें और उन्हें हाथ मिलाने के लिए कहें।", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "To uphold both zero-tolerance safety standards and the presumption of innocence until proven guilty, the appropriate administrative action is to <b>Suspend accused, investigate independently, and relocate junior staff for safety.<\/b>", "hi": "शून्य सहनशीलता (zero tolerance) और निष्पक्ष जाँच के सिद्धांत दोनों का संतुलन बनाए रखने के लिए सही निर्णय है: <b>आरोपी को निलंबित करें, स्वतंत्र रूप से जाँच करें और सुरक्षा के लिए कनिष्ठ कर्मचारी को स्थानांतरित करें<\/b>।"}, "solution_image": ""}, {"q_no": 21, "id": "50021", "topic": "", "difficulty_level": "", "question": {"en": "Read the criteria given for a position along with some exceptions and then decide what decision should be taken for the case given.<br>Criteria for Logistics & Supply Chain Head:<br>1.MBA in Supply Chain Management with ≥ 60% marks.<br>2.Age: 30–50 years.<br>3.Minimum 8 years of industry experience.<br>Exception: If (1) is not met, but the candidate has 15 years of industry experience and a B.E. degree, refer to ‘CEO’.<br>Case: Mr. Vijay, 42, has a B.E. degree, 16 years of industry experience, but no MBA. What decision should be taken regarding Vijay?", "hi": "किसी पद के लिए दिए गए मानदंडों और कुछ अपवादों को पढ़ें और फिर तय करें कि दिए गए मामले में क्या निर्णय लिया जाना चाहिए।<br>लॉजिस्टिक्स और सप्लाई चेन हेड के लिए मानदंड:<br>1. सप्लाई चेन मैनेजमेंट में ≥ 60% अंकों के साथ MBA.<br>2. आयु: 30–50 वर्ष।<br>3. न्यूनतम 8 वर्ष का उद्योग अनुभव।<br>अपवाद: यदि (1) पूरा नहीं होता है, लेकिन उम्मीदवार के पास 15 वर्ष का उद्योग अनुभव और B.E. की डिग्री है, तो ‘CEO’ को भेजें।<br>मामला: श्री विजय, 42 वर्ष, के पास B.E. की डिग्री और 16 वर्ष का उद्योग अनुभव है, लेकिन MBA नहीं है। विजय के संबंध में क्या निर्णय लिया जाना चाहिए?"}, "question_image": "", "options": {"option_1": {"en": "Select the candidate.", "hi": "उम्मीदवार का चयन करें।", "image": ""}, "option_2": {"en": "Reject the candidate.", "hi": "उम्मीदवार को अस्वीकार करें।", "image": ""}, "option_3": {"en": "Refer to CEO.", "hi": "CEO को भेजें।", "image": ""}, "option_4": {"en": "Refer to Board of Directors.", "hi": "निदेशक मंडल को भेजें।", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Checking Mr. Vijay's profile:<br>• Criterion 1 (MBA in Supply Chain Management): Not met.<br>• Criterion 2 (Age 30–50 years): Age is 42 → Met.<br>• Criterion 3 (Minimum 8 years experience): Has 16 years → Met.<br>Exception: Since (1) is not met, but he has a B.E. degree and 16 (≥ 15) years of industry experience, the decision is to <b>Refer to CEO.<\/b>", "hi": "श्री विजय के विवरण की जाँच:<br>• मानदंड 1 (सप्लाई चेन मैनेजमेंट में MBA): अपूर्ण।<br>• मानदंड 2 (आयु 30–50 वर्ष): 42 वर्ष → पूर्ण।<br>• मानदंड 3 (न्यूनतम 8 वर्ष का अनुभव): 16 वर्ष → पूर्ण।<br>अपवाद: चूँकि (1) पूरा नहीं है, परंतु उनके पास B.E. की डिग्री और 16 (≥ 15) वर्ष का अनुभव है, इसलिए निर्णय: <b>CEO को भेजें (Refer to CEO.)<\/b>।"}, "solution_image": ""}, {"q_no": 22, "id": "50022", "topic": "", "difficulty_level": "", "question": {"en": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Bird : Wing :: Fish : ?", "hi": "उस विकल्प का चयन कीजिए जो तीसरे शब्द से उसी प्रकार संबंधित है जिस प्रकार दूसरा शब्द पहले शब्द से संबंधित है।<br>पक्षी : पंख :: मछली : ?"}, "question_image": "", "options": {"option_1": {"en": "Water", "hi": "पानी", "image": ""}, "option_2": {"en": "Fin", "hi": "पंख (फ़िन)", "image": ""}, "option_3": {"en": "Gill", "hi": "गलफड़ा", "image": ""}, "option_4": {"en": "Tail", "hi": "पूँछ", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "A Bird uses its Wing for movement/flight; similarly, a Fish uses its <b>Fin<\/b> for swimming and movement in water.", "hi": "जिस प्रकार पक्षी (Bird) उड़ने/गति के लिए पंख (Wing) का उपयोग करता है, उसी प्रकार मछली (Fish) तैरने के लिए <b>पंख/फिन (Fin)<\/b> का उपयोग करती है।"}, "solution_image": ""}, {"q_no": 23, "id": "50023", "topic": "", "difficulty_level": "", "question": {"en": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Spoke : Wheel :: Rung : ?", "hi": "उस विकल्प का चयन कीजिए जो तीसरे शब्द से उसी प्रकार संबंधित है जिस प्रकार दूसरा शब्द पहले शब्द से संबंधित है।<br>तीली (Spoke) : पहिया :: डंडा/पायदान (Rung) : ?"}, "question_image": "", "options": {"option_1": {"en": "Chair", "hi": "कुर्सी", "image": ""}, "option_2": {"en": "Ladder", "hi": "सीढ़ी", "image": ""}, "option_3": {"en": "Bed", "hi": "बिस्तर", "image": ""}, "option_4": {"en": "Table", "hi": "मेज", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "A Spoke is one of the supporting radial bars of a Wheel; similarly, a Rung is one of the horizontal steps of a <b>Ladder<\/b>.", "hi": "जिस प्रकार तीली (Spoke) पहिए (Wheel) का एक हिस्सा होती है, उसी प्रकार डंडा/पायदान (Rung) <b>सीढ़ी (Ladder)<\/b> का एक हिस्सा होता है।"}, "solution_image": ""}, {"q_no": 24, "id": "50024", "topic": "", "difficulty_level": "", "question": {"en": "Read the criteria given for a position along with some exceptions and then decide what decision should be taken for the case given.<br>The following are the requirements for recruiting in PowerGrid Fabricators, Delhi:<br>A. At least 75% in class 10th AND 12th.<br>B. At least 70% in Mechanical or Civil Engineering.<br>C. Age not more than 25 years as on October 09, 2017.<br>D. At least 60% in selection test.<br>E. CAD course from a reputed institute.<br>Exception 1: Fails only C + more than 1 year experience at a reputed company → Refer to Managing Director.<br>Exception 2: Fails only E + willing to pay ₹35,000 or more + at least 75% in graduation → Refer to Chairman.<br>Case: Vikram scored 82% in class 10th and 75% in class 12th. He graduated with 76% in Mechanical Engineering. He scored 58% in the selection test. He has NOT done a CAD course but is ready to pay ₹40,000. He was born on 30/09/1992 and has 2 years of experience at Bharat Heavy Electricals Ltd. (BHEL). What will be decided in his case?", "hi": "किसी पद के लिए दिए गए मानदंडों और कुछ अपवादों को पढ़ें और फिर तय करें कि दिए गए मामले में क्या निर्णय लिया जाना चाहिए।<br>पावरग्रिड फैब्रिकेटर्स, दिल्ली में भर्ती के लिए निम्नलिखित आवश्यकताएँ हैं:<br>A. कक्षा 10वीं और 12वीं में कम-से-कम 75% अंक।<br>B. मैकेनिकल या सिविल इंजीनियरिंग में कम-से-कम 70% अंक।<br>C. 09 अक्टूबर, 2017 को आयु 25 वर्ष से अधिक न हो।<br>D. चयन परीक्षा में कम-से-कम 60% अंक।<br>E. किसी प्रतिष्ठित संस्थान से CAD कोर्स।<br>अपवाद 1: केवल C में विफल + प्रतिष्ठित कंपनी में 1 वर्ष से अधिक का अनुभव → प्रबंध निदेशक को भेजें।<br>अपवाद 2: केवल E में विफल + ₹35,000 या अधिक देने को तैयार + स्नातक में कम-से-कम 75% अंक → अध्यक्ष को भेजें।<br>मामला: विक्रम ने कक्षा 10वीं में 82% और कक्षा 12वीं में 75% अंक प्राप्त किए। उसने मैकेनिकल इंजीनियरिंग में 76% अंकों के साथ स्नातक किया। उसने चयन परीक्षा में 58% अंक प्राप्त किए। उसने CAD कोर्स नहीं किया है लेकिन वह ₹40,000 देने के लिए तैयार है। उसका जन्म 30/09/1992 को हुआ था और उसके पास भारत हेवी इलेक्ट्रिकल्स लिमिटेड (BHEL) में 2 वर्ष का अनुभव है। उसके मामले में क्या निर्णय लिया जाएगा?"}, "question_image": "", "options": {"option_1": {"en": "Refer to the Managing Director.", "hi": "प्रबंध निदेशक को भेजें।", "image": ""}, "option_2": {"en": "Refer to the Chairman.", "hi": "अध्यक्ष को भेजें।", "image": ""}, "option_3": {"en": "Candidate is selected.", "hi": "उम्मीदवार का चयन किया जाता है।", "image": ""}, "option_4": {"en": "Candidate is not selected.", "hi": "उम्मीदवार का चयन नहीं किया जाता है।", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Evaluating Vikram's profile:<br>• A: 82% in 10th and 75% in 12th (both ≥ 75%) → Met.<br>• B: 76% in Mechanical Engineering (≥ 70%) → Met.<br>• D: Scored 58% in the selection test (< 60% required) → Fails Criterion D.<br>Since there is no exception waiving Criterion D, the <b>Candidate is not selected.<\/b>", "hi": "विक्रम के विवरण की जाँच:<br>• A: 10वीं में 82% और 12वीं में 75% (दोनों ≥ 75%) → पूर्ण।<br>• B: मैकेनिकल इंजीनियरिंग में 76% (≥ 70%) → पूर्ण।<br>• D: चयन परीक्षा में 58% अंक (आवश्यक 60% से कम) → मानदंड D अपूर्ण।<br>मानदंड D में छूट का कोई अपवाद न होने के कारण, <b>उम्मीदवार का चयन नहीं किया जाता है (Candidate is not selected.)<\/b>।"}, "solution_image": ""}, {"q_no": 25, "id": "50025", "topic": "", "difficulty_level": "", "question": {"en": "Read the given statement carefully and the following assumptions based on it. Decide which of the assumptions are implicit in the statement.<br>Statement:<br>Educational institutions should require at least two hours of daily physical activity for students to promote balanced mental and physical development.<br>Assumptions:<br>I. Regular physical exercise is essential for the balanced growth and development of children.<br>II. Students currently do not engage in sufficient physical activity during their school hours.", "hi": "दिए गए कथन और उस पर आधारित पूर्वधारणाओं को ध्यानपूर्वक पढ़ें। तय करें कि कौन-सी पूर्वधारणाएँ कथन में अंतर्निहित हैं।<br>कथन:<br>संतुलित मानसिक और शारीरिक विकास को बढ़ावा देने के लिए शैक्षणिक संस्थानों को छात्रों के लिए प्रतिदिन कम-से-कम दो घंटे की शारीरिक गतिविधि अनिवार्य करनी चाहिए।<br>पूर्वधारणाएँ:<br>I. बच्चों की संतुलित वृद्धि और विकास के लिए नियमित शारीरिक व्यायाम आवश्यक है।<br>II. छात्र वर्तमान में अपने स्कूल के घंटों के दौरान पर्याप्त शारीरिक गतिविधि में संलग्न नहीं होते हैं।"}, "question_image": "", "options": {"option_1": {"en": "Only Assumption I is implicit", "hi": "केवल पूर्वधारणा I अंतर्निहित है", "image": ""}, "option_2": {"en": "Only Assumption II is implicit", "hi": "केवल पूर्वधारणा II अंतर्निहित है", "image": ""}, "option_3": {"en": "Both Assumptions I and II are implicit", "hi": "पूर्वधारणा I और II दोनों अंतर्निहित हैं", "image": ""}, "option_4": {"en": "Neither Assumption I nor II is implicit", "hi": "न तो पूर्वधारणा I और न ही II अंतर्निहित है", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "• Assumption I is implicit because mandating two hours of daily physical activity 'to promote balanced mental and physical development' presupposes that regular exercise is essential for balanced growth.<br>• Assumption II is implicit because recommending a mandatory requirement implies that students are currently not getting enough physical activity during school hours.<br>Hence, <b>Both Assumptions I and II are implicit<\/b>.", "hi": "• पूर्वधारणा I अंतर्निहित है क्योंकि संतुलित मानसिक और शारीरिक विकास के लिए प्रतिदिन दो घंटे की शारीरिक गतिविधि अनिवार्य करने के पीछे यह धारणा है कि नियमित व्यायाम बच्चों के संतुलित विकास के लिए आवश्यक है।<br>• पूर्वधारणा II भी अंतर्निहित है क्योंकि इसे अनिवार्य बनाने की आवश्यकता तभी पड़ती है जब वर्तमान में छात्र पर्याप्त शारीरिक गतिविधि नहीं कर रहे हों।<br>अतः <b>पूर्वधारणा I और II दोनों अंतर्निहित हैं<\/b>।"}, "solution_image": ""}];
+var N = QUESTIONS.length;
+var STORAGE_KEY = CFG.storageKey;
+var OPT_LETTERS = ["A","B","C","D","E"];
+var OPT_KEYS = ["option_1","option_2","option_3","option_4","option_5"];
+
+var hasHindi = QUESTIONS.some(function(q){ return q.question && q.question.hi; });
+
+var state = null;
+var timerHandle = null;
+
+function $(id){ return document.getElementById(id); }
+
+function freshState(){
+  var qs = [];
+  for(var i=0;i<N;i++){ qs.push({status:"notvisited", selected:null, solutionSeen:false}); }
+  return {
+    phase: "welcome",
+    current: 0,
+    q: qs,
+    instantFeedback: false,
+    timeLeft: CFG.totalTimeSeconds,
+    startedAt: null,
+    finishedAt: null,
+    result: null,
+    solIndex: 0,
+    paletteHidden: false,
+    solPaletteHidden: false,
+    lang: "en",
+    solLang: "en"
+  };
+}
+
+function loadState(){
+  try{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return freshState();
+    var parsed = JSON.parse(raw);
+    if(!parsed || parsed.n !== N || !parsed.s || !parsed.s.q || parsed.s.q.length !== N) return freshState();
+    return parsed.s;
+  }catch(e){ return freshState(); }
+}
+
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify({n:N, s:state})); }catch(e){}
+}
+
+function escapeHtml(s){
+  var d = document.createElement("div");
+  d.textContent = s == null ? "" : String(s);
+  return d.innerHTML;
+}
+
+function qHtml(q, lang){ return (lang === "hi" && q.question.hi) ? q.question.hi : q.question.en; }
+function optHtml(q, key, lang){
+  var o = q.options[key];
+  if(!o) return "";
+  return (lang === "hi" && o.hi) ? o.hi : o.en;
+}
+function solHtml(q, lang){
+  if(!q.solution_text) return "";
+  return (lang === "hi" && q.solution_text.hi) ? q.solution_text.hi : q.solution_text.en;
+}
+
+function pad2(n){ n = Math.floor(n); return n < 10 ? "0"+n : ""+n; }
+function fmtClock(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return pad2(m) + ":" + pad2(s);
+}
+function fmtLong(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return m + "m " + s + "s";
+}
+
+/* ================= HEADER / STATIC TEXT ================= */
+function initStaticText(){
+  document.title = CFG.examTitle + " | " + CFG.sectionLabel;
+  $("wTitle").textContent = CFG.examTitle;
+  $("wSub").textContent = CFG.sectionLabel;
+  $("wTotalQ").textContent = N;
+  $("wTotalTime").textContent = Math.round(CFG.totalTimeSeconds/60);
+  $("wMarks").textContent = "+" + CFG.correctScoreDisplay + " / -" + CFG.negativeScoreDisplay;
+
+  $("hdrTitle").textContent = CFG.examTitle;
+  $("hdrSub").textContent = CFG.sectionLabel;
+  $("solHdrTitle").textContent = CFG.examTitle;
+  $("sectionTab").textContent = CFG.sectionLabel;
+  $("solSectionTab").textContent = CFG.sectionLabel;
+  $("paletteTitle").textContent = CFG.sectionLabel + " :";
+  $("solPaletteTitle").textContent = CFG.sectionLabel + " :";
+  $("resSub").textContent = CFG.examTitle + " \u2014 " + CFG.sectionLabel;
+
+  if(hasHindi){
+    var opt = '<option value="en">English</option><option value="hi">Hindi</option>';
+    $("langSelect").innerHTML = opt;
+    $("solLangSelect").innerHTML = opt;
+  }
+}
+
+/* ================= WELCOME ================= */
+function initWelcome(){
+  $("startTestBtn").addEventListener("click", function(){
+    state.instantFeedback = $("instantFeedbackToggle").checked;
+    state.phase = "testing";
+    state.startedAt = state.startedAt || Date.now();
+    saveState();
+    enterTestPage();
+    try{
+      var el = document.documentElement;
+      if(el.requestFullscreen){ el.requestFullscreen().catch(function(){}); }
+    }catch(e){}
+  });
+}
+
+function enterTestPage(){
+  $("welcomePage").classList.add("hidden-page");
+  $("testPage").classList.remove("hidden-page");
+  $("langSelect").value = state.lang;
+  applyPaletteCollapse();
+  renderQuestion();
+  startTimer();
+}
+
+/* ================= STATUS / PALETTE ================= */
+function statusCounts(){
+  var c = {notvisited:0, notanswered:0, answered:0, marked:0, markedans:0};
+  for(var i=0;i<N;i++){ c[state.q[i].status]++; }
+  return c;
+}
+
+function renderPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = state.q[i].status;
+    var cur = (i === state.current) ? " current" : "";
+    html += '<button type="button" class="qnum ' + st + cur + '" onclick="goTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("paletteGrid").innerHTML = html;
+  var c = statusCounts();
+  $("stAnswered").textContent = c.answered;
+  $("stNotAnswered").textContent = c.notanswered;
+  $("stMarked").textContent = c.marked;
+  $("stAnsMarked").textContent = c.markedans;
+  $("stNotVisited").textContent = c.notvisited;
+  $("totalAnsweredTop").textContent = c.answered + c.markedans;
+}
+
+function togglePalette(){
+  state.paletteHidden = !state.paletteHidden;
+  applyPaletteCollapse();
+  saveState();
+}
+function applyPaletteCollapse(){
+  var p = $("paletteWrap");
+  p.classList.toggle("hidden", state.paletteHidden);
+  $("collapseArrow").innerHTML = state.paletteHidden ? "&#9654;" : "&#9664;";
+}
+
+/* ================= QUESTION RENDER ================= */
+function renderQuestion(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  if(st.status === "notvisited") st.status = "notanswered";
+
+  $("qNoHeading").textContent = "Question No " + (i+1);
+  var topicEl = $("qTopicTag");
+  if(q.topic){ topicEl.textContent = q.topic; topicEl.style.display = "inline-block"; }
+  else { topicEl.style.display = "none"; }
+
+  $("qText").innerHTML = qHtml(q, state.lang);
+  var imgEl = $("qImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var checked = st.selected === val ? "checked" : "";
+    var cls = st.selected === val ? "selected" : "";
+    var img = opt.image ? '<div class="qimg"><img src="'+opt.image+'" alt="option image"></div>' : "";
+    optsHtml += '<label class="' + cls + '" data-opt="' + val + '">' +
+      '<input type="radio" name="opt" value="' + val + '" ' + checked + ' onclick="selectOption(\'' + val + '\')">' +
+      OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.lang) + img +
+      '</label>';
+  });
+  $("qOptions").innerHTML = optsHtml;
+  decorateImages($("qText")); decorateImages($("qImg")); decorateImages($("qOptions"));
+
+  $("showSolBtn").style.display = state.instantFeedback ? "inline-flex" : "none";
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+
+  applyFeedback();
+  renderPalette();
+  saveState();
+}
+
+function applyFeedback(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var fb = $("fbStrip");
+  fb.className = "fb-strip";
+  fb.textContent = "";
+
+  var labels = $all("#qOptions label");
+  labels.forEach(function(lab){
+    lab.classList.remove("selected","fb-correct","fb-wrong");
+    var badge = lab.querySelector(".opt-badge");
+    if(badge) badge.remove();
+    var optKey = lab.getAttribute("data-opt");
+    var isSel = optKey === st.selected;
+    if(isSel) lab.classList.add("selected");
+
+    if(state.instantFeedback && st.selected){
+      var isCorrect = optKey === q.answer;
+      if(isCorrect){
+        lab.classList.add("fb-correct");
+        var b1 = document.createElement("span");
+        b1.className = "opt-badge ok";
+        b1.textContent = "Correct";
+        lab.appendChild(b1);
+      }
+      if(isSel && !isCorrect){
+        lab.classList.add("fb-wrong");
+        var b2 = document.createElement("span");
+        b2.className = "opt-badge no";
+        b2.textContent = "Your pick";
+        lab.appendChild(b2);
+      }
+    }
+  });
+
+  if(state.instantFeedback && st.selected){
+    var correct = st.selected === q.answer;
+    fb.classList.add("show", correct ? "ok" : "no");
+    fb.textContent = correct ? "Correct answer!" : "Incorrect. The correct option is highlighted in green.";
+  }
+
+  renderLiveSolutionBox();
+}
+
+function renderLiveSolutionBox(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var box = $("liveSolutionBox");
+  if(state.instantFeedback && st.solutionSeen){
+    box.style.display = "block";
+    box.innerHTML = "<h4>Solution</h4><p><b>Correct Answer:</b> Option " + q.answer + "</p>" +
+      (solHtml(q, state.lang) || "<i>No solution text provided.</i>");
+    decorateImages(box);
+  } else {
+    box.style.display = "none";
+    box.innerHTML = "";
+  }
+}
+
+function toggleLiveSolution(){
+  var st = state.q[state.current];
+  st.solutionSeen = !st.solutionSeen;
+  saveState();
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+  renderLiveSolutionBox();
+}
+
+function $all(sel){ return Array.prototype.slice.call(document.querySelectorAll(sel)); }
+
+/* ================= INTERACTIONS ================= */
+function selectOption(val){
+  state.q[state.current].selected = val;
+  applyFeedback();
+  saveState();
+}
+
+function commitStatusFromSelection(i){
+  var st = state.q[i];
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  if(st.selected !== null){
+    st.status = wasMarked ? "markedans" : "answered";
+  } else {
+    st.status = wasMarked ? "marked" : "notanswered";
+  }
+}
+
+function saveAndNext(){
+  commitStatusFromSelection(state.current);
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function markForReview(){
+  var st = state.q[state.current];
+  st.status = st.selected !== null ? "markedans" : "marked";
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function clearResponse(){
+  var st = state.q[state.current];
+  st.selected = null;
+  st.solutionSeen = false;
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  st.status = wasMarked ? "marked" : "notanswered";
+  renderQuestion();
+}
+
+function goPrev(){ goTo(Math.max(state.current-1, 0)); }
+function goTo(i){ if(i<0||i>=N) return; state.current = i; renderQuestion(); }
+
+function setLang(v){ state.lang = v; saveState(); renderQuestion(); }
+function setSolLang(v){ state.solLang = v; saveState(); renderSolQuestion(); }
+
+/* ================= ZOOM / FULLSCREEN ================= */
+var ZOOM_KEY = "sscscholars_zoom_level";
+var zoomLevel = 1;
+try{ var zz = parseFloat(localStorage.getItem(ZOOM_KEY)); if(zz >= 0.6 && zz <= 3) zoomLevel = zz; }catch(e){}
+function zoomChange(dir){
+  zoomLevel = Math.min(3, Math.max(0.6, Math.round((zoomLevel + dir*0.1)*100)/100));
+  applyZoom();
+}
+function zoomReset(){ zoomLevel = 1; applyZoom(); }
+function applyZoom(){
+  document.documentElement.style.setProperty("--zoom", zoomLevel);
+  var labs = document.querySelectorAll(".zoomLabel");
+  for(var i=0;i<labs.length;i++){ labs[i].textContent = Math.round(zoomLevel*100) + "%"; }
+  try{ localStorage.setItem(ZOOM_KEY, String(zoomLevel)); }catch(e){}
+  applyImgZoom();
+}
+
+/* ---- images inside question / option / solution HTML follow the same zoom ---- */
+function sizeImg(img){
+  if(!img.naturalWidth) return;
+  var host = img.closest(".qbody") || img.closest(".explbox") || document.body;
+  var cap = Math.max(160, host.clientWidth - 90);
+  var base = Math.min(img.naturalWidth, cap);
+  img.style.width = Math.round(base * zoomLevel) + "px";
+  img.style.height = "auto";
+}
+function applyImgZoom(){
+  var imgs = document.querySelectorAll(".zwrap img");
+  for(var i=0;i<imgs.length;i++){ sizeImg(imgs[i]); }
+}
+/* ---- Maths (LaTeX) rendering: KaTeX if loaded, else readable plain-text fallback ---- */
+var MATH_DELIMS = [
+  {left:"$$", right:"$$", display:true},
+  {left:"\\[", right:"\\]", display:true},
+  {left:"\\(", right:"\\)", display:false}
+];
+function texToHtml(t){
+  var s = t;
+  s = s.replace(/\\left|\\right|\\displaystyle|\\!|\\,|\\;|\\:/g, "");
+  s = s.replace(/\\text\{([^{}]*)\}|\\mathrm\{([^{}]*)\}|\\textbf\{([^{}]*)\}/g, function(m,a,b,c){ return a||b||c||""; });
+  for(var i=0;i<4;i++){
+    s = s.replace(/\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}/g, "($1)/($2)");
+    s = s.replace(/\\sqrt\[([^\]]*)\]\{([^{}]*)\}/g, "<sup>$1</sup>&radic;($2)");
+    s = s.replace(/\\sqrt\{([^{}]*)\}/g, "&radic;($1)");
+  }
+  s = s.replace(/\\sqrt\s*([0-9a-zA-Z])/g, "&radic;$1");
+  s = s.replace(/\^\{([^{}]*)\}/g, "<sup>$1</sup>").replace(/\^([0-9a-zA-Z])/g, "<sup>$1</sup>");
+  s = s.replace(/_\{([^{}]*)\}/g, "<sub>$1</sub>").replace(/_([0-9a-zA-Z])/g, "<sub>$1</sub>");
+  var map = {times:"×", div:"÷", pm:"±", mp:"∓", cdot:"·", le:"≤", leq:"≤", ge:"≥", geq:"≥", ne:"≠", neq:"≠",
+    approx:"≈", circ:"°", pi:"π", theta:"θ", alpha:"α", beta:"β", gamma:"γ", delta:"δ", Delta:"Δ", sigma:"σ",
+    lambda:"λ", mu:"μ", infty:"∞", therefore:"∴", because:"∵", rightarrow:"→", Rightarrow:"⇒", to:"→",
+    angle:"∠", triangle:"△", perp:"⊥", parallel:"∥", degree:"°", ldots:"…", cdots:"…", dots:"…", quad:" ", qquad:"  "};
+  s = s.replace(/\\([a-zA-Z]+)/g, function(m,n){ return map.hasOwnProperty(n) ? map[n] : n; });
+  s = s.replace(/\\%/g, "%").replace(/\\&/g, "&").replace(/\\\\/g, "<br>").replace(/\\ /g, " ");
+  s = s.replace(/[{}]/g, "");
+  return s;
+}
+function mathFallback(root){
+  var h = root.innerHTML;
+  if(h.indexOf("\\(") === -1 && h.indexOf("\\[") === -1 && h.indexOf("$$") === -1) return;
+  h = h.replace(/\\\(([\s\S]*?)\\\)/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\\\[([\s\S]*?)\\\]/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\$\$([\s\S]*?)\$\$/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  root.innerHTML = h;
+}
+function renderMath(root){
+  if(!root) return;
+  if(typeof renderMathInElement === "function"){
+    try{ renderMathInElement(root, {delimiters: MATH_DELIMS, throwOnError:false, strict:false}); }catch(e){ mathFallback(root); }
+  } else {
+    mathFallback(root);
+  }
+}
+
+function decorateImages(root){
+  if(!root) return;
+  renderMath(root);
+  var imgs = root.querySelectorAll("img");
+  for(var i=0;i<imgs.length;i++){
+    var img = imgs[i];
+    if(img.parentNode && img.parentNode.classList && img.parentNode.classList.contains("zwrap")) continue;
+    img.removeAttribute("style");
+    img.removeAttribute("width");
+    img.removeAttribute("height");
+    var wrap = document.createElement("span");
+    wrap.className = "zwrap";
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(img);
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "zbtn"; b.title = "Open full-size / zoom"; b.innerHTML = "&#128269;";
+    wrap.appendChild(b);
+    if(img.complete && img.naturalWidth){ sizeImg(img); }
+    else { img.addEventListener("load", function(e){ sizeImg(e.target); }); }
+  }
+}
+window.addEventListener("resize", function(){ applyImgZoom(); });
+
+/* ---- Lightbox: wheel zoom, drag to pan, fit / 1:1 ---- */
+var lb = {scale:1, x:0, y:0, drag:false, sx:0, sy:0, fitScale:1};
+function lbEl(){ return {box:$("imgLightbox"), stage:$("lbStage"), img:$("lbImg")}; }
+function lbApply(){
+  var e = lbEl();
+  e.img.style.transform = "translate(" + lb.x + "px," + lb.y + "px) scale(" + lb.scale + ")";
+  $("lbPct").textContent = Math.round(lb.scale*100) + "%";
+}
+function lbOpen(src){
+  var e = lbEl();
+  e.box.classList.add("show");
+  e.img.onload = function(){ lbFit(); };
+  e.img.src = src;
+  if(e.img.complete && e.img.naturalWidth){ lbFit(); }
+}
+function lbFit(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  var iw = e.img.naturalWidth || 1, ih = e.img.naturalHeight || 1;
+  var sc = Math.min(sw/iw, sh/ih);
+  lb.fitScale = sc;
+  /* small images: blow them up so they are actually readable */
+  if(sc > 1) sc = Math.min(sc, 4);
+  lb.scale = sc;
+  lb.x = (sw - iw*sc)/2; lb.y = (sh - ih*sc)/2;
+  lbApply();
+}
+function lbActual(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  lb.scale = 1;
+  lb.x = (sw - e.img.naturalWidth)/2; lb.y = (sh - e.img.naturalHeight)/2;
+  lbApply();
+}
+function lbZoomAt(factor, cx, cy){
+  var ns = Math.min(12, Math.max(0.1, lb.scale * factor));
+  var k = ns / lb.scale;
+  lb.x = cx - (cx - lb.x) * k;
+  lb.y = cy - (cy - lb.y) * k;
+  lb.scale = ns;
+  lbApply();
+}
+function lbZoom(dir){
+  var e = lbEl();
+  lbZoomAt(dir > 0 ? 1.25 : 0.8, e.stage.clientWidth/2, e.stage.clientHeight/2);
+}
+function lbClose(){ $("imgLightbox").classList.remove("show"); }
+function lbIsOpen(){ return $("imgLightbox").classList.contains("show"); }
+
+(function initLightbox(){
+  var stage = $("lbStage");
+  stage.addEventListener("wheel", function(ev){
+    ev.preventDefault();
+    var r = stage.getBoundingClientRect();
+    lbZoomAt(ev.deltaY < 0 ? 1.15 : 1/1.15, ev.clientX - r.left, ev.clientY - r.top);
+  }, {passive:false});
+  stage.addEventListener("pointerdown", function(ev){
+    lb.drag = true; lb.sx = ev.clientX - lb.x; lb.sy = ev.clientY - lb.y;
+    stage.classList.add("drag");
+    try{ stage.setPointerCapture(ev.pointerId); }catch(e){}
+  });
+  stage.addEventListener("pointermove", function(ev){
+    if(!lb.drag) return;
+    lb.x = ev.clientX - lb.sx; lb.y = ev.clientY - lb.sy; lbApply();
+  });
+  function endDrag(){ lb.drag = false; stage.classList.remove("drag"); }
+  stage.addEventListener("pointerup", endDrag);
+  stage.addEventListener("pointercancel", endDrag);
+  stage.addEventListener("dblclick", function(){
+    if(Math.abs(lb.scale - lb.fitScale) < 0.02 || lb.fitScale > 1){ var e = lbEl(); lbZoomAt(2, e.stage.clientWidth/2, e.stage.clientHeight/2); }
+    else { lbFit(); }
+  });
+  /* two-finger pinch on touch screens */
+  var pts = {}, pinchD = 0;
+  stage.addEventListener("pointerdown", function(ev){ pts[ev.pointerId] = ev; });
+  stage.addEventListener("pointermove", function(ev){
+    if(!pts[ev.pointerId]) return;
+    pts[ev.pointerId] = ev;
+    var ids = Object.keys(pts);
+    if(ids.length === 2){
+      var a = pts[ids[0]], b = pts[ids[1]];
+      var d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY);
+      if(pinchD){
+        var r = stage.getBoundingClientRect();
+        lbZoomAt(d/pinchD, (a.clientX+b.clientX)/2 - r.left, (a.clientY+b.clientY)/2 - r.top);
+      }
+      pinchD = d;
+    }
+  });
+  function pend(ev){ delete pts[ev.pointerId]; pinchD = 0; }
+  stage.addEventListener("pointerup", pend);
+  stage.addEventListener("pointercancel", pend);
+
+  /* open lightbox: magnifier button always; clicking the picture itself everywhere
+     except inside answer options (there a click must still select the option) */
+  document.addEventListener("click", function(ev){
+    var t = ev.target;
+    if(!t || !t.closest) return;
+    var wrap = t.closest(".zwrap");
+    if(!wrap) return;
+    var img = wrap.querySelector("img");
+    if(!img) return;
+    var isBtn = t.classList.contains("zbtn");
+    var inOption = !!t.closest(".options label");
+    if(isBtn || !inOption){
+      ev.preventDefault(); ev.stopPropagation();
+      lbOpen(img.currentSrc || img.src);
+    }
+  }, true);
+})();
+
+function toggleFullscreen(){
+  try{
+    if(!document.fullscreenElement){ document.documentElement.requestFullscreen().catch(function(){}); }
+    else { document.exitFullscreen().catch(function(){}); }
+  }catch(e){}
+}
+document.addEventListener("fullscreenchange", function(){
+  var btn = $("fsBtn");
+  if(btn) btn.textContent = document.fullscreenElement ? "Exit Full Screen" : "Full Screen";
+});
+
+/* ================= PAUSE / TIMER ================= */
+function togglePause(){
+  if(state.phase !== "testing" && state.phase !== "paused") return;
+  if(state.phase === "testing"){
+    state.phase = "paused";
+    clearInterval(timerHandle);
+    $("pauseOverlay").classList.add("show");
+  } else {
+    state.phase = "testing";
+    $("pauseOverlay").classList.remove("show");
+    startTimer();
+  }
+  saveState();
+}
+
+function startTimer(){
+  if(timerHandle) clearInterval(timerHandle);
+  renderTime();
+  timerHandle = setInterval(function(){
+    if(state.phase !== "testing") return;
+    state.timeLeft -= 1;
+    if(state.timeLeft <= 0){
+      state.timeLeft = 0;
+      renderTime();
+      clearInterval(timerHandle);
+      doSubmit();
+      return;
+    }
+    renderTime();
+    if(state.timeLeft % 5 === 0) saveState();
+  }, 1000);
+}
+
+function renderTime(){
+  var box = $("timeleftBox");
+  $("timeLeft").textContent = fmtClock(state.timeLeft);
+  if(box) box.classList.toggle("low", state.timeLeft <= 120);
+}
+
+/* ================= SUBMIT ================= */
+function confirmSubmit(){
+  renderPalette();
+  var c = statusCounts();
+  $("mAnswered").textContent = c.answered + c.markedans;
+  $("mNotAnswered").textContent = c.notanswered;
+  $("mMarked").textContent = c.marked + c.markedans;
+  $("mNotVisited").textContent = c.notvisited;
+  $("submitModal").classList.add("show");
+}
+function closeSubmitModal(){ $("submitModal").classList.remove("show"); }
+
+function computeResult(){
+  var correct=0, wrong=0, unattempt=0, marks=0, negMarksTotal=0, maxMarks=0;
+  for(var i=0;i<N;i++){
+    var q = QUESTIONS[i];
+    var sel = state.q[i].selected;
+    var cs = (q.correct_score !== undefined && q.correct_score !== null && q.correct_score !== "") ? parseFloat(q.correct_score) : CFG.defaultCorrectScore;
+    var ns = (q.negative_score !== undefined && q.negative_score !== null && q.negative_score !== "") ? parseFloat(q.negative_score) : CFG.defaultNegativeScore;
+    maxMarks += cs;
+    if(sel === null || sel === undefined){ unattempt++; }
+    else if(sel === q.answer){ correct++; marks += cs; }
+    else { wrong++; negMarksTotal += ns; marks -= ns; }
+  }
+  var attempted = correct + wrong;
+  var accuracy = attempted > 0 ? (correct/attempted*100) : 0;
+  var timeTaken = CFG.totalTimeSeconds - state.timeLeft;
+  return {
+    correct: correct, wrong: wrong, unattempt: unattempt,
+    score: Math.round(marks*100)/100,
+    maxMarks: Math.round(maxMarks*100)/100,
+    negMarksTotal: Math.round(negMarksTotal*100)/100,
+    accuracy: Math.round(accuracy*10)/10,
+    timeTaken: timeTaken,
+    avgTime: Math.round(timeTaken / N),
+    total: N
+  };
+}
+
+function doSubmit(){
+  closeSubmitModal();
+  clearInterval(timerHandle);
+  state.phase = "submitted";
+  state.finishedAt = Date.now();
+  state.result = computeResult();
+  saveState();
+  try{ if(document.fullscreenElement && document.exitFullscreen){ document.exitFullscreen().catch(function(){}); } }catch(e){}
+  $("testPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+function renderResult(){
+  var r = state.result || computeResult();
+  $("finalScore").textContent = r.score;
+  $("stCorrect").textContent = r.correct;
+  $("stWrong").textContent = r.wrong;
+  $("stUnattempt").textContent = r.unattempt;
+  $("stAccuracy").textContent = r.accuracy + "%";
+  $("stMaxMarks").textContent = r.maxMarks;
+  $("stNegMarks").textContent = r.negMarksTotal;
+  $("stTimeTaken").textContent = fmtLong(r.timeTaken);
+  $("stAvgTime").textContent = fmtLong(r.avgTime);
+}
+
+function restartTest(){
+  if(confirm("This will erase your current attempt and start over. Continue?")){
+    try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+    window.location.reload();
+  }
+}
+
+/* ================= SOLUTIONS PAGE ================= */
+function solStatus(i){
+  var sel = state.q[i].selected;
+  var q = QUESTIONS[i];
+  if(sel === null || sel === undefined) return "skipped";
+  return sel === q.answer ? "correct" : "wrong";
+}
+
+function renderSolPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = solStatus(i);
+    var cls = st === "correct" ? "solcorrect" : st === "wrong" ? "solwrong" : "solskipped";
+    var cur = (i === state.solIndex) ? " current" : "";
+    html += '<button type="button" class="qnum ' + cls + cur + '" onclick="solGoTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("solPaletteGrid").innerHTML = html;
+}
+
+function renderSolQuestion(){
+  var i = state.solIndex;
+  var q = QUESTIONS[i];
+  var sel = state.q[i].selected;
+  var st = solStatus(i);
+
+  $("solQNoHeading").textContent = "Question No " + (i+1);
+  var badge = st === "correct" ? '<span class="sol-badge correct">Correct</span>'
+            : st === "wrong" ? '<span class="sol-badge wrong">Wrong</span>'
+            : '<span class="sol-badge skipped">Skipped</span>';
+  $("solBadgeHolder").innerHTML = badge;
+  $("solLangSelect").value = state.solLang;
+
+  $("solQText").innerHTML = qHtml(q, state.solLang);
+  var imgEl = $("solQImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var cls = "", tag = "";
+    if(val === q.answer){ cls = "right"; tag = '<span class="tagmini">CORRECT</span>'; }
+    else if(val === sel && sel !== q.answer){ cls = "picked-wrong"; tag = '<span class="tagmini">YOUR ANSWER</span>'; }
+    optsHtml += '<div class="soloption ' + cls + '">' + OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.solLang) + ' ' + tag + '</div>';
+  });
+  $("solOptions").innerHTML = optsHtml;
+  decorateImages($("solQText")); decorateImages($("solQImg")); decorateImages($("solOptions"));
+
+  var explHead = '<h4>Explanation</h4>';
+  $("solExpl").innerHTML = explHead + (solHtml(q, state.solLang) || "<i>No solution text provided.</i>");
+  decorateImages($("solExpl"));
+
+  $("solPrevBtn").disabled = (i === 0);
+  $("solNextBtn").disabled = (i === N-1);
+
+  renderSolPalette();
+  saveState();
+}
+
+function solGoTo(i){ state.solIndex = i; renderSolQuestion(); }
+function solGoNext(){ solGoTo(Math.min(state.solIndex+1, N-1)); }
+function solGoPrev(){ solGoTo(Math.max(state.solIndex-1, 0)); }
+
+function toggleSolPalette(){
+  state.solPaletteHidden = !state.solPaletteHidden;
+  applySolPaletteCollapse();
+  saveState();
+}
+function applySolPaletteCollapse(){
+  var p = $("solPaletteWrap");
+  p.classList.toggle("hidden", state.solPaletteHidden);
+  $("solCollapseArrow").innerHTML = state.solPaletteHidden ? "&#9654;" : "&#9664;";
+}
+
+function showSolutions(){
+  $("resultPage").classList.add("hidden-page");
+  $("solutionPage").classList.remove("hidden-page");
+  state.solIndex = 0;
+  applySolPaletteCollapse();
+  renderSolQuestion();
+  saveState();
+}
+function backToResult(){
+  $("solutionPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+/* ================= KEYBOARD SHORTCUTS ================= */
+document.addEventListener("keydown", function(e){
+  if(lbIsOpen()){
+    if(e.key === "Escape") lbClose();
+    else if(e.key === "+" || e.key === "=") lbZoom(1);
+    else if(e.key === "-") lbZoom(-1);
+    else if(e.key === "0") lbFit();
+    return;
+  }
+  if(state.phase !== "testing") return;
+  if(e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT")) return;
+  if(["1","2","3","4","5"].indexOf(e.key) !== -1){
+    var lab = document.querySelector('#qOptions label[data-opt="'+e.key+'"] input');
+    if(lab){ lab.checked = true; selectOption(e.key); }
+  } else if(e.key === "ArrowRight"){ saveAndNext(); }
+  else if(e.key === "ArrowLeft"){ goPrev(); }
+});
+
+/* ================= INIT ================= */
+function boot(){
+  applyZoom();
+  state = loadState();
+  initStaticText();
+  initWelcome();
+
+  if(state.phase === "submitted"){
+    $("welcomePage").classList.add("hidden-page");
+    $("solLangSelect").value = state.solLang;
+    renderResult();
+    $("resultPage").classList.remove("hidden-page");
+  } else if(state.phase === "testing" || state.phase === "paused"){
+    $("instantFeedbackToggle").checked = state.instantFeedback;
+    enterTestPage();
+    if(state.phase === "paused"){
+      clearInterval(timerHandle);
+      $("pauseOverlay").classList.add("show");
+    }
+  }
+  /* else: stay on welcomePage (its default state in the markup) */
+}
+
+if(document.readyState === "loading"){
+  document.addEventListener("DOMContentLoaded", boot);
+} else {
+  boot();
+}
+
+</script>
+</body>
+</html>

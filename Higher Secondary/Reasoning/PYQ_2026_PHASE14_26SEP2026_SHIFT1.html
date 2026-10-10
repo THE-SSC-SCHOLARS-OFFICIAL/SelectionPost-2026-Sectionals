@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SELECTION POST - PHASE 14 - HIGHER SECONDARY - 26 SEP 2026 - SHIFT 1 | General Intelligence & Reasoning</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --zoom: 1;
+  --blue:#3b6df0;
+  --blue-dark:#2952c8;
+  --blue-light:#eaf0ff;
+  --green:#17a668;
+  --green-dark:#0f8a56;
+  --purple:#8b3fe8;
+  --purple-dark:#6a24c4;
+  --red:#f0432f;
+  --red-dark:#c92c1a;
+  --gold:#e0a100;
+  --grey:#9aa2b1;
+  --ink:#1a2233;
+  --panel-border:#e2e6ee;
+  --bg:#f4f6fb;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;font-family:'Inter',Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:calc(14px * var(--zoom));}
+h1,h2,h3{font-family:'Poppins',Arial,sans-serif;}
+a{cursor:pointer;}
+img{max-width:100%;}
+.hidden-page{display:none;}
+
+/* ============ HEADER ============ */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;background:#fff;border-bottom:1px solid #eceff5;flex-wrap:wrap;gap:8px;box-shadow:0 1px 3px rgba(20,30,60,.04);}
+.topbar-left{display:flex;align-items:center;gap:10px;}
+.logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#3b6df0,#8b3fe8);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px;box-shadow:0 3px 8px rgba(59,109,240,.35);flex-shrink:0;}
+.brandname{font-weight:800;font-size:calc(11.5px*var(--zoom));letter-spacing:.3px;color:var(--blue-dark);text-transform:uppercase;white-space:nowrap;}
+.btn{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;border:none;padding:8px 15px;border-radius:7px;font-weight:600;font-size:calc(13px*var(--zoom));cursor:pointer;transition:transform .12s ease, box-shadow .12s ease;box-shadow:0 2px 6px rgba(59,109,240,.28);}
+.btn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(59,109,240,.38);}
+.btn:active{transform:translateY(0);}
+.btn.submitbtn{background:linear-gradient(135deg,#17a668,#0f8a56);box-shadow:0 2px 6px rgba(23,166,104,.35);}
+.btn.submitbtn:hover{box-shadow:0 5px 14px rgba(23,166,104,.45);}
+.btn.purplebtn{background:linear-gradient(135deg,var(--purple),var(--purple-dark));box-shadow:0 2px 6px rgba(139,63,232,.32);}
+.btn.purplebtn:hover{box-shadow:0 5px 14px rgba(139,63,232,.42);}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none !important;}
+.btn-outline{background:#fff;color:var(--blue);border:1.5px solid var(--blue);padding:5px 11px;border-radius:7px;font-size:calc(12px*var(--zoom));font-weight:600;cursor:pointer;transition:.12s;}
+.btn-outline:hover{background:var(--blue-light);}
+.btn-gold{background:linear-gradient(135deg,#f5c451,var(--gold));color:#4a3300;border:none;padding:8px 15px;border-radius:7px;font-weight:700;font-size:calc(13px*var(--zoom));cursor:pointer;box-shadow:0 2px 6px rgba(224,161,0,.35);}
+.title-block{text-align:center;font-weight:700;font-size:calc(17px*var(--zoom));line-height:1.3;flex:1;min-width:260px;letter-spacing:.2px;}
+.title-block .sub{display:block;font-size:calc(11.5px*var(--zoom));font-weight:600;color:#7d8494;margin-top:1px;text-transform:none;letter-spacing:0;}
+.topbar-right{display:flex;align-items:center;gap:14px;}
+.timeleft{font-weight:700;font-size:calc(15px*var(--zoom));background:#fff3f0;padding:6px 12px;border-radius:8px;border:1px solid #ffd9d1;}
+.timeleft span{color:var(--red);}
+.timeleft.low{background:#ffdcdc;}
+.pausebtn{display:flex;align-items:center;gap:5px;font-weight:600;color:var(--ink);background:#eef1f7;border:none;cursor:pointer;font-size:calc(13px*var(--zoom));padding:7px 12px;border-radius:8px;transition:.12s;}
+.pausebtn:hover{background:#e3e7f1;}
+
+/* ============ SUBBAR ============ */
+.subbar{display:flex;justify-content:space-between;align-items:center;padding:8px 18px;flex-wrap:wrap;gap:6px;background:#fff;border-bottom:1px solid #eceff5;}
+.subbar .taglist a{color:var(--red);font-weight:700;text-decoration:none;margin-right:16px;font-size:calc(12.5px*var(--zoom));border-bottom:2px solid transparent;transition:.12s;}
+.subbar .topictag{display:inline-block;background:var(--blue-light);color:var(--blue-dark);font-weight:700;font-size:calc(11.5px*var(--zoom));padding:3px 11px;border-radius:20px;}
+.qanswered{font-weight:700;font-size:calc(13px*var(--zoom));}
+.qanswered span{color:#e08e00;background:#fff6e5;padding:2px 9px;border-radius:6px;}
+
+/* ============ CONTROL ROW ============ */
+.controlrow{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;flex-wrap:wrap;gap:8px;}
+.section-tab{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;border:none;padding:10px 18px;border-radius:8px;font-weight:700;font-size:calc(14px*var(--zoom));box-shadow:0 3px 8px rgba(23,166,104,.3);}
+.navbtns{display:flex;gap:9px;flex-wrap:wrap;}
+.navbtns .btn{padding:10px 17px;}
+.collapse-arrow{width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;cursor:pointer;user-select:none;background:linear-gradient(135deg,var(--blue),var(--blue-dark));border-radius:50%;box-shadow:0 3px 8px rgba(59,109,240,.3);transition:.15s;}
+.collapse-arrow:hover{transform:scale(1.08);}
+
+/* ============ MAIN LAYOUT ============ */
+.mainwrap{display:flex;gap:0;padding:6px 18px 18px;align-items:flex-start;}
+.qpanel{flex:1;min-width:0;border:1px solid var(--panel-border);border-radius:12px;min-height:520px;background:#fff;box-shadow:0 4px 18px rgba(30,40,80,.06);overflow:hidden;}
+.qpanel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid #f0f2f7;flex-wrap:wrap;gap:8px;background:linear-gradient(180deg,#fbfcff,#fff);}
+.qpanel-head h3{margin:0;font-size:calc(17px*var(--zoom));color:var(--blue-dark);}
+.lang-select{padding:5px 9px;border:1px solid #d8dded;border-radius:6px;font-family:inherit;}
+.zoomgrp{display:flex;gap:6px;align-items:center;}
+.zoomgrp button{width:30px;height:30px;border-radius:7px;border:1px solid #d8dded;background:#fff;color:var(--blue-dark);font-weight:800;cursor:pointer;}
+.zoomgrp button:hover{background:var(--blue-light);}
+.qbody{padding:22px 24px;font-size:calc(15.5px*var(--zoom));line-height:1.6;}
+.qtext{margin-bottom:20px;font-weight:500;}
+.qtext p{margin:0 0 10px;}
+.qimg{margin:10px 0 18px;}
+.options label{display:flex;align-items:flex-start;gap:10px;margin:10px 0;padding:11px 14px;border-radius:9px;cursor:pointer;font-size:calc(15px*var(--zoom));border:1.5px solid #eef0f6;transition:.12s;position:relative;}
+.options label:hover{background:var(--blue-light);border-color:#cdddff;}
+.options input{margin-top:3px;transform:scale(1.2);accent-color:var(--blue);flex-shrink:0;}
+.options label.selected{background:var(--blue-light);border-color:var(--blue);}
+.options label.fb-correct{background:#e9f9f0;border-color:var(--green);}
+.options label.fb-wrong{background:#fdecea;border-color:var(--red);}
+.opt-badge{margin-left:auto;font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:20px;white-space:nowrap;}
+.opt-badge.ok{background:var(--green);color:#fff;}
+.opt-badge.no{background:var(--red);color:#fff;}
+.fb-strip{margin:6px 0 18px;padding:10px 14px;border-radius:9px;font-weight:700;font-size:calc(13.5px*var(--zoom));display:none;}
+.fb-strip.show{display:block;}
+.fb-strip.ok{background:#e9f9f0;color:var(--green-dark);}
+.fb-strip.no{background:#fdecea;color:var(--red-dark);}
+.qfooter{display:flex;gap:10px;padding:16px 24px;border-top:1px solid #f0f2f7;flex-wrap:wrap;align-items:center;}
+.btn-clear{background:#fff;color:#555;border:1.5px solid #d8dded;padding:9px 16px;border-radius:8px;font-weight:600;cursor:pointer;transition:.12s;}
+.btn-clear:hover{background:#f5f6fa;}
+
+.palette-wrap{width:330px;flex-shrink:0;margin-left:16px;transition:all .2s ease;}
+.palette-wrap.hidden{width:0;margin-left:0;overflow:hidden;opacity:0;}
+.palette-title{background:linear-gradient(135deg,#eef1fb,#e6ecff);font-weight:700;text-align:center;padding:10px;border:1px solid var(--panel-border);border-bottom:none;border-radius:12px 12px 0 0;color:var(--blue-dark);}
+.palette-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;padding:16px;border:1px solid var(--panel-border);border-top:none;max-height:260px;overflow-y:auto;background:#fff;}
+.qnum{aspect-ratio:1;border:none;border-radius:7px;color:#fff;font-weight:700;cursor:pointer;font-size:calc(13px*var(--zoom));position:relative;transition:transform .1s ease, box-shadow .1s ease;}
+.qnum:hover{transform:scale(1.08);}
+.qnum.notvisited{background:#aab1c0;}
+.qnum.notanswered{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.answered{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.marked{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans::after{content:"";position:absolute;bottom:3px;right:3px;width:8px;height:8px;background:#17a668;border-radius:50%;border:1.5px solid #fff;}
+.qnum.current{outline:3px solid #1a2233;outline-offset:2px;}
+.qnum.solcorrect{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.solwrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.solskipped{background:#aab1c0;}
+
+.analytics{border:1px solid var(--panel-border);border-radius:12px;margin-top:16px;overflow:hidden;box-shadow:0 3px 10px rgba(30,40,80,.05);}
+.analytics-head{background:linear-gradient(135deg,#2a3245,#1a2233);color:#fff;text-align:center;font-weight:700;padding:9px;font-size:calc(13.5px*var(--zoom));}
+.analytics table{width:100%;border-collapse:collapse;font-size:calc(13px*var(--zoom));background:#fff;}
+.analytics td{padding:10px 14px;border-bottom:1px solid #f0f2f7;}
+.analytics td:last-child{text-align:right;font-weight:700;color:#e08e00;width:40px;}
+.legend{padding:12px 14px;font-size:calc(12px*var(--zoom));display:flex;flex-direction:column;gap:7px;border:1px solid var(--panel-border);border-top:none;background:#fff;border-radius:0 0 12px 12px;}
+.legend div{display:flex;align-items:center;gap:8px;}
+.legend .dot{width:14px;height:14px;border-radius:4px;display:inline-block;flex-shrink:0;}
+
+.submitbar{text-align:center;padding:18px 0 4px;}
+.submitbar .btn{padding:11px 28px;font-size:calc(14px*var(--zoom));}
+
+/* pause overlay */
+.pauseoverlay{position:fixed;inset:0;background:rgba(15,18,30,.9);backdrop-filter:blur(3px);color:#fff;display:none;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:18px;text-align:center;padding:20px;}
+.pauseoverlay.show{display:flex;}
+.pauseoverlay h2{font-size:26px;margin:0;}
+.pauseoverlay p{margin:0;color:#c7c9d6;max-width:360px;}
+.pauseoverlay .btn{font-size:15px;padding:11px 30px;}
+
+/* modal */
+.modal-bg{position:fixed;inset:0;background:rgba(15,18,30,.55);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px;}
+.modal-bg.show{display:flex;}
+.modal{background:#fff;border-radius:14px;width:430px;max-width:92vw;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+.modal h3{margin-top:0;font-size:20px;}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0;}
+.modal-grid div{background:#f4f6fb;border-radius:9px;padding:12px;text-align:center;}
+.modal-grid b{display:block;font-size:21px;}
+.modal-actions{display:flex;justify-content:flex-end;gap:10px;}
+.modal-actions button{padding:9px 18px;border-radius:8px;border:none;font-weight:700;cursor:pointer;transition:.12s;}
+.modal-actions .cancel{background:#eef0f5;color:#333;}
+.modal-actions .cancel:hover{background:#e2e5ee;}
+.modal-actions .confirm{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;}
+.modal-actions .confirm:hover{filter:brightness(1.06);}
+
+/* ============ WELCOME PAGE ============ */
+.welcomewrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+.welcomecard{width:100%;max-width:640px;background:#fff;border-radius:18px;box-shadow:0 16px 50px rgba(30,40,80,.14);overflow:hidden;}
+.welcomehero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);color:#fff;padding:26px 30px 22px;text-align:center;}
+.welcomehero .wbrand{font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;opacity:.9;}
+.welcomehero h1{margin:8px 0 3px;font-size:22px;}
+.welcomehero .wsub{opacity:.92;font-size:13.5px;}
+.welcomebody{padding:26px 30px 30px;}
+.wmeta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px;}
+.wmeta div{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:10px;text-align:center;}
+.wmeta b{display:block;font-size:19px;color:var(--blue-dark);font-family:'Poppins',sans-serif;}
+.wmeta span{font-size:10.5px;color:#7d8494;text-transform:uppercase;letter-spacing:.3px;}
+.winstr{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:14px 16px;margin-bottom:18px;max-height:180px;overflow-y:auto;}
+.winstr h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:#7d8494;}
+.winstr ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.65;color:#374151;}
+.wlegend{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px;font-size:12px;color:#374151;}
+.wlegend span{display:inline-flex;align-items:center;gap:6px;}
+.wtoggle{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--blue-light);border:1px solid #cddcff;border-radius:12px;padding:12px 16px;margin-bottom:20px;}
+.wtoggle .ttl{font-weight:700;font-size:14px;color:var(--blue-dark);}
+.wtoggle .desc{font-size:12px;color:#5c6478;margin-top:2px;}
+.switch{position:relative;width:46px;height:26px;flex-shrink:0;}
+.switch input{opacity:0;width:0;height:0;}
+.slider{position:absolute;cursor:pointer;inset:0;background:#c9c9d6;border-radius:999px;transition:.2s;}
+.slider:before{content:"";position:absolute;height:20px;width:20px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s;box-shadow:0 1px 3px rgba(0,0,0,.3);}
+.switch input:checked + .slider{background:var(--blue);}
+.switch input:checked + .slider:before{transform:translateX(20px);}
+.btn-startbig{width:100%;padding:15px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;font-size:16px;font-weight:700;letter-spacing:.3px;box-shadow:0 8px 20px rgba(59,109,240,.35);cursor:pointer;}
+.btn-startbig:hover{box-shadow:0 10px 26px rgba(59,109,240,.45);}
+
+/* ============ RESULT / ANALYSIS PAGE ============ */
+.resultwrap{max-width:1020px;margin:28px auto;padding:0 18px;}
+.score-hero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);border-radius:18px;color:#fff;padding:34px 36px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;box-shadow:0 16px 40px rgba(59,109,240,.3);}
+.score-hero h1{margin:0 0 6px;font-size:30px;}
+.score-hero p{margin:0;opacity:.92;font-size:15px;}
+.score-ring{width:126px;height:126px;border-radius:50%;background:#fff;color:var(--blue);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:30px;box-shadow:0 10px 26px rgba(0,0,0,.22);font-family:'Poppins',sans-serif;flex-shrink:0;}
+.score-ring span{font-size:12px;font-weight:600;color:#888;font-family:'Inter',sans-serif;}
+.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0;}
+.statcard{background:#fff;border:1px solid #eceff5;border-radius:14px;padding:18px;text-align:center;box-shadow:0 4px 14px rgba(30,40,80,.06);transition:.15s;}
+.statcard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(30,40,80,.1);}
+.statcard b{display:block;font-size:26px;margin-bottom:5px;font-family:'Poppins',sans-serif;}
+.statcard.correct b{color:var(--green);}
+.statcard.wrong b{color:var(--red);}
+.statcard.unattempt b{color:var(--grey);}
+.statcard.accuracy b{color:var(--blue);}
+.resultactions{display:flex;gap:12px;justify-content:center;margin:28px 0;flex-wrap:wrap;}
+.resultactions button{padding:12px 24px;border-radius:9px;border:none;font-weight:700;cursor:pointer;font-size:14px;transition:.15s;}
+.resultactions .primary{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 4px 14px rgba(59,109,240,.3);}
+.resultactions .primary:hover{transform:translateY(-2px);}
+.resultactions .secondary{background:#fff;color:var(--blue);border:1.5px solid var(--blue);}
+.resultactions .secondary:hover{background:var(--blue-light);}
+
+/* ============ SOLUTIONS PAGE (exam-style paginated) ============ */
+.sol-badge{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;color:#fff;}
+.sol-badge.correct{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.sol-badge.wrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.sol-badge.skipped{background:#aab1c0;}
+.soloption{padding:11px 14px;border-radius:9px;margin:8px 0;border:1.5px solid #eef0f6;font-size:calc(15px*var(--zoom));display:flex;gap:8px;align-items:flex-start;}
+.soloption.right{background:#e9f9f0;border-color:var(--green);color:#0f6b41;font-weight:700;}
+.soloption.picked-wrong{background:#fdecea;border-color:var(--red);color:#9c2b1c;font-weight:700;}
+.soloption .tagmini{font-size:10.5px;font-weight:800;padding:1px 7px;border-radius:10px;margin-left:auto;white-space:nowrap;}
+.soloption.right .tagmini{background:var(--green);color:#fff;}
+.soloption.picked-wrong .tagmini{background:var(--red);color:#fff;}
+.explbox{margin-top:14px;background:linear-gradient(180deg,#f2f6ff,#eef2ff);border-left:4px solid var(--blue);padding:13px 16px;font-size:calc(13.5px*var(--zoom));border-radius:0 10px 10px 0;line-height:1.55;}
+.explbox b{color:var(--blue-dark);}
+.explbox h4{margin:0 0 6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--blue-dark);}
+
+/* ============ IMAGE ZOOM + LIGHTBOX (Selection Post: image-based questions) ============ */
+.qbody img,.explbox img,.soloption img,.options img{max-width:none !important;height:auto !important;vertical-align:middle;}
+.qbody,.explbox{overflow-x:auto;}
+.zwrap{position:relative;display:inline-block;max-width:none;line-height:0;vertical-align:middle;}
+.zwrap img{display:block;}
+.zwrap .zbtn{position:absolute;top:3px;right:3px;width:24px;height:24px;border-radius:50%;border:none;background:rgba(26,34,51,.72);color:#fff;font-size:12px;line-height:24px;padding:0;cursor:pointer;opacity:.55;transition:.12s;}
+.zwrap:hover .zbtn{opacity:1;}
+.qtext .zwrap img,.explbox .zwrap img{cursor:zoom-in;}
+.zoomgrp .zlabel{min-width:44px;width:auto;padding:0 6px;font-size:11.5px;font-weight:700;}
+#imgLightbox{position:fixed;inset:0;background:rgba(10,14,25,.92);z-index:9999;display:none;flex-direction:column;}
+#imgLightbox.show{display:flex;}
+#imgLightbox .lbbar{display:flex;gap:8px;align-items:center;justify-content:center;padding:10px;flex-wrap:wrap;}
+#imgLightbox .lbbar button{min-width:42px;height:38px;border-radius:8px;border:1px solid #3a4560;background:#1e2740;color:#fff;font-weight:800;font-size:16px;cursor:pointer;padding:0 12px;}
+#imgLightbox .lbbar button:hover{background:#2f3d66;}
+#imgLightbox .lbbar span{color:#cfd6ea;font-size:13px;font-weight:600;min-width:56px;text-align:center;}
+#imgLightbox .lbstage{flex:1;overflow:hidden;position:relative;cursor:grab;touch-action:none;}
+#imgLightbox .lbstage.drag{cursor:grabbing;}
+#imgLightbox .lbstage img{position:absolute;left:0;top:0;max-width:none !important;transform-origin:0 0;user-select:none;-webkit-user-drag:none;background:#fff;border-radius:4px;}
+#imgLightbox .lbhint{color:#8d97b5;font-size:11.5px;text-align:center;padding:6px 0 10px;}
+
+.mathfb{font-family:"Cambria Math","Times New Roman",serif;font-size:1.05em;white-space:nowrap;}
+.katex{font-size:1.08em;}
+.qtext .katex-display,.options .katex-display{margin:.4em 0;}
+
+@media(max-width:900px){
+  .mainwrap{flex-direction:column;}
+  .palette-wrap{width:100%;margin-left:0;margin-top:14px;}
+  .palette-wrap.hidden{width:100%;height:0;margin-top:0;}
+  .statgrid{grid-template-columns:repeat(2,1fr);}
+  .score-hero{flex-direction:column;text-align:center;}
+  .wmeta{grid-template-columns:1fr 1fr;}
+  .title-block{order:3;flex-basis:100%;}
+}
+
+</style>
+</head>
+<body>
+
+<!-- ============ WELCOME PAGE ============ -->
+<div id="welcomePage">
+  <div class="welcomewrap">
+    <div class="welcomecard">
+      <div class="welcomehero">
+        <div class="wbrand">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="wTitle">Exam Title</h1>
+        <div class="wsub" id="wSub">Section</div>
+      </div>
+      <div class="welcomebody">
+        <div class="wmeta">
+          <div><b id="wTotalQ">-</b><span>Questions</span></div>
+          <div><b id="wTotalTime">-</b><span>Minutes</span></div>
+          <div><b id="wMarks">-</b><span>Marking</span></div>
+        </div>
+        <div class="winstr">
+          <h4>Quick Instructions</h4>
+          <ul>
+            <li>Click an option to select your answer for the current question.</li>
+            <li>Use <b>Save &amp; Next</b> to move on, or <b>Mark for Review</b> to flag a question and come back later.</li>
+            <li>The question palette on the right shows your progress &mdash; click any number to jump straight to it.</li>
+            <li>You can <b>Pause</b> the test any time; your progress auto-saves, even if you close this tab.</li>
+            <li>The test auto-submits the moment the timer hits zero.</li>
+          </ul>
+        </div>
+        <div class="wlegend">
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#aab1c0"></i>Not Visited</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#f0432f"></i>Not Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#17a668"></i>Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#8b3fe8"></i>Marked</span>
+        </div>
+        <div class="wtoggle">
+          <div>
+            <div class="ttl">Instant Feedback Mode</div>
+            <div class="desc">See right / wrong the moment you pick an option, plus an on-demand Show Solution button.</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="instantFeedbackToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <button class="btn-startbig" id="startTestBtn" type="button">Start Test</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TEST PAGE ============ -->
+<div id="testPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+      <button class="btn-outline" id="fsBtn" type="button" onclick="toggleFullscreen()">Full Screen</button>
+    </div>
+    <div class="title-block">
+      <span id="hdrTitle">Exam Title</span>
+      <span class="sub" id="hdrSub">Section</span>
+    </div>
+    <div class="topbar-right">
+      <div class="timeleft" id="timeleftBox">Time Left: <span id="timeLeft">--:--</span></div>
+      <button class="pausebtn" onclick="togglePause()">&#10074;&#10074; <span id="pauseLabel">Pause Test</span></button>
+    </div>
+  </div>
+
+  <div class="subbar">
+    <div class="taglist"><span class="topictag" id="qTopicTag" style="display:none;"></span></div>
+    <div class="qanswered">Total Questions Answered: <span id="totalAnsweredTop">0</span></div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="sectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" onclick="goPrev()">Previous</button>
+      <button class="btn purplebtn" onclick="markForReview()">Mark for Review</button>
+      <button class="btn" onclick="saveAndNext()">Save &amp; Next</button>
+      <button class="btn submitbtn" onclick="confirmSubmit()">Submit Test</button>
+    </div>
+    <div class="collapse-arrow" onclick="togglePalette()" id="collapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="qNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="font-weight:600;font-size:12.5px;" id="langLabel">Language:</span>
+          <select class="lang-select" id="langSelect" onchange="setLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="qText"></div>
+        <div class="qimg" id="qImg" style="display:none;"></div>
+        <div class="options" id="qOptions"></div>
+        <div class="fb-strip" id="fbStrip"></div>
+        <div class="explbox" id="liveSolutionBox" style="display:none;"></div>
+      </div>
+      <div class="qfooter">
+        <button class="btn-clear" onclick="clearResponse()">Clear Response</button>
+        <button class="btn-gold" id="showSolBtn" type="button" onclick="toggleLiveSolution()" style="display:none;">Show Solution</button>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="paletteWrap">
+      <div class="palette-title" id="paletteTitle">Section:</div>
+      <div class="palette-grid" id="paletteGrid"></div>
+
+      <div class="analytics">
+        <div class="analytics-head">Analytics</div>
+        <table>
+          <tr><td>Answered</td><td id="stAnswered">0</td></tr>
+          <tr><td>Not Answered</td><td id="stNotAnswered">0</td></tr>
+          <tr><td>Marked for review</td><td id="stMarked">0</td></tr>
+          <tr><td>Answered &amp; Marked</td><td id="stAnsMarked">0</td></tr>
+          <tr><td>Not Visited</td><td id="stNotVisited">0</td></tr>
+        </table>
+      </div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#aab1c0"></span> Not Visited</div>
+        <div><span class="dot" style="background:#f0432f"></span> Not Answered</div>
+        <div><span class="dot" style="background:#17a668"></span> Answered</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Marked for Review</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Answered &amp; Marked</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RESULT PAGE ============ -->
+<div id="resultPage" class="hidden-page">
+  <div class="resultwrap">
+    <div class="score-hero">
+      <div>
+        <div class="wbrand" style="opacity:.85;">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="resTitle">Test Completed &#127881;</h1>
+        <p id="resSub">Exam Title</p>
+      </div>
+      <div class="score-ring"><span>SCORE</span><div id="finalScore">0</div></div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard correct"><b id="stCorrect">0</b>Correct</div>
+      <div class="statcard wrong"><b id="stWrong">0</b>Wrong</div>
+      <div class="statcard unattempt"><b id="stUnattempt">0</b>Unattempted</div>
+      <div class="statcard accuracy"><b id="stAccuracy">0%</b>Accuracy</div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard"><b id="stTimeTaken">--</b>Time Taken</div>
+      <div class="statcard"><b id="stMaxMarks">0</b>Max Marks</div>
+      <div class="statcard"><b id="stNegMarks">0</b>Negative Marks</div>
+      <div class="statcard"><b id="stAvgTime">--</b>Avg Time / Q</div>
+    </div>
+    <div class="resultactions">
+      <button class="secondary" onclick="showSolutions()">View Solutions</button>
+      <button class="primary" onclick="restartTest()">Retake Test</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SOLUTIONS PAGE ============ -->
+<div id="solutionPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+    </div>
+    <div class="title-block">
+      <span id="solHdrTitle">Exam Title</span>
+      <span class="sub">Solutions</span>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" onclick="backToResult()">&larr; Back to Analysis</button>
+    </div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="solSectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" id="solPrevBtn" onclick="solGoPrev()">Previous</button>
+      <button class="btn" id="solNextBtn" onclick="solGoNext()">Next</button>
+    </div>
+    <div class="collapse-arrow" onclick="toggleSolPalette()" id="solCollapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="solQNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span id="solBadgeHolder"></span>
+          <select class="lang-select" id="solLangSelect" onchange="setSolLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="solQText"></div>
+        <div class="qimg" id="solQImg" style="display:none;"></div>
+        <div id="solOptions"></div>
+        <div class="explbox" id="solExpl"></div>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="solPaletteWrap">
+      <div class="palette-title" id="solPaletteTitle">Section:</div>
+      <div class="palette-grid" id="solPaletteGrid"></div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#17a668"></span> Correct</div>
+        <div><span class="dot" style="background:#f0432f"></span> Wrong</div>
+        <div><span class="dot" style="background:#aab1c0"></span> Skipped</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pauseoverlay" id="pauseOverlay">
+  <h2>Test Paused</h2>
+  <p>Your timer is on hold and your progress is saved &mdash; you can even close this tab. Click resume when you're ready.</p>
+  <button class="btn" onclick="togglePause()">Resume Test</button>
+</div>
+
+<div class="modal-bg" id="submitModal">
+  <div class="modal">
+    <h3>Submit Test?</h3>
+    <div class="modal-grid">
+      <div><b id="mAnswered">0</b>Answered</div>
+      <div><b id="mNotAnswered">0</b>Not Answered</div>
+      <div><b id="mMarked">0</b>Marked for Review</div>
+      <div><b id="mNotVisited">0</b>Not Visited</div>
+    </div>
+    <p style="font-size:13px;color:#666;">Once submitted, you cannot change your answers.</p>
+    <div class="modal-actions">
+      <button class="cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="confirm" onclick="doSubmit()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<div id="imgLightbox">
+  <div class="lbbar">
+    <button type="button" onclick="lbZoom(-1)" title="Zoom out">&minus;</button>
+    <span id="lbPct">100%</span>
+    <button type="button" onclick="lbZoom(1)" title="Zoom in">+</button>
+    <button type="button" onclick="lbFit()" title="Fit to screen">Fit</button>
+    <button type="button" onclick="lbActual()" title="Actual size">1:1</button>
+    <button type="button" onclick="lbClose()" title="Close (Esc)">&#10005; Close</button>
+  </div>
+  <div class="lbstage" id="lbStage"><img id="lbImg" alt="zoomed image"></div>
+  <div class="lbhint">Mouse wheel = zoom &middot; drag = move &middot; double-click = fit / 2x &middot; Esc = close</div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+<script>
+
+/* ============================================================
+   THE SSC SCHOLARS OFFICIAL -- Mock Test Engine
+   UI/UX pattern matched to the user's reference CPO mock file.
+   ============================================================ */
+var CFG = {"examTitle": "SELECTION POST - PHASE 14 - HIGHER SECONDARY - 26 SEP 2026 - SHIFT 1", "sectionLabel": "General Intelligence & Reasoning", "storageKey": "sscscholars_mock::PYQ_2026_PHASE14_26SEP2026_SHIFT1_SELECTION-POST-HSL-26-SEP-2026-SHIFT-1_section", "totalTimeSeconds": 900, "correctScoreDisplay": "2", "negativeScoreDisplay": "0.5", "defaultCorrectScore": 2.0, "defaultNegativeScore": 0.5};
+var QUESTIONS = [{"q_no": 1, "id": "50001", "topic": "", "difficulty_level": "", "question": {"en": "All apples are fruits. All fruits are sweet. Which of the following is true?", "hi": "सभी सेब फल हैं। सभी फल मीठे हैं। निम्नलिखित में से कौन-सा सत्य है?"}, "question_image": "", "options": {"option_1": {"en": "All apples are sweet", "hi": "सभी सेब मीठे हैं", "image": ""}, "option_2": {"en": "Some apples are sweet", "hi": "कुछ सेब मीठे हैं", "image": ""}, "option_3": {"en": "No apple is sweet", "hi": "कोई सेब मीठा नहीं है", "image": ""}, "option_4": {"en": "Some fruits are apples", "hi": "कुछ फल सेब हैं", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Since all apples are fruits (Apples ⊂ Fruits) and all fruits are sweet (Fruits ⊂ Sweet), it directly follows that <b>All apples are sweet<\/b>.", "hi": "चूँकि सभी सेब फल हैं (सेब ⊂ फल) और सभी फल मीठे हैं (फल ⊂ मीठे), इसलिए यह स्पष्ट रूप से निष्कर्ष निकलता है कि <b>सभी सेब मीठे हैं (All apples are sweet)<\/b>।"}, "solution_image": ""}, {"q_no": 2, "id": "50002", "topic": "", "difficulty_level": "", "question": {"en": "All students are smart. Rahul is a student. What can be concluded?", "hi": "सभी छात्र समझदार हैं। राहुल एक छात्र है। इससे क्या निष्कर्ष निकाला जा सकता है?"}, "question_image": "", "options": {"option_1": {"en": "Rahul is smart", "hi": "राहुल समझदार है", "image": ""}, "option_2": {"en": "Rahul is not smart", "hi": "राहुल समझदार नहीं है", "image": ""}, "option_3": {"en": "Rahul is a teacher", "hi": "राहुल एक शिक्षक है", "image": ""}, "option_4": {"en": "Rahul is not a student", "hi": "राहुल एक छात्र नहीं है", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Given that all students are smart and Rahul is a student, Rahul belongs to the group of students. Therefore, <b>Rahul is smart<\/b>.", "hi": "चूँकि सभी छात्र समझदार हैं और राहुल एक छात्र है, इसलिए यह निष्कर्ष निकलता है कि <b>राहुल समझदार है (Rahul is smart)<\/b>।"}, "solution_image": ""}, {"q_no": 3, "id": "50003", "topic": "", "difficulty_level": "", "question": {"en": "If FIRM = 6 9 18 13 and CODE = 3 15 4 5, then what is the sum of the code values for the word FORM?", "hi": "यदि FIRM = 6 9 18 13 और CODE = 3 15 4 5 है, तो शब्द FORM के कूट मानों का योग क्या होगा?"}, "question_image": "", "options": {"option_1": {"en": "42", "hi": "42", "image": ""}, "option_2": {"en": "52", "hi": "52", "image": ""}, "option_3": {"en": "45", "hi": "45", "image": ""}, "option_4": {"en": "43", "hi": "43", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Each letter is coded by its alphabetical position:<br>• F = 6, O = 15, R = 18, M = 13.<br>Sum for FORM = 6 + 15 + 18 + 13 = <b>52<\/b>.", "hi": "प्रत्येक अक्षर को उसके वर्णमाला क्रमांक से कूटबद्ध किया गया है:<br>• F = 6, O = 15, R = 18, M = 13।<br>FORM के मानों का योग = 6 + 15 + 18 + 13 = <b>52<\/b>।"}, "solution_image": ""}, {"q_no": 4, "id": "50004", "topic": "", "difficulty_level": "", "question": {"en": "If COLD = 3 15 12 4, and the pattern is to multiply the position of each letter by 2, then what will be the code for HEAT?", "hi": "यदि COLD = 3 15 12 4 है, और पैटर्न प्रत्येक अक्षर के स्थान को 2 से गुणा करना है, तो HEAT के लिए कूट क्या होगा?"}, "question_image": "", "options": {"option_1": {"en": "16 10 2 40", "hi": "16 10 2 40", "image": ""}, "option_2": {"en": "16 10 2 38", "hi": "16 10 2 38", "image": ""}, "option_3": {"en": "16 8 2 38", "hi": "16 8 2 38", "image": ""}, "option_4": {"en": "16 10 4 40", "hi": "16 10 4 40", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Alphabetical positions of HEAT:<br>• H = 8 → 8 × 2 = 16<br>• E = 5 → 5 × 2 = 10<br>• A = 1 → 1 × 2 = 2<br>• T = 20 → 20 × 2 = 40<br>Hence, the code for HEAT is <b>16 10 2 40<\/b>.", "hi": "HEAT के अक्षरों के वर्णमाला क्रमांक को 2 से गुणा करने पर:<br>• H = 8 → 8 × 2 = 16<br>• E = 5 → 5 × 2 = 10<br>• A = 1 → 1 × 2 = 2<br>• T = 20 → 20 × 2 = 40<br>अतः HEAT का कूट <b>16 10 2 40<\/b> होगा।"}, "solution_image": ""}, {"q_no": 5, "id": "50005", "topic": "", "difficulty_level": "", "question": {"en": "Statement:<br>\"Gunjan is a brilliant actress.\"<br>Inferences:<br>I. Gunjan’s parents are actors.<br>II. Gunjan has done a couple of Hollywood movies.", "hi": "कथन:<br>\"गुंजन एक शानदार अभिनेत्री है।\"<br>अनुमान:<br>I. गुंजन के माता-पिता अभिनेता हैं।<br>II. गुंजन ने कुछ हॉलीवुड फिल्में की हैं।"}, "question_image": "", "options": {"option_1": {"en": "Only inference I follows.", "hi": "केवल अनुमान I अनुसरण करता है।", "image": ""}, "option_2": {"en": "Only inference II follows.", "hi": "केवल अनुमान II अनुसरण करता है।", "image": ""}, "option_3": {"en": "Both inferences follow.", "hi": "दोनों अनुमान अनुसरण करते हैं।", "image": ""}, "option_4": {"en": "Neither inference I nor II follows", "hi": "न तो अनुमान I और न ही II अनुसरण करता है", "image": ""}}, "answer": "4", "correct_score": "", "negative_score": "", "solution_text": {"en": "The statement only mentions that Gunjan is a brilliant actress. It gives no information about her parents' profession (I) or whether she has acted in Hollywood movies (II).<br>Hence, <b>Neither inference I nor II follows<\/b>.", "hi": "कथन में केवल यह बताया गया है कि गुंजन एक शानदार अभिनेत्री है। इससे उसके माता-पिता के पेशे (I) या उसके हॉलीवुड फिल्मों में काम करने (II) की कोई जानकारी नहीं मिलती है।<br>अतः <b>न तो अनुमान I और न ही II अनुसरण करता है<\/b>।"}, "solution_image": ""}, {"q_no": 6, "id": "50006", "topic": "", "difficulty_level": "", "question": {"en": "You're in charge of organizing a seminar, but the keynote speaker cancels last minute. What should you do?", "hi": "आप एक सेमिनार के आयोजन के प्रभारी हैं, लेकिन मुख्य वक्ता अंतिम समय पर आने से मना कर देता है। आपको क्या करना चाहिए?"}, "question_image": "", "options": {"option_1": {"en": "Cancel the seminar.", "hi": "सेमिनार रद्द कर दें।", "image": ""}, "option_2": {"en": "Announce a break and find an alternate speaker.", "hi": "एक ब्रेक की घोषणा करें और एक वैकल्पिक वक्ता ढूँढें।", "image": ""}, "option_3": {"en": "Panic and leave the venue.", "hi": "घबराकर कार्यक्रम स्थल छोड़ दें।", "image": ""}, "option_4": {"en": "Let the audience leave.", "hi": "दर्शकों को जाने दें।", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "In a last-minute cancellation, the most constructive and professional course of action is to manage the schedule calmly and arrange a replacement.<br>Hence, <b>Announce a break and find an alternate speaker.<\/b>", "hi": "मुख्य वक्ता द्वारा अंतिम समय में मना करने पर सबसे व्यावहारिक और पेशेवर कदम शांतिपूर्वक समय का प्रबंधन करना और वैकल्पिक वक्ता की व्यवस्था करना है।<br>अतः सही उत्तर है: <b>एक ब्रेक की घोषणा करें और एक वैकल्पिक वक्ता ढूँढें।<\/b>"}, "solution_image": ""}, {"q_no": 7, "id": "50007", "topic": "", "difficulty_level": "", "question": {"en": "Which of the following words cannot be formed using only the letters available in the word \"STREAM\"?", "hi": "निम्नलिखित में से कौन-सा शब्द केवल \"STREAM\" शब्द में उपलब्ध अक्षरों का उपयोग करके नहीं बनाया जा सकता है?"}, "question_image": "", "options": {"option_1": {"en": "TEARS", "hi": "TEARS", "image": ""}, "option_2": {"en": "STARS", "hi": "STARS", "image": ""}, "option_3": {"en": "SMART", "hi": "SMART", "image": ""}, "option_4": {"en": "STARE", "hi": "STARE", "image": ""}}, "answer": "4", "correct_score": "", "negative_score": "", "solution_text": {"en": "Letters available in STREAM are S, T, R, E, A, M. (Note: STARS uses 'S' twice, whereas per the official answer key, Option 4 <b>STARE<\/b> is marked as the correct response).", "hi": "STREAM में उपलब्ध अक्षर S, T, R, E, A, M हैं। (नोट: STARS में 'S' दो बार आता है, जबकि आधिकारिक उत्तर कुंजी के अनुसार विकल्प 4 <b>STARE<\/b> को सही उत्तर माना गया है)।"}, "solution_image": ""}, {"q_no": 8, "id": "50008", "topic": "", "difficulty_level": "", "question": {"en": "Your friend is sad due to a personal loss. What is an emotionally intelligent response?", "hi": "आपका मित्र किसी व्यक्तिगत क्षति के कारण दुखी है। भावनात्मक रूप से बुद्धिमत्तापूर्ण प्रतिक्रिया क्या होगी?"}, "question_image": "", "options": {"option_1": {"en": "Get over it!", "hi": "इससे बाहर निकलो!", "image": ""}, "option_2": {"en": "That’s nothing to be upset about.", "hi": "इसमें दुखी होने वाली कोई बात नहीं है।", "image": ""}, "option_3": {"en": "I’m here if you want to talk.", "hi": "अगर तुम बात करना चाहते हो तो मैं यहाँ हूँ।", "image": ""}, "option_4": {"en": "You should be strong.", "hi": "तुम्हें मजबूत होना चाहिए।", "image": ""}}, "answer": "3", "correct_score": "", "negative_score": "", "solution_text": {"en": "Emotional intelligence involves empathy and supportive listening when someone experiences grief.<br>Hence, the best response is: <b>I’m here if you want to talk.<\/b>", "hi": "भावनात्मक बुद्धिमत्ता में सहानुभूति और संवेदनशीलता शामिल होती है।<br>अतः सबसे उपयुक्त प्रतिक्रिया है: <b>अगर तुम बात करना चाहते हो तो मैं यहाँ हूँ (I’m here if you want to talk.)<\/b>।"}, "solution_image": ""}, {"q_no": 9, "id": "50009", "topic": "", "difficulty_level": "", "question": {"en": "Which skill helps in managing emotions during high-stress situations?", "hi": "उच्च तनाव वाली स्थितियों के दौरान भावनाओं को प्रबंधित करने में कौन-सा कौशल मदद करता है?"}, "question_image": "", "options": {"option_1": {"en": "Avoiding tasks completely", "hi": "कार्यों से पूरी तरह बचना", "image": ""}, "option_2": {"en": "Practicing deep breathing and staying calm", "hi": "गहरी साँस लेने का अभ्यास करना और शांत रहना", "image": ""}, "option_3": {"en": "Blaming others", "hi": "दूसरों को दोष देना", "image": ""}, "option_4": {"en": "Overreacting to stress", "hi": "तनाव पर अत्यधिक प्रतिक्रिया देना", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Self-regulation techniques such as deep breathing and maintaining composure help manage emotions effectively under high stress.<br>Hence, <b>Practicing deep breathing and staying calm<\/b> is correct.", "hi": "उच्च तनाव के दौरान गहरी साँस लेने का अभ्यास और शांत रहना भावनाओं को नियंत्रित करने में सहायक होता है।<br>अतः सही विकल्प <b>गहरी साँस लेने का अभ्यास करना और शांत रहना<\/b> है।"}, "solution_image": ""}, {"q_no": 10, "id": "50010", "topic": "", "difficulty_level": "", "question": {"en": "Statements:<br>1. All flowers are plants.<br>2. Some plants are trees.<br>Conclusions:<br>I. Some trees are flowers.<br>II. All flowers are trees.", "hi": "कथन:<br>1. सभी फूल पौधे हैं।<br>2. कुछ पौधे पेड़ हैं।<br>निष्कर्ष:<br>I. कुछ पेड़ फूल हैं।<br>II. सभी फूल पेड़ हैं।"}, "question_image": "", "options": {"option_1": {"en": "Only conclusion I follows", "hi": "केवल निष्कर्ष I अनुसरण करता है", "image": ""}, "option_2": {"en": "Only conclusion II follows", "hi": "केवल निष्कर्ष II अनुसरण करता है", "image": ""}, "option_3": {"en": "Both I and II follow", "hi": "I और II दोनों अनुसरण करते हैं", "image": ""}, "option_4": {"en": "Neither I nor II follows", "hi": "न तो I और न ही II अनुसरण करता है", "image": ""}}, "answer": "4", "correct_score": "", "negative_score": "", "solution_text": {"en": "All flowers are inside plants, and some plants overlap with trees. However, there is no definite overlap between flowers and trees.<br>• Conclusion I (Some trees are flowers) does not definitely follow.<br>• Conclusion II (All flowers are trees) does not follow.<br>Hence, <b>Neither I nor II follows<\/b>.", "hi": "सभी फूल पौधे हैं और कुछ पौधे पेड़ हैं, लेकिन फूल और पेड़ के बीच कोई निश्चित संबंध नहीं है।<br>अतः न तो निष्कर्ष I और न ही निष्कर्ष II निश्चित रूप से अनुसरण करता है (<b>Neither I nor II follows<\/b>)।"}, "solution_image": ""}, {"q_no": 11, "id": "50011", "topic": "", "difficulty_level": "", "question": {"en": "There are two terms on the left side of the symbol (: :) and one term and a question mark on the right side. In place of the question mark, one of the four alternative terms given below comes which has the same relation with the term on the right side as both the terms on the left side, choose that alternative term.<br>Question. DFH : JLN :: TVS : ?", "hi": "प्रतीक (: :) के बाईं ओर दो पद हैं और दाईं ओर एक पद तथा एक प्रश्नवाचक चिह्न है। प्रश्नवाचक चिह्न के स्थान पर नीचे दिए गए चार वैकल्पिक पदों में से वह पद चुनिए जिसका दाईं ओर के पद से वही संबंध हो जो बाईं ओर के दोनों पदों के बीच है।<br>प्रश्न: DFH : JLN :: TVS : ?"}, "question_image": "", "options": {"option_1": {"en": "ZAY", "hi": "ZAY", "image": ""}, "option_2": {"en": "ZAA", "hi": "ZAA", "image": ""}, "option_3": {"en": "ZBY", "hi": "ZBY", "image": ""}, "option_4": {"en": "ZBX", "hi": "ZBX", "image": ""}}, "answer": "3", "correct_score": "", "negative_score": "", "solution_text": {"en": "In DFH : JLN, each letter is shifted forward by +6:<br>• D(4) + 6 = J(10), F(6) + 6 = L(12), H(8) + 6 = N(14).<br>Applying +6 to TVS:<br>• T(20) + 6 = <b>Z<\/b>(26)<br>• V(22) + 6 = 28 ≡ <b>B<\/b>(2)<br>• S(19) + 6 = <b>Y<\/b>(25)<br>Hence, the missing term is <b>ZBY<\/b>.", "hi": "DFH : JLN में प्रत्येक अक्षर में +6 की वृद्धि हुई है:<br>• D(4) + 6 = J(10), F(6) + 6 = L(12), H(8) + 6 = N(14)।<br>इसी प्रकार TVS में +6 करने पर:<br>• T(20) + 6 = <b>Z<\/b>(26)<br>• V(22) + 6 = 28 ≡ <b>B<\/b>(2)<br>• S(19) + 6 = <b>Y<\/b>(25)<br>अतः सही विकल्प <b>ZBY<\/b> है।"}, "solution_image": ""}, {"q_no": 12, "id": "50012", "topic": "", "difficulty_level": "", "question": {"en": "Complete the analogy by picking the word that reflects the same relationship as the given pair.<br>Japan : Tokyo :: Nepal : ?", "hi": "दिए गए युग्म के समान संबंध को दर्शाने वाले शब्द का चयन करके सादृश्य (analogy) को पूरा कीजिए।<br>जापान : टोक्यो :: नेपाल : ?"}, "question_image": "", "options": {"option_1": {"en": "Kathmandu", "hi": "काठमांडू", "image": ""}, "option_2": {"en": "Bhutan", "hi": "भूटान", "image": ""}, "option_3": {"en": "India", "hi": "भारत", "image": ""}, "option_4": {"en": "Sikkim", "hi": "सिक्किम", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Tokyo is the capital of Japan. Similarly, the capital of Nepal is <b>Kathmandu<\/b>.", "hi": "जिस प्रकार जापान की राजधानी टोक्यो है, उसी प्रकार नेपाल की राजधानी <b>काठमांडू (Kathmandu)<\/b> है।"}, "solution_image": ""}, {"q_no": 13, "id": "50013", "topic": "", "difficulty_level": "", "question": {"en": "Complete the analogy by picking the word that reflects the same relationship as the given pair.<br>BDJOSN : CFKQTP :: NALDHY : ?", "hi": "दिए गए युग्म के समान संबंध को दर्शाने वाले शब्द का चयन करके सादृश्य (analogy) को पूरा कीजिए।<br>BDJOSN : CFKQTP :: NALDHY : ?"}, "question_image": "", "options": {"option_1": {"en": "OCMFIA", "hi": "OCMFIA", "image": ""}, "option_2": {"en": "OCNEIA", "hi": "OCNEIA", "image": ""}, "option_3": {"en": "ODMGJA", "hi": "ODMGJA", "image": ""}, "option_4": {"en": "ONCJFA", "hi": "ONCJFA", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Pattern from BDJOSN to CFKQTP is alternating +1, +2:<br>• B(+1)=C, D(+2)=F, J(+1)=K, O(+2)=Q, S(+1)=T, N(+2)=P.<br>Applying +1, +2, +1, +2, +1, +2 to NALDHY:<br>• N(+1)=<b>O<\/b>, A(+2)=<b>C<\/b>, L(+1)=<b>M<\/b>, D(+2)=<b>F<\/b>, H(+1)=<b>I<\/b>, Y(+2)=<b>A<\/b>.<br>Hence, the result is <b>OCMFIA<\/b>.", "hi": "BDJOSN : CFKQTP में क्रमिक रूप से +1, +2 का नियम है:<br>• B(+1)=C, D(+2)=F, J(+1)=K, O(+2)=Q, S(+1)=T, N(+2)=P।<br>इसी प्रकार NALDHY में +1, +2, +1, +2, +1, +2 करने पर:<br>• N(+1)=<b>O<\/b>, A(+2)=<b>C<\/b>, L(+1)=<b>M<\/b>, D(+2)=<b>F<\/b>, H(+1)=<b>I<\/b>, Y(+2)=<b>A<\/b>।<br>अतः सही उत्तर <b>OCMFIA<\/b> है।"}, "solution_image": ""}, {"q_no": 14, "id": "50014", "topic": "", "difficulty_level": "", "question": {"en": "Find the next term in the given number series:<br>Series: 2, 2, 4, 12, 48, ?", "hi": "दी गई संख्या श्रृंखला में अगला पद ज्ञात कीजिए:<br>श्रृंखला: 2, 2, 4, 12, 48, ?"}, "question_image": "", "options": {"option_1": {"en": "150", "hi": "150", "image": ""}, "option_2": {"en": "180", "hi": "180", "image": ""}, "option_3": {"en": "200", "hi": "200", "image": ""}, "option_4": {"en": "240", "hi": "240", "image": ""}}, "answer": "4", "correct_score": "", "negative_score": "", "solution_text": {"en": "Each term is multiplied by consecutive integers (×1, ×2, ×3, ×4, ×5):<br>• 2 × 1 = 2<br>• 2 × 2 = 4<br>• 4 × 3 = 12<br>• 12 × 4 = 48<br>• 48 × 5 = <b>240<\/b>.", "hi": "श्रृंखला में क्रमिक संख्याओं (×1, ×2, ×3, ×4, ×5) से गुणा किया गया है:<br>• 2 × 1 = 2<br>• 2 × 2 = 4<br>• 4 × 3 = 12<br>• 12 × 4 = 48<br>• 48 × 5 = <b>240<\/b>।"}, "solution_image": ""}, {"q_no": 15, "id": "50015", "topic": "", "difficulty_level": "", "question": {"en": "Six students are sitting around a circular table facing the centre. Amit is sitting second to the left of Jia. Jia is an immediate neighbour of both Varun and Pramod. Sia is sitting second to the left of Amit. Amit is an immediate neighbour of both Mahesh and Varun. Who is the immediate neighbour of Sia and Jia?", "hi": "छह छात्र केंद्र की ओर मुख करके एक वृत्ताकार मेज के चारों ओर बैठे हैं। अमित, जिया के बाईं ओर दूसरे स्थान पर बैठा है। जिया, वरुण और प्रमोद दोनों की निकटतम पड़ोसी है। सिया, अमित के बाईं ओर दूसरे स्थान पर बैठी है। अमित, महेश और वरुण दोनों का निकटतम पड़ोसी है। सिया और जिया का निकटतम पड़ोसी कौन है?"}, "question_image": "", "options": {"option_1": {"en": "Varun", "hi": "वरुण", "image": ""}, "option_2": {"en": "Mahesh", "hi": "महेश", "image": ""}, "option_3": {"en": "Pramod", "hi": "प्रमोद", "image": ""}, "option_4": {"en": "Amit", "hi": "अमित", "image": ""}}, "answer": "3", "correct_score": "", "negative_score": "", "solution_text": {"en": "Arranging the 6 students facing the centre in clockwise order (where Left = clockwise):<br>• Place Jia at position 1. Amit is 2nd to the left of Jia → Amit is at 3.<br>• Sia is 2nd to the left of Amit → Sia is at 5.<br>• Amit(3) is a neighbour of Varun and Mahesh, and Jia(1) is a neighbour of Varun and Pramod → Varun is at 2, Mahesh is at 4, and Pramod is at 6.<br>Circular order: Jia(1) – Varun(2) – Amit(3) – Mahesh(4) – Sia(5) – <b>Pramod(6)<\/b>.<br>Thus, <b>Pramod<\/b> is the immediate neighbour of both Sia and Jia.", "hi": "केंद्र की ओर मुख करके बैठे 6 छात्रों का क्रम:<br>• जिया(1) के बाएँ दूसरे स्थान पर अमित(3) है और अमित के बाएँ दूसरे स्थान पर सिया(5) है।<br>• जिया(1) और अमित(3) के बीच वरुण(2) है, अमित(3) और सिया(5) के बीच महेश(4) है, तथा सिया(5) और जिया(1) के बीच <b>प्रमोद(6)<\/b> है।<br>अतः सिया और जिया का निकटतम पड़ोसी <b>प्रमोद (Pramod)<\/b> है।"}, "solution_image": ""}, {"q_no": 16, "id": "50016", "topic": "", "difficulty_level": "", "question": {"en": "A, B, C, D, E, F, G and H are sitting around a circle facing the centre. F is third to the right of C and second to the left of H. D is not an immediate neighbour of C or H. E is on the immediate right of A, who is second to the right of G. Who sits between G and D?", "hi": "A, B, C, D, E, F, G और H एक वृत्त के चारों ओर केंद्र की ओर मुख करके बैठे हैं। F, C के दाईं ओर तीसरे स्थान पर और H के बाईं ओर दूसरे स्थान पर है। D, C या H का निकटतम पड़ोसी नहीं है। E, A के ठीक दाईं ओर है, जो G के दाईं ओर दूसरे स्थान पर है। G और D के बीच कौन बैठा है?"}, "question_image": "", "options": {"option_1": {"en": "F", "hi": "F", "image": ""}, "option_2": {"en": "H", "hi": "H", "image": ""}, "option_3": {"en": "E", "hi": "E", "image": ""}, "option_4": {"en": "D", "hi": "D", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Arranging the 8 persons facing the centre (counter-clockwise = right):<br>• Place C at 1 → F is 3rd to the right of C (at 4) and 2nd to the left of H (so H is at 6).<br>• E is immediate right of A, who is 2nd to the right of G → G is at 3, A is at 5, and E is at 6 or G(6)–B(7)–A(8)–E(1). Specifically, with C(1), B(2), G(3), F(4), D(5), H(6), A(7), E(8), the person sitting between G(3) and D(5) is <b>F<\/b>(4).", "hi": "केंद्र की ओर मुख करके बैठे 8 व्यक्तियों की व्यवस्था करने पर G और D के ठीक बीच में <b>F<\/b> बैठा है।"}, "solution_image": ""}, {"q_no": 17, "id": "50017", "topic": "", "difficulty_level": "", "question": {"en": "What is the next set of letters in the series?<br>DEF,CCC,BAZ,AYW,?", "hi": "दी गई श्रृंखला में अक्षरों का अगला समूह क्या होगा?<br>DEF,CCC,BAZ,AYW,?"}, "question_image": "", "options": {"option_1": {"en": "ZWT", "hi": "ZWT", "image": ""}, "option_2": {"en": "GHU", "hi": "GHU", "image": ""}, "option_3": {"en": "YUS", "hi": "YUS", "image": ""}, "option_4": {"en": "OJS", "hi": "OJS", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "Position-wise pattern:<br>• 1st letter (−1): D → C → B → A → <b>Z<\/b><br>• 2nd letter (−2): E → C → A → Y → <b>W<\/b><br>• 3rd letter (−3): F → C → Z → W → <b>T<\/b><br>Hence, the next term is <b>ZWT<\/b>.", "hi": "अक्षरों के स्थान के अनुसार पैटर्न:<br>• पहला अक्षर (−1): D → C → B → A → <b>Z<\/b><br>• दूसरा अक्षर (−2): E → C → A → Y → <b>W<\/b><br>• तीसरा अक्षर (−3): F → C → Z → W → <b>T<\/b><br>अतः अगला पद <b>ZWT<\/b> है।"}, "solution_image": ""}, {"q_no": 18, "id": "50018", "topic": "", "difficulty_level": "", "question": {"en": "Which of the following options replaces the ‘?’ in the image given?<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><th><\/th><th>Circle 1<\/th><th>Circle 2<\/th><th>Circle 3<\/th><\/tr><tr><th>Top<\/th><td>16<\/td><td>29<\/td><td>53<\/td><\/tr><tr><th>Left<\/th><td>9<\/td><td>15<\/td><td>26<\/td><\/tr><tr><th>Right<\/th><td>7<\/td><td>14<\/td><td>27<\/td><\/tr><tr><th>Bottom<\/th><td>23<\/td><td>43<\/td><td>?<\/td><\/tr><\/table>", "hi": "निम्नलिखित में से कौन-सा विकल्प दी गई आकृति में ‘?’ को प्रतिस्थापित करता है?<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><th><\/th><th>वृत्त 1<\/th><th>वृत्त 2<\/th><th>वृत्त 3<\/th><\/tr><tr><th>ऊपर<\/th><td>16<\/td><td>29<\/td><td>53<\/td><\/tr><tr><th>बाएँ<\/th><td>9<\/td><td>15<\/td><td>26<\/td><\/tr><tr><th>दाएँ<\/th><td>7<\/td><td>14<\/td><td>27<\/td><\/tr><tr><th>नीचे<\/th><td>23<\/td><td>43<\/td><td>?<\/td><\/tr><\/table>"}, "question_image": "", "options": {"option_1": {"en": "80", "hi": "80", "image": ""}, "option_2": {"en": "81", "hi": "81", "image": ""}, "option_3": {"en": "70", "hi": "70", "image": ""}, "option_4": {"en": "71", "hi": "71", "image": ""}}, "answer": "1", "correct_score": "", "negative_score": "", "solution_text": {"en": "In each circle, Top = Left + Right, and Bottom = Top + Right:<br>• Circle 1: Top = 9 + 7 = 16; Bottom = 16 + 7 = 23.<br>• Circle 2: Top = 15 + 14 = 29; Bottom = 29 + 14 = 43.<br>• Circle 3: Top = 26 + 27 = 53; Bottom = 53 + 27 = <b>80<\/b>.", "hi": "प्रत्येक वृत्त में, ऊपर = बाएँ + दाएँ, तथा नीचे = ऊपर + दाएँ:<br>• वृत्त 1: 9 + 7 = 16; नीचे = 16 + 7 = 23।<br>• वृत्त 2: 15 + 14 = 29; नीचे = 29 + 14 = 43।<br>• वृत्त 3: 26 + 27 = 53; नीचे = 53 + 27 = <b>80<\/b>।"}, "solution_image": ""}, {"q_no": 19, "id": "50019", "topic": "", "difficulty_level": "", "question": {"en": "What is the next set of letters in the series?<br>ICE,HED,GGC,?", "hi": "दी गई श्रृंखला में अक्षरों का अगला समूह क्या होगा?<br>ICE,HED,GGC,?"}, "question_image": "", "options": {"option_1": {"en": "FSA", "hi": "FSA", "image": ""}, "option_2": {"en": "FIB", "hi": "FIB", "image": ""}, "option_3": {"en": "FIP", "hi": "FIP", "image": ""}, "option_4": {"en": "FDR", "hi": "FDR", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Position-wise pattern:<br>• 1st letter (−1): I → H → G → <b>F<\/b><br>• 2nd letter (+2): C → E → G → <b>I<\/b><br>• 3rd letter (−1): E → D → C → <b>B<\/b><br>Hence, the next term is <b>FIB<\/b>.", "hi": "अक्षरों के स्थान के अनुसार पैटर्न:<br>• पहला अक्षर (−1): I → H → G → <b>F<\/b><br>• दूसरा अक्षर (+2): C → E → G → <b>I<\/b><br>• तीसरा अक्षर (−1): E → D → C → <b>B<\/b><br>अतः अगला पद <b>FIB<\/b> है।"}, "solution_image": ""}, {"q_no": 20, "id": "50020", "topic": "", "difficulty_level": "", "question": {"en": "Which two numbers should be interchanged to make the below equation mathematically correct?<br>8 × 15 ÷ 3 + 14 – 4 = 26", "hi": "नीचे दिए गए समीकरण को गणितीय रूप से सही बनाने के लिए किन दो संख्याओं को आपस में बदला जाना चाहिए?<br>8 × 15 ÷ 3 + 14 – 4 = 26"}, "question_image": "", "options": {"option_1": {"en": "15, 26", "hi": "15, 26", "image": ""}, "option_2": {"en": "4, 8", "hi": "4, 8", "image": ""}, "option_3": {"en": "14, 15", "hi": "14, 15", "image": ""}, "option_4": {"en": "3, 4", "hi": "3, 4", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Interchanging <b>4 and 8<\/b> in the given equation:<br>4 × 15 ÷ 3 + 14 − 8<br>= 4 × 5 + 14 − 8<br>= 20 + 14 − 8 = 26 (LHS = RHS).<br>Hence, <b>4, 8<\/b> should be interchanged.", "hi": "दिए गए समीकरण में <b>4 और 8<\/b> को आपस में बदलने पर:<br>4 × 15 ÷ 3 + 14 − 8<br>= 4 × 5 + 14 − 8<br>= 20 + 14 − 8 = 26 (सही)।<br>अतः <b>4, 8<\/b> को आपस में बदला जाना चाहिए।"}, "solution_image": ""}, {"q_no": 21, "id": "50021", "topic": "", "difficulty_level": "", "question": {"en": "At what time between 4 and 5 o'clock will the minute hand and the hour hand be exactly opposite to each other?", "hi": "4 और 5 बजे के बीच किस समय मिनट की सुई और घंटे की सुई एक-दूसरे के ठीक विपरीत होंगी?"}, "question_image": "", "options": {"option_1": {"en": "16 minutes past 4", "hi": "4 बजकर 16 मिनट", "image": ""}, "option_2": {"en": "18 minutes past 4", "hi": "4 बजकर 18 मिनट", "image": ""}, "option_3": {"en": "22 minutes past 4", "hi": "4 बजकर 22 मिनट", "image": ""}, "option_4": {"en": "None of the mentioned", "hi": "उल्लिखित में से कोई नहीं", "image": ""}}, "answer": "4", "correct_score": "", "negative_score": "", "solution_text": {"en": "At 4 o'clock, the hour hand is at 20 minute-spaces. To be opposite (30 minute-spaces apart), the minute hand must gain 20 + 30 = 50 minute-spaces:<br>Time = 50 × (12/11) = 600/11 = 54 6/11 minutes past 4.<br>Since this is not among options 1, 2, or 3, the correct option is <b>None of the mentioned<\/b>.", "hi": "4 और 5 बजे के बीच दोनों सुइयाँ एक-दूसरे के विपरीत (20 + 30) × 12/11 = 600/11 = 4 बजकर 54 6/11 मिनट पर होती हैं।<br>चूँकि यह समय विकल्प 1, 2 या 3 में नहीं दिया गया है, इसलिए सही उत्तर <b>उल्लिखित में से कोई नहीं (None of the mentioned)<\/b> है।"}, "solution_image": ""}, {"q_no": 22, "id": "50022", "topic": "", "difficulty_level": "", "question": {"en": "Arrange the following words in the order they appear in the dictionary:<br>1. Intense<br>2. Intellect<br>3. Intend<br>4. Intelligent<br>5. Intensity", "hi": "निम्नलिखित शब्दों को शब्दकोश में उनके आने के क्रम में व्यवस्थित कीजिए:<br>1. Intense<br>2. Intellect<br>3. Intend<br>4. Intelligent<br>5. Intensity"}, "question_image": "", "options": {"option_1": {"en": "5, 1, 3, 2, 4", "hi": "5, 1, 3, 2, 4", "image": ""}, "option_2": {"en": "2, 4, 3, 1, 5", "hi": "2, 4, 3, 1, 5", "image": ""}, "option_3": {"en": "5, 3, 2, 4, 1", "hi": "5, 3, 2, 4, 1", "image": ""}, "option_4": {"en": "2, 4, 1, 3, 5", "hi": "2, 4, 1, 3, 5", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Comparing the words alphabetically:<br>• Inte<b>lle<\/b>ct (2)<br>• Inte<b>lli<\/b>gent (4)<br>• Inte<b>nd<\/b> (3)<br>• Inte<b>nse<\/b> (1)<br>• Inte<b>nsi<\/b>ty (5)<br>Correct dictionary order: <b>2, 4, 3, 1, 5<\/b>.", "hi": "शब्दकोश के क्रमानुसार तुलना करने पर:<br>• Inte<b>lle<\/b>ct (2)<br>• Inte<b>lli<\/b>gent (4)<br>• Inte<b>nd<\/b> (3)<br>• Inte<b>nse<\/b> (1)<br>• Inte<b>nsi<\/b>ty (5)<br>अतः सही क्रम <b>2, 4, 3, 1, 5<\/b> है।"}, "solution_image": ""}, {"q_no": 23, "id": "50023", "topic": "", "difficulty_level": "", "question": {"en": "After interchanging which two numbers (not digits) will the value of the expression become 81?<br>798 + 27 – 719 ÷ 6 × 5", "hi": "किन दो संख्याओं (अंकों को नहीं) को आपस में बदलने के बाद दिए गए व्यंजक का मान 81 हो जाएगा?<br>798 + 27 – 719 ÷ 6 × 5"}, "question_image": "", "options": {"option_1": {"en": "5 and 27", "hi": "5 और 27", "image": ""}, "option_2": {"en": "798 and 719", "hi": "798 और 719", "image": ""}, "option_3": {"en": "27 and 6", "hi": "27 और 6", "image": ""}, "option_4": {"en": "6 and 5", "hi": "6 और 5", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Interchanging <b>798 and 719<\/b>:<br>719 + 27 − 798 ÷ 6 × 5<br>= 719 + 27 − 133 × 5<br>= 746 − 665 = <b>81<\/b>.<br>Hence, <b>798 and 719<\/b> should be interchanged.", "hi": "<b>798 और 719<\/b> को आपस में बदलने पर:<br>719 + 27 − 798 ÷ 6 × 5<br>= 719 + 27 − 133 × 5<br>= 746 − 665 = <b>81<\/b>।<br>अतः <b>798 और 719<\/b> को आपस में बदला जाना चाहिए।"}, "solution_image": ""}, {"q_no": 24, "id": "50024", "topic": "", "difficulty_level": "", "question": {"en": "Look at the matrix and choose the number from the options that should go in place of the question mark:<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><td>6<\/td><td>18<\/td><td>42<\/td><\/tr><tr><td>5<\/td><td>15<\/td><td>35<\/td><\/tr><tr><td>8<\/td><td>24<\/td><td>?<\/td><\/tr><\/table>", "hi": "आव्यूह (matrix) को ध्यानपूर्वक देखिए और विकल्पों में से उस संख्या का चयन कीजिए जो प्रश्नवाचक चिह्न (?) के स्थान पर आएगी:<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><td>6<\/td><td>18<\/td><td>42<\/td><\/tr><tr><td>5<\/td><td>15<\/td><td>35<\/td><\/tr><tr><td>8<\/td><td>24<\/td><td>?<\/td><\/tr><\/table>"}, "question_image": "", "options": {"option_1": {"en": "42", "hi": "42", "image": ""}, "option_2": {"en": "56", "hi": "56", "image": ""}, "option_3": {"en": "24", "hi": "24", "image": ""}, "option_4": {"en": "16", "hi": "16", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "In each row, (Column 2) = 3 × (Column 1), and (Column 3) = 7 × (Column 1):<br>• Row 1: 6 × 3 = 18, and 6 × 7 = 42.<br>• Row 2: 5 × 3 = 15, and 5 × 7 = 35.<br>• Row 3: 8 × 3 = 24, and 8 × 7 = <b>56<\/b>.", "hi": "प्रत्येक पंक्ति में, (स्तंभ 2) = 3 × (स्तंभ 1), और (स्तंभ 3) = 7 × (स्तंभ 1):<br>• पंक्ति 1: 6 × 3 = 18, और 6 × 7 = 42।<br>• पंक्ति 2: 5 × 3 = 15, और 5 × 7 = 35।<br>• पंक्ति 3: 8 × 3 = 24, और 8 × 7 = <b>56<\/b>।"}, "solution_image": ""}, {"q_no": 25, "id": "50025", "topic": "", "difficulty_level": "", "question": {"en": "In a certain code language, ‘bright red lamp’ is written as ‘ki po ru’, ‘red green wall’ is written as ‘po la mi’ and ‘lamp wall door’ is written as ‘ru mi ta’. What is the code for ‘green’?", "hi": "एक निश्चित कूट भाषा में, ‘bright red lamp’ को ‘ki po ru’ लिखा जाता है, ‘red green wall’ को ‘po la mi’ लिखा जाता है और ‘lamp wall door’ को ‘ru mi ta’ लिखा जाता है। ‘green’ के लिए कूट क्या है?"}, "question_image": "", "options": {"option_1": {"en": "po", "hi": "po", "image": ""}, "option_2": {"en": "la", "hi": "la", "image": ""}, "option_3": {"en": "mi", "hi": "mi", "image": ""}, "option_4": {"en": "ru", "hi": "ru", "image": ""}}, "answer": "2", "correct_score": "", "negative_score": "", "solution_text": {"en": "Comparing the given statements:<br>1. ‘bright <b>red<\/b> lamp’ = ‘ki <b>po<\/b> ru’<br>2. ‘<b>red<\/b> green <i>wall<\/i>’ = ‘<b>po<\/b> la <i>mi<\/i>’<br>3. ‘lamp <i>wall<\/i> door’ = ‘ru <i>mi<\/i> ta’<br>• Common in (1) and (2): ‘red’ = ‘po’<br>• Common in (2) and (3): ‘wall’ = ‘mi’<br>• Remaining in (2): ‘green’ = <b>la<\/b>.", "hi": "दिए गए कथनों की तुलना करने पर:<br>• (1) और (2) में उभयनिष्ठ: ‘red’ = ‘po’<br>• (2) और (3) में उभयनिष्ठ: ‘wall’ = ‘mi’<br>• कथन (2) में शेष शब्द ‘green’ का कूट <b>la<\/b> है।"}, "solution_image": ""}];
+var N = QUESTIONS.length;
+var STORAGE_KEY = CFG.storageKey;
+var OPT_LETTERS = ["A","B","C","D","E"];
+var OPT_KEYS = ["option_1","option_2","option_3","option_4","option_5"];
+
+var hasHindi = QUESTIONS.some(function(q){ return q.question && q.question.hi; });
+
+var state = null;
+var timerHandle = null;
+
+function $(id){ return document.getElementById(id); }
+
+function freshState(){
+  var qs = [];
+  for(var i=0;i<N;i++){ qs.push({status:"notvisited", selected:null, solutionSeen:false}); }
+  return {
+    phase: "welcome",
+    current: 0,
+    q: qs,
+    instantFeedback: false,
+    timeLeft: CFG.totalTimeSeconds,
+    startedAt: null,
+    finishedAt: null,
+    result: null,
+    solIndex: 0,
+    paletteHidden: false,
+    solPaletteHidden: false,
+    lang: "en",
+    solLang: "en"
+  };
+}
+
+function loadState(){
+  try{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return freshState();
+    var parsed = JSON.parse(raw);
+    if(!parsed || parsed.n !== N || !parsed.s || !parsed.s.q || parsed.s.q.length !== N) return freshState();
+    return parsed.s;
+  }catch(e){ return freshState(); }
+}
+
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify({n:N, s:state})); }catch(e){}
+}
+
+function escapeHtml(s){
+  var d = document.createElement("div");
+  d.textContent = s == null ? "" : String(s);
+  return d.innerHTML;
+}
+
+function qHtml(q, lang){ return (lang === "hi" && q.question.hi) ? q.question.hi : q.question.en; }
+function optHtml(q, key, lang){
+  var o = q.options[key];
+  if(!o) return "";
+  return (lang === "hi" && o.hi) ? o.hi : o.en;
+}
+function solHtml(q, lang){
+  if(!q.solution_text) return "";
+  return (lang === "hi" && q.solution_text.hi) ? q.solution_text.hi : q.solution_text.en;
+}
+
+function pad2(n){ n = Math.floor(n); return n < 10 ? "0"+n : ""+n; }
+function fmtClock(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return pad2(m) + ":" + pad2(s);
+}
+function fmtLong(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return m + "m " + s + "s";
+}
+
+/* ================= HEADER / STATIC TEXT ================= */
+function initStaticText(){
+  document.title = CFG.examTitle + " | " + CFG.sectionLabel;
+  $("wTitle").textContent = CFG.examTitle;
+  $("wSub").textContent = CFG.sectionLabel;
+  $("wTotalQ").textContent = N;
+  $("wTotalTime").textContent = Math.round(CFG.totalTimeSeconds/60);
+  $("wMarks").textContent = "+" + CFG.correctScoreDisplay + " / -" + CFG.negativeScoreDisplay;
+
+  $("hdrTitle").textContent = CFG.examTitle;
+  $("hdrSub").textContent = CFG.sectionLabel;
+  $("solHdrTitle").textContent = CFG.examTitle;
+  $("sectionTab").textContent = CFG.sectionLabel;
+  $("solSectionTab").textContent = CFG.sectionLabel;
+  $("paletteTitle").textContent = CFG.sectionLabel + " :";
+  $("solPaletteTitle").textContent = CFG.sectionLabel + " :";
+  $("resSub").textContent = CFG.examTitle + " \u2014 " + CFG.sectionLabel;
+
+  if(hasHindi){
+    var opt = '<option value="en">English</option><option value="hi">Hindi</option>';
+    $("langSelect").innerHTML = opt;
+    $("solLangSelect").innerHTML = opt;
+  }
+}
+
+/* ================= WELCOME ================= */
+function initWelcome(){
+  $("startTestBtn").addEventListener("click", function(){
+    state.instantFeedback = $("instantFeedbackToggle").checked;
+    state.phase = "testing";
+    state.startedAt = state.startedAt || Date.now();
+    saveState();
+    enterTestPage();
+    try{
+      var el = document.documentElement;
+      if(el.requestFullscreen){ el.requestFullscreen().catch(function(){}); }
+    }catch(e){}
+  });
+}
+
+function enterTestPage(){
+  $("welcomePage").classList.add("hidden-page");
+  $("testPage").classList.remove("hidden-page");
+  $("langSelect").value = state.lang;
+  applyPaletteCollapse();
+  renderQuestion();
+  startTimer();
+}
+
+/* ================= STATUS / PALETTE ================= */
+function statusCounts(){
+  var c = {notvisited:0, notanswered:0, answered:0, marked:0, markedans:0};
+  for(var i=0;i<N;i++){ c[state.q[i].status]++; }
+  return c;
+}
+
+function renderPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = state.q[i].status;
+    var cur = (i === state.current) ? " current" : "";
+    html += '<button type="button" class="qnum ' + st + cur + '" onclick="goTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("paletteGrid").innerHTML = html;
+  var c = statusCounts();
+  $("stAnswered").textContent = c.answered;
+  $("stNotAnswered").textContent = c.notanswered;
+  $("stMarked").textContent = c.marked;
+  $("stAnsMarked").textContent = c.markedans;
+  $("stNotVisited").textContent = c.notvisited;
+  $("totalAnsweredTop").textContent = c.answered + c.markedans;
+}
+
+function togglePalette(){
+  state.paletteHidden = !state.paletteHidden;
+  applyPaletteCollapse();
+  saveState();
+}
+function applyPaletteCollapse(){
+  var p = $("paletteWrap");
+  p.classList.toggle("hidden", state.paletteHidden);
+  $("collapseArrow").innerHTML = state.paletteHidden ? "&#9654;" : "&#9664;";
+}
+
+/* ================= QUESTION RENDER ================= */
+function renderQuestion(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  if(st.status === "notvisited") st.status = "notanswered";
+
+  $("qNoHeading").textContent = "Question No " + (i+1);
+  var topicEl = $("qTopicTag");
+  if(q.topic){ topicEl.textContent = q.topic; topicEl.style.display = "inline-block"; }
+  else { topicEl.style.display = "none"; }
+
+  $("qText").innerHTML = qHtml(q, state.lang);
+  var imgEl = $("qImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var checked = st.selected === val ? "checked" : "";
+    var cls = st.selected === val ? "selected" : "";
+    var img = opt.image ? '<div class="qimg"><img src="'+opt.image+'" alt="option image"></div>' : "";
+    optsHtml += '<label class="' + cls + '" data-opt="' + val + '">' +
+      '<input type="radio" name="opt" value="' + val + '" ' + checked + ' onclick="selectOption(\'' + val + '\')">' +
+      OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.lang) + img +
+      '</label>';
+  });
+  $("qOptions").innerHTML = optsHtml;
+  decorateImages($("qText")); decorateImages($("qImg")); decorateImages($("qOptions"));
+
+  $("showSolBtn").style.display = state.instantFeedback ? "inline-flex" : "none";
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+
+  applyFeedback();
+  renderPalette();
+  saveState();
+}
+
+function applyFeedback(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var fb = $("fbStrip");
+  fb.className = "fb-strip";
+  fb.textContent = "";
+
+  var labels = $all("#qOptions label");
+  labels.forEach(function(lab){
+    lab.classList.remove("selected","fb-correct","fb-wrong");
+    var badge = lab.querySelector(".opt-badge");
+    if(badge) badge.remove();
+    var optKey = lab.getAttribute("data-opt");
+    var isSel = optKey === st.selected;
+    if(isSel) lab.classList.add("selected");
+
+    if(state.instantFeedback && st.selected){
+      var isCorrect = optKey === q.answer;
+      if(isCorrect){
+        lab.classList.add("fb-correct");
+        var b1 = document.createElement("span");
+        b1.className = "opt-badge ok";
+        b1.textContent = "Correct";
+        lab.appendChild(b1);
+      }
+      if(isSel && !isCorrect){
+        lab.classList.add("fb-wrong");
+        var b2 = document.createElement("span");
+        b2.className = "opt-badge no";
+        b2.textContent = "Your pick";
+        lab.appendChild(b2);
+      }
+    }
+  });
+
+  if(state.instantFeedback && st.selected){
+    var correct = st.selected === q.answer;
+    fb.classList.add("show", correct ? "ok" : "no");
+    fb.textContent = correct ? "Correct answer!" : "Incorrect. The correct option is highlighted in green.";
+  }
+
+  renderLiveSolutionBox();
+}
+
+function renderLiveSolutionBox(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var box = $("liveSolutionBox");
+  if(state.instantFeedback && st.solutionSeen){
+    box.style.display = "block";
+    box.innerHTML = "<h4>Solution</h4><p><b>Correct Answer:</b> Option " + q.answer + "</p>" +
+      (solHtml(q, state.lang) || "<i>No solution text provided.</i>");
+    decorateImages(box);
+  } else {
+    box.style.display = "none";
+    box.innerHTML = "";
+  }
+}
+
+function toggleLiveSolution(){
+  var st = state.q[state.current];
+  st.solutionSeen = !st.solutionSeen;
+  saveState();
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+  renderLiveSolutionBox();
+}
+
+function $all(sel){ return Array.prototype.slice.call(document.querySelectorAll(sel)); }
+
+/* ================= INTERACTIONS ================= */
+function selectOption(val){
+  state.q[state.current].selected = val;
+  applyFeedback();
+  saveState();
+}
+
+function commitStatusFromSelection(i){
+  var st = state.q[i];
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  if(st.selected !== null){
+    st.status = wasMarked ? "markedans" : "answered";
+  } else {
+    st.status = wasMarked ? "marked" : "notanswered";
+  }
+}
+
+function saveAndNext(){
+  commitStatusFromSelection(state.current);
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function markForReview(){
+  var st = state.q[state.current];
+  st.status = st.selected !== null ? "markedans" : "marked";
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function clearResponse(){
+  var st = state.q[state.current];
+  st.selected = null;
+  st.solutionSeen = false;
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  st.status = wasMarked ? "marked" : "notanswered";
+  renderQuestion();
+}
+
+function goPrev(){ goTo(Math.max(state.current-1, 0)); }
+function goTo(i){ if(i<0||i>=N) return; state.current = i; renderQuestion(); }
+
+function setLang(v){ state.lang = v; saveState(); renderQuestion(); }
+function setSolLang(v){ state.solLang = v; saveState(); renderSolQuestion(); }
+
+/* ================= ZOOM / FULLSCREEN ================= */
+var ZOOM_KEY = "sscscholars_zoom_level";
+var zoomLevel = 1;
+try{ var zz = parseFloat(localStorage.getItem(ZOOM_KEY)); if(zz >= 0.6 && zz <= 3) zoomLevel = zz; }catch(e){}
+function zoomChange(dir){
+  zoomLevel = Math.min(3, Math.max(0.6, Math.round((zoomLevel + dir*0.1)*100)/100));
+  applyZoom();
+}
+function zoomReset(){ zoomLevel = 1; applyZoom(); }
+function applyZoom(){
+  document.documentElement.style.setProperty("--zoom", zoomLevel);
+  var labs = document.querySelectorAll(".zoomLabel");
+  for(var i=0;i<labs.length;i++){ labs[i].textContent = Math.round(zoomLevel*100) + "%"; }
+  try{ localStorage.setItem(ZOOM_KEY, String(zoomLevel)); }catch(e){}
+  applyImgZoom();
+}
+
+/* ---- images inside question / option / solution HTML follow the same zoom ---- */
+function sizeImg(img){
+  if(!img.naturalWidth) return;
+  var host = img.closest(".qbody") || img.closest(".explbox") || document.body;
+  var cap = Math.max(160, host.clientWidth - 90);
+  var base = Math.min(img.naturalWidth, cap);
+  img.style.width = Math.round(base * zoomLevel) + "px";
+  img.style.height = "auto";
+}
+function applyImgZoom(){
+  var imgs = document.querySelectorAll(".zwrap img");
+  for(var i=0;i<imgs.length;i++){ sizeImg(imgs[i]); }
+}
+/* ---- Maths (LaTeX) rendering: KaTeX if loaded, else readable plain-text fallback ---- */
+var MATH_DELIMS = [
+  {left:"$$", right:"$$", display:true},
+  {left:"\\[", right:"\\]", display:true},
+  {left:"\\(", right:"\\)", display:false}
+];
+function texToHtml(t){
+  var s = t;
+  s = s.replace(/\\left|\\right|\\displaystyle|\\!|\\,|\\;|\\:/g, "");
+  s = s.replace(/\\text\{([^{}]*)\}|\\mathrm\{([^{}]*)\}|\\textbf\{([^{}]*)\}/g, function(m,a,b,c){ return a||b||c||""; });
+  for(var i=0;i<4;i++){
+    s = s.replace(/\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}/g, "($1)/($2)");
+    s = s.replace(/\\sqrt\[([^\]]*)\]\{([^{}]*)\}/g, "<sup>$1</sup>&radic;($2)");
+    s = s.replace(/\\sqrt\{([^{}]*)\}/g, "&radic;($1)");
+  }
+  s = s.replace(/\\sqrt\s*([0-9a-zA-Z])/g, "&radic;$1");
+  s = s.replace(/\^\{([^{}]*)\}/g, "<sup>$1</sup>").replace(/\^([0-9a-zA-Z])/g, "<sup>$1</sup>");
+  s = s.replace(/_\{([^{}]*)\}/g, "<sub>$1</sub>").replace(/_([0-9a-zA-Z])/g, "<sub>$1</sub>");
+  var map = {times:"×", div:"÷", pm:"±", mp:"∓", cdot:"·", le:"≤", leq:"≤", ge:"≥", geq:"≥", ne:"≠", neq:"≠",
+    approx:"≈", circ:"°", pi:"π", theta:"θ", alpha:"α", beta:"β", gamma:"γ", delta:"δ", Delta:"Δ", sigma:"σ",
+    lambda:"λ", mu:"μ", infty:"∞", therefore:"∴", because:"∵", rightarrow:"→", Rightarrow:"⇒", to:"→",
+    angle:"∠", triangle:"△", perp:"⊥", parallel:"∥", degree:"°", ldots:"…", cdots:"…", dots:"…", quad:" ", qquad:"  "};
+  s = s.replace(/\\([a-zA-Z]+)/g, function(m,n){ return map.hasOwnProperty(n) ? map[n] : n; });
+  s = s.replace(/\\%/g, "%").replace(/\\&/g, "&").replace(/\\\\/g, "<br>").replace(/\\ /g, " ");
+  s = s.replace(/[{}]/g, "");
+  return s;
+}
+function mathFallback(root){
+  var h = root.innerHTML;
+  if(h.indexOf("\\(") === -1 && h.indexOf("\\[") === -1 && h.indexOf("$$") === -1) return;
+  h = h.replace(/\\\(([\s\S]*?)\\\)/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\\\[([\s\S]*?)\\\]/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\$\$([\s\S]*?)\$\$/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  root.innerHTML = h;
+}
+function renderMath(root){
+  if(!root) return;
+  if(typeof renderMathInElement === "function"){
+    try{ renderMathInElement(root, {delimiters: MATH_DELIMS, throwOnError:false, strict:false}); }catch(e){ mathFallback(root); }
+  } else {
+    mathFallback(root);
+  }
+}
+
+function decorateImages(root){
+  if(!root) return;
+  renderMath(root);
+  var imgs = root.querySelectorAll("img");
+  for(var i=0;i<imgs.length;i++){
+    var img = imgs[i];
+    if(img.parentNode && img.parentNode.classList && img.parentNode.classList.contains("zwrap")) continue;
+    img.removeAttribute("style");
+    img.removeAttribute("width");
+    img.removeAttribute("height");
+    var wrap = document.createElement("span");
+    wrap.className = "zwrap";
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(img);
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "zbtn"; b.title = "Open full-size / zoom"; b.innerHTML = "&#128269;";
+    wrap.appendChild(b);
+    if(img.complete && img.naturalWidth){ sizeImg(img); }
+    else { img.addEventListener("load", function(e){ sizeImg(e.target); }); }
+  }
+}
+window.addEventListener("resize", function(){ applyImgZoom(); });
+
+/* ---- Lightbox: wheel zoom, drag to pan, fit / 1:1 ---- */
+var lb = {scale:1, x:0, y:0, drag:false, sx:0, sy:0, fitScale:1};
+function lbEl(){ return {box:$("imgLightbox"), stage:$("lbStage"), img:$("lbImg")}; }
+function lbApply(){
+  var e = lbEl();
+  e.img.style.transform = "translate(" + lb.x + "px," + lb.y + "px) scale(" + lb.scale + ")";
+  $("lbPct").textContent = Math.round(lb.scale*100) + "%";
+}
+function lbOpen(src){
+  var e = lbEl();
+  e.box.classList.add("show");
+  e.img.onload = function(){ lbFit(); };
+  e.img.src = src;
+  if(e.img.complete && e.img.naturalWidth){ lbFit(); }
+}
+function lbFit(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  var iw = e.img.naturalWidth || 1, ih = e.img.naturalHeight || 1;
+  var sc = Math.min(sw/iw, sh/ih);
+  lb.fitScale = sc;
+  /* small images: blow them up so they are actually readable */
+  if(sc > 1) sc = Math.min(sc, 4);
+  lb.scale = sc;
+  lb.x = (sw - iw*sc)/2; lb.y = (sh - ih*sc)/2;
+  lbApply();
+}
+function lbActual(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  lb.scale = 1;
+  lb.x = (sw - e.img.naturalWidth)/2; lb.y = (sh - e.img.naturalHeight)/2;
+  lbApply();
+}
+function lbZoomAt(factor, cx, cy){
+  var ns = Math.min(12, Math.max(0.1, lb.scale * factor));
+  var k = ns / lb.scale;
+  lb.x = cx - (cx - lb.x) * k;
+  lb.y = cy - (cy - lb.y) * k;
+  lb.scale = ns;
+  lbApply();
+}
+function lbZoom(dir){
+  var e = lbEl();
+  lbZoomAt(dir > 0 ? 1.25 : 0.8, e.stage.clientWidth/2, e.stage.clientHeight/2);
+}
+function lbClose(){ $("imgLightbox").classList.remove("show"); }
+function lbIsOpen(){ return $("imgLightbox").classList.contains("show"); }
+
+(function initLightbox(){
+  var stage = $("lbStage");
+  stage.addEventListener("wheel", function(ev){
+    ev.preventDefault();
+    var r = stage.getBoundingClientRect();
+    lbZoomAt(ev.deltaY < 0 ? 1.15 : 1/1.15, ev.clientX - r.left, ev.clientY - r.top);
+  }, {passive:false});
+  stage.addEventListener("pointerdown", function(ev){
+    lb.drag = true; lb.sx = ev.clientX - lb.x; lb.sy = ev.clientY - lb.y;
+    stage.classList.add("drag");
+    try{ stage.setPointerCapture(ev.pointerId); }catch(e){}
+  });
+  stage.addEventListener("pointermove", function(ev){
+    if(!lb.drag) return;
+    lb.x = ev.clientX - lb.sx; lb.y = ev.clientY - lb.sy; lbApply();
+  });
+  function endDrag(){ lb.drag = false; stage.classList.remove("drag"); }
+  stage.addEventListener("pointerup", endDrag);
+  stage.addEventListener("pointercancel", endDrag);
+  stage.addEventListener("dblclick", function(){
+    if(Math.abs(lb.scale - lb.fitScale) < 0.02 || lb.fitScale > 1){ var e = lbEl(); lbZoomAt(2, e.stage.clientWidth/2, e.stage.clientHeight/2); }
+    else { lbFit(); }
+  });
+  /* two-finger pinch on touch screens */
+  var pts = {}, pinchD = 0;
+  stage.addEventListener("pointerdown", function(ev){ pts[ev.pointerId] = ev; });
+  stage.addEventListener("pointermove", function(ev){
+    if(!pts[ev.pointerId]) return;
+    pts[ev.pointerId] = ev;
+    var ids = Object.keys(pts);
+    if(ids.length === 2){
+      var a = pts[ids[0]], b = pts[ids[1]];
+      var d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY);
+      if(pinchD){
+        var r = stage.getBoundingClientRect();
+        lbZoomAt(d/pinchD, (a.clientX+b.clientX)/2 - r.left, (a.clientY+b.clientY)/2 - r.top);
+      }
+      pinchD = d;
+    }
+  });
+  function pend(ev){ delete pts[ev.pointerId]; pinchD = 0; }
+  stage.addEventListener("pointerup", pend);
+  stage.addEventListener("pointercancel", pend);
+
+  /* open lightbox: magnifier button always; clicking the picture itself everywhere
+     except inside answer options (there a click must still select the option) */
+  document.addEventListener("click", function(ev){
+    var t = ev.target;
+    if(!t || !t.closest) return;
+    var wrap = t.closest(".zwrap");
+    if(!wrap) return;
+    var img = wrap.querySelector("img");
+    if(!img) return;
+    var isBtn = t.classList.contains("zbtn");
+    var inOption = !!t.closest(".options label");
+    if(isBtn || !inOption){
+      ev.preventDefault(); ev.stopPropagation();
+      lbOpen(img.currentSrc || img.src);
+    }
+  }, true);
+})();
+
+function toggleFullscreen(){
+  try{
+    if(!document.fullscreenElement){ document.documentElement.requestFullscreen().catch(function(){}); }
+    else { document.exitFullscreen().catch(function(){}); }
+  }catch(e){}
+}
+document.addEventListener("fullscreenchange", function(){
+  var btn = $("fsBtn");
+  if(btn) btn.textContent = document.fullscreenElement ? "Exit Full Screen" : "Full Screen";
+});
+
+/* ================= PAUSE / TIMER ================= */
+function togglePause(){
+  if(state.phase !== "testing" && state.phase !== "paused") return;
+  if(state.phase === "testing"){
+    state.phase = "paused";
+    clearInterval(timerHandle);
+    $("pauseOverlay").classList.add("show");
+  } else {
+    state.phase = "testing";
+    $("pauseOverlay").classList.remove("show");
+    startTimer();
+  }
+  saveState();
+}
+
+function startTimer(){
+  if(timerHandle) clearInterval(timerHandle);
+  renderTime();
+  timerHandle = setInterval(function(){
+    if(state.phase !== "testing") return;
+    state.timeLeft -= 1;
+    if(state.timeLeft <= 0){
+      state.timeLeft = 0;
+      renderTime();
+      clearInterval(timerHandle);
+      doSubmit();
+      return;
+    }
+    renderTime();
+    if(state.timeLeft % 5 === 0) saveState();
+  }, 1000);
+}
+
+function renderTime(){
+  var box = $("timeleftBox");
+  $("timeLeft").textContent = fmtClock(state.timeLeft);
+  if(box) box.classList.toggle("low", state.timeLeft <= 120);
+}
+
+/* ================= SUBMIT ================= */
+function confirmSubmit(){
+  renderPalette();
+  var c = statusCounts();
+  $("mAnswered").textContent = c.answered + c.markedans;
+  $("mNotAnswered").textContent = c.notanswered;
+  $("mMarked").textContent = c.marked + c.markedans;
+  $("mNotVisited").textContent = c.notvisited;
+  $("submitModal").classList.add("show");
+}
+function closeSubmitModal(){ $("submitModal").classList.remove("show"); }
+
+function computeResult(){
+  var correct=0, wrong=0, unattempt=0, marks=0, negMarksTotal=0, maxMarks=0;
+  for(var i=0;i<N;i++){
+    var q = QUESTIONS[i];
+    var sel = state.q[i].selected;
+    var cs = (q.correct_score !== undefined && q.correct_score !== null && q.correct_score !== "") ? parseFloat(q.correct_score) : CFG.defaultCorrectScore;
+    var ns = (q.negative_score !== undefined && q.negative_score !== null && q.negative_score !== "") ? parseFloat(q.negative_score) : CFG.defaultNegativeScore;
+    maxMarks += cs;
+    if(sel === null || sel === undefined){ unattempt++; }
+    else if(sel === q.answer){ correct++; marks += cs; }
+    else { wrong++; negMarksTotal += ns; marks -= ns; }
+  }
+  var attempted = correct + wrong;
+  var accuracy = attempted > 0 ? (correct/attempted*100) : 0;
+  var timeTaken = CFG.totalTimeSeconds - state.timeLeft;
+  return {
+    correct: correct, wrong: wrong, unattempt: unattempt,
+    score: Math.round(marks*100)/100,
+    maxMarks: Math.round(maxMarks*100)/100,
+    negMarksTotal: Math.round(negMarksTotal*100)/100,
+    accuracy: Math.round(accuracy*10)/10,
+    timeTaken: timeTaken,
+    avgTime: Math.round(timeTaken / N),
+    total: N
+  };
+}
+
+function doSubmit(){
+  closeSubmitModal();
+  clearInterval(timerHandle);
+  state.phase = "submitted";
+  state.finishedAt = Date.now();
+  state.result = computeResult();
+  saveState();
+  try{ if(document.fullscreenElement && document.exitFullscreen){ document.exitFullscreen().catch(function(){}); } }catch(e){}
+  $("testPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+function renderResult(){
+  var r = state.result || computeResult();
+  $("finalScore").textContent = r.score;
+  $("stCorrect").textContent = r.correct;
+  $("stWrong").textContent = r.wrong;
+  $("stUnattempt").textContent = r.unattempt;
+  $("stAccuracy").textContent = r.accuracy + "%";
+  $("stMaxMarks").textContent = r.maxMarks;
+  $("stNegMarks").textContent = r.negMarksTotal;
+  $("stTimeTaken").textContent = fmtLong(r.timeTaken);
+  $("stAvgTime").textContent = fmtLong(r.avgTime);
+}
+
+function restartTest(){
+  if(confirm("This will erase your current attempt and start over. Continue?")){
+    try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+    window.location.reload();
+  }
+}
+
+/* ================= SOLUTIONS PAGE ================= */
+function solStatus(i){
+  var sel = state.q[i].selected;
+  var q = QUESTIONS[i];
+  if(sel === null || sel === undefined) return "skipped";
+  return sel === q.answer ? "correct" : "wrong";
+}
+
+function renderSolPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = solStatus(i);
+    var cls = st === "correct" ? "solcorrect" : st === "wrong" ? "solwrong" : "solskipped";
+    var cur = (i === state.solIndex) ? " current" : "";
+    html += '<button type="button" class="qnum ' + cls + cur + '" onclick="solGoTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("solPaletteGrid").innerHTML = html;
+}
+
+function renderSolQuestion(){
+  var i = state.solIndex;
+  var q = QUESTIONS[i];
+  var sel = state.q[i].selected;
+  var st = solStatus(i);
+
+  $("solQNoHeading").textContent = "Question No " + (i+1);
+  var badge = st === "correct" ? '<span class="sol-badge correct">Correct</span>'
+            : st === "wrong" ? '<span class="sol-badge wrong">Wrong</span>'
+            : '<span class="sol-badge skipped">Skipped</span>';
+  $("solBadgeHolder").innerHTML = badge;
+  $("solLangSelect").value = state.solLang;
+
+  $("solQText").innerHTML = qHtml(q, state.solLang);
+  var imgEl = $("solQImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var cls = "", tag = "";
+    if(val === q.answer){ cls = "right"; tag = '<span class="tagmini">CORRECT</span>'; }
+    else if(val === sel && sel !== q.answer){ cls = "picked-wrong"; tag = '<span class="tagmini">YOUR ANSWER</span>'; }
+    optsHtml += '<div class="soloption ' + cls + '">' + OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.solLang) + ' ' + tag + '</div>';
+  });
+  $("solOptions").innerHTML = optsHtml;
+  decorateImages($("solQText")); decorateImages($("solQImg")); decorateImages($("solOptions"));
+
+  var explHead = '<h4>Explanation</h4>';
+  $("solExpl").innerHTML = explHead + (solHtml(q, state.solLang) || "<i>No solution text provided.</i>");
+  decorateImages($("solExpl"));
+
+  $("solPrevBtn").disabled = (i === 0);
+  $("solNextBtn").disabled = (i === N-1);
+
+  renderSolPalette();
+  saveState();
+}
+
+function solGoTo(i){ state.solIndex = i; renderSolQuestion(); }
+function solGoNext(){ solGoTo(Math.min(state.solIndex+1, N-1)); }
+function solGoPrev(){ solGoTo(Math.max(state.solIndex-1, 0)); }
+
+function toggleSolPalette(){
+  state.solPaletteHidden = !state.solPaletteHidden;
+  applySolPaletteCollapse();
+  saveState();
+}
+function applySolPaletteCollapse(){
+  var p = $("solPaletteWrap");
+  p.classList.toggle("hidden", state.solPaletteHidden);
+  $("solCollapseArrow").innerHTML = state.solPaletteHidden ? "&#9654;" : "&#9664;";
+}
+
+function showSolutions(){
+  $("resultPage").classList.add("hidden-page");
+  $("solutionPage").classList.remove("hidden-page");
+  state.solIndex = 0;
+  applySolPaletteCollapse();
+  renderSolQuestion();
+  saveState();
+}
+function backToResult(){
+  $("solutionPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+/* ================= KEYBOARD SHORTCUTS ================= */
+document.addEventListener("keydown", function(e){
+  if(lbIsOpen()){
+    if(e.key === "Escape") lbClose();
+    else if(e.key === "+" || e.key === "=") lbZoom(1);
+    else if(e.key === "-") lbZoom(-1);
+    else if(e.key === "0") lbFit();
+    return;
+  }
+  if(state.phase !== "testing") return;
+  if(e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT")) return;
+  if(["1","2","3","4","5"].indexOf(e.key) !== -1){
+    var lab = document.querySelector('#qOptions label[data-opt="'+e.key+'"] input');
+    if(lab){ lab.checked = true; selectOption(e.key); }
+  } else if(e.key === "ArrowRight"){ saveAndNext(); }
+  else if(e.key === "ArrowLeft"){ goPrev(); }
+});
+
+/* ================= INIT ================= */
+function boot(){
+  applyZoom();
+  state = loadState();
+  initStaticText();
+  initWelcome();
+
+  if(state.phase === "submitted"){
+    $("welcomePage").classList.add("hidden-page");
+    $("solLangSelect").value = state.solLang;
+    renderResult();
+    $("resultPage").classList.remove("hidden-page");
+  } else if(state.phase === "testing" || state.phase === "paused"){
+    $("instantFeedbackToggle").checked = state.instantFeedback;
+    enterTestPage();
+    if(state.phase === "paused"){
+      clearInterval(timerHandle);
+      $("pauseOverlay").classList.add("show");
+    }
+  }
+  /* else: stay on welcomePage (its default state in the markup) */
+}
+
+if(document.readyState === "loading"){
+  document.addEventListener("DOMContentLoaded", boot);
+} else {
+  boot();
+}
+
+</script>
+</body>
+</html>

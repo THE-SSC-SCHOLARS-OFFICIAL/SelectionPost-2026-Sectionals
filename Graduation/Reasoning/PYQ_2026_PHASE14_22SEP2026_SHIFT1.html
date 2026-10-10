@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SELECTION POST - PHASE 14 - GRADUATION - 22 SEP 2026 - SHIFT 1 | General Intelligence & Reasoning</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --zoom: 1;
+  --blue:#3b6df0;
+  --blue-dark:#2952c8;
+  --blue-light:#eaf0ff;
+  --green:#17a668;
+  --green-dark:#0f8a56;
+  --purple:#8b3fe8;
+  --purple-dark:#6a24c4;
+  --red:#f0432f;
+  --red-dark:#c92c1a;
+  --gold:#e0a100;
+  --grey:#9aa2b1;
+  --ink:#1a2233;
+  --panel-border:#e2e6ee;
+  --bg:#f4f6fb;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;font-family:'Inter',Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:calc(14px * var(--zoom));}
+h1,h2,h3{font-family:'Poppins',Arial,sans-serif;}
+a{cursor:pointer;}
+img{max-width:100%;}
+.hidden-page{display:none;}
+
+/* ============ HEADER ============ */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;background:#fff;border-bottom:1px solid #eceff5;flex-wrap:wrap;gap:8px;box-shadow:0 1px 3px rgba(20,30,60,.04);}
+.topbar-left{display:flex;align-items:center;gap:10px;}
+.logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#3b6df0,#8b3fe8);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px;box-shadow:0 3px 8px rgba(59,109,240,.35);flex-shrink:0;}
+.brandname{font-weight:800;font-size:calc(11.5px*var(--zoom));letter-spacing:.3px;color:var(--blue-dark);text-transform:uppercase;white-space:nowrap;}
+.btn{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;border:none;padding:8px 15px;border-radius:7px;font-weight:600;font-size:calc(13px*var(--zoom));cursor:pointer;transition:transform .12s ease, box-shadow .12s ease;box-shadow:0 2px 6px rgba(59,109,240,.28);}
+.btn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(59,109,240,.38);}
+.btn:active{transform:translateY(0);}
+.btn.submitbtn{background:linear-gradient(135deg,#17a668,#0f8a56);box-shadow:0 2px 6px rgba(23,166,104,.35);}
+.btn.submitbtn:hover{box-shadow:0 5px 14px rgba(23,166,104,.45);}
+.btn.purplebtn{background:linear-gradient(135deg,var(--purple),var(--purple-dark));box-shadow:0 2px 6px rgba(139,63,232,.32);}
+.btn.purplebtn:hover{box-shadow:0 5px 14px rgba(139,63,232,.42);}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none !important;}
+.btn-outline{background:#fff;color:var(--blue);border:1.5px solid var(--blue);padding:5px 11px;border-radius:7px;font-size:calc(12px*var(--zoom));font-weight:600;cursor:pointer;transition:.12s;}
+.btn-outline:hover{background:var(--blue-light);}
+.btn-gold{background:linear-gradient(135deg,#f5c451,var(--gold));color:#4a3300;border:none;padding:8px 15px;border-radius:7px;font-weight:700;font-size:calc(13px*var(--zoom));cursor:pointer;box-shadow:0 2px 6px rgba(224,161,0,.35);}
+.title-block{text-align:center;font-weight:700;font-size:calc(17px*var(--zoom));line-height:1.3;flex:1;min-width:260px;letter-spacing:.2px;}
+.title-block .sub{display:block;font-size:calc(11.5px*var(--zoom));font-weight:600;color:#7d8494;margin-top:1px;text-transform:none;letter-spacing:0;}
+.topbar-right{display:flex;align-items:center;gap:14px;}
+.timeleft{font-weight:700;font-size:calc(15px*var(--zoom));background:#fff3f0;padding:6px 12px;border-radius:8px;border:1px solid #ffd9d1;}
+.timeleft span{color:var(--red);}
+.timeleft.low{background:#ffdcdc;}
+.pausebtn{display:flex;align-items:center;gap:5px;font-weight:600;color:var(--ink);background:#eef1f7;border:none;cursor:pointer;font-size:calc(13px*var(--zoom));padding:7px 12px;border-radius:8px;transition:.12s;}
+.pausebtn:hover{background:#e3e7f1;}
+
+/* ============ SUBBAR ============ */
+.subbar{display:flex;justify-content:space-between;align-items:center;padding:8px 18px;flex-wrap:wrap;gap:6px;background:#fff;border-bottom:1px solid #eceff5;}
+.subbar .taglist a{color:var(--red);font-weight:700;text-decoration:none;margin-right:16px;font-size:calc(12.5px*var(--zoom));border-bottom:2px solid transparent;transition:.12s;}
+.subbar .topictag{display:inline-block;background:var(--blue-light);color:var(--blue-dark);font-weight:700;font-size:calc(11.5px*var(--zoom));padding:3px 11px;border-radius:20px;}
+.qanswered{font-weight:700;font-size:calc(13px*var(--zoom));}
+.qanswered span{color:#e08e00;background:#fff6e5;padding:2px 9px;border-radius:6px;}
+
+/* ============ CONTROL ROW ============ */
+.controlrow{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;flex-wrap:wrap;gap:8px;}
+.section-tab{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;border:none;padding:10px 18px;border-radius:8px;font-weight:700;font-size:calc(14px*var(--zoom));box-shadow:0 3px 8px rgba(23,166,104,.3);}
+.navbtns{display:flex;gap:9px;flex-wrap:wrap;}
+.navbtns .btn{padding:10px 17px;}
+.collapse-arrow{width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;cursor:pointer;user-select:none;background:linear-gradient(135deg,var(--blue),var(--blue-dark));border-radius:50%;box-shadow:0 3px 8px rgba(59,109,240,.3);transition:.15s;}
+.collapse-arrow:hover{transform:scale(1.08);}
+
+/* ============ MAIN LAYOUT ============ */
+.mainwrap{display:flex;gap:0;padding:6px 18px 18px;align-items:flex-start;}
+.qpanel{flex:1;min-width:0;border:1px solid var(--panel-border);border-radius:12px;min-height:520px;background:#fff;box-shadow:0 4px 18px rgba(30,40,80,.06);overflow:hidden;}
+.qpanel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid #f0f2f7;flex-wrap:wrap;gap:8px;background:linear-gradient(180deg,#fbfcff,#fff);}
+.qpanel-head h3{margin:0;font-size:calc(17px*var(--zoom));color:var(--blue-dark);}
+.lang-select{padding:5px 9px;border:1px solid #d8dded;border-radius:6px;font-family:inherit;}
+.zoomgrp{display:flex;gap:6px;align-items:center;}
+.zoomgrp button{width:30px;height:30px;border-radius:7px;border:1px solid #d8dded;background:#fff;color:var(--blue-dark);font-weight:800;cursor:pointer;}
+.zoomgrp button:hover{background:var(--blue-light);}
+.qbody{padding:22px 24px;font-size:calc(15.5px*var(--zoom));line-height:1.6;}
+.qtext{margin-bottom:20px;font-weight:500;}
+.qtext p{margin:0 0 10px;}
+.qimg{margin:10px 0 18px;}
+.options label{display:flex;align-items:flex-start;gap:10px;margin:10px 0;padding:11px 14px;border-radius:9px;cursor:pointer;font-size:calc(15px*var(--zoom));border:1.5px solid #eef0f6;transition:.12s;position:relative;}
+.options label:hover{background:var(--blue-light);border-color:#cdddff;}
+.options input{margin-top:3px;transform:scale(1.2);accent-color:var(--blue);flex-shrink:0;}
+.options label.selected{background:var(--blue-light);border-color:var(--blue);}
+.options label.fb-correct{background:#e9f9f0;border-color:var(--green);}
+.options label.fb-wrong{background:#fdecea;border-color:var(--red);}
+.opt-badge{margin-left:auto;font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:20px;white-space:nowrap;}
+.opt-badge.ok{background:var(--green);color:#fff;}
+.opt-badge.no{background:var(--red);color:#fff;}
+.fb-strip{margin:6px 0 18px;padding:10px 14px;border-radius:9px;font-weight:700;font-size:calc(13.5px*var(--zoom));display:none;}
+.fb-strip.show{display:block;}
+.fb-strip.ok{background:#e9f9f0;color:var(--green-dark);}
+.fb-strip.no{background:#fdecea;color:var(--red-dark);}
+.qfooter{display:flex;gap:10px;padding:16px 24px;border-top:1px solid #f0f2f7;flex-wrap:wrap;align-items:center;}
+.btn-clear{background:#fff;color:#555;border:1.5px solid #d8dded;padding:9px 16px;border-radius:8px;font-weight:600;cursor:pointer;transition:.12s;}
+.btn-clear:hover{background:#f5f6fa;}
+
+.palette-wrap{width:330px;flex-shrink:0;margin-left:16px;transition:all .2s ease;}
+.palette-wrap.hidden{width:0;margin-left:0;overflow:hidden;opacity:0;}
+.palette-title{background:linear-gradient(135deg,#eef1fb,#e6ecff);font-weight:700;text-align:center;padding:10px;border:1px solid var(--panel-border);border-bottom:none;border-radius:12px 12px 0 0;color:var(--blue-dark);}
+.palette-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;padding:16px;border:1px solid var(--panel-border);border-top:none;max-height:260px;overflow-y:auto;background:#fff;}
+.qnum{aspect-ratio:1;border:none;border-radius:7px;color:#fff;font-weight:700;cursor:pointer;font-size:calc(13px*var(--zoom));position:relative;transition:transform .1s ease, box-shadow .1s ease;}
+.qnum:hover{transform:scale(1.08);}
+.qnum.notvisited{background:#aab1c0;}
+.qnum.notanswered{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.answered{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.marked{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans::after{content:"";position:absolute;bottom:3px;right:3px;width:8px;height:8px;background:#17a668;border-radius:50%;border:1.5px solid #fff;}
+.qnum.current{outline:3px solid #1a2233;outline-offset:2px;}
+.qnum.solcorrect{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.solwrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.solskipped{background:#aab1c0;}
+
+.analytics{border:1px solid var(--panel-border);border-radius:12px;margin-top:16px;overflow:hidden;box-shadow:0 3px 10px rgba(30,40,80,.05);}
+.analytics-head{background:linear-gradient(135deg,#2a3245,#1a2233);color:#fff;text-align:center;font-weight:700;padding:9px;font-size:calc(13.5px*var(--zoom));}
+.analytics table{width:100%;border-collapse:collapse;font-size:calc(13px*var(--zoom));background:#fff;}
+.analytics td{padding:10px 14px;border-bottom:1px solid #f0f2f7;}
+.analytics td:last-child{text-align:right;font-weight:700;color:#e08e00;width:40px;}
+.legend{padding:12px 14px;font-size:calc(12px*var(--zoom));display:flex;flex-direction:column;gap:7px;border:1px solid var(--panel-border);border-top:none;background:#fff;border-radius:0 0 12px 12px;}
+.legend div{display:flex;align-items:center;gap:8px;}
+.legend .dot{width:14px;height:14px;border-radius:4px;display:inline-block;flex-shrink:0;}
+
+.submitbar{text-align:center;padding:18px 0 4px;}
+.submitbar .btn{padding:11px 28px;font-size:calc(14px*var(--zoom));}
+
+/* pause overlay */
+.pauseoverlay{position:fixed;inset:0;background:rgba(15,18,30,.9);backdrop-filter:blur(3px);color:#fff;display:none;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:18px;text-align:center;padding:20px;}
+.pauseoverlay.show{display:flex;}
+.pauseoverlay h2{font-size:26px;margin:0;}
+.pauseoverlay p{margin:0;color:#c7c9d6;max-width:360px;}
+.pauseoverlay .btn{font-size:15px;padding:11px 30px;}
+
+/* modal */
+.modal-bg{position:fixed;inset:0;background:rgba(15,18,30,.55);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px;}
+.modal-bg.show{display:flex;}
+.modal{background:#fff;border-radius:14px;width:430px;max-width:92vw;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+.modal h3{margin-top:0;font-size:20px;}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0;}
+.modal-grid div{background:#f4f6fb;border-radius:9px;padding:12px;text-align:center;}
+.modal-grid b{display:block;font-size:21px;}
+.modal-actions{display:flex;justify-content:flex-end;gap:10px;}
+.modal-actions button{padding:9px 18px;border-radius:8px;border:none;font-weight:700;cursor:pointer;transition:.12s;}
+.modal-actions .cancel{background:#eef0f5;color:#333;}
+.modal-actions .cancel:hover{background:#e2e5ee;}
+.modal-actions .confirm{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;}
+.modal-actions .confirm:hover{filter:brightness(1.06);}
+
+/* ============ WELCOME PAGE ============ */
+.welcomewrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+.welcomecard{width:100%;max-width:640px;background:#fff;border-radius:18px;box-shadow:0 16px 50px rgba(30,40,80,.14);overflow:hidden;}
+.welcomehero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);color:#fff;padding:26px 30px 22px;text-align:center;}
+.welcomehero .wbrand{font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;opacity:.9;}
+.welcomehero h1{margin:8px 0 3px;font-size:22px;}
+.welcomehero .wsub{opacity:.92;font-size:13.5px;}
+.welcomebody{padding:26px 30px 30px;}
+.wmeta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px;}
+.wmeta div{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:10px;text-align:center;}
+.wmeta b{display:block;font-size:19px;color:var(--blue-dark);font-family:'Poppins',sans-serif;}
+.wmeta span{font-size:10.5px;color:#7d8494;text-transform:uppercase;letter-spacing:.3px;}
+.winstr{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:14px 16px;margin-bottom:18px;max-height:180px;overflow-y:auto;}
+.winstr h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:#7d8494;}
+.winstr ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.65;color:#374151;}
+.wlegend{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px;font-size:12px;color:#374151;}
+.wlegend span{display:inline-flex;align-items:center;gap:6px;}
+.wtoggle{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--blue-light);border:1px solid #cddcff;border-radius:12px;padding:12px 16px;margin-bottom:20px;}
+.wtoggle .ttl{font-weight:700;font-size:14px;color:var(--blue-dark);}
+.wtoggle .desc{font-size:12px;color:#5c6478;margin-top:2px;}
+.switch{position:relative;width:46px;height:26px;flex-shrink:0;}
+.switch input{opacity:0;width:0;height:0;}
+.slider{position:absolute;cursor:pointer;inset:0;background:#c9c9d6;border-radius:999px;transition:.2s;}
+.slider:before{content:"";position:absolute;height:20px;width:20px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s;box-shadow:0 1px 3px rgba(0,0,0,.3);}
+.switch input:checked + .slider{background:var(--blue);}
+.switch input:checked + .slider:before{transform:translateX(20px);}
+.btn-startbig{width:100%;padding:15px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;font-size:16px;font-weight:700;letter-spacing:.3px;box-shadow:0 8px 20px rgba(59,109,240,.35);cursor:pointer;}
+.btn-startbig:hover{box-shadow:0 10px 26px rgba(59,109,240,.45);}
+
+/* ============ RESULT / ANALYSIS PAGE ============ */
+.resultwrap{max-width:1020px;margin:28px auto;padding:0 18px;}
+.score-hero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);border-radius:18px;color:#fff;padding:34px 36px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;box-shadow:0 16px 40px rgba(59,109,240,.3);}
+.score-hero h1{margin:0 0 6px;font-size:30px;}
+.score-hero p{margin:0;opacity:.92;font-size:15px;}
+.score-ring{width:126px;height:126px;border-radius:50%;background:#fff;color:var(--blue);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:30px;box-shadow:0 10px 26px rgba(0,0,0,.22);font-family:'Poppins',sans-serif;flex-shrink:0;}
+.score-ring span{font-size:12px;font-weight:600;color:#888;font-family:'Inter',sans-serif;}
+.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0;}
+.statcard{background:#fff;border:1px solid #eceff5;border-radius:14px;padding:18px;text-align:center;box-shadow:0 4px 14px rgba(30,40,80,.06);transition:.15s;}
+.statcard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(30,40,80,.1);}
+.statcard b{display:block;font-size:26px;margin-bottom:5px;font-family:'Poppins',sans-serif;}
+.statcard.correct b{color:var(--green);}
+.statcard.wrong b{color:var(--red);}
+.statcard.unattempt b{color:var(--grey);}
+.statcard.accuracy b{color:var(--blue);}
+.resultactions{display:flex;gap:12px;justify-content:center;margin:28px 0;flex-wrap:wrap;}
+.resultactions button{padding:12px 24px;border-radius:9px;border:none;font-weight:700;cursor:pointer;font-size:14px;transition:.15s;}
+.resultactions .primary{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 4px 14px rgba(59,109,240,.3);}
+.resultactions .primary:hover{transform:translateY(-2px);}
+.resultactions .secondary{background:#fff;color:var(--blue);border:1.5px solid var(--blue);}
+.resultactions .secondary:hover{background:var(--blue-light);}
+
+/* ============ SOLUTIONS PAGE (exam-style paginated) ============ */
+.sol-badge{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;color:#fff;}
+.sol-badge.correct{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.sol-badge.wrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.sol-badge.skipped{background:#aab1c0;}
+.soloption{padding:11px 14px;border-radius:9px;margin:8px 0;border:1.5px solid #eef0f6;font-size:calc(15px*var(--zoom));display:flex;gap:8px;align-items:flex-start;}
+.soloption.right{background:#e9f9f0;border-color:var(--green);color:#0f6b41;font-weight:700;}
+.soloption.picked-wrong{background:#fdecea;border-color:var(--red);color:#9c2b1c;font-weight:700;}
+.soloption .tagmini{font-size:10.5px;font-weight:800;padding:1px 7px;border-radius:10px;margin-left:auto;white-space:nowrap;}
+.soloption.right .tagmini{background:var(--green);color:#fff;}
+.soloption.picked-wrong .tagmini{background:var(--red);color:#fff;}
+.explbox{margin-top:14px;background:linear-gradient(180deg,#f2f6ff,#eef2ff);border-left:4px solid var(--blue);padding:13px 16px;font-size:calc(13.5px*var(--zoom));border-radius:0 10px 10px 0;line-height:1.55;}
+.explbox b{color:var(--blue-dark);}
+.explbox h4{margin:0 0 6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--blue-dark);}
+
+/* ============ IMAGE ZOOM + LIGHTBOX (Selection Post: image-based questions) ============ */
+.qbody img,.explbox img,.soloption img,.options img{max-width:none !important;height:auto !important;vertical-align:middle;}
+.qbody,.explbox{overflow-x:auto;}
+.zwrap{position:relative;display:inline-block;max-width:none;line-height:0;vertical-align:middle;}
+.zwrap img{display:block;}
+.zwrap .zbtn{position:absolute;top:3px;right:3px;width:24px;height:24px;border-radius:50%;border:none;background:rgba(26,34,51,.72);color:#fff;font-size:12px;line-height:24px;padding:0;cursor:pointer;opacity:.55;transition:.12s;}
+.zwrap:hover .zbtn{opacity:1;}
+.qtext .zwrap img,.explbox .zwrap img{cursor:zoom-in;}
+.zoomgrp .zlabel{min-width:44px;width:auto;padding:0 6px;font-size:11.5px;font-weight:700;}
+#imgLightbox{position:fixed;inset:0;background:rgba(10,14,25,.92);z-index:9999;display:none;flex-direction:column;}
+#imgLightbox.show{display:flex;}
+#imgLightbox .lbbar{display:flex;gap:8px;align-items:center;justify-content:center;padding:10px;flex-wrap:wrap;}
+#imgLightbox .lbbar button{min-width:42px;height:38px;border-radius:8px;border:1px solid #3a4560;background:#1e2740;color:#fff;font-weight:800;font-size:16px;cursor:pointer;padding:0 12px;}
+#imgLightbox .lbbar button:hover{background:#2f3d66;}
+#imgLightbox .lbbar span{color:#cfd6ea;font-size:13px;font-weight:600;min-width:56px;text-align:center;}
+#imgLightbox .lbstage{flex:1;overflow:hidden;position:relative;cursor:grab;touch-action:none;}
+#imgLightbox .lbstage.drag{cursor:grabbing;}
+#imgLightbox .lbstage img{position:absolute;left:0;top:0;max-width:none !important;transform-origin:0 0;user-select:none;-webkit-user-drag:none;background:#fff;border-radius:4px;}
+#imgLightbox .lbhint{color:#8d97b5;font-size:11.5px;text-align:center;padding:6px 0 10px;}
+
+.mathfb{font-family:"Cambria Math","Times New Roman",serif;font-size:1.05em;white-space:nowrap;}
+.katex{font-size:1.08em;}
+.qtext .katex-display,.options .katex-display{margin:.4em 0;}
+
+@media(max-width:900px){
+  .mainwrap{flex-direction:column;}
+  .palette-wrap{width:100%;margin-left:0;margin-top:14px;}
+  .palette-wrap.hidden{width:100%;height:0;margin-top:0;}
+  .statgrid{grid-template-columns:repeat(2,1fr);}
+  .score-hero{flex-direction:column;text-align:center;}
+  .wmeta{grid-template-columns:1fr 1fr;}
+  .title-block{order:3;flex-basis:100%;}
+}
+
+</style>
+</head>
+<body>
+
+<!-- ============ WELCOME PAGE ============ -->
+<div id="welcomePage">
+  <div class="welcomewrap">
+    <div class="welcomecard">
+      <div class="welcomehero">
+        <div class="wbrand">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="wTitle">Exam Title</h1>
+        <div class="wsub" id="wSub">Section</div>
+      </div>
+      <div class="welcomebody">
+        <div class="wmeta">
+          <div><b id="wTotalQ">-</b><span>Questions</span></div>
+          <div><b id="wTotalTime">-</b><span>Minutes</span></div>
+          <div><b id="wMarks">-</b><span>Marking</span></div>
+        </div>
+        <div class="winstr">
+          <h4>Quick Instructions</h4>
+          <ul>
+            <li>Click an option to select your answer for the current question.</li>
+            <li>Use <b>Save &amp; Next</b> to move on, or <b>Mark for Review</b> to flag a question and come back later.</li>
+            <li>The question palette on the right shows your progress &mdash; click any number to jump straight to it.</li>
+            <li>You can <b>Pause</b> the test any time; your progress auto-saves, even if you close this tab.</li>
+            <li>The test auto-submits the moment the timer hits zero.</li>
+          </ul>
+        </div>
+        <div class="wlegend">
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#aab1c0"></i>Not Visited</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#f0432f"></i>Not Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#17a668"></i>Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#8b3fe8"></i>Marked</span>
+        </div>
+        <div class="wtoggle">
+          <div>
+            <div class="ttl">Instant Feedback Mode</div>
+            <div class="desc">See right / wrong the moment you pick an option, plus an on-demand Show Solution button.</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="instantFeedbackToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <button class="btn-startbig" id="startTestBtn" type="button">Start Test</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TEST PAGE ============ -->
+<div id="testPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+      <button class="btn-outline" id="fsBtn" type="button" onclick="toggleFullscreen()">Full Screen</button>
+    </div>
+    <div class="title-block">
+      <span id="hdrTitle">Exam Title</span>
+      <span class="sub" id="hdrSub">Section</span>
+    </div>
+    <div class="topbar-right">
+      <div class="timeleft" id="timeleftBox">Time Left: <span id="timeLeft">--:--</span></div>
+      <button class="pausebtn" onclick="togglePause()">&#10074;&#10074; <span id="pauseLabel">Pause Test</span></button>
+    </div>
+  </div>
+
+  <div class="subbar">
+    <div class="taglist"><span class="topictag" id="qTopicTag" style="display:none;"></span></div>
+    <div class="qanswered">Total Questions Answered: <span id="totalAnsweredTop">0</span></div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="sectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" onclick="goPrev()">Previous</button>
+      <button class="btn purplebtn" onclick="markForReview()">Mark for Review</button>
+      <button class="btn" onclick="saveAndNext()">Save &amp; Next</button>
+      <button class="btn submitbtn" onclick="confirmSubmit()">Submit Test</button>
+    </div>
+    <div class="collapse-arrow" onclick="togglePalette()" id="collapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="qNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="font-weight:600;font-size:12.5px;" id="langLabel">Language:</span>
+          <select class="lang-select" id="langSelect" onchange="setLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="qText"></div>
+        <div class="qimg" id="qImg" style="display:none;"></div>
+        <div class="options" id="qOptions"></div>
+        <div class="fb-strip" id="fbStrip"></div>
+        <div class="explbox" id="liveSolutionBox" style="display:none;"></div>
+      </div>
+      <div class="qfooter">
+        <button class="btn-clear" onclick="clearResponse()">Clear Response</button>
+        <button class="btn-gold" id="showSolBtn" type="button" onclick="toggleLiveSolution()" style="display:none;">Show Solution</button>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="paletteWrap">
+      <div class="palette-title" id="paletteTitle">Section:</div>
+      <div class="palette-grid" id="paletteGrid"></div>
+
+      <div class="analytics">
+        <div class="analytics-head">Analytics</div>
+        <table>
+          <tr><td>Answered</td><td id="stAnswered">0</td></tr>
+          <tr><td>Not Answered</td><td id="stNotAnswered">0</td></tr>
+          <tr><td>Marked for review</td><td id="stMarked">0</td></tr>
+          <tr><td>Answered &amp; Marked</td><td id="stAnsMarked">0</td></tr>
+          <tr><td>Not Visited</td><td id="stNotVisited">0</td></tr>
+        </table>
+      </div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#aab1c0"></span> Not Visited</div>
+        <div><span class="dot" style="background:#f0432f"></span> Not Answered</div>
+        <div><span class="dot" style="background:#17a668"></span> Answered</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Marked for Review</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Answered &amp; Marked</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RESULT PAGE ============ -->
+<div id="resultPage" class="hidden-page">
+  <div class="resultwrap">
+    <div class="score-hero">
+      <div>
+        <div class="wbrand" style="opacity:.85;">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="resTitle">Test Completed &#127881;</h1>
+        <p id="resSub">Exam Title</p>
+      </div>
+      <div class="score-ring"><span>SCORE</span><div id="finalScore">0</div></div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard correct"><b id="stCorrect">0</b>Correct</div>
+      <div class="statcard wrong"><b id="stWrong">0</b>Wrong</div>
+      <div class="statcard unattempt"><b id="stUnattempt">0</b>Unattempted</div>
+      <div class="statcard accuracy"><b id="stAccuracy">0%</b>Accuracy</div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard"><b id="stTimeTaken">--</b>Time Taken</div>
+      <div class="statcard"><b id="stMaxMarks">0</b>Max Marks</div>
+      <div class="statcard"><b id="stNegMarks">0</b>Negative Marks</div>
+      <div class="statcard"><b id="stAvgTime">--</b>Avg Time / Q</div>
+    </div>
+    <div class="resultactions">
+      <button class="secondary" onclick="showSolutions()">View Solutions</button>
+      <button class="primary" onclick="restartTest()">Retake Test</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SOLUTIONS PAGE ============ -->
+<div id="solutionPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+    </div>
+    <div class="title-block">
+      <span id="solHdrTitle">Exam Title</span>
+      <span class="sub">Solutions</span>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" onclick="backToResult()">&larr; Back to Analysis</button>
+    </div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="solSectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" id="solPrevBtn" onclick="solGoPrev()">Previous</button>
+      <button class="btn" id="solNextBtn" onclick="solGoNext()">Next</button>
+    </div>
+    <div class="collapse-arrow" onclick="toggleSolPalette()" id="solCollapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="solQNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span id="solBadgeHolder"></span>
+          <select class="lang-select" id="solLangSelect" onchange="setSolLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="solQText"></div>
+        <div class="qimg" id="solQImg" style="display:none;"></div>
+        <div id="solOptions"></div>
+        <div class="explbox" id="solExpl"></div>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="solPaletteWrap">
+      <div class="palette-title" id="solPaletteTitle">Section:</div>
+      <div class="palette-grid" id="solPaletteGrid"></div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#17a668"></span> Correct</div>
+        <div><span class="dot" style="background:#f0432f"></span> Wrong</div>
+        <div><span class="dot" style="background:#aab1c0"></span> Skipped</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pauseoverlay" id="pauseOverlay">
+  <h2>Test Paused</h2>
+  <p>Your timer is on hold and your progress is saved &mdash; you can even close this tab. Click resume when you're ready.</p>
+  <button class="btn" onclick="togglePause()">Resume Test</button>
+</div>
+
+<div class="modal-bg" id="submitModal">
+  <div class="modal">
+    <h3>Submit Test?</h3>
+    <div class="modal-grid">
+      <div><b id="mAnswered">0</b>Answered</div>
+      <div><b id="mNotAnswered">0</b>Not Answered</div>
+      <div><b id="mMarked">0</b>Marked for Review</div>
+      <div><b id="mNotVisited">0</b>Not Visited</div>
+    </div>
+    <p style="font-size:13px;color:#666;">Once submitted, you cannot change your answers.</p>
+    <div class="modal-actions">
+      <button class="cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="confirm" onclick="doSubmit()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<div id="imgLightbox">
+  <div class="lbbar">
+    <button type="button" onclick="lbZoom(-1)" title="Zoom out">&minus;</button>
+    <span id="lbPct">100%</span>
+    <button type="button" onclick="lbZoom(1)" title="Zoom in">+</button>
+    <button type="button" onclick="lbFit()" title="Fit to screen">Fit</button>
+    <button type="button" onclick="lbActual()" title="Actual size">1:1</button>
+    <button type="button" onclick="lbClose()" title="Close (Esc)">&#10005; Close</button>
+  </div>
+  <div class="lbstage" id="lbStage"><img id="lbImg" alt="zoomed image"></div>
+  <div class="lbhint">Mouse wheel = zoom &middot; drag = move &middot; double-click = fit / 2x &middot; Esc = close</div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+<script>
+
+/* ============================================================
+   THE SSC SCHOLARS OFFICIAL -- Mock Test Engine
+   UI/UX pattern matched to the user's reference CPO mock file.
+   ============================================================ */
+var CFG = {"examTitle": "SELECTION POST - PHASE 14 - GRADUATION - 22 SEP 2026 - SHIFT 1", "sectionLabel": "General Intelligence & Reasoning", "storageKey": "sscscholars_mock::PYQ_2026_PHASE14_22SEP2026_SHIFT1_SELECTION-POST-GRAD-22-SEP-2026-SHIFT-1_section", "totalTimeSeconds": 900, "correctScoreDisplay": "2", "negativeScoreDisplay": "0.5", "defaultCorrectScore": 2.0, "defaultNegativeScore": 0.5};
+var QUESTIONS = [{"q_no": 1, "id": "50001", "topic": "", "difficulty_level": "", "question": {"en": "In a certain code language, \"HELLO\" is written as \"EBIIL.\" How will \"THINK\" be written in the same code language?", "hi": "एक निश्चित कूट भाषा में, \"HELLO\" को \"EBIIL\" लिखा जाता है। उसी कूट भाषा में \"THINK\" को कैसे लिखा जाएगा?"}, "question_image": "", "options": {"option_1": {"en": "QFEKH", "hi": "", "image": ""}, "option_2": {"en": "OEKFH", "hi": "", "image": ""}, "option_3": {"en": "OFKEH", "hi": "", "image": ""}, "option_4": {"en": "QEFKH", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In HELLO → EBIIL, each letter is shifted 3 positions backward (−3) in the English alphabet:<br>H(8) − 3 = E(5), E(5) − 3 = B(2), L(12) − 3 = I(9), L(12) − 3 = I(9), O(15) − 3 = L(12).<br>Similarly, for THINK:<br>T(20) − 3 = Q(17), H(8) − 3 = E(5), I(9) − 3 = F(6), N(14) − 3 = K(11), K(11) − 3 = H(8) → <b>QEFKH<\/b>.", "hi": "HELLO → EBIIL में, प्रत्येक अक्षर को अंग्रेजी वर्णमाला में 3 स्थान पीछे (−3) खिसकाया गया है:<br>H(8) − 3 = E(5), E(5) − 3 = B(2), L(12) − 3 = I(9), L(12) − 3 = I(9), O(15) − 3 = L(12)।<br>इसी प्रकार, THINK के लिए:<br>T(20) − 3 = Q(17), H(8) − 3 = E(5), I(9) − 3 = F(6), N(14) − 3 = K(11), K(11) − 3 = H(8) → <b>QEFKH<\/b>।"}, "solution_image": ""}, {"q_no": 2, "id": "50002", "topic": "", "difficulty_level": "", "question": {"en": "In a certain code language, \"ACCOUNT\" is written as \"BFHPXSU.\" How will \"SUPPORT\" be written?", "hi": "एक निश्चित कूट भाषा में, \"ACCOUNT\" को \"BFHPXSU\" लिखा जाता है। \"SUPPORT\" को कैसे लिखा जाएगा?"}, "question_image": "", "options": {"option_1": {"en": "TXUQRWU", "hi": "", "image": ""}, "option_2": {"en": "TUXQRWU", "hi": "", "image": ""}, "option_3": {"en": "TYSQRWU", "hi": "", "image": ""}, "option_4": {"en": "TSYWRWU", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In ACCOUNT → BFHPXSU, the letters are shifted forward cyclically by +1, +3, +5, +1, +3, +5, +1:<br>A(+1)=B, C(+3)=F, C(+5)=H, O(+1)=P, U(+3)=X, N(+5)=S, T(+1)=U.<br>Applying the same (+1, +3, +5, +1, +3, +5, +1) pattern to SUPPORT:<br>S(+1)=T, U(+3)=X, P(+5)=U, P(+1)=Q, O(+3)=R, R(+5)=W, T(+1)=U → <b>TXUQRWU<\/b>.", "hi": "ACCOUNT → BFHPXSU में, अक्षरों को क्रमशः +1, +3, +5, +1, +3, +5, +1 के क्रम में आगे बढ़ाया गया है:<br>A(+1)=B, C(+3)=F, C(+5)=H, O(+1)=P, U(+3)=X, N(+5)=S, T(+1)=U।<br>SUPPORT पर यही (+1, +3, +5, +1, +3, +5, +1) पैटर्न लागू करने पर:<br>S(+1)=T, U(+3)=X, P(+5)=U, P(+1)=Q, O(+3)=R, R(+5)=W, T(+1)=U → <b>TXUQRWU<\/b>।"}, "solution_image": ""}, {"q_no": 3, "id": "50003", "topic": "", "difficulty_level": "", "question": {"en": "The average of 5 two-digit numbers is 40. One of the numbers is replaced by its reverse, and the new average becomes 49. If the original number is divisible by 3, find the original number.", "hi": "5 दो-अंकीय संख्याओं का औसत 40 है। उनमें से एक संख्या को उसके उलटे (अंकों के क्रम को उलटकर बनी संख्या) से बदल दिया जाता है, और नया औसत 49 हो जाता है। यदि मूल संख्या 3 से विभाज्य है, तो मूल संख्या ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "16", "hi": "", "image": ""}, "option_2": {"en": "27", "hi": "", "image": ""}, "option_3": {"en": "38", "hi": "", "image": ""}, "option_4": {"en": "49", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Initial sum of 5 numbers = 5 × 40 = 200.<br>New sum of 5 numbers = 5 × 49 = 245.<br>Increase in sum = 245 − 200 = 45.<br>Let the two-digit number be 10x + y; its reverse is 10y + x.<br>Difference = (10y + x) − (10x + y) = 9(y − x) = 45 ⇒ y − x = 5.<br>Since the original number is divisible by 3, checking the options gives <b>27<\/b> (divisible by 3, and 7 − 2 = 5; reverse 72 − 27 = 45).", "hi": "5 संख्याओं का प्रारंभिक योग = 5 × 40 = 200।<br>5 संख्याओं का नया योग = 5 × 49 = 245।<br>योग में वृद्धि = 245 − 200 = 45।<br>माना दो अंकों की संख्या 10x + y है; इसे पलटने पर संख्या 10y + x होगी।<br>अंतर = (10y + x) − (10x + y) = 9(y − x) = 45 ⇒ y − x = 5।<br>चूँकि मूल संख्या 3 से विभाज्य है, विकल्पों की जाँच करने पर <b>27<\/b> प्राप्त होता है (जो 3 से विभाज्य है और 72 − 27 = 45)।"}, "solution_image": ""}, {"q_no": 4, "id": "50004", "topic": "", "difficulty_level": "", "question": {"en": "A sum amounts to ₹ 13,440 in 2 years and ₹ 16,800 in 5 years at simple interest.<br>What is the principal?", "hi": "साधारण ब्याज पर कोई राशि 2 वर्षों में ₹ 13,440 और 5 वर्षों में ₹ 16,800 हो जाती है।<br>मूलधन क्या है?"}, "question_image": "", "options": {"option_1": {"en": "₹ 10,080", "hi": "", "image": ""}, "option_2": {"en": "₹ 11,200", "hi": "", "image": ""}, "option_3": {"en": "₹ 12,320", "hi": "", "image": ""}, "option_4": {"en": "₹ 13,400", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Amount in 5 years = ₹ 16,800<br>Amount in 2 years = ₹ 13,440<br>Simple Interest (SI) for (5 − 2) = 3 years = 16,800 − 13,440 = ₹ 3,360.<br>SI for 1 year = 3,360 ÷ 3 = ₹ 1,120.<br>SI for 2 years = 1,120 × 2 = ₹ 2,240.<br>Therefore, Principal = 13,440 − 2,240 = <b>₹ 11,200<\/b>.", "hi": "5 वर्षों में मिश्रधन = ₹ 16,800<br>2 वर्षों में मिश्रधन = ₹ 13,440<br>(5 − 2) = 3 वर्षों का साधारण ब्याज = 16,800 − 13,440 = ₹ 3,360।<br>1 वर्ष का साधारण ब्याज = 3,360 ÷ 3 = ₹ 1,120।<br>2 वर्षों का साधारण ब्याज = 1,120 × 2 = ₹ 2,240।<br>अतः मूलधन = 13,440 − 2,240 = <b>₹ 11,200<\/b>।"}, "solution_image": ""}, {"q_no": 5, "id": "50005", "topic": "", "difficulty_level": "", "question": {"en": "A library charges a ₹800 annual membership plus ₹12 per book borrowed. Another library charges a ₹500 annual membership plus ₹18 per book.<br>For how many books will the total expense be the same?", "hi": "एक पुस्तकालय ₹800 वार्षिक सदस्यता शुल्क और उधार ली गई प्रति पुस्तक ₹12 लेता है। दूसरा पुस्तकालय ₹500 वार्षिक सदस्यता शुल्क और प्रति पुस्तक ₹18 लेता है।<br>कितनी पुस्तकों के लिए कुल व्यय समान होगा?"}, "question_image": "", "options": {"option_1": {"en": "50 books", "hi": "50 पुस्तकें", "image": ""}, "option_2": {"en": "55 books", "hi": "55 पुस्तकें", "image": ""}, "option_3": {"en": "45 books", "hi": "45 पुस्तकें", "image": ""}, "option_4": {"en": "40 books", "hi": "40 पुस्तकें", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Let the number of books borrowed be x.<br>Total cost at first library = 800 + 12x.<br>Total cost at second library = 500 + 18x.<br>Equating the two expenses:<br>800 + 12x = 500 + 18x ⇒ 6x = 300 ⇒ x = <b>50 books<\/b>.", "hi": "माना उधार ली गई पुस्तकों की संख्या x है।<br>पहले पुस्तकालय का कुल खर्च = 800 + 12x।<br>दूसरे पुस्तकालय का कुल खर्च = 500 + 18x।<br>दोनों खर्चों को बराबर रखने पर:<br>800 + 12x = 500 + 18x ⇒ 6x = 300 ⇒ x = <b>50 पुस्तकें (50 books)<\/b>।"}, "solution_image": ""}, {"q_no": 6, "id": "50006", "topic": "", "difficulty_level": "", "question": {"en": "Find the missing number in the following series:<br>10, 21, 35, 56, 90, 145, 231, 360, ?", "hi": "निम्नलिखित श्रृंखला में लुप्त संख्या ज्ञात कीजिए:<br>10, 21, 35, 56, 90, 145, 231, 360, ?"}, "question_image": "", "options": {"option_1": {"en": "436", "hi": "", "image": ""}, "option_2": {"en": "546", "hi": "", "image": ""}, "option_3": {"en": "463", "hi": "", "image": ""}, "option_4": {"en": "565", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Find the successive differences of the series 10, 21, 35, 56, 90, 145, 231, 360, ?:<br>• 1st differences: 11, 14, 21, 34, 55, 86, 129<br>• 2nd differences: 3, 7, 13, 21, 31, 43<br>• 3rd differences: 4, 6, 8, 10, 12 (increasing by +2)<br>Next 3rd difference = 12 + 2 = 14.<br>Next 2nd difference = 43 + 14 = 57.<br>Next 1st difference = 129 + 57 = 186.<br>Missing term = 360 + 186 = <b>546<\/b>.", "hi": "श्रृंखला 10, 21, 35, 56, 90, 145, 231, 360, ? के क्रमिक अंतर निकालें:<br>• प्रथम अंतर: 11, 14, 21, 34, 55, 86, 129<br>• द्वितीय अंतर: 3, 7, 13, 21, 31, 43<br>• तृतीय अंतर: 4, 6, 8, 10, 12 (+2 से बढ़ रहा है)<br>अगला तृतीय अंतर = 12 + 2 = 14।<br>अगला द्वितीय अंतर = 43 + 14 = 57।<br>अगला प्रथम अंतर = 129 + 57 = 186।<br>लुप्त संख्या = 360 + 186 = <b>546<\/b>।"}, "solution_image": ""}, {"q_no": 7, "id": "50007", "topic": "", "difficulty_level": "", "question": {"en": "If in the word DISCUSSION the first and second letters are interchanged, in the same way the third and fourth, fifth and sixth and so on are interchanged, then what will be the 4th letter from the right?", "hi": "यदि शब्द DISCUSSION में पहले और दूसरे अक्षर आपस में बदल दिए जाएँ, इसी प्रकार तीसरे और चौथे, पाँचवें और छठे आदि अक्षर आपस में बदल दिए जाएँ, तो दाएँ से चौथा अक्षर कौन-सा होगा?"}, "question_image": "", "options": {"option_1": {"en": "U", "hi": "", "image": ""}, "option_2": {"en": "D", "hi": "", "image": ""}, "option_3": {"en": "C", "hi": "", "image": ""}, "option_4": {"en": "I", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Given word: D I S C U S S I O N.<br>Interchanging adjacent pairs (1st–2nd, 3rd–4th, 5th–6th, 7th–8th, 9th–10th):<br>(D I)(S C)(U S)(S I)(O N) → I D C S S U I S N O.<br>Counting from the right end (O is 1st, N is 2nd, S is 3rd, I is 4th), the 4th letter from the right is <b>I<\/b>.", "hi": "दिया गया शब्द: D I S C U S S I O N।<br>आसन्न जोड़ों (पहला–दूसरा, तीसरा–चौथा, आदि) को आपस में बदलने पर:<br>(D I)(S C)(U S)(S I)(O N) → I D C S S U I S N O।<br>दाएँ छोर से गिनने पर (O पहला, N दूसरा, S तीसरा, I चौथा), दाएँ से चौथा अक्षर <b>I<\/b> है।"}, "solution_image": ""}, {"q_no": 8, "id": "50008", "topic": "", "difficulty_level": "", "question": {"en": "Identify the alternative set of numbers that correctly codes the word. The code uses [Row, Column] format.<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><th><\/th><th>1<\/th><th>2<\/th><th>3<\/th><th>4<\/th><th>5<\/th><th>6<\/th><\/tr><tr><th>1<\/th><td>H<\/td><td>O<\/td><td>U<\/td><td>S<\/td><td>E<\/td><td>L<\/td><\/tr><tr><th>2<\/th><td>C<\/td><td>R<\/td><td>A<\/td><td>F<\/td><td>T<\/td><td>D<\/td><\/tr><tr><th>3<\/th><td>B<\/td><td>I<\/td><td>N<\/td><td>G<\/td><td>K<\/td><td>M<\/td><\/tr><tr><th>4<\/th><td>P<\/td><td>Q<\/td><td>V<\/td><td>W<\/td><td>Y<\/td><td>X<\/td><\/tr><tr><th>5<\/th><td>Z<\/td><td>J<\/td><td>O<\/td><td>A<\/td><td>E<\/td><td>R<\/td><\/tr><tr><th>6<\/th><td>N<\/td><td>S<\/td><td>L<\/td><td>T<\/td><td>I<\/td><td>B<\/td><\/tr><\/table><br>What is the correct code for \"MARKET\"?", "hi": "उस वैकल्पिक संख्या समूह की पहचान कीजिए जो शब्द को सही ढंग से कूटबद्ध करता है। कूट [पंक्ति, स्तंभ] प्रारूप का उपयोग करता है।<br><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse; text-align:center;\"><tr><th><\/th><th>1<\/th><th>2<\/th><th>3<\/th><th>4<\/th><th>5<\/th><th>6<\/th><\/tr><tr><th>1<\/th><td>H<\/td><td>O<\/td><td>U<\/td><td>S<\/td><td>E<\/td><td>L<\/td><\/tr><tr><th>2<\/th><td>C<\/td><td>R<\/td><td>A<\/td><td>F<\/td><td>T<\/td><td>D<\/td><\/tr><tr><th>3<\/th><td>B<\/td><td>I<\/td><td>N<\/td><td>G<\/td><td>K<\/td><td>M<\/td><\/tr><tr><th>4<\/th><td>P<\/td><td>Q<\/td><td>V<\/td><td>W<\/td><td>Y<\/td><td>X<\/td><\/tr><tr><th>5<\/th><td>Z<\/td><td>J<\/td><td>O<\/td><td>A<\/td><td>E<\/td><td>R<\/td><\/tr><tr><th>6<\/th><td>N<\/td><td>S<\/td><td>L<\/td><td>T<\/td><td>I<\/td><td>B<\/td><\/tr><\/table><br>\"MARKET\" का सही कूट क्या है?"}, "question_image": "", "options": {"option_1": {"en": "(3,6)(2,3)(5,6)(4,5)(1,5)(2,4)", "hi": "", "image": ""}, "option_2": {"en": "(3,6)(2,3)(5,6)(3,5)(1,5)(6,4)", "hi": "", "image": ""}, "option_3": {"en": "(3,6)(2,3)(5,6)(3,5)(1,3)(6,2)", "hi": "", "image": ""}, "option_4": {"en": "(3,6)(2,3)(5,6)(3,4)(1,3)(6,4)", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Using [Row, Column] coordinates from the matrix for the word 'MARKET':<br>• M → (3,6)<br>• A → (2,3) or (5,4)<br>• R → (2,2) or (5,6)<br>• K → (3,5)<br>• E → (1,5) or (5,5)<br>• T → (2,5) or (6,4)<br>Matching with the given options gives <b>(3,6)(2,3)(5,6)(3,5)(1,5)(6,4)<\/b>.", "hi": "आव्यूह से [पंक्ति, स्तंभ] प्रारूप में 'MARKET' शब्द का कूट मिलान करने पर:<br>• M → (3,6)<br>• A → (2,3) या (5,4)<br>• R → (2,2) या (5,6)<br>• K → (3,5)<br>• E → (1,5) या (5,5)<br>• T → (2,5) या (6,4)<br>दिए गए विकल्पों से मिलान करने पर सही विकल्प <b>(3,6)(2,3)(5,6)(3,5)(1,5)(6,4)<\/b> है।"}, "solution_image": ""}, {"q_no": 9, "id": "50009", "topic": "", "difficulty_level": "", "question": {"en": "A man is pointing to a photograph of a lady. He says, \"She is the wife of the grandson of my father.\" The man has no siblings. How is the lady related to the man?", "hi": "एक व्यक्ति एक महिला की तस्वीर की ओर इशारा करते हुए कहता है, \"वह मेरे पिता के पोते की पत्नी है।\" उस व्यक्ति का कोई भाई-बहन नहीं है। वह महिला उस व्यक्ति से किस प्रकार संबंधित है?"}, "question_image": "", "options": {"option_1": {"en": "Daughter", "hi": "पुत्री", "image": ""}, "option_2": {"en": "Daughter-in-law", "hi": "पुत्रवधू", "image": ""}, "option_3": {"en": "Wife", "hi": "पत्नी", "image": ""}, "option_4": {"en": "Paternal Aunt", "hi": "बुआ", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Since the man has no siblings, 'the grandson of my father' refers to the man's own son.<br>Therefore, 'the wife of the grandson of my father' is the wife of the man's son, which means she is the man's <b>Daughter-in-law<\/b>.", "hi": "चूँकि व्यक्ति का कोई भाई-बहन नहीं है, इसलिए 'मेरे पिता का पोता' उस व्यक्ति का अपना पुत्र है।<br>अतः 'मेरे पिता के पोते की पत्नी' उस व्यक्ति के पुत्र की पत्नी अर्थात् उसकी <b>पुत्रवधू (Daughter-in-law)<\/b> है।"}, "solution_image": ""}, {"q_no": 10, "id": "50010", "topic": "", "difficulty_level": "", "question": {"en": "The letters of the word COURSE are arranged in alphabetical order. How many letters are there between the letter that is first from the left end and the letter that is last from the right end in the new arrangement as per alphabetical dictionary?", "hi": "शब्द COURSE के अक्षरों को वर्णमाला क्रम में व्यवस्थित किया जाता है। अंग्रेज़ी वर्णमाला/शब्दकोश के अनुसार नई व्यवस्था में बाएँ सिरे से पहले अक्षर और दाएँ सिरे से अंतिम अक्षर के बीच कितने अक्षर हैं?"}, "question_image": "", "options": {"option_1": {"en": "18", "hi": "", "image": ""}, "option_2": {"en": "19", "hi": "", "image": ""}, "option_3": {"en": "17", "hi": "", "image": ""}, "option_4": {"en": "16", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Arranging the letters of COURSE in alphabetical order gives: C, E, O, R, S, U.<br>• First letter from the left end = C (alphabetical position 3).<br>• Last letter (rightmost end) = U (alphabetical position 21).<br>Number of letters between C(3) and U(21) in the English alphabet = 21 − 3 − 1 = <b>17<\/b>.", "hi": "COURSE शब्द के अक्षरों को वर्णमाला क्रम में व्यवस्थित करने पर: C, E, O, R, S, U प्राप्त होता है।<br>• बाएँ छोर से पहला अक्षर = C (वर्णमाला क्रम 3)।<br>• अंतिम अक्षर = U (वर्णमाला क्रम 21)।<br>अंग्रेजी वर्णमाला में C(3) और U(21) के बीच अक्षरों की संख्या = 21 − 3 − 1 = <b>17<\/b>।"}, "solution_image": ""}, {"q_no": 11, "id": "50011", "topic": "", "difficulty_level": "", "question": {"en": "If P + Q means P is the husband of Q, P × Q means P is the sister of Q, and P ÷ Q means P is the son of Q, then which of the following options means 'A is the daughter of B'?", "hi": "यदि P + Q का अर्थ है P, Q का पति है, P × Q का अर्थ है P, Q की बहन है, और P ÷ Q का अर्थ है P, Q का पुत्र है, तो निम्नलिखित में से कौन-सा विकल्प दर्शाता है कि 'A, B की पुत्री है'?"}, "question_image": "", "options": {"option_1": {"en": "A × C ÷ B", "hi": "", "image": ""}, "option_2": {"en": "B + C ÷ A", "hi": "", "image": ""}, "option_3": {"en": "A ÷ C + B", "hi": "", "image": ""}, "option_4": {"en": "A × C + B", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Checking Option 1 (<b>A × C ÷ B<\/b>):<br>• A × C means A is the sister of C (so A is female).<br>• C ÷ B means C is the son of B.<br>Since A is the sister of B's son C, A is the daughter of B. Hence, <b>A × C ÷ B<\/b> is correct.", "hi": "विकल्प 1 (<b>A × C ÷ B<\/b>) की जाँच करने पर:<br>• A × C का अर्थ है कि A, C की बहन है (अर्थात् A महिला है)।<br>• C ÷ B का अर्थ है कि C, B का पुत्र है।<br>चूँकि A, B के पुत्र C की बहन है, इसलिए A, B की पुत्री है। अतः <b>A × C ÷ B<\/b> सही है।"}, "solution_image": ""}, {"q_no": 12, "id": "50012", "topic": "", "difficulty_level": "", "question": {"en": "Select the odd number pair from the given alternatives.", "hi": "दिए गए विकल्पों में से विषम संख्या युग्म का चयन कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "11, 121", "hi": "", "image": ""}, "option_2": {"en": "14, 196", "hi": "", "image": ""}, "option_3": {"en": "22, 484", "hi": "", "image": ""}, "option_4": {"en": "18, 300", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In the first three number pairs, the second number is the exact square of the first number:<br>• 11² = 121<br>• 14² = 196<br>• 22² = 484<br>However, 18² = 324 ≠ 300. Hence, <b>18, 300<\/b> is the odd number pair.", "hi": "पहले तीन संख्या-युग्मों में, दूसरी संख्या पहली संख्या का पूर्ण वर्ग है:<br>• 11² = 121<br>• 14² = 196<br>• 22² = 484<br>परंतु 18² = 324 ≠ 300 है। अतः <b>18, 300<\/b> विषम संख्या-युग्म है।"}, "solution_image": ""}, {"q_no": 13, "id": "50013", "topic": "", "difficulty_level": "", "question": {"en": "Identify the roll number that deviates from the format: \"Two Uppercase Letters, a Hyphen, and Three Even Digits.\"", "hi": "उस रोल नंबर की पहचान कीजिए जो इस प्रारूप से भिन्न है: \"दो बड़े अक्षर (Uppercase), एक हाइफ़न, और तीन सम अंक।\""}, "question_image": "", "options": {"option_1": {"en": "AB-246", "hi": "", "image": ""}, "option_2": {"en": "XY-824", "hi": "", "image": ""}, "option_3": {"en": "MN-463", "hi": "", "image": ""}, "option_4": {"en": "PQ-280", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "The required format is 'Two Uppercase Letters, a Hyphen, and Three Even Digits'.<br>In <b>MN-463<\/b>, the last digit 3 is an odd number instead of an even digit. Hence, <b>MN-463<\/b> deviates from the format.", "hi": "निर्धारित प्रारूप 'दो बड़े अक्षर, एक हाइफ़न (-) और तीन सम अंक' है।<br><b>MN-463<\/b> में अंतिम अंक 3 एक विषम अंक है। अतः <b>MN-463<\/b> इस प्रारूप से भिन्न है।"}, "solution_image": ""}, {"q_no": 14, "id": "50014", "topic": "", "difficulty_level": "", "question": {"en": "If A means subtraction, B means multiplication, C means addition, D means division, then find the value of 96 D 6 B 3 C 14 A 18.", "hi": "यदि A का अर्थ घटाव, B का अर्थ गुणा, C का अर्थ जोड़ और D का अर्थ भाग है, तो 96 D 6 B 3 C 14 A 18 का मान ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "44", "hi": "", "image": ""}, "option_2": {"en": "48", "hi": "", "image": ""}, "option_3": {"en": "32", "hi": "", "image": ""}, "option_4": {"en": "54", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Substituting the given symbols (A = −, B = ×, C = +, D = ÷) into 96 D 6 B 3 C 14 A 18:<br>= 96 ÷ 6 × 3 + 14 − 18<br>= 16 × 3 + 14 − 18<br>= 48 + 14 − 18 = 62 − 18 = <b>44<\/b>.", "hi": "दिए गए प्रतीकों (A = −, B = ×, C = +, D = ÷) को 96 D 6 B 3 C 14 A 18 में रखने पर:<br>= 96 ÷ 6 × 3 + 14 − 18<br>= 16 × 3 + 14 − 18<br>= 48 + 14 − 18 = 62 − 18 = <b>44<\/b>।"}, "solution_image": ""}, {"q_no": 15, "id": "50015", "topic": "", "difficulty_level": "", "question": {"en": "If 3 × 4 = 14, 5 × 6 = 34, and 7 × 8 = 58, then what is the value of 9 × 10?", "hi": "यदि 3 × 4 = 14, 5 × 6 = 34, और 7 × 8 = 58 है, तो 9 × 10 का मान क्या है?"}, "question_image": "", "options": {"option_1": {"en": "91", "hi": "", "image": ""}, "option_2": {"en": "88", "hi": "", "image": ""}, "option_3": {"en": "90", "hi": "", "image": ""}, "option_4": {"en": "86", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Observe the pattern in the results of consecutive odd–even pairs:<br>• 3 × 4 → 14<br>• 5 × 6 → 34 (difference = 34 − 14 = +20)<br>• 7 × 8 → 58 (difference = 58 − 34 = +24)<br>The differences increase by 4 each time (+20, +24, +28).<br>Therefore, for 9 × 10: 58 + 28 = <b>86<\/b>.", "hi": "क्रमागत युग्मों के परिणामों का पैटर्न देखें:<br>• 3 × 4 → 14<br>• 5 × 6 → 34 (अंतर = 34 − 14 = +20)<br>• 7 × 8 → 58 (अंतर = 58 − 34 = +24)<br>अंतर प्रत्येक चरण में 4 से बढ़ रहा है (+20, +24, +28)।<br>अतः 9 × 10 का मान = 58 + 28 = <b>86<\/b>।"}, "solution_image": ""}, {"q_no": 16, "id": "50016", "topic": "", "difficulty_level": "", "question": {"en": "In the given question, a few statements have been given followed by conclusions based on them. Consider the statements to be true and answer which of the given conclusions logically follow the statement.<br>Statements<br>1. No renewable resource is exhaustible.<br>2. All fossil fuels are exhaustible.<br>3. Some energy sources are renewable.<br>Conclusions<br>I. Some energy sources are not exhaustible.<br>II. No fossil fuel is renewable.<br>III. Some exhaustible resources are fossil fuels.<br>IV. All renewable resources are energy sources.", "hi": "दिए गए प्रश्न में, कुछ कथन दिए गए हैं जिनके बाद उन पर आधारित निष्कर्ष दिए गए हैं। कथनों को सत्य मानिए और बताइए कि दिए गए निष्कर्षों में से कौन-से कथन से तार्किक रूप से अनुसरण करते हैं।<br>कथन<br>1. कोई भी नवीकरणीय संसाधन समाप्य नहीं है।<br>2. सभी जीवाश्म ईंधन समाप्य हैं।<br>3. कुछ ऊर्जा स्रोत नवीकरणीय हैं।<br>निष्कर्ष<br>I. कुछ ऊर्जा स्रोत समाप्य नहीं हैं।<br>II. कोई भी जीवाश्म ईंधन नवीकरणीय नहीं है।<br>III. कुछ समाप्य संसाधन जीवाश्म ईंधन हैं।<br>IV. सभी नवीकरणीय संसाधन ऊर्जा स्रोत हैं।"}, "question_image": "", "options": {"option_1": {"en": "Only I, II and III follow", "hi": "केवल I, II और III अनुसरण करते हैं", "image": ""}, "option_2": {"en": "Only I and II follow", "hi": "केवल I और II अनुसरण करते हैं", "image": ""}, "option_3": {"en": "Only II and III follow", "hi": "केवल II और III अनुसरण करते हैं", "image": ""}, "option_4": {"en": "All four follow", "hi": "चारों अनुसरण करते हैं", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "From the statements:<br>1. No renewable resource is exhaustible (R ∩ E = ∅).<br>2. All fossil fuels are exhaustible (F ⊆ E).<br>3. Some energy sources are renewable (ES ∩ R ≠ ∅).<br>Checking conclusions:<br>• I. Some energy sources are not exhaustible: Since some ES are R and no R is E, those ES are not E (Follows).<br>• II. No fossil fuel is renewable: Since F ⊆ E and E ∩ R = ∅, F ∩ R = ∅ (Follows).<br>• III. Some exhaustible resources are fossil fuels: Since all F are E, some E are F (Follows).<br>• IV. All renewable resources are energy sources: Does not follow.<br>Hence, <b>Only I, II and III follow<\/b>.", "hi": "कथनों के अनुसार:<br>1. कोई भी नवीकरणीय संसाधन समाप्त होने वाला नहीं है (R ∩ E = ∅)।<br>2. सभी जीवाश्म ईंधन समाप्त होने वाले हैं (F ⊆ E)।<br>3. कुछ ऊर्जा स्रोत नवीकरणीय हैं (ES ∩ R ≠ ∅)।<br>निष्कर्षों की जाँच:<br>• I. कुछ ऊर्जा स्रोत समाप्त होने वाले नहीं हैं: अनुसरण करता है।<br>• II. कोई भी जीवाश्म ईंधन नवीकरणीय नहीं है: अनुसरण करता है।<br>• III. कुछ समाप्त होने वाले संसाधन जीवाश्म ईंधन हैं: अनुसरण करता है।<br>• IV. सभी नवीकरणीय संसाधन ऊर्जा स्रोत हैं: अनुसरण नहीं करता है।<br>अतः <b>केवल I, II और III अनुसरण करते हैं<\/b>।"}, "solution_image": ""}, {"q_no": 17, "id": "50017", "topic": "", "difficulty_level": "", "question": {"en": "If □ = +, ○ = −, Δ = ×, ∇ = ÷, find the value of 15 □ 5 Δ 2 ∇ 2 ○ 3.", "hi": "यदि □ = +, ○ = −, Δ = ×, ∇ = ÷ है, तो 15 □ 5 Δ 2 ∇ 2 ○ 3 का मान ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "11", "hi": "", "image": ""}, "option_2": {"en": "12", "hi": "", "image": ""}, "option_3": {"en": "14", "hi": "", "image": ""}, "option_4": {"en": "17", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Substituting □ = +, ○ = −, Δ = ×, ∇ = ÷ into 15 □ 5 Δ 2 ∇ 2 ○ 3:<br>= 15 + 5 × 2 ÷ 2 − 3<br>= 15 + 5 × 1 − 3<br>= 15 + 5 − 3 = <b>17<\/b>.", "hi": "प्रतीकों □ = +, ○ = −, Δ = ×, ∇ = ÷ को 15 □ 5 Δ 2 ∇ 2 ○ 3 में रखने पर:<br>= 15 + 5 × 2 ÷ 2 − 3<br>= 15 + 5 × 1 − 3<br>= 15 + 5 − 3 = <b>17<\/b>।"}, "solution_image": ""}, {"q_no": 18, "id": "50018", "topic": "", "difficulty_level": "", "question": {"en": "Read the given conditions carefully and determine the appropriate outcome for the case provided. If any exception applies, identify the authority to whom the case should be referred.<br>Criteria for a pharmacy to be a \"Tier-1 Vaccine Distribution Partner\":<br>(i) Must have a dedicated 24/7 solar-powered cold storage unit.<br>(ii) Must have at least 5 years of operation in the medical supply chain.<br>(iii) Must employ at least one certified cold-chain technician.<br>Exceptions:<br>Exception (A): In case all the conditions are fulfilled except condition (iii), then there must be a contract with a third party, specifically a logistics company. Please refer the case to the District Health Officer.<br>Exception (B): If the pharmacy meets all criteria (i), (ii), and (iii) but has an expired fire safety certificate, refer the case to the Fire Safety Inspector.<br>Case: “LifeLine Chemist” was opened in the year 2019. “LifeLine Chemist” makes use of a solar-powered fridge. No technician is hired here, but there is a valid service contract with “Arctic Logistics”, a logistics company that uses refrigeration technologies for transporting medicines.", "hi": "दी गई शर्तों को ध्यानपूर्वक पढ़िए और प्रदान किए गए मामले के लिए उपयुक्त परिणाम निर्धारित कीजिए। यदि कोई अपवाद लागू होता है, तो उस प्राधिकारी की पहचान कीजिए जिसके पास मामला भेजा जाना चाहिए।<br>किसी फार्मेसी के \"टियर-1 वैक्सीन वितरण भागीदार\" बनने के मानदंड:<br>(i) एक समर्पित 24/7 सौर-ऊर्जा संचालित कोल्ड स्टोरेज यूनिट होनी चाहिए।<br>(ii) चिकित्सा आपूर्ति श्रृंखला में कम से कम 5 वर्ष का संचालन होना चाहिए।<br>(iii) कम से कम एक प्रमाणित कोल्ड-चेन तकनीशियन नियोजित होना चाहिए।<br>अपवाद:<br>अपवाद (A): यदि शर्त (iii) को छोड़कर सभी शर्तें पूरी होती हैं, तो किसी तीसरे पक्ष, विशेष रूप से किसी लॉजिस्टिक्स कंपनी, के साथ अनुबंध होना चाहिए। कृपया मामला जिला स्वास्थ्य अधिकारी के पास भेजें।<br>अपवाद (B): यदि फार्मेसी सभी मानदंड (i), (ii) और (iii) पूरे करती है लेकिन उसका अग्नि सुरक्षा प्रमाणपत्र समाप्त हो चुका है, तो मामला अग्नि सुरक्षा निरीक्षक के पास भेजें।<br>मामला: “लाइफलाइन केमिस्ट” वर्ष 2019 में खोला गया था। “लाइफलाइन केमिस्ट” सौर-ऊर्जा संचालित फ्रिज का उपयोग करता है। यहाँ कोई तकनीशियन नियुक्त नहीं है, लेकिन “आर्कटिक लॉजिस्टिक्स”, एक लॉजिस्टिक्स कंपनी जो दवाओं के परिवहन के लिए प्रशीतन तकनीकों का उपयोग करती है, के साथ एक वैध सेवा अनुबंध है।"}, "question_image": "", "options": {"option_1": {"en": "Pharmacy to be certified as a Tier-1 Vaccine Distribution Partner", "hi": "फार्मेसी को टियर-1 वैक्सीन वितरण भागीदार के रूप में प्रमाणित किया जाए", "image": ""}, "option_2": {"en": "Case to be referred to the District Health Officer", "hi": "मामला जिला स्वास्थ्य अधिकारी के पास भेजा जाए", "image": ""}, "option_3": {"en": "Pharmacy application to be rejected", "hi": "फार्मेसी का आवेदन अस्वीकार किया जाए", "image": ""}, "option_4": {"en": "Case to be referred to the Fire Safety Inspector", "hi": "मामला अग्नि सुरक्षा निरीक्षक के पास भेजा जाए", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Evaluating LifeLine Chemist:<br>• Criterion (i): Uses a solar-powered fridge → Met.<br>• Criterion (ii): Opened in 2019 (more than 5 years of operation) → Met.<br>• Criterion (iii): No certified cold-chain technician hired → Not met.<br>Since all conditions except (iii) are fulfilled and it has a valid contract with a third-party logistics company ('Arctic Logistics'), Exception (A) applies: <b>Case to be referred to the District Health Officer<\/b>.", "hi": "लाइफलाइन केमिस्ट की जाँच:<br>• मानदंड (i): सौर-ऊर्जा चालित कोल्ड स्टोरेज → पूर्ण।<br>• मानदंड (ii): 2019 में स्थापित (5+ वर्ष का संचालन) → पूर्ण।<br>• मानदंड (iii): कोई तकनीशियन नियुक्त नहीं है → अपूर्ण।<br>चूँकि (iii) को छोड़कर अन्य सभी शर्तें पूरी हैं और लॉजिस्टिक्स कंपनी ('Arctic Logistics') के साथ वैध अनुबंध है, इसलिए अपवाद (A) लागू होता है: <b>मामले को जिला स्वास्थ्य अधिकारी (District Health Officer) को भेजा जाना चाहिए<\/b>।"}, "solution_image": ""}, {"q_no": 19, "id": "50019", "topic": "", "difficulty_level": "", "question": {"en": "Read the given conditions carefully and determine the appropriate outcome for the case provided. If any exception applies, identify the authority to whom the case should be referred.<br>Criteria for Director of International Banking:<br>(i) Chartered Financial Analyst (CFA) charter,<br>(ii) 15+ years in investment banking,<br>(iii) Residency in at least two different countries.<br>Exception A: If the candidate lacks the CFA, they must have 20+ years of experience and have successfully exited a FinTech startup.<br>Exception B: If the candidate has 14 years of experience and the CFA, refer to the Global Risk Committee.<br>Rule: Residency criteria is waived only if the candidate has 25+ years of experience.<br>Case: Candidate has a CFA, 18 years in investment banking, and residency in only one country.", "hi": "दी गई शर्तों को ध्यानपूर्वक पढ़िए और प्रदान किए गए मामले के लिए उपयुक्त परिणाम निर्धारित कीजिए। यदि कोई अपवाद लागू होता है, तो उस प्राधिकारी की पहचान कीजिए जिसके पास मामला भेजा जाना चाहिए।<br>अंतर्राष्ट्रीय बैंकिंग निदेशक के लिए मानदंड:<br>(i) चार्टर्ड फाइनेंशियल एनालिस्ट (CFA) चार्टर,<br>(ii) निवेश बैंकिंग में 15+ वर्ष,<br>(iii) कम से कम दो अलग-अलग देशों में निवास।<br>अपवाद A: यदि उम्मीदवार के पास CFA नहीं है, तो उसके पास 20+ वर्ष का अनुभव होना चाहिए और उसने किसी फिनटेक स्टार्टअप से सफलतापूर्वक एग्ज़िट किया हो।<br>अपवाद B: यदि उम्मीदवार के पास 14 वर्ष का अनुभव और CFA है, तो वैश्विक जोखिम समिति के पास भेजें।<br>नियम: निवास संबंधी मानदंड केवल तभी माफ किया जाता है जब उम्मीदवार के पास 25+ वर्ष का अनुभव हो।<br>मामला: उम्मीदवार के पास CFA है, निवेश बैंकिंग में 18 वर्ष का अनुभव है, और केवल एक देश में निवास है।"}, "question_image": "", "options": {"option_1": {"en": "Immediately selected.", "hi": "तुरंत चयनित।", "image": ""}, "option_2": {"en": "Immediately rejected.", "hi": "तुरंत अस्वीकृत।", "image": ""}, "option_3": {"en": "Refer to Global Risk Committee.", "hi": "वैश्विक जोखिम समिति के पास भेजें।", "image": ""}, "option_4": {"en": "Insufficient data.", "hi": "अपर्याप्त डेटा।", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "The candidate has a CFA charter (meets i) and 18 years in investment banking (meets ii), but has residency in only one country (fails iii). The residency criterion is waived only if the candidate has 25+ years of experience. Since the candidate has only 18 years, the candidate is <b>Immediately rejected.<\/b>", "hi": "उम्मीदवार के पास CFA चार्टर (i पूर्ण) और निवेश बैंकिंग में 18 वर्ष का अनुभव (ii पूर्ण) है, परंतु केवल एक देश में निवास है (iii अपूर्ण)। निवास की शर्त केवल 25+ वर्ष के अनुभव पर ही माफ होती है। अतः उम्मीदवार को <b>तुरंत अस्वीकार किया जाता है (Immediately rejected.)<\/b>।"}, "solution_image": ""}, {"q_no": 20, "id": "50020", "topic": "", "difficulty_level": "", "question": {"en": "Read the criteria given for a position along with some exceptions and then decide what decision should be taken for the case given.<br>Criteria for Site Safety Officer:<br>1. Diploma in Industrial Safety with ≥ 60% marks.<br>2. Age: 25–40 years.<br>3. Minimum 3 years of experience in a construction site.<br>Exception: If (1) is not met but the candidate has a B.E. in Civil Engineering with 5 years of site experience, refer to ‘Project Manager’.<br>Case: Mr. Arjun, 32, has a B.E. in Civil Engineering and 6 years of site experience but lacks a Diploma in Industrial Safety. What decision should be taken regarding Arjun?", "hi": "किसी पद के लिए कुछ अपवादों के साथ दिए गए मानदंडों को पढ़िए और फिर तय कीजिए कि दिए गए मामले में क्या निर्णय लिया जाना चाहिए।<br>साइट सेफ्टी ऑफिसर के लिए मानदंड:<br>1. औद्योगिक सुरक्षा में ≥ 60% अंकों के साथ डिप्लोमा।<br>2. आयु: 25–40 वर्ष।<br>3. किसी निर्माण स्थल पर न्यूनतम 3 वर्ष का अनुभव।<br>अपवाद: यदि (1) पूरा नहीं होता, परंतु उम्मीदवार के पास सिविल इंजीनियरिंग में B.E. और 5 वर्ष का साइट अनुभव है, तो ‘प्रोजेक्ट मैनेजर’ के पास भेजें।<br>मामला: श्री अर्जुन, 32 वर्ष, के पास सिविल इंजीनियरिंग में B.E. और 6 वर्ष का साइट अनुभव है, लेकिन उनके पास औद्योगिक सुरक्षा में डिप्लोमा नहीं है। अर्जुन के संबंध में क्या निर्णय लिया जाना चाहिए?"}, "question_image": "", "options": {"option_1": {"en": "Select the candidate.", "hi": "उम्मीदवार का चयन करें।", "image": ""}, "option_2": {"en": "Reject the candidate.", "hi": "उम्मीदवार को अस्वीकार करें।", "image": ""}, "option_3": {"en": "Refer to Project Manager.", "hi": "प्रोजेक्ट मैनेजर के पास भेजें।", "image": ""}, "option_4": {"en": "Refer to HR.", "hi": "HR के पास भेजें।", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Checking Mr. Arjun's profile:<br>• Criterion 1 (Diploma in Industrial Safety): Not met.<br>• Criterion 2 (Age 25–40 years): Age is 32 → Met.<br>• Criterion 3 (Minimum 3 years site experience): Has 6 years → Met.<br>Exception: Since (1) is not met but he holds a B.E. in Civil Engineering with 6 (≥ 5) years of site experience, the decision is to <b>Refer to Project Manager.<\/b>", "hi": "श्री अर्जुन के विवरण की जाँच:<br>• मानदंड 1 (औद्योगिक सुरक्षा में डिप्लोमा): अपूर्ण।<br>• मानदंड 2 (आयु 25–40 वर्ष): 32 वर्ष → पूर्ण।<br>• मानदंड 3 (न्यूनतम 3 वर्ष का साइट अनुभव): 6 वर्ष → पूर्ण।<br>अपवाद: चूँकि (1) पूरा नहीं है परंतु उनके पास सिविल इंजीनियरिंग में B.E. और 6 (≥ 5) वर्ष का अनुभव है, इसलिए निर्णय: <b>प्रोजेक्ट मैनेजर को भेजें (Refer to Project Manager.)<\/b>।"}, "solution_image": ""}, {"q_no": 21, "id": "50021", "topic": "", "difficulty_level": "", "question": {"en": "Read the criteria given for a position along with some exceptions and then decide what decision should be taken for the case given.<br>The following are the requirements for recruiting in Urban Plan Consultants, Jaipur:<br>A. At least 75% in class 10th AND 12th.<br>B. At least 70% in Mechanical or Civil Engineering.<br>C. Age not more than 25 years as on October 09, 2017.<br>D. At least 60% in selection test.<br>E. CAD course from a reputed institute.<br>Exception 1: Fails only C + more than 1 year experience at a reputed company → Refer to Managing Director.<br>Exception 2: Fails only E + willing to pay ₹35,000 or more + at least 75% in graduation → Refer to Chairman.<br>Case: Meera scored 390 out of 500 in class 10th and 840 out of 1100 in class 12th. She graduated with 68% in Civil Engineering. She scored 72% in the selection test and completed a CAD course at IIT Roorkee. She was born on 23/06/1996 and has no prior work experience. What will be decided in her case?", "hi": "किसी पद के लिए कुछ अपवादों के साथ दिए गए मानदंडों को पढ़िए और फिर तय कीजिए कि दिए गए मामले में क्या निर्णय लिया जाना चाहिए।<br>अर्बन प्लान कंसल्टेंट्स, जयपुर में भर्ती के लिए आवश्यकताएँ निम्नलिखित हैं:<br>A. कक्षा 10वीं और 12वीं दोनों में कम से कम 75%।<br>B. मैकेनिकल या सिविल इंजीनियरिंग में कम से कम 70%।<br>C. 09 अक्टूबर, 2017 को आयु 25 वर्ष से अधिक नहीं होनी चाहिए।<br>D. चयन परीक्षा में कम से कम 60%।<br>E. किसी प्रतिष्ठित संस्थान से CAD कोर्स।<br>अपवाद 1: केवल C में विफल + किसी प्रतिष्ठित कंपनी में 1 वर्ष से अधिक का अनुभव → प्रबंध निदेशक के पास भेजें।<br>अपवाद 2: केवल E में विफल + ₹35,000 या अधिक देने को इच्छुक + स्नातक में कम से कम 75% → अध्यक्ष के पास भेजें।<br>मामला: मीरा ने कक्षा 10वीं में 500 में से 390 और कक्षा 12वीं में 1100 में से 840 अंक प्राप्त किए। उसने सिविल इंजीनियरिंग में 68% के साथ स्नातक किया। उसने चयन परीक्षा में 72% अंक प्राप्त किए और IIT रुड़की से CAD कोर्स पूरा किया। उसका जन्म 23/06/1996 को हुआ था और उसके पास कोई पूर्व कार्य अनुभव नहीं है। उसके मामले में क्या निर्णय लिया जाएगा?"}, "question_image": "", "options": {"option_1": {"en": "Refer to the Managing Director.", "hi": "प्रबंध निदेशक के पास भेजें।", "image": ""}, "option_2": {"en": "Refer to the Chairman.", "hi": "अध्यक्ष के पास भेजें।", "image": ""}, "option_3": {"en": "Candidate is selected.", "hi": "उम्मीदवार का चयन किया गया है।", "image": ""}, "option_4": {"en": "Candidate is not selected.", "hi": "उम्मीदवार का चयन नहीं किया गया है।", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Evaluating Meera's profile:<br>• A: 10th = 390/500 (78% ≥ 75%) and 12th = 840/1100 (76.36% ≥ 75%) → Met.<br>• B: Civil Engineering graduation marks = 68% (< 70% required) → Not met.<br>Since there is no exception for failing Criterion B, the <b>Candidate is not selected.<\/b>", "hi": "मीरा के विवरण की जाँच:<br>• A: 10वीं = 390/500 (78% ≥ 75%) और 12वीं = 840/1100 (76.36% ≥ 75%) → पूर्ण।<br>• B: सिविल इंजीनियरिंग स्नातक में 68% अंक (आवश्यक 70% से कम) → अपूर्ण।<br>मानदंड B में विफल होने के लिए कोई अपवाद न होने के कारण, <b>उम्मीदवार का चयन नहीं किया जाता है (Candidate is not selected.)<\/b>।"}, "solution_image": ""}, {"q_no": 22, "id": "50022", "topic": "", "difficulty_level": "", "question": {"en": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Virat Kohli : Cricket :: Neeraj Chopra : ?", "hi": "उस विकल्प का चयन कीजिए जो तीसरे शब्द से उसी प्रकार संबंधित है जिस प्रकार दूसरा शब्द पहले शब्द से संबंधित है।<br>विराट कोहली : क्रिकेट :: नीरज चोपड़ा : ?"}, "question_image": "", "options": {"option_1": {"en": "Wrestling", "hi": "कुश्ती", "image": ""}, "option_2": {"en": "Javelin Throw", "hi": "भाला फेंक", "image": ""}, "option_3": {"en": "Boxing", "hi": "मुक्केबाजी", "image": ""}, "option_4": {"en": "Hockey", "hi": "हॉकी", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Virat Kohli is an internationally renowned Indian sportsperson associated with Cricket; similarly, Neeraj Chopra is an internationally renowned Indian sportsperson associated with <b>Javelin Throw<\/b>.", "hi": "जिस प्रकार विराट कोहली क्रिकेट से संबंधित प्रसिद्ध भारतीय खिलाड़ी हैं, उसी प्रकार नीरज चोपड़ा <b>भाला फेंक (Javelin Throw)<\/b> से संबंधित प्रसिद्ध भारतीय खिलाड़ी हैं।"}, "solution_image": ""}, {"q_no": 23, "id": "50023", "topic": "", "difficulty_level": "", "question": {"en": "Select the option that is related to the third word in the same way as the second word is related to the first word.<br>Dadasaheb Phalke Award : Cinema :: Saraswati Samman : ?", "hi": "उस विकल्प का चयन कीजिए जो तीसरे शब्द से उसी प्रकार संबंधित है जिस प्रकार दूसरा शब्द पहले शब्द से संबंधित है।<br>दादासाहेब फाल्के पुरस्कार : सिनेमा :: सरस्वती सम्मान : ?"}, "question_image": "", "options": {"option_1": {"en": "Music", "hi": "संगीत", "image": ""}, "option_2": {"en": "Literature", "hi": "साहित्य", "image": ""}, "option_3": {"en": "Journalism", "hi": "पत्रकारिता", "image": ""}, "option_4": {"en": "Architecture", "hi": "वास्तुकला", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "The Dadasaheb Phalke Award is India's highest award in the field of Cinema; similarly, the Saraswati Samman is a prestigious award given in the field of <b>Literature<\/b>.", "hi": "जिस प्रकार दादासाहेब फाल्के पुरस्कार सिनेमा के क्षेत्र में दिया जाता है, उसी प्रकार सरस्वती सम्मान <b>साहित्य (Literature)<\/b> के क्षेत्र में दिया जाने वाला प्रतिष्ठित पुरस्कार है।"}, "solution_image": ""}, {"q_no": 24, "id": "50024", "topic": "", "difficulty_level": "", "question": {"en": "Read the given statement carefully and the following assumptions based on it. Decide which of the assumptions are implicit in the statement.<br>Statement:<br>The government must increase the taxes on luxury goods to generate additional revenue that can be invested in public healthcare and social welfare programs.<br>Assumptions:<br>I. Revenue generated from taxing luxury items can be effectively utilized for public welfare.<br>II. People who purchase luxury goods possess the financial capacity to pay higher tax rates.", "hi": "दिए गए कथन और उस पर आधारित निम्नलिखित मान्यताओं को ध्यानपूर्वक पढ़िए। तय कीजिए कि कौन-सी मान्यताएँ कथन में निहित हैं।<br>कथन:<br>सरकार को विलासिता की वस्तुओं पर कर बढ़ाना चाहिए ताकि अतिरिक्त राजस्व उत्पन्न किया जा सके जिसे सार्वजनिक स्वास्थ्य सेवा और सामाजिक कल्याण कार्यक्रमों में निवेश किया जा सके।<br>मान्यताएँ:<br>I. विलासिता की वस्तुओं पर कर लगाने से उत्पन्न राजस्व का सार्वजनिक कल्याण के लिए प्रभावी ढंग से उपयोग किया जा सकता है।<br>II. जो लोग विलासिता की वस्तुएँ खरीदते हैं उनके पास उच्च कर दरों का भुगतान करने की वित्तीय क्षमता होती है।"}, "question_image": "", "options": {"option_1": {"en": "Only Assumption I is implicit", "hi": "केवल मान्यता I निहित है", "image": ""}, "option_2": {"en": "Both Assumptions I and II are implicit", "hi": "मान्यता I और II दोनों निहित हैं", "image": ""}, "option_3": {"en": "Neither Assumption I nor II is implicit", "hi": "न तो मान्यता I और न ही II निहित है", "image": ""}, "option_4": {"en": "Only Assumption II is implicit", "hi": "केवल मान्यता II निहित है", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "• Assumption I is implicit because the statement explicitly proposes raising luxury taxes so that the revenue can be invested in public healthcare and social welfare.<br>• Assumption II is implicit because targeting luxury goods for higher taxation presupposes that buyers of luxury goods have the financial capacity to bear the increased tax.<br>Hence, <b>Both Assumptions I and II are implicit<\/b>.", "hi": "• पूर्वधारणा I अंतर्निहित है क्योंकि कथन में स्पष्ट रूप से अतिरिक्त राजस्व को सार्वजनिक स्वास्थ्य और समाज कल्याण में निवेश करने की बात कही गई है।<br>• पूर्वधारणा II भी अंतर्निहित है क्योंकि विलासिता की वस्तुओं पर कर बढ़ाने के पीछे यह धारणा होती है कि उनके खरीदार उच्च कर चुकाने में सक्षम हैं।<br>अतः <b>पूर्वधारणा I और II दोनों अंतर्निहित हैं<\/b>।"}, "solution_image": ""}, {"q_no": 25, "id": "50025", "topic": "", "difficulty_level": "", "question": {"en": "Read the given statement carefully and the following assumptions based on it. Decide which of the assumptions are implicit in the statement.<br>Statement:<br>The State Education Board has launched a centralized digital library providing free access to thousands of textbooks and reference materials to bridge the resource gap for rural students.<br>Assumptions:<br>I. It assumes that the State Education Board believes the lack of access to quality educational resources and study materials is one of the primary and significant obstacles preventing rural students from performing at the same academic level and competing effectively with students from urban areas.<br>II. It assumes that the introduction and availability of a centralized digital e-library will, over a period of time, completely replace and make traditional brick-and-mortar physical libraries unnecessary, obsolete, and no longer required for students or educational institutions.", "hi": "दिए गए कथन और उस पर आधारित निम्नलिखित मान्यताओं को ध्यानपूर्वक पढ़िए। तय कीजिए कि कौन-सी मान्यताएँ कथन में निहित हैं।<br>कथन:<br>राज्य शिक्षा बोर्ड ने ग्रामीण छात्रों के लिए संसाधनों के अंतर को पाटने हेतु हजारों पाठ्यपुस्तकों और संदर्भ सामग्रियों तक निःशुल्क पहुँच प्रदान करने वाली एक केंद्रीकृत डिजिटल लाइब्रेरी शुरू की है।<br>मान्यताएँ:<br>I. यह मानता है कि राज्य शिक्षा बोर्ड का मानना है कि गुणवत्तापूर्ण शैक्षिक संसाधनों और अध्ययन सामग्री तक पहुँच की कमी उन प्रमुख और महत्वपूर्ण बाधाओं में से एक है जो ग्रामीण छात्रों को समान शैक्षणिक स्तर पर प्रदर्शन करने और शहरी क्षेत्रों के छात्रों के साथ प्रभावी ढंग से प्रतिस्पर्धा करने से रोकती है।<br>II. यह मानता है कि केंद्रीकृत डिजिटल ई-लाइब्रेरी की शुरुआत और उपलब्धता समय के साथ पारंपरिक भौतिक पुस्तकालयों को पूरी तरह प्रतिस्थापित कर देगी और उन्हें छात्रों या शैक्षिक संस्थानों के लिए अनावश्यक, अप्रचलित और अब आवश्यक नहीं बना देगी।"}, "question_image": "", "options": {"option_1": {"en": "Both Assumptions I and II are implicit", "hi": "मान्यता I और II दोनों निहित हैं", "image": ""}, "option_2": {"en": "Neither Assumption I nor II is implicit", "hi": "न तो मान्यता I और न ही II निहित है", "image": ""}, "option_3": {"en": "Only Assumption I is implicit", "hi": "केवल मान्यता I निहित है", "image": ""}, "option_4": {"en": "Only Assumption II is implicit", "hi": "केवल मान्यता II निहित है", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "• Assumption I is implicit: launching a free centralized digital library specifically 'to bridge the resource gap for rural students' assumes that lack of access to quality study materials is a key obstacle facing rural students.<br>• Assumption II is not implicit: the statement says nothing about making physical brick-and-mortar libraries obsolete.<br>Hence, <b>Only Assumption I is implicit<\/b>.", "hi": "• पूर्वधारणा I अंतर्निहित है: ग्रामीण छात्रों के लिए संसाधन अंतराल को पाटने हेतु डिजिटल लाइब्रेरी शुरू करना यह मानता है कि गुणवत्तापूर्ण अध्ययन सामग्री की कमी ग्रामीण छात्रों के लिए एक प्रमुख बाधा है।<br>• पूर्वधारणा II अंतर्निहित नहीं है: भौतिक पुस्तकालयों को पूर्णतः समाप्त या अप्रचलित करने का कोई उल्लेख कथन में नहीं है।<br>अतः <b>केवल पूर्वधारणा I अंतर्निहित है<\/b>।"}, "solution_image": ""}];
+var N = QUESTIONS.length;
+var STORAGE_KEY = CFG.storageKey;
+var OPT_LETTERS = ["A","B","C","D","E"];
+var OPT_KEYS = ["option_1","option_2","option_3","option_4","option_5"];
+
+var hasHindi = QUESTIONS.some(function(q){ return q.question && q.question.hi; });
+
+var state = null;
+var timerHandle = null;
+
+function $(id){ return document.getElementById(id); }
+
+function freshState(){
+  var qs = [];
+  for(var i=0;i<N;i++){ qs.push({status:"notvisited", selected:null, solutionSeen:false}); }
+  return {
+    phase: "welcome",
+    current: 0,
+    q: qs,
+    instantFeedback: false,
+    timeLeft: CFG.totalTimeSeconds,
+    startedAt: null,
+    finishedAt: null,
+    result: null,
+    solIndex: 0,
+    paletteHidden: false,
+    solPaletteHidden: false,
+    lang: "en",
+    solLang: "en"
+  };
+}
+
+function loadState(){
+  try{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return freshState();
+    var parsed = JSON.parse(raw);
+    if(!parsed || parsed.n !== N || !parsed.s || !parsed.s.q || parsed.s.q.length !== N) return freshState();
+    return parsed.s;
+  }catch(e){ return freshState(); }
+}
+
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify({n:N, s:state})); }catch(e){}
+}
+
+function escapeHtml(s){
+  var d = document.createElement("div");
+  d.textContent = s == null ? "" : String(s);
+  return d.innerHTML;
+}
+
+function qHtml(q, lang){ return (lang === "hi" && q.question.hi) ? q.question.hi : q.question.en; }
+function optHtml(q, key, lang){
+  var o = q.options[key];
+  if(!o) return "";
+  return (lang === "hi" && o.hi) ? o.hi : o.en;
+}
+function solHtml(q, lang){
+  if(!q.solution_text) return "";
+  return (lang === "hi" && q.solution_text.hi) ? q.solution_text.hi : q.solution_text.en;
+}
+
+function pad2(n){ n = Math.floor(n); return n < 10 ? "0"+n : ""+n; }
+function fmtClock(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return pad2(m) + ":" + pad2(s);
+}
+function fmtLong(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return m + "m " + s + "s";
+}
+
+/* ================= HEADER / STATIC TEXT ================= */
+function initStaticText(){
+  document.title = CFG.examTitle + " | " + CFG.sectionLabel;
+  $("wTitle").textContent = CFG.examTitle;
+  $("wSub").textContent = CFG.sectionLabel;
+  $("wTotalQ").textContent = N;
+  $("wTotalTime").textContent = Math.round(CFG.totalTimeSeconds/60);
+  $("wMarks").textContent = "+" + CFG.correctScoreDisplay + " / -" + CFG.negativeScoreDisplay;
+
+  $("hdrTitle").textContent = CFG.examTitle;
+  $("hdrSub").textContent = CFG.sectionLabel;
+  $("solHdrTitle").textContent = CFG.examTitle;
+  $("sectionTab").textContent = CFG.sectionLabel;
+  $("solSectionTab").textContent = CFG.sectionLabel;
+  $("paletteTitle").textContent = CFG.sectionLabel + " :";
+  $("solPaletteTitle").textContent = CFG.sectionLabel + " :";
+  $("resSub").textContent = CFG.examTitle + " \u2014 " + CFG.sectionLabel;
+
+  if(hasHindi){
+    var opt = '<option value="en">English</option><option value="hi">Hindi</option>';
+    $("langSelect").innerHTML = opt;
+    $("solLangSelect").innerHTML = opt;
+  }
+}
+
+/* ================= WELCOME ================= */
+function initWelcome(){
+  $("startTestBtn").addEventListener("click", function(){
+    state.instantFeedback = $("instantFeedbackToggle").checked;
+    state.phase = "testing";
+    state.startedAt = state.startedAt || Date.now();
+    saveState();
+    enterTestPage();
+    try{
+      var el = document.documentElement;
+      if(el.requestFullscreen){ el.requestFullscreen().catch(function(){}); }
+    }catch(e){}
+  });
+}
+
+function enterTestPage(){
+  $("welcomePage").classList.add("hidden-page");
+  $("testPage").classList.remove("hidden-page");
+  $("langSelect").value = state.lang;
+  applyPaletteCollapse();
+  renderQuestion();
+  startTimer();
+}
+
+/* ================= STATUS / PALETTE ================= */
+function statusCounts(){
+  var c = {notvisited:0, notanswered:0, answered:0, marked:0, markedans:0};
+  for(var i=0;i<N;i++){ c[state.q[i].status]++; }
+  return c;
+}
+
+function renderPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = state.q[i].status;
+    var cur = (i === state.current) ? " current" : "";
+    html += '<button type="button" class="qnum ' + st + cur + '" onclick="goTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("paletteGrid").innerHTML = html;
+  var c = statusCounts();
+  $("stAnswered").textContent = c.answered;
+  $("stNotAnswered").textContent = c.notanswered;
+  $("stMarked").textContent = c.marked;
+  $("stAnsMarked").textContent = c.markedans;
+  $("stNotVisited").textContent = c.notvisited;
+  $("totalAnsweredTop").textContent = c.answered + c.markedans;
+}
+
+function togglePalette(){
+  state.paletteHidden = !state.paletteHidden;
+  applyPaletteCollapse();
+  saveState();
+}
+function applyPaletteCollapse(){
+  var p = $("paletteWrap");
+  p.classList.toggle("hidden", state.paletteHidden);
+  $("collapseArrow").innerHTML = state.paletteHidden ? "&#9654;" : "&#9664;";
+}
+
+/* ================= QUESTION RENDER ================= */
+function renderQuestion(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  if(st.status === "notvisited") st.status = "notanswered";
+
+  $("qNoHeading").textContent = "Question No " + (i+1);
+  var topicEl = $("qTopicTag");
+  if(q.topic){ topicEl.textContent = q.topic; topicEl.style.display = "inline-block"; }
+  else { topicEl.style.display = "none"; }
+
+  $("qText").innerHTML = qHtml(q, state.lang);
+  var imgEl = $("qImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var checked = st.selected === val ? "checked" : "";
+    var cls = st.selected === val ? "selected" : "";
+    var img = opt.image ? '<div class="qimg"><img src="'+opt.image+'" alt="option image"></div>' : "";
+    optsHtml += '<label class="' + cls + '" data-opt="' + val + '">' +
+      '<input type="radio" name="opt" value="' + val + '" ' + checked + ' onclick="selectOption(\'' + val + '\')">' +
+      OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.lang) + img +
+      '</label>';
+  });
+  $("qOptions").innerHTML = optsHtml;
+  decorateImages($("qText")); decorateImages($("qImg")); decorateImages($("qOptions"));
+
+  $("showSolBtn").style.display = state.instantFeedback ? "inline-flex" : "none";
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+
+  applyFeedback();
+  renderPalette();
+  saveState();
+}
+
+function applyFeedback(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var fb = $("fbStrip");
+  fb.className = "fb-strip";
+  fb.textContent = "";
+
+  var labels = $all("#qOptions label");
+  labels.forEach(function(lab){
+    lab.classList.remove("selected","fb-correct","fb-wrong");
+    var badge = lab.querySelector(".opt-badge");
+    if(badge) badge.remove();
+    var optKey = lab.getAttribute("data-opt");
+    var isSel = optKey === st.selected;
+    if(isSel) lab.classList.add("selected");
+
+    if(state.instantFeedback && st.selected){
+      var isCorrect = optKey === q.answer;
+      if(isCorrect){
+        lab.classList.add("fb-correct");
+        var b1 = document.createElement("span");
+        b1.className = "opt-badge ok";
+        b1.textContent = "Correct";
+        lab.appendChild(b1);
+      }
+      if(isSel && !isCorrect){
+        lab.classList.add("fb-wrong");
+        var b2 = document.createElement("span");
+        b2.className = "opt-badge no";
+        b2.textContent = "Your pick";
+        lab.appendChild(b2);
+      }
+    }
+  });
+
+  if(state.instantFeedback && st.selected){
+    var correct = st.selected === q.answer;
+    fb.classList.add("show", correct ? "ok" : "no");
+    fb.textContent = correct ? "Correct answer!" : "Incorrect. The correct option is highlighted in green.";
+  }
+
+  renderLiveSolutionBox();
+}
+
+function renderLiveSolutionBox(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var box = $("liveSolutionBox");
+  if(state.instantFeedback && st.solutionSeen){
+    box.style.display = "block";
+    box.innerHTML = "<h4>Solution</h4><p><b>Correct Answer:</b> Option " + q.answer + "</p>" +
+      (solHtml(q, state.lang) || "<i>No solution text provided.</i>");
+    decorateImages(box);
+  } else {
+    box.style.display = "none";
+    box.innerHTML = "";
+  }
+}
+
+function toggleLiveSolution(){
+  var st = state.q[state.current];
+  st.solutionSeen = !st.solutionSeen;
+  saveState();
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+  renderLiveSolutionBox();
+}
+
+function $all(sel){ return Array.prototype.slice.call(document.querySelectorAll(sel)); }
+
+/* ================= INTERACTIONS ================= */
+function selectOption(val){
+  state.q[state.current].selected = val;
+  applyFeedback();
+  saveState();
+}
+
+function commitStatusFromSelection(i){
+  var st = state.q[i];
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  if(st.selected !== null){
+    st.status = wasMarked ? "markedans" : "answered";
+  } else {
+    st.status = wasMarked ? "marked" : "notanswered";
+  }
+}
+
+function saveAndNext(){
+  commitStatusFromSelection(state.current);
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function markForReview(){
+  var st = state.q[state.current];
+  st.status = st.selected !== null ? "markedans" : "marked";
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function clearResponse(){
+  var st = state.q[state.current];
+  st.selected = null;
+  st.solutionSeen = false;
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  st.status = wasMarked ? "marked" : "notanswered";
+  renderQuestion();
+}
+
+function goPrev(){ goTo(Math.max(state.current-1, 0)); }
+function goTo(i){ if(i<0||i>=N) return; state.current = i; renderQuestion(); }
+
+function setLang(v){ state.lang = v; saveState(); renderQuestion(); }
+function setSolLang(v){ state.solLang = v; saveState(); renderSolQuestion(); }
+
+/* ================= ZOOM / FULLSCREEN ================= */
+var ZOOM_KEY = "sscscholars_zoom_level";
+var zoomLevel = 1;
+try{ var zz = parseFloat(localStorage.getItem(ZOOM_KEY)); if(zz >= 0.6 && zz <= 3) zoomLevel = zz; }catch(e){}
+function zoomChange(dir){
+  zoomLevel = Math.min(3, Math.max(0.6, Math.round((zoomLevel + dir*0.1)*100)/100));
+  applyZoom();
+}
+function zoomReset(){ zoomLevel = 1; applyZoom(); }
+function applyZoom(){
+  document.documentElement.style.setProperty("--zoom", zoomLevel);
+  var labs = document.querySelectorAll(".zoomLabel");
+  for(var i=0;i<labs.length;i++){ labs[i].textContent = Math.round(zoomLevel*100) + "%"; }
+  try{ localStorage.setItem(ZOOM_KEY, String(zoomLevel)); }catch(e){}
+  applyImgZoom();
+}
+
+/* ---- images inside question / option / solution HTML follow the same zoom ---- */
+function sizeImg(img){
+  if(!img.naturalWidth) return;
+  var host = img.closest(".qbody") || img.closest(".explbox") || document.body;
+  var cap = Math.max(160, host.clientWidth - 90);
+  var base = Math.min(img.naturalWidth, cap);
+  img.style.width = Math.round(base * zoomLevel) + "px";
+  img.style.height = "auto";
+}
+function applyImgZoom(){
+  var imgs = document.querySelectorAll(".zwrap img");
+  for(var i=0;i<imgs.length;i++){ sizeImg(imgs[i]); }
+}
+/* ---- Maths (LaTeX) rendering: KaTeX if loaded, else readable plain-text fallback ---- */
+var MATH_DELIMS = [
+  {left:"$$", right:"$$", display:true},
+  {left:"\\[", right:"\\]", display:true},
+  {left:"\\(", right:"\\)", display:false}
+];
+function texToHtml(t){
+  var s = t;
+  s = s.replace(/\\left|\\right|\\displaystyle|\\!|\\,|\\;|\\:/g, "");
+  s = s.replace(/\\text\{([^{}]*)\}|\\mathrm\{([^{}]*)\}|\\textbf\{([^{}]*)\}/g, function(m,a,b,c){ return a||b||c||""; });
+  for(var i=0;i<4;i++){
+    s = s.replace(/\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}/g, "($1)/($2)");
+    s = s.replace(/\\sqrt\[([^\]]*)\]\{([^{}]*)\}/g, "<sup>$1</sup>&radic;($2)");
+    s = s.replace(/\\sqrt\{([^{}]*)\}/g, "&radic;($1)");
+  }
+  s = s.replace(/\\sqrt\s*([0-9a-zA-Z])/g, "&radic;$1");
+  s = s.replace(/\^\{([^{}]*)\}/g, "<sup>$1</sup>").replace(/\^([0-9a-zA-Z])/g, "<sup>$1</sup>");
+  s = s.replace(/_\{([^{}]*)\}/g, "<sub>$1</sub>").replace(/_([0-9a-zA-Z])/g, "<sub>$1</sub>");
+  var map = {times:"×", div:"÷", pm:"±", mp:"∓", cdot:"·", le:"≤", leq:"≤", ge:"≥", geq:"≥", ne:"≠", neq:"≠",
+    approx:"≈", circ:"°", pi:"π", theta:"θ", alpha:"α", beta:"β", gamma:"γ", delta:"δ", Delta:"Δ", sigma:"σ",
+    lambda:"λ", mu:"μ", infty:"∞", therefore:"∴", because:"∵", rightarrow:"→", Rightarrow:"⇒", to:"→",
+    angle:"∠", triangle:"△", perp:"⊥", parallel:"∥", degree:"°", ldots:"…", cdots:"…", dots:"…", quad:" ", qquad:"  "};
+  s = s.replace(/\\([a-zA-Z]+)/g, function(m,n){ return map.hasOwnProperty(n) ? map[n] : n; });
+  s = s.replace(/\\%/g, "%").replace(/\\&/g, "&").replace(/\\\\/g, "<br>").replace(/\\ /g, " ");
+  s = s.replace(/[{}]/g, "");
+  return s;
+}
+function mathFallback(root){
+  var h = root.innerHTML;
+  if(h.indexOf("\\(") === -1 && h.indexOf("\\[") === -1 && h.indexOf("$$") === -1) return;
+  h = h.replace(/\\\(([\s\S]*?)\\\)/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\\\[([\s\S]*?)\\\]/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\$\$([\s\S]*?)\$\$/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  root.innerHTML = h;
+}
+function renderMath(root){
+  if(!root) return;
+  if(typeof renderMathInElement === "function"){
+    try{ renderMathInElement(root, {delimiters: MATH_DELIMS, throwOnError:false, strict:false}); }catch(e){ mathFallback(root); }
+  } else {
+    mathFallback(root);
+  }
+}
+
+function decorateImages(root){
+  if(!root) return;
+  renderMath(root);
+  var imgs = root.querySelectorAll("img");
+  for(var i=0;i<imgs.length;i++){
+    var img = imgs[i];
+    if(img.parentNode && img.parentNode.classList && img.parentNode.classList.contains("zwrap")) continue;
+    img.removeAttribute("style");
+    img.removeAttribute("width");
+    img.removeAttribute("height");
+    var wrap = document.createElement("span");
+    wrap.className = "zwrap";
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(img);
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "zbtn"; b.title = "Open full-size / zoom"; b.innerHTML = "&#128269;";
+    wrap.appendChild(b);
+    if(img.complete && img.naturalWidth){ sizeImg(img); }
+    else { img.addEventListener("load", function(e){ sizeImg(e.target); }); }
+  }
+}
+window.addEventListener("resize", function(){ applyImgZoom(); });
+
+/* ---- Lightbox: wheel zoom, drag to pan, fit / 1:1 ---- */
+var lb = {scale:1, x:0, y:0, drag:false, sx:0, sy:0, fitScale:1};
+function lbEl(){ return {box:$("imgLightbox"), stage:$("lbStage"), img:$("lbImg")}; }
+function lbApply(){
+  var e = lbEl();
+  e.img.style.transform = "translate(" + lb.x + "px," + lb.y + "px) scale(" + lb.scale + ")";
+  $("lbPct").textContent = Math.round(lb.scale*100) + "%";
+}
+function lbOpen(src){
+  var e = lbEl();
+  e.box.classList.add("show");
+  e.img.onload = function(){ lbFit(); };
+  e.img.src = src;
+  if(e.img.complete && e.img.naturalWidth){ lbFit(); }
+}
+function lbFit(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  var iw = e.img.naturalWidth || 1, ih = e.img.naturalHeight || 1;
+  var sc = Math.min(sw/iw, sh/ih);
+  lb.fitScale = sc;
+  /* small images: blow them up so they are actually readable */
+  if(sc > 1) sc = Math.min(sc, 4);
+  lb.scale = sc;
+  lb.x = (sw - iw*sc)/2; lb.y = (sh - ih*sc)/2;
+  lbApply();
+}
+function lbActual(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  lb.scale = 1;
+  lb.x = (sw - e.img.naturalWidth)/2; lb.y = (sh - e.img.naturalHeight)/2;
+  lbApply();
+}
+function lbZoomAt(factor, cx, cy){
+  var ns = Math.min(12, Math.max(0.1, lb.scale * factor));
+  var k = ns / lb.scale;
+  lb.x = cx - (cx - lb.x) * k;
+  lb.y = cy - (cy - lb.y) * k;
+  lb.scale = ns;
+  lbApply();
+}
+function lbZoom(dir){
+  var e = lbEl();
+  lbZoomAt(dir > 0 ? 1.25 : 0.8, e.stage.clientWidth/2, e.stage.clientHeight/2);
+}
+function lbClose(){ $("imgLightbox").classList.remove("show"); }
+function lbIsOpen(){ return $("imgLightbox").classList.contains("show"); }
+
+(function initLightbox(){
+  var stage = $("lbStage");
+  stage.addEventListener("wheel", function(ev){
+    ev.preventDefault();
+    var r = stage.getBoundingClientRect();
+    lbZoomAt(ev.deltaY < 0 ? 1.15 : 1/1.15, ev.clientX - r.left, ev.clientY - r.top);
+  }, {passive:false});
+  stage.addEventListener("pointerdown", function(ev){
+    lb.drag = true; lb.sx = ev.clientX - lb.x; lb.sy = ev.clientY - lb.y;
+    stage.classList.add("drag");
+    try{ stage.setPointerCapture(ev.pointerId); }catch(e){}
+  });
+  stage.addEventListener("pointermove", function(ev){
+    if(!lb.drag) return;
+    lb.x = ev.clientX - lb.sx; lb.y = ev.clientY - lb.sy; lbApply();
+  });
+  function endDrag(){ lb.drag = false; stage.classList.remove("drag"); }
+  stage.addEventListener("pointerup", endDrag);
+  stage.addEventListener("pointercancel", endDrag);
+  stage.addEventListener("dblclick", function(){
+    if(Math.abs(lb.scale - lb.fitScale) < 0.02 || lb.fitScale > 1){ var e = lbEl(); lbZoomAt(2, e.stage.clientWidth/2, e.stage.clientHeight/2); }
+    else { lbFit(); }
+  });
+  /* two-finger pinch on touch screens */
+  var pts = {}, pinchD = 0;
+  stage.addEventListener("pointerdown", function(ev){ pts[ev.pointerId] = ev; });
+  stage.addEventListener("pointermove", function(ev){
+    if(!pts[ev.pointerId]) return;
+    pts[ev.pointerId] = ev;
+    var ids = Object.keys(pts);
+    if(ids.length === 2){
+      var a = pts[ids[0]], b = pts[ids[1]];
+      var d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY);
+      if(pinchD){
+        var r = stage.getBoundingClientRect();
+        lbZoomAt(d/pinchD, (a.clientX+b.clientX)/2 - r.left, (a.clientY+b.clientY)/2 - r.top);
+      }
+      pinchD = d;
+    }
+  });
+  function pend(ev){ delete pts[ev.pointerId]; pinchD = 0; }
+  stage.addEventListener("pointerup", pend);
+  stage.addEventListener("pointercancel", pend);
+
+  /* open lightbox: magnifier button always; clicking the picture itself everywhere
+     except inside answer options (there a click must still select the option) */
+  document.addEventListener("click", function(ev){
+    var t = ev.target;
+    if(!t || !t.closest) return;
+    var wrap = t.closest(".zwrap");
+    if(!wrap) return;
+    var img = wrap.querySelector("img");
+    if(!img) return;
+    var isBtn = t.classList.contains("zbtn");
+    var inOption = !!t.closest(".options label");
+    if(isBtn || !inOption){
+      ev.preventDefault(); ev.stopPropagation();
+      lbOpen(img.currentSrc || img.src);
+    }
+  }, true);
+})();
+
+function toggleFullscreen(){
+  try{
+    if(!document.fullscreenElement){ document.documentElement.requestFullscreen().catch(function(){}); }
+    else { document.exitFullscreen().catch(function(){}); }
+  }catch(e){}
+}
+document.addEventListener("fullscreenchange", function(){
+  var btn = $("fsBtn");
+  if(btn) btn.textContent = document.fullscreenElement ? "Exit Full Screen" : "Full Screen";
+});
+
+/* ================= PAUSE / TIMER ================= */
+function togglePause(){
+  if(state.phase !== "testing" && state.phase !== "paused") return;
+  if(state.phase === "testing"){
+    state.phase = "paused";
+    clearInterval(timerHandle);
+    $("pauseOverlay").classList.add("show");
+  } else {
+    state.phase = "testing";
+    $("pauseOverlay").classList.remove("show");
+    startTimer();
+  }
+  saveState();
+}
+
+function startTimer(){
+  if(timerHandle) clearInterval(timerHandle);
+  renderTime();
+  timerHandle = setInterval(function(){
+    if(state.phase !== "testing") return;
+    state.timeLeft -= 1;
+    if(state.timeLeft <= 0){
+      state.timeLeft = 0;
+      renderTime();
+      clearInterval(timerHandle);
+      doSubmit();
+      return;
+    }
+    renderTime();
+    if(state.timeLeft % 5 === 0) saveState();
+  }, 1000);
+}
+
+function renderTime(){
+  var box = $("timeleftBox");
+  $("timeLeft").textContent = fmtClock(state.timeLeft);
+  if(box) box.classList.toggle("low", state.timeLeft <= 120);
+}
+
+/* ================= SUBMIT ================= */
+function confirmSubmit(){
+  renderPalette();
+  var c = statusCounts();
+  $("mAnswered").textContent = c.answered + c.markedans;
+  $("mNotAnswered").textContent = c.notanswered;
+  $("mMarked").textContent = c.marked + c.markedans;
+  $("mNotVisited").textContent = c.notvisited;
+  $("submitModal").classList.add("show");
+}
+function closeSubmitModal(){ $("submitModal").classList.remove("show"); }
+
+function computeResult(){
+  var correct=0, wrong=0, unattempt=0, marks=0, negMarksTotal=0, maxMarks=0;
+  for(var i=0;i<N;i++){
+    var q = QUESTIONS[i];
+    var sel = state.q[i].selected;
+    var cs = (q.correct_score !== undefined && q.correct_score !== null && q.correct_score !== "") ? parseFloat(q.correct_score) : CFG.defaultCorrectScore;
+    var ns = (q.negative_score !== undefined && q.negative_score !== null && q.negative_score !== "") ? parseFloat(q.negative_score) : CFG.defaultNegativeScore;
+    maxMarks += cs;
+    if(sel === null || sel === undefined){ unattempt++; }
+    else if(sel === q.answer){ correct++; marks += cs; }
+    else { wrong++; negMarksTotal += ns; marks -= ns; }
+  }
+  var attempted = correct + wrong;
+  var accuracy = attempted > 0 ? (correct/attempted*100) : 0;
+  var timeTaken = CFG.totalTimeSeconds - state.timeLeft;
+  return {
+    correct: correct, wrong: wrong, unattempt: unattempt,
+    score: Math.round(marks*100)/100,
+    maxMarks: Math.round(maxMarks*100)/100,
+    negMarksTotal: Math.round(negMarksTotal*100)/100,
+    accuracy: Math.round(accuracy*10)/10,
+    timeTaken: timeTaken,
+    avgTime: Math.round(timeTaken / N),
+    total: N
+  };
+}
+
+function doSubmit(){
+  closeSubmitModal();
+  clearInterval(timerHandle);
+  state.phase = "submitted";
+  state.finishedAt = Date.now();
+  state.result = computeResult();
+  saveState();
+  try{ if(document.fullscreenElement && document.exitFullscreen){ document.exitFullscreen().catch(function(){}); } }catch(e){}
+  $("testPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+function renderResult(){
+  var r = state.result || computeResult();
+  $("finalScore").textContent = r.score;
+  $("stCorrect").textContent = r.correct;
+  $("stWrong").textContent = r.wrong;
+  $("stUnattempt").textContent = r.unattempt;
+  $("stAccuracy").textContent = r.accuracy + "%";
+  $("stMaxMarks").textContent = r.maxMarks;
+  $("stNegMarks").textContent = r.negMarksTotal;
+  $("stTimeTaken").textContent = fmtLong(r.timeTaken);
+  $("stAvgTime").textContent = fmtLong(r.avgTime);
+}
+
+function restartTest(){
+  if(confirm("This will erase your current attempt and start over. Continue?")){
+    try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+    window.location.reload();
+  }
+}
+
+/* ================= SOLUTIONS PAGE ================= */
+function solStatus(i){
+  var sel = state.q[i].selected;
+  var q = QUESTIONS[i];
+  if(sel === null || sel === undefined) return "skipped";
+  return sel === q.answer ? "correct" : "wrong";
+}
+
+function renderSolPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = solStatus(i);
+    var cls = st === "correct" ? "solcorrect" : st === "wrong" ? "solwrong" : "solskipped";
+    var cur = (i === state.solIndex) ? " current" : "";
+    html += '<button type="button" class="qnum ' + cls + cur + '" onclick="solGoTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("solPaletteGrid").innerHTML = html;
+}
+
+function renderSolQuestion(){
+  var i = state.solIndex;
+  var q = QUESTIONS[i];
+  var sel = state.q[i].selected;
+  var st = solStatus(i);
+
+  $("solQNoHeading").textContent = "Question No " + (i+1);
+  var badge = st === "correct" ? '<span class="sol-badge correct">Correct</span>'
+            : st === "wrong" ? '<span class="sol-badge wrong">Wrong</span>'
+            : '<span class="sol-badge skipped">Skipped</span>';
+  $("solBadgeHolder").innerHTML = badge;
+  $("solLangSelect").value = state.solLang;
+
+  $("solQText").innerHTML = qHtml(q, state.solLang);
+  var imgEl = $("solQImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var cls = "", tag = "";
+    if(val === q.answer){ cls = "right"; tag = '<span class="tagmini">CORRECT</span>'; }
+    else if(val === sel && sel !== q.answer){ cls = "picked-wrong"; tag = '<span class="tagmini">YOUR ANSWER</span>'; }
+    optsHtml += '<div class="soloption ' + cls + '">' + OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.solLang) + ' ' + tag + '</div>';
+  });
+  $("solOptions").innerHTML = optsHtml;
+  decorateImages($("solQText")); decorateImages($("solQImg")); decorateImages($("solOptions"));
+
+  var explHead = '<h4>Explanation</h4>';
+  $("solExpl").innerHTML = explHead + (solHtml(q, state.solLang) || "<i>No solution text provided.</i>");
+  decorateImages($("solExpl"));
+
+  $("solPrevBtn").disabled = (i === 0);
+  $("solNextBtn").disabled = (i === N-1);
+
+  renderSolPalette();
+  saveState();
+}
+
+function solGoTo(i){ state.solIndex = i; renderSolQuestion(); }
+function solGoNext(){ solGoTo(Math.min(state.solIndex+1, N-1)); }
+function solGoPrev(){ solGoTo(Math.max(state.solIndex-1, 0)); }
+
+function toggleSolPalette(){
+  state.solPaletteHidden = !state.solPaletteHidden;
+  applySolPaletteCollapse();
+  saveState();
+}
+function applySolPaletteCollapse(){
+  var p = $("solPaletteWrap");
+  p.classList.toggle("hidden", state.solPaletteHidden);
+  $("solCollapseArrow").innerHTML = state.solPaletteHidden ? "&#9654;" : "&#9664;";
+}
+
+function showSolutions(){
+  $("resultPage").classList.add("hidden-page");
+  $("solutionPage").classList.remove("hidden-page");
+  state.solIndex = 0;
+  applySolPaletteCollapse();
+  renderSolQuestion();
+  saveState();
+}
+function backToResult(){
+  $("solutionPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+/* ================= KEYBOARD SHORTCUTS ================= */
+document.addEventListener("keydown", function(e){
+  if(lbIsOpen()){
+    if(e.key === "Escape") lbClose();
+    else if(e.key === "+" || e.key === "=") lbZoom(1);
+    else if(e.key === "-") lbZoom(-1);
+    else if(e.key === "0") lbFit();
+    return;
+  }
+  if(state.phase !== "testing") return;
+  if(e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT")) return;
+  if(["1","2","3","4","5"].indexOf(e.key) !== -1){
+    var lab = document.querySelector('#qOptions label[data-opt="'+e.key+'"] input');
+    if(lab){ lab.checked = true; selectOption(e.key); }
+  } else if(e.key === "ArrowRight"){ saveAndNext(); }
+  else if(e.key === "ArrowLeft"){ goPrev(); }
+});
+
+/* ================= INIT ================= */
+function boot(){
+  applyZoom();
+  state = loadState();
+  initStaticText();
+  initWelcome();
+
+  if(state.phase === "submitted"){
+    $("welcomePage").classList.add("hidden-page");
+    $("solLangSelect").value = state.solLang;
+    renderResult();
+    $("resultPage").classList.remove("hidden-page");
+  } else if(state.phase === "testing" || state.phase === "paused"){
+    $("instantFeedbackToggle").checked = state.instantFeedback;
+    enterTestPage();
+    if(state.phase === "paused"){
+      clearInterval(timerHandle);
+      $("pauseOverlay").classList.add("show");
+    }
+  }
+  /* else: stay on welcomePage (its default state in the markup) */
+}
+
+if(document.readyState === "loading"){
+  document.addEventListener("DOMContentLoaded", boot);
+} else {
+  boot();
+}
+
+</script>
+</body>
+</html>

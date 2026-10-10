@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SELECTION POST - PHASE 14 - MATRICULATION - 17 SEP 2026 - SHIFT 3 | Maths</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --zoom: 1;
+  --blue:#3b6df0;
+  --blue-dark:#2952c8;
+  --blue-light:#eaf0ff;
+  --green:#17a668;
+  --green-dark:#0f8a56;
+  --purple:#8b3fe8;
+  --purple-dark:#6a24c4;
+  --red:#f0432f;
+  --red-dark:#c92c1a;
+  --gold:#e0a100;
+  --grey:#9aa2b1;
+  --ink:#1a2233;
+  --panel-border:#e2e6ee;
+  --bg:#f4f6fb;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;font-family:'Inter',Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:calc(14px * var(--zoom));}
+h1,h2,h3{font-family:'Poppins',Arial,sans-serif;}
+a{cursor:pointer;}
+img{max-width:100%;}
+.hidden-page{display:none;}
+
+/* ============ HEADER ============ */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;background:#fff;border-bottom:1px solid #eceff5;flex-wrap:wrap;gap:8px;box-shadow:0 1px 3px rgba(20,30,60,.04);}
+.topbar-left{display:flex;align-items:center;gap:10px;}
+.logo{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#3b6df0,#8b3fe8);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:12px;box-shadow:0 3px 8px rgba(59,109,240,.35);flex-shrink:0;}
+.brandname{font-weight:800;font-size:calc(11.5px*var(--zoom));letter-spacing:.3px;color:var(--blue-dark);text-transform:uppercase;white-space:nowrap;}
+.btn{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;border:none;padding:8px 15px;border-radius:7px;font-weight:600;font-size:calc(13px*var(--zoom));cursor:pointer;transition:transform .12s ease, box-shadow .12s ease;box-shadow:0 2px 6px rgba(59,109,240,.28);}
+.btn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(59,109,240,.38);}
+.btn:active{transform:translateY(0);}
+.btn.submitbtn{background:linear-gradient(135deg,#17a668,#0f8a56);box-shadow:0 2px 6px rgba(23,166,104,.35);}
+.btn.submitbtn:hover{box-shadow:0 5px 14px rgba(23,166,104,.45);}
+.btn.purplebtn{background:linear-gradient(135deg,var(--purple),var(--purple-dark));box-shadow:0 2px 6px rgba(139,63,232,.32);}
+.btn.purplebtn:hover{box-shadow:0 5px 14px rgba(139,63,232,.42);}
+.btn:disabled{opacity:.5;cursor:not-allowed;transform:none !important;}
+.btn-outline{background:#fff;color:var(--blue);border:1.5px solid var(--blue);padding:5px 11px;border-radius:7px;font-size:calc(12px*var(--zoom));font-weight:600;cursor:pointer;transition:.12s;}
+.btn-outline:hover{background:var(--blue-light);}
+.btn-gold{background:linear-gradient(135deg,#f5c451,var(--gold));color:#4a3300;border:none;padding:8px 15px;border-radius:7px;font-weight:700;font-size:calc(13px*var(--zoom));cursor:pointer;box-shadow:0 2px 6px rgba(224,161,0,.35);}
+.title-block{text-align:center;font-weight:700;font-size:calc(17px*var(--zoom));line-height:1.3;flex:1;min-width:260px;letter-spacing:.2px;}
+.title-block .sub{display:block;font-size:calc(11.5px*var(--zoom));font-weight:600;color:#7d8494;margin-top:1px;text-transform:none;letter-spacing:0;}
+.topbar-right{display:flex;align-items:center;gap:14px;}
+.timeleft{font-weight:700;font-size:calc(15px*var(--zoom));background:#fff3f0;padding:6px 12px;border-radius:8px;border:1px solid #ffd9d1;}
+.timeleft span{color:var(--red);}
+.timeleft.low{background:#ffdcdc;}
+.pausebtn{display:flex;align-items:center;gap:5px;font-weight:600;color:var(--ink);background:#eef1f7;border:none;cursor:pointer;font-size:calc(13px*var(--zoom));padding:7px 12px;border-radius:8px;transition:.12s;}
+.pausebtn:hover{background:#e3e7f1;}
+
+/* ============ SUBBAR ============ */
+.subbar{display:flex;justify-content:space-between;align-items:center;padding:8px 18px;flex-wrap:wrap;gap:6px;background:#fff;border-bottom:1px solid #eceff5;}
+.subbar .taglist a{color:var(--red);font-weight:700;text-decoration:none;margin-right:16px;font-size:calc(12.5px*var(--zoom));border-bottom:2px solid transparent;transition:.12s;}
+.subbar .topictag{display:inline-block;background:var(--blue-light);color:var(--blue-dark);font-weight:700;font-size:calc(11.5px*var(--zoom));padding:3px 11px;border-radius:20px;}
+.qanswered{font-weight:700;font-size:calc(13px*var(--zoom));}
+.qanswered span{color:#e08e00;background:#fff6e5;padding:2px 9px;border-radius:6px;}
+
+/* ============ CONTROL ROW ============ */
+.controlrow{display:flex;align-items:center;justify-content:space-between;padding:10px 18px;flex-wrap:wrap;gap:8px;}
+.section-tab{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;border:none;padding:10px 18px;border-radius:8px;font-weight:700;font-size:calc(14px*var(--zoom));box-shadow:0 3px 8px rgba(23,166,104,.3);}
+.navbtns{display:flex;gap:9px;flex-wrap:wrap;}
+.navbtns .btn{padding:10px 17px;}
+.collapse-arrow{width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;cursor:pointer;user-select:none;background:linear-gradient(135deg,var(--blue),var(--blue-dark));border-radius:50%;box-shadow:0 3px 8px rgba(59,109,240,.3);transition:.15s;}
+.collapse-arrow:hover{transform:scale(1.08);}
+
+/* ============ MAIN LAYOUT ============ */
+.mainwrap{display:flex;gap:0;padding:6px 18px 18px;align-items:flex-start;}
+.qpanel{flex:1;min-width:0;border:1px solid var(--panel-border);border-radius:12px;min-height:520px;background:#fff;box-shadow:0 4px 18px rgba(30,40,80,.06);overflow:hidden;}
+.qpanel-head{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid #f0f2f7;flex-wrap:wrap;gap:8px;background:linear-gradient(180deg,#fbfcff,#fff);}
+.qpanel-head h3{margin:0;font-size:calc(17px*var(--zoom));color:var(--blue-dark);}
+.lang-select{padding:5px 9px;border:1px solid #d8dded;border-radius:6px;font-family:inherit;}
+.zoomgrp{display:flex;gap:6px;align-items:center;}
+.zoomgrp button{width:30px;height:30px;border-radius:7px;border:1px solid #d8dded;background:#fff;color:var(--blue-dark);font-weight:800;cursor:pointer;}
+.zoomgrp button:hover{background:var(--blue-light);}
+.qbody{padding:22px 24px;font-size:calc(15.5px*var(--zoom));line-height:1.6;}
+.qtext{margin-bottom:20px;font-weight:500;}
+.qtext p{margin:0 0 10px;}
+.qimg{margin:10px 0 18px;}
+.options label{display:flex;align-items:flex-start;gap:10px;margin:10px 0;padding:11px 14px;border-radius:9px;cursor:pointer;font-size:calc(15px*var(--zoom));border:1.5px solid #eef0f6;transition:.12s;position:relative;}
+.options label:hover{background:var(--blue-light);border-color:#cdddff;}
+.options input{margin-top:3px;transform:scale(1.2);accent-color:var(--blue);flex-shrink:0;}
+.options label.selected{background:var(--blue-light);border-color:var(--blue);}
+.options label.fb-correct{background:#e9f9f0;border-color:var(--green);}
+.options label.fb-wrong{background:#fdecea;border-color:var(--red);}
+.opt-badge{margin-left:auto;font-size:10.5px;font-weight:800;padding:2px 9px;border-radius:20px;white-space:nowrap;}
+.opt-badge.ok{background:var(--green);color:#fff;}
+.opt-badge.no{background:var(--red);color:#fff;}
+.fb-strip{margin:6px 0 18px;padding:10px 14px;border-radius:9px;font-weight:700;font-size:calc(13.5px*var(--zoom));display:none;}
+.fb-strip.show{display:block;}
+.fb-strip.ok{background:#e9f9f0;color:var(--green-dark);}
+.fb-strip.no{background:#fdecea;color:var(--red-dark);}
+.qfooter{display:flex;gap:10px;padding:16px 24px;border-top:1px solid #f0f2f7;flex-wrap:wrap;align-items:center;}
+.btn-clear{background:#fff;color:#555;border:1.5px solid #d8dded;padding:9px 16px;border-radius:8px;font-weight:600;cursor:pointer;transition:.12s;}
+.btn-clear:hover{background:#f5f6fa;}
+
+.palette-wrap{width:330px;flex-shrink:0;margin-left:16px;transition:all .2s ease;}
+.palette-wrap.hidden{width:0;margin-left:0;overflow:hidden;opacity:0;}
+.palette-title{background:linear-gradient(135deg,#eef1fb,#e6ecff);font-weight:700;text-align:center;padding:10px;border:1px solid var(--panel-border);border-bottom:none;border-radius:12px 12px 0 0;color:var(--blue-dark);}
+.palette-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;padding:16px;border:1px solid var(--panel-border);border-top:none;max-height:260px;overflow-y:auto;background:#fff;}
+.qnum{aspect-ratio:1;border:none;border-radius:7px;color:#fff;font-weight:700;cursor:pointer;font-size:calc(13px*var(--zoom));position:relative;transition:transform .1s ease, box-shadow .1s ease;}
+.qnum:hover{transform:scale(1.08);}
+.qnum.notvisited{background:#aab1c0;}
+.qnum.notanswered{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.answered{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.marked{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans{background:linear-gradient(135deg,#8b3fe8,#6a24c4);}
+.qnum.markedans::after{content:"";position:absolute;bottom:3px;right:3px;width:8px;height:8px;background:#17a668;border-radius:50%;border:1.5px solid #fff;}
+.qnum.current{outline:3px solid #1a2233;outline-offset:2px;}
+.qnum.solcorrect{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.qnum.solwrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.qnum.solskipped{background:#aab1c0;}
+
+.analytics{border:1px solid var(--panel-border);border-radius:12px;margin-top:16px;overflow:hidden;box-shadow:0 3px 10px rgba(30,40,80,.05);}
+.analytics-head{background:linear-gradient(135deg,#2a3245,#1a2233);color:#fff;text-align:center;font-weight:700;padding:9px;font-size:calc(13.5px*var(--zoom));}
+.analytics table{width:100%;border-collapse:collapse;font-size:calc(13px*var(--zoom));background:#fff;}
+.analytics td{padding:10px 14px;border-bottom:1px solid #f0f2f7;}
+.analytics td:last-child{text-align:right;font-weight:700;color:#e08e00;width:40px;}
+.legend{padding:12px 14px;font-size:calc(12px*var(--zoom));display:flex;flex-direction:column;gap:7px;border:1px solid var(--panel-border);border-top:none;background:#fff;border-radius:0 0 12px 12px;}
+.legend div{display:flex;align-items:center;gap:8px;}
+.legend .dot{width:14px;height:14px;border-radius:4px;display:inline-block;flex-shrink:0;}
+
+.submitbar{text-align:center;padding:18px 0 4px;}
+.submitbar .btn{padding:11px 28px;font-size:calc(14px*var(--zoom));}
+
+/* pause overlay */
+.pauseoverlay{position:fixed;inset:0;background:rgba(15,18,30,.9);backdrop-filter:blur(3px);color:#fff;display:none;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:18px;text-align:center;padding:20px;}
+.pauseoverlay.show{display:flex;}
+.pauseoverlay h2{font-size:26px;margin:0;}
+.pauseoverlay p{margin:0;color:#c7c9d6;max-width:360px;}
+.pauseoverlay .btn{font-size:15px;padding:11px 30px;}
+
+/* modal */
+.modal-bg{position:fixed;inset:0;background:rgba(15,18,30,.55);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px;}
+.modal-bg.show{display:flex;}
+.modal{background:#fff;border-radius:14px;width:430px;max-width:92vw;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.3);}
+.modal h3{margin-top:0;font-size:20px;}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0;}
+.modal-grid div{background:#f4f6fb;border-radius:9px;padding:12px;text-align:center;}
+.modal-grid b{display:block;font-size:21px;}
+.modal-actions{display:flex;justify-content:flex-end;gap:10px;}
+.modal-actions button{padding:9px 18px;border-radius:8px;border:none;font-weight:700;cursor:pointer;transition:.12s;}
+.modal-actions .cancel{background:#eef0f5;color:#333;}
+.modal-actions .cancel:hover{background:#e2e5ee;}
+.modal-actions .confirm{background:linear-gradient(135deg,#17a668,#0f8a56);color:#fff;}
+.modal-actions .confirm:hover{filter:brightness(1.06);}
+
+/* ============ WELCOME PAGE ============ */
+.welcomewrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+.welcomecard{width:100%;max-width:640px;background:#fff;border-radius:18px;box-shadow:0 16px 50px rgba(30,40,80,.14);overflow:hidden;}
+.welcomehero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);color:#fff;padding:26px 30px 22px;text-align:center;}
+.welcomehero .wbrand{font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;opacity:.9;}
+.welcomehero h1{margin:8px 0 3px;font-size:22px;}
+.welcomehero .wsub{opacity:.92;font-size:13.5px;}
+.welcomebody{padding:26px 30px 30px;}
+.wmeta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px;}
+.wmeta div{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:10px;text-align:center;}
+.wmeta b{display:block;font-size:19px;color:var(--blue-dark);font-family:'Poppins',sans-serif;}
+.wmeta span{font-size:10.5px;color:#7d8494;text-transform:uppercase;letter-spacing:.3px;}
+.winstr{background:var(--bg);border:1px solid var(--panel-border);border-radius:10px;padding:14px 16px;margin-bottom:18px;max-height:180px;overflow-y:auto;}
+.winstr h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:#7d8494;}
+.winstr ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.65;color:#374151;}
+.wlegend{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px;font-size:12px;color:#374151;}
+.wlegend span{display:inline-flex;align-items:center;gap:6px;}
+.wtoggle{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--blue-light);border:1px solid #cddcff;border-radius:12px;padding:12px 16px;margin-bottom:20px;}
+.wtoggle .ttl{font-weight:700;font-size:14px;color:var(--blue-dark);}
+.wtoggle .desc{font-size:12px;color:#5c6478;margin-top:2px;}
+.switch{position:relative;width:46px;height:26px;flex-shrink:0;}
+.switch input{opacity:0;width:0;height:0;}
+.slider{position:absolute;cursor:pointer;inset:0;background:#c9c9d6;border-radius:999px;transition:.2s;}
+.slider:before{content:"";position:absolute;height:20px;width:20px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s;box-shadow:0 1px 3px rgba(0,0,0,.3);}
+.switch input:checked + .slider{background:var(--blue);}
+.switch input:checked + .slider:before{transform:translateX(20px);}
+.btn-startbig{width:100%;padding:15px;border:none;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;font-size:16px;font-weight:700;letter-spacing:.3px;box-shadow:0 8px 20px rgba(59,109,240,.35);cursor:pointer;}
+.btn-startbig:hover{box-shadow:0 10px 26px rgba(59,109,240,.45);}
+
+/* ============ RESULT / ANALYSIS PAGE ============ */
+.resultwrap{max-width:1020px;margin:28px auto;padding:0 18px;}
+.score-hero{background:linear-gradient(135deg,#3b6df0,#8b3fe8);border-radius:18px;color:#fff;padding:34px 36px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;box-shadow:0 16px 40px rgba(59,109,240,.3);}
+.score-hero h1{margin:0 0 6px;font-size:30px;}
+.score-hero p{margin:0;opacity:.92;font-size:15px;}
+.score-ring{width:126px;height:126px;border-radius:50%;background:#fff;color:var(--blue);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:30px;box-shadow:0 10px 26px rgba(0,0,0,.22);font-family:'Poppins',sans-serif;flex-shrink:0;}
+.score-ring span{font-size:12px;font-weight:600;color:#888;font-family:'Inter',sans-serif;}
+.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0;}
+.statcard{background:#fff;border:1px solid #eceff5;border-radius:14px;padding:18px;text-align:center;box-shadow:0 4px 14px rgba(30,40,80,.06);transition:.15s;}
+.statcard:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(30,40,80,.1);}
+.statcard b{display:block;font-size:26px;margin-bottom:5px;font-family:'Poppins',sans-serif;}
+.statcard.correct b{color:var(--green);}
+.statcard.wrong b{color:var(--red);}
+.statcard.unattempt b{color:var(--grey);}
+.statcard.accuracy b{color:var(--blue);}
+.resultactions{display:flex;gap:12px;justify-content:center;margin:28px 0;flex-wrap:wrap;}
+.resultactions button{padding:12px 24px;border-radius:9px;border:none;font-weight:700;cursor:pointer;font-size:14px;transition:.15s;}
+.resultactions .primary{background:linear-gradient(135deg,var(--blue),var(--blue-dark));color:#fff;box-shadow:0 4px 14px rgba(59,109,240,.3);}
+.resultactions .primary:hover{transform:translateY(-2px);}
+.resultactions .secondary{background:#fff;color:var(--blue);border:1.5px solid var(--blue);}
+.resultactions .secondary:hover{background:var(--blue-light);}
+
+/* ============ SOLUTIONS PAGE (exam-style paginated) ============ */
+.sol-badge{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;color:#fff;}
+.sol-badge.correct{background:linear-gradient(135deg,#17a668,#0f8a56);}
+.sol-badge.wrong{background:linear-gradient(135deg,#f0432f,#c92c1a);}
+.sol-badge.skipped{background:#aab1c0;}
+.soloption{padding:11px 14px;border-radius:9px;margin:8px 0;border:1.5px solid #eef0f6;font-size:calc(15px*var(--zoom));display:flex;gap:8px;align-items:flex-start;}
+.soloption.right{background:#e9f9f0;border-color:var(--green);color:#0f6b41;font-weight:700;}
+.soloption.picked-wrong{background:#fdecea;border-color:var(--red);color:#9c2b1c;font-weight:700;}
+.soloption .tagmini{font-size:10.5px;font-weight:800;padding:1px 7px;border-radius:10px;margin-left:auto;white-space:nowrap;}
+.soloption.right .tagmini{background:var(--green);color:#fff;}
+.soloption.picked-wrong .tagmini{background:var(--red);color:#fff;}
+.explbox{margin-top:14px;background:linear-gradient(180deg,#f2f6ff,#eef2ff);border-left:4px solid var(--blue);padding:13px 16px;font-size:calc(13.5px*var(--zoom));border-radius:0 10px 10px 0;line-height:1.55;}
+.explbox b{color:var(--blue-dark);}
+.explbox h4{margin:0 0 6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--blue-dark);}
+
+/* ============ IMAGE ZOOM + LIGHTBOX (Selection Post: image-based questions) ============ */
+.qbody img,.explbox img,.soloption img,.options img{max-width:none !important;height:auto !important;vertical-align:middle;}
+.qbody,.explbox{overflow-x:auto;}
+.zwrap{position:relative;display:inline-block;max-width:none;line-height:0;vertical-align:middle;}
+.zwrap img{display:block;}
+.zwrap .zbtn{position:absolute;top:3px;right:3px;width:24px;height:24px;border-radius:50%;border:none;background:rgba(26,34,51,.72);color:#fff;font-size:12px;line-height:24px;padding:0;cursor:pointer;opacity:.55;transition:.12s;}
+.zwrap:hover .zbtn{opacity:1;}
+.qtext .zwrap img,.explbox .zwrap img{cursor:zoom-in;}
+.zoomgrp .zlabel{min-width:44px;width:auto;padding:0 6px;font-size:11.5px;font-weight:700;}
+#imgLightbox{position:fixed;inset:0;background:rgba(10,14,25,.92);z-index:9999;display:none;flex-direction:column;}
+#imgLightbox.show{display:flex;}
+#imgLightbox .lbbar{display:flex;gap:8px;align-items:center;justify-content:center;padding:10px;flex-wrap:wrap;}
+#imgLightbox .lbbar button{min-width:42px;height:38px;border-radius:8px;border:1px solid #3a4560;background:#1e2740;color:#fff;font-weight:800;font-size:16px;cursor:pointer;padding:0 12px;}
+#imgLightbox .lbbar button:hover{background:#2f3d66;}
+#imgLightbox .lbbar span{color:#cfd6ea;font-size:13px;font-weight:600;min-width:56px;text-align:center;}
+#imgLightbox .lbstage{flex:1;overflow:hidden;position:relative;cursor:grab;touch-action:none;}
+#imgLightbox .lbstage.drag{cursor:grabbing;}
+#imgLightbox .lbstage img{position:absolute;left:0;top:0;max-width:none !important;transform-origin:0 0;user-select:none;-webkit-user-drag:none;background:#fff;border-radius:4px;}
+#imgLightbox .lbhint{color:#8d97b5;font-size:11.5px;text-align:center;padding:6px 0 10px;}
+
+.mathfb{font-family:"Cambria Math","Times New Roman",serif;font-size:1.05em;white-space:nowrap;}
+.katex{font-size:1.08em;}
+.qtext .katex-display,.options .katex-display{margin:.4em 0;}
+
+@media(max-width:900px){
+  .mainwrap{flex-direction:column;}
+  .palette-wrap{width:100%;margin-left:0;margin-top:14px;}
+  .palette-wrap.hidden{width:100%;height:0;margin-top:0;}
+  .statgrid{grid-template-columns:repeat(2,1fr);}
+  .score-hero{flex-direction:column;text-align:center;}
+  .wmeta{grid-template-columns:1fr 1fr;}
+  .title-block{order:3;flex-basis:100%;}
+}
+
+</style>
+</head>
+<body>
+
+<!-- ============ WELCOME PAGE ============ -->
+<div id="welcomePage">
+  <div class="welcomewrap">
+    <div class="welcomecard">
+      <div class="welcomehero">
+        <div class="wbrand">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="wTitle">Exam Title</h1>
+        <div class="wsub" id="wSub">Section</div>
+      </div>
+      <div class="welcomebody">
+        <div class="wmeta">
+          <div><b id="wTotalQ">-</b><span>Questions</span></div>
+          <div><b id="wTotalTime">-</b><span>Minutes</span></div>
+          <div><b id="wMarks">-</b><span>Marking</span></div>
+        </div>
+        <div class="winstr">
+          <h4>Quick Instructions</h4>
+          <ul>
+            <li>Click an option to select your answer for the current question.</li>
+            <li>Use <b>Save &amp; Next</b> to move on, or <b>Mark for Review</b> to flag a question and come back later.</li>
+            <li>The question palette on the right shows your progress &mdash; click any number to jump straight to it.</li>
+            <li>You can <b>Pause</b> the test any time; your progress auto-saves, even if you close this tab.</li>
+            <li>The test auto-submits the moment the timer hits zero.</li>
+          </ul>
+        </div>
+        <div class="wlegend">
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#aab1c0"></i>Not Visited</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#f0432f"></i>Not Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#17a668"></i>Answered</span>
+          <span><i class="dot" style="width:12px;height:12px;border-radius:3px;display:inline-block;background:#8b3fe8"></i>Marked</span>
+        </div>
+        <div class="wtoggle">
+          <div>
+            <div class="ttl">Instant Feedback Mode</div>
+            <div class="desc">See right / wrong the moment you pick an option, plus an on-demand Show Solution button.</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="instantFeedbackToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <button class="btn-startbig" id="startTestBtn" type="button">Start Test</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TEST PAGE ============ -->
+<div id="testPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+      <button class="btn-outline" id="fsBtn" type="button" onclick="toggleFullscreen()">Full Screen</button>
+    </div>
+    <div class="title-block">
+      <span id="hdrTitle">Exam Title</span>
+      <span class="sub" id="hdrSub">Section</span>
+    </div>
+    <div class="topbar-right">
+      <div class="timeleft" id="timeleftBox">Time Left: <span id="timeLeft">--:--</span></div>
+      <button class="pausebtn" onclick="togglePause()">&#10074;&#10074; <span id="pauseLabel">Pause Test</span></button>
+    </div>
+  </div>
+
+  <div class="subbar">
+    <div class="taglist"><span class="topictag" id="qTopicTag" style="display:none;"></span></div>
+    <div class="qanswered">Total Questions Answered: <span id="totalAnsweredTop">0</span></div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="sectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" onclick="goPrev()">Previous</button>
+      <button class="btn purplebtn" onclick="markForReview()">Mark for Review</button>
+      <button class="btn" onclick="saveAndNext()">Save &amp; Next</button>
+      <button class="btn submitbtn" onclick="confirmSubmit()">Submit Test</button>
+    </div>
+    <div class="collapse-arrow" onclick="togglePalette()" id="collapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="qNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span style="font-weight:600;font-size:12.5px;" id="langLabel">Language:</span>
+          <select class="lang-select" id="langSelect" onchange="setLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="qText"></div>
+        <div class="qimg" id="qImg" style="display:none;"></div>
+        <div class="options" id="qOptions"></div>
+        <div class="fb-strip" id="fbStrip"></div>
+        <div class="explbox" id="liveSolutionBox" style="display:none;"></div>
+      </div>
+      <div class="qfooter">
+        <button class="btn-clear" onclick="clearResponse()">Clear Response</button>
+        <button class="btn-gold" id="showSolBtn" type="button" onclick="toggleLiveSolution()" style="display:none;">Show Solution</button>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="paletteWrap">
+      <div class="palette-title" id="paletteTitle">Section:</div>
+      <div class="palette-grid" id="paletteGrid"></div>
+
+      <div class="analytics">
+        <div class="analytics-head">Analytics</div>
+        <table>
+          <tr><td>Answered</td><td id="stAnswered">0</td></tr>
+          <tr><td>Not Answered</td><td id="stNotAnswered">0</td></tr>
+          <tr><td>Marked for review</td><td id="stMarked">0</td></tr>
+          <tr><td>Answered &amp; Marked</td><td id="stAnsMarked">0</td></tr>
+          <tr><td>Not Visited</td><td id="stNotVisited">0</td></tr>
+        </table>
+      </div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#aab1c0"></span> Not Visited</div>
+        <div><span class="dot" style="background:#f0432f"></span> Not Answered</div>
+        <div><span class="dot" style="background:#17a668"></span> Answered</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Marked for Review</div>
+        <div><span class="dot" style="background:#8b3fe8"></span> Answered &amp; Marked</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RESULT PAGE ============ -->
+<div id="resultPage" class="hidden-page">
+  <div class="resultwrap">
+    <div class="score-hero">
+      <div>
+        <div class="wbrand" style="opacity:.85;">THE SSC SCHOLARS OFFICIAL</div>
+        <h1 id="resTitle">Test Completed &#127881;</h1>
+        <p id="resSub">Exam Title</p>
+      </div>
+      <div class="score-ring"><span>SCORE</span><div id="finalScore">0</div></div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard correct"><b id="stCorrect">0</b>Correct</div>
+      <div class="statcard wrong"><b id="stWrong">0</b>Wrong</div>
+      <div class="statcard unattempt"><b id="stUnattempt">0</b>Unattempted</div>
+      <div class="statcard accuracy"><b id="stAccuracy">0%</b>Accuracy</div>
+    </div>
+    <div class="statgrid">
+      <div class="statcard"><b id="stTimeTaken">--</b>Time Taken</div>
+      <div class="statcard"><b id="stMaxMarks">0</b>Max Marks</div>
+      <div class="statcard"><b id="stNegMarks">0</b>Negative Marks</div>
+      <div class="statcard"><b id="stAvgTime">--</b>Avg Time / Q</div>
+    </div>
+    <div class="resultactions">
+      <button class="secondary" onclick="showSolutions()">View Solutions</button>
+      <button class="primary" onclick="restartTest()">Retake Test</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SOLUTIONS PAGE ============ -->
+<div id="solutionPage" class="hidden-page">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="logo">SS</div>
+      <div class="brandname">THE SSC SCHOLARS OFFICIAL</div>
+      <div class="zoomgrp">
+        <button type="button" onclick="zoomChange(-1)" title="Zoom out (text + images)">A&minus;</button>
+        <button type="button" class="zlabel zoomLabel" onclick="zoomReset()" title="Reset zoom">100%</button>
+        <button type="button" onclick="zoomChange(1)" title="Zoom in (text + images)">A+</button>
+      </div>
+    </div>
+    <div class="title-block">
+      <span id="solHdrTitle">Exam Title</span>
+      <span class="sub">Solutions</span>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" onclick="backToResult()">&larr; Back to Analysis</button>
+    </div>
+  </div>
+
+  <div class="controlrow">
+    <div class="section-tab" id="solSectionTab">Section</div>
+    <div class="navbtns">
+      <button class="btn" id="solPrevBtn" onclick="solGoPrev()">Previous</button>
+      <button class="btn" id="solNextBtn" onclick="solGoNext()">Next</button>
+    </div>
+    <div class="collapse-arrow" onclick="toggleSolPalette()" id="solCollapseArrow">&#9664;</div>
+  </div>
+
+  <div class="mainwrap">
+    <div class="qpanel">
+      <div class="qpanel-head">
+        <h3 id="solQNoHeading">Question No 1</h3>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span id="solBadgeHolder"></span>
+          <select class="lang-select" id="solLangSelect" onchange="setSolLang(this.value)"><option value="en">English</option></select>
+        </div>
+      </div>
+      <div class="qbody">
+        <div class="qtext" id="solQText"></div>
+        <div class="qimg" id="solQImg" style="display:none;"></div>
+        <div id="solOptions"></div>
+        <div class="explbox" id="solExpl"></div>
+      </div>
+    </div>
+
+    <div class="palette-wrap" id="solPaletteWrap">
+      <div class="palette-title" id="solPaletteTitle">Section:</div>
+      <div class="palette-grid" id="solPaletteGrid"></div>
+
+      <div class="legend">
+        <div><span class="dot" style="background:#17a668"></span> Correct</div>
+        <div><span class="dot" style="background:#f0432f"></span> Wrong</div>
+        <div><span class="dot" style="background:#aab1c0"></span> Skipped</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pauseoverlay" id="pauseOverlay">
+  <h2>Test Paused</h2>
+  <p>Your timer is on hold and your progress is saved &mdash; you can even close this tab. Click resume when you're ready.</p>
+  <button class="btn" onclick="togglePause()">Resume Test</button>
+</div>
+
+<div class="modal-bg" id="submitModal">
+  <div class="modal">
+    <h3>Submit Test?</h3>
+    <div class="modal-grid">
+      <div><b id="mAnswered">0</b>Answered</div>
+      <div><b id="mNotAnswered">0</b>Not Answered</div>
+      <div><b id="mMarked">0</b>Marked for Review</div>
+      <div><b id="mNotVisited">0</b>Not Visited</div>
+    </div>
+    <p style="font-size:13px;color:#666;">Once submitted, you cannot change your answers.</p>
+    <div class="modal-actions">
+      <button class="cancel" onclick="closeSubmitModal()">Cancel</button>
+      <button class="confirm" onclick="doSubmit()">Yes, Submit</button>
+    </div>
+  </div>
+</div>
+
+<div id="imgLightbox">
+  <div class="lbbar">
+    <button type="button" onclick="lbZoom(-1)" title="Zoom out">&minus;</button>
+    <span id="lbPct">100%</span>
+    <button type="button" onclick="lbZoom(1)" title="Zoom in">+</button>
+    <button type="button" onclick="lbFit()" title="Fit to screen">Fit</button>
+    <button type="button" onclick="lbActual()" title="Actual size">1:1</button>
+    <button type="button" onclick="lbClose()" title="Close (Esc)">&#10005; Close</button>
+  </div>
+  <div class="lbstage" id="lbStage"><img id="lbImg" alt="zoomed image"></div>
+  <div class="lbhint">Mouse wheel = zoom &middot; drag = move &middot; double-click = fit / 2x &middot; Esc = close</div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+<script>
+
+/* ============================================================
+   THE SSC SCHOLARS OFFICIAL -- Mock Test Engine
+   UI/UX pattern matched to the user's reference CPO mock file.
+   ============================================================ */
+var CFG = {"examTitle": "SELECTION POST - PHASE 14 - MATRICULATION - 17 SEP 2026 - SHIFT 3", "sectionLabel": "Maths", "storageKey": "sscscholars_mock::PYQ_2026_PHASE14_17SEP2026_SHIFT3_SELECTION-POST-MATRIC-17-SEP-2026-SHIFT-3_section", "totalTimeSeconds": 900, "correctScoreDisplay": "2", "negativeScoreDisplay": "0.5", "defaultCorrectScore": 2.0, "defaultNegativeScore": 0.5};
+var QUESTIONS = [{"q_no": 1, "id": "50051", "topic": "", "difficulty_level": "", "question": {"en": "Simplify: \\(18 - [5 - \\{6 + 2(7 - \\overline{8 - 5})\\}]\\).", "hi": "सरल कीजिए: \\(18 - [5 - \\{6 + 2(7 - \\overline{8 - 5})\\}]\\)।"}, "question_image": "", "options": {"option_1": {"en": "15", "hi": "", "image": ""}, "option_2": {"en": "27", "hi": "", "image": ""}, "option_3": {"en": "18", "hi": "", "image": ""}, "option_4": {"en": "32", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Vinculum first: \\(8-5=3\\). Then \\(7-3=4\\), \\(2\\times4=8\\), \\(6+8=14\\), \\(5-14=-9\\).<br>\\(18-(-9)=27\\).<br>**Ans: (2) 27**", "hi": "पहले विन्कुलम: \\(8-5=3\\)। फिर \\(7-3=4\\), \\(2\\times4=8\\), \\(6+8=14\\), \\(5-14=-9\\)।<br>\\(18-(-9)=27\\)।<br>**उत्तर: (2) 27**"}, "solution_image": ""}, {"q_no": 2, "id": "50052", "topic": "", "difficulty_level": "", "question": {"en": "The average marks obtained by Madhu in 4 subjects is 64. If she scored 69 marks in the fifth subject, then find the new average of marks obtained by her in all 5 subjects.", "hi": "मधु द्वारा 4 विषयों में प्राप्त अंकों का औसत 64 है। यदि उसने पाँचवें विषय में 69 अंक प्राप्त किए, तो सभी 5 विषयों में उसके द्वारा प्राप्त अंकों का नया औसत ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "68", "hi": "", "image": ""}, "option_2": {"en": "88", "hi": "", "image": ""}, "option_3": {"en": "65", "hi": "", "image": ""}, "option_4": {"en": "78", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Total of 4 subjects \\(=4\\times64=256\\). Add 69: total \\(=325\\). New average \\(=\\frac{325}{5}=65\\).<br>**Ans: (3) 65**", "hi": "4 विषयों का कुल योग \\(=4\\times64=256\\)। 69 जोड़ने पर कुल \\(=325\\)। नया औसत \\(=\\frac{325}{5}=65\\)।<br>**उत्तर: (3) 65**"}, "solution_image": ""}, {"q_no": 3, "id": "50053", "topic": "", "difficulty_level": "", "question": {"en": "The average of 100 numbers is 44. If four new numbers are included, the average of the entire set becomes 50. Find the average of the four newly added numbers.", "hi": "100 संख्याओं का औसत 44 है। यदि चार नई संख्याएँ शामिल की जाती हैं, तो पूरे समुच्चय का औसत 50 हो जाता है। नई जोड़ी गई चार संख्याओं का औसत ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "150", "hi": "", "image": ""}, "option_2": {"en": "180", "hi": "", "image": ""}, "option_3": {"en": "200", "hi": "", "image": ""}, "option_4": {"en": "220", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Old sum \\(=100\\times44=4400\\). New average of 104 numbers \\(=50\\), so new sum \\(=5200\\).<br>Sum of four new numbers \\(=5200-4400=800\\). Their average \\(=\\frac{800}{4}=200\\).<br>**Ans: (3) 200**", "hi": "पुराना योग \\(=100\\times44=4400\\)। 104 संख्याओं का नया औसत \\(=50\\), अतः नया योग \\(=5200\\)।<br>चार नई संख्याओं का योग \\(=5200-4400=800\\)। उनका औसत \\(=\\frac{800}{4}=200\\)।<br>**उत्तर: (3) 200**"}, "solution_image": ""}, {"q_no": 4, "id": "50054", "topic": "", "difficulty_level": "", "question": {"en": "7 workers take 20 weeks to build a house. How long would it take 10 workers to build the same house?", "hi": "एक घर बनाने में 7 मजदूरों को 20 सप्ताह का समय लगता है। उसी घर को बनाने में 10 मजदूरों को कितना समय लगेगा?"}, "question_image": "", "options": {"option_1": {"en": "7 weeks", "hi": "7 सप्ताह", "image": ""}, "option_2": {"en": "10 weeks", "hi": "10 सप्ताह", "image": ""}, "option_3": {"en": "12 weeks", "hi": "12 सप्ताह", "image": ""}, "option_4": {"en": "14 weeks", "hi": "14 सप्ताह", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Work \\(=7\\times20=140\\) worker-weeks. For 10 workers: \\(\\frac{140}{10}=14\\) weeks.<br>**Ans: (4) 14 weeks**", "hi": "काम \\(=7\\times20=140\\) श्रमिक-सप्ताह। 10 श्रमिकों के लिए: \\(\\frac{140}{10}=14\\) सप्ताह।<br>**उत्तर: (4) 14 सप्ताह**"}, "solution_image": ""}, {"q_no": 5, "id": "50055", "topic": "", "difficulty_level": "", "question": {"en": "Simplify using BODMAS : \\([(60 \\div 12) + (19 - 12)] \\times 2 - 16 + 20\\)", "hi": "BODMAS का प्रयोग करके सरल कीजिए: \\([(60 \\div 12) + (19 - 12)] \\times 2 - 16 + 20\\)"}, "question_image": "", "options": {"option_1": {"en": "28", "hi": "", "image": ""}, "option_2": {"en": "-12", "hi": "", "image": ""}, "option_3": {"en": "-148", "hi": "", "image": ""}, "option_4": {"en": "60", "hi": "", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "\\([(60\\div12)+(19-12)]=5+7=12\\). Then \\(12\\times2=24\\). Then \\(24-16+20=28\\).<br>**Ans: (1) 28**", "hi": "\\([(60\\div12)+(19-12)]=5+7=12\\)। \\(12\\times2=24\\)। फिर \\(24-16+20=28\\)।<br>**उत्तर: (1) 28**"}, "solution_image": ""}, {"q_no": 6, "id": "50056", "topic": "", "difficulty_level": "", "question": {"en": "Two adjacent angles form a linear pair. If one angle is \\(38^\\circ\\), then the other angle is:", "hi": "दो आसन्न कोण एक रैखिक युग्म बनाते हैं। यदि एक कोण \\(38^\\circ\\) है, तो दूसरा कोण है:"}, "question_image": "", "options": {"option_1": {"en": "\\(138^\\circ\\)", "hi": "", "image": ""}, "option_2": {"en": "\\(142^\\circ\\)", "hi": "", "image": ""}, "option_3": {"en": "\\(146^\\circ\\)", "hi": "", "image": ""}, "option_4": {"en": "\\(38^\\circ\\)", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Linear pair: angles add to \\(180^\\circ\\). Other angle \\(=180^\\circ-38^\\circ=142^\\circ\\).<br>**Ans: (2) 142°**", "hi": "रैखिक युग्म में कोणों का योग \\(180^\\circ\\) होता है। दूसरा कोण \\(=180^\\circ-38^\\circ=142^\\circ\\)।<br>**उत्तर: (2) 142°**"}, "solution_image": ""}, {"q_no": 7, "id": "50057", "topic": "", "difficulty_level": "", "question": {"en": "If two adjacent angles are \\((1x + 3)^\\circ\\) and \\((2x + 15)^\\circ\\) and they form a linear pair, then the smaller angle is:", "hi": "यदि दो आसन्न कोण \\((1x + 3)^\\circ\\) और \\((2x + 15)^\\circ\\) हैं और वे एक रैखिक युग्म बनाते हैं, तो छोटा कोण है:"}, "question_image": "", "options": {"option_1": {"en": "\\(54^\\circ\\)", "hi": "", "image": ""}, "option_2": {"en": "\\(57^\\circ\\)", "hi": "", "image": ""}, "option_3": {"en": "\\(123^\\circ\\)", "hi": "", "image": ""}, "option_4": {"en": "\\(60^\\circ\\)", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "\\((x+3)+(2x+15)=180\\), so \\(3x+18=180\\), \\(x=54\\).<br>Angles: \\(1(54)+3=57^\\circ\\) and \\(2(54)+15=123^\\circ\\). Smaller angle \\(=57^\\circ\\).<br>**Ans: (2) 57°**", "hi": "\\((x+3)+(2x+15)=180\\), अतः \\(3x+18=180\\), \\(x=54\\)।<br>कोण: \\(1(54)+3=57^\\circ\\) और \\(2(54)+15=123^\\circ\\)। छोटा कोण \\(=57^\\circ\\)।<br>**उत्तर: (2) 57°**"}, "solution_image": ""}, {"q_no": 8, "id": "50058", "topic": "", "difficulty_level": "", "question": {"en": "A shopkeeper marks a toy at Rs. 400 and gives a discount of Rs. 60. What is the discount percent?", "hi": "एक दुकानदार एक खिलौने पर Rs. 400 अंकित करता है और Rs. 60 की छूट देता है। छूट प्रतिशत क्या है?"}, "question_image": "", "options": {"option_1": {"en": "12%", "hi": "", "image": ""}, "option_2": {"en": "15%", "hi": "", "image": ""}, "option_3": {"en": "18%", "hi": "", "image": ""}, "option_4": {"en": "20%", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Discount \\(=400-\\text{(price after discount)}\\). Given discount Rs. 60. Discount % \\(=\\frac{60}{400}\\times100=15\\%\\).<br>**Ans: (2) 15%**", "hi": "छूट % \\(=\\frac{60}{400}\\times100=15\\%\\)।<br>**उत्तर: (2) 15%**"}, "solution_image": ""}, {"q_no": 9, "id": "50059", "topic": "", "difficulty_level": "", "question": {"en": "A jacket is marked at Rs. 2500. Two successive discounts of 10% and 20% are offered. What is the final selling price?", "hi": "एक जैकेट का अंकित मूल्य Rs. 2500 है। 10% और 20% की दो क्रमिक छूट दी जाती हैं। अंतिम विक्रय मूल्य क्या है?"}, "question_image": "", "options": {"option_1": {"en": "Rs. 1760", "hi": "", "image": ""}, "option_2": {"en": "Rs. 1800", "hi": "", "image": ""}, "option_3": {"en": "Rs. 1820", "hi": "", "image": ""}, "option_4": {"en": "Rs. 1850", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Price after 10% discount \\(=2500\\times0.9=2250\\). After further 20%: \\(2250\\times0.8=1800\\).<br>**Ans: (2) Rs. 1800**", "hi": "10% छूट के बाद मूल्य \\(=2500\\times0.9=2250\\)। और 20% छूट के बाद: \\(2250\\times0.8=1800\\)।<br>**उत्तर: (2) ₹1800**"}, "solution_image": ""}, {"q_no": 10, "id": "50060", "topic": "", "difficulty_level": "", "question": {"en": "In a class of 200 students, 35% are girls. How many boys are there?", "hi": "200 विद्यार्थियों की एक कक्षा में 35% लड़कियाँ हैं। लड़कों की संख्या कितनी है?"}, "question_image": "", "options": {"option_1": {"en": "120", "hi": "", "image": ""}, "option_2": {"en": "125", "hi": "", "image": ""}, "option_3": {"en": "130", "hi": "", "image": ""}, "option_4": {"en": "135", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Girls \\(=35\\%\\) of 200 \\(=70\\). Boys \\(=200-70=130\\).<br>**Ans: (3) 130**", "hi": "लड़कियाँ \\(=200\\) का 35% \\(=70\\)। लड़के \\(=200-70=130\\)।<br>**उत्तर: (3) 130**"}, "solution_image": ""}, {"q_no": 11, "id": "50061", "topic": "", "difficulty_level": "", "question": {"en": "A sum of ₹460 grows to ₹640 in 6 years under simple interest. Find the total amount it would reach in just 2 years at the same annual interest rate.", "hi": "₹460 की धनराशि साधारण ब्याज पर 6 वर्षों में बढ़कर ₹640 हो जाती है। समान वार्षिक ब्याज दर पर केवल 2 वर्षों में यह कुल कितनी राशि हो जाएगी?"}, "question_image": "", "options": {"option_1": {"en": "₹480", "hi": "", "image": ""}, "option_2": {"en": "₹500", "hi": "", "image": ""}, "option_3": {"en": "₹520", "hi": "", "image": ""}, "option_4": {"en": "₹540", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Interest in 6 years \\(=640-460=180\\). Interest per year \\(=30\\).<br>In 2 years, interest \\(=60\\). Amount \\(=460+60=520\\).<br>**Ans: (3) Rs. 520**", "hi": "6 वर्ष का ब्याज \\(=640-460=180\\)। प्रति वर्ष ब्याज \\(=30\\)।<br>2 वर्ष का ब्याज \\(=60\\)। राशि \\(=460+60=520\\)।<br>**उत्तर: (3) ₹520**"}, "solution_image": ""}, {"q_no": 12, "id": "50062", "topic": "", "difficulty_level": "", "question": {"en": "The number of students in a school increased from 800 to 920 in one year. By what percent did it increase?", "hi": "एक स्कूल में विद्यार्थियों की संख्या एक वर्ष में 800 से बढ़कर 920 हो गई। इसमें कितने प्रतिशत की वृद्धि हुई?"}, "question_image": "", "options": {"option_1": {"en": "12%", "hi": "", "image": ""}, "option_2": {"en": "14%", "hi": "", "image": ""}, "option_3": {"en": "15%", "hi": "", "image": ""}, "option_4": {"en": "16%", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Increase \\(=920-800=120\\). Percent \\(=\\frac{120}{800}\\times100=15\\%\\).<br>**Ans: (3) 15%**", "hi": "वृद्धि \\(=920-800=120\\)। प्रतिशत \\(=\\frac{120}{800}\\times100=15\\%\\)।<br>**उत्तर: (3) 15%**"}, "solution_image": ""}, {"q_no": 13, "id": "50063", "topic": "", "difficulty_level": "", "question": {"en": "A bus travels 240 km at a speed of 60 km/h. How much time does it take?", "hi": "एक बस 60 किमी/घंटा की चाल से 240 किमी की यात्रा करती है। इसे कितना समय लगता है?"}, "question_image": "", "options": {"option_1": {"en": "3 hours", "hi": "3 घंटे", "image": ""}, "option_2": {"en": "4 hours", "hi": "4 घंटे", "image": ""}, "option_3": {"en": "5 hours", "hi": "5 घंटे", "image": ""}, "option_4": {"en": "6 hours", "hi": "6 घंटे", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Time \\(=\\frac{\\text{Distance}}{\\text{Speed}}=\\frac{240}{60}=4\\) hours.<br>**Ans: (2) 4 hours**", "hi": "समय \\(=\\frac{\\text{दूरी}}{\\text{चाल}}=\\frac{240}{60}=4\\) घंटे।<br>**उत्तर: (2) 4 घंटे**"}, "solution_image": ""}, {"q_no": 14, "id": "50064", "topic": "", "difficulty_level": "", "question": {"en": "A boat travels 36 km downstream in 3 hours and the same distance upstream in 4.5 hours. What is the speed of the boat in still water?", "hi": "एक नाव धारा के अनुकूल 36 किमी की दूरी 3 घंटे में और धारा के प्रतिकूल समान दूरी 4.5 घंटे में तय करती है। शांत जल में नाव की चाल क्या है?"}, "question_image": "", "options": {"option_1": {"en": "8 km/h", "hi": "8 किमी/घंटा", "image": ""}, "option_2": {"en": "9 km/h", "hi": "9 किमी/घंटा", "image": ""}, "option_3": {"en": "10 km/h", "hi": "10 किमी/घंटा", "image": ""}, "option_4": {"en": "12 km/h", "hi": "12 किमी/घंटा", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Downstream speed \\(=\\frac{36}{3}=12\\) km/h. Upstream speed \\(=\\frac{36}{4.5}=8\\) km/h.<br>Speed in still water \\(=\\frac{12+8}{2}=10\\) km/h.<br>**Ans: (3) 10 km/h**", "hi": "धारा के साथ चाल \\(=\\frac{36}{3}=12\\) किमी/घंटा। धारा के विपरीत चाल \\(=\\frac{36}{4.5}=8\\) किमी/घंटा।<br>शांत जल में चाल \\(=\\frac{12+8}{2}=10\\) किमी/घंटा।<br>**उत्तर: (3) 10 किमी/घंटा**"}, "solution_image": ""}, {"q_no": 15, "id": "50065", "topic": "", "difficulty_level": "", "question": {"en": "A and B together can complete a job in 4 days. What part of the job remains after they work together for 1 day?", "hi": "A और B मिलकर एक कार्य को 4 दिनों में पूरा कर सकते हैं। 1 दिन तक एक साथ कार्य करने के बाद कार्य का कितना भाग शेष रह जाता है?"}, "question_image": "", "options": {"option_1": {"en": "\\(\\frac{1}{4}\\)", "hi": "", "image": ""}, "option_2": {"en": "\\(\\frac{1}{2}\\)", "hi": "", "image": ""}, "option_3": {"en": "\\(\\frac{3}{4}\\)", "hi": "", "image": ""}, "option_4": {"en": "\\(\\frac{2}{3}\\)", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Together they finish \\(\\frac14\\) of the job per day. After 1 day, done \\(=\\frac14\\). Remaining \\(=1-\\frac14=\\frac34\\).<br>**Ans: (3) \\(\\frac34\\)**", "hi": "साथ मिलकर वे प्रतिदिन काम का \\(\\frac14\\) करते हैं। 1 दिन बाद किया गया \\(=\\frac14\\)। शेष \\(=1-\\frac14=\\frac34\\)।<br>**उत्तर: (3) \\(\\frac34\\)**"}, "solution_image": ""}, {"q_no": 16, "id": "50066", "topic": "", "difficulty_level": "", "question": {"en": "A contractor planned to finish a work in 24 days with 15 workers. After 8 days, 5 more workers joined and all workers worked at the same rate. In how many total days was the work finished?", "hi": "एक ठेकेदार ने 15 मजदूरों के साथ 24 दिनों में एक कार्य पूरा करने की योजना बनाई। 8 दिनों के बाद, 5 और मजदूर शामिल हो गए और सभी मजदूरों ने समान दर से कार्य किया। कार्य कुल कितने दिनों में पूरा हुआ?"}, "question_image": "", "options": {"option_1": {"en": "18 days", "hi": "18 दिन", "image": ""}, "option_2": {"en": "20 days", "hi": "20 दिन", "image": ""}, "option_3": {"en": "21 days", "hi": "21 दिन", "image": ""}, "option_4": {"en": "22 days", "hi": "22 दिन", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Total work \\(=15\\times24=360\\) worker-days. After 8 days: done \\(=15\\times8=120\\). Remaining \\(=240\\).<br>With \\(15+5=20\\) workers: \\(\\frac{240}{20}=12\\) days. Total \\(=8+12=20\\) days.<br>**Ans: (2) 20 days**", "hi": "कुल काम \\(=15\\times24=360\\) श्रमिक-दिन। 8 दिन बाद किया गया \\(=15\\times8=120\\)। शेष \\(=240\\)।<br>20 श्रमिकों से: \\(\\frac{240}{20}=12\\) दिन। कुल \\(=8+12=20\\) दिन।<br>**उत्तर: (2) 20 दिन**"}, "solution_image": ""}, {"q_no": 17, "id": "50067", "topic": "", "difficulty_level": "", "question": {"en": "Which statement is always true?", "hi": "कौन सा कथन सदैव सत्य है?"}, "question_image": "", "options": {"option_1": {"en": "Every whole number is a natural number", "hi": "प्रत्येक पूर्ण संख्या एक प्राकृतिक संख्या है", "image": ""}, "option_2": {"en": "Every irrational number is a real number", "hi": "प्रत्येक अपरिमेय संख्या एक वास्तविक संख्या है", "image": ""}, "option_3": {"en": "Every real number is rational", "hi": "प्रत्येक वास्तविक संख्या परिमेय होती है", "image": ""}, "option_4": {"en": "Every integer is a whole number", "hi": "प्रत्येक पूर्णांक एक पूर्ण संख्या है", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Not every whole number is natural (0 is whole but not natural), so (1) is false. Not every real number is rational, so (3) is false. Not every integer is a whole number (for example −1), so (4) is false. Every irrational number is a real number, which is always true.<br>**Ans: (2) Every irrational number is a real number**", "hi": "हर पूर्ण संख्या प्राकृत नहीं होती (0 के कारण), अतः (1) गलत। हर वास्तविक संख्या परिमेय नहीं होती, अतः (3) गलत। हर पूर्णांक पूर्ण संख्या है, उल्टा नहीं, अतः (4) गलत। हर अपरिमेय संख्या वास्तविक होती है, यह सदा सत्य है।<br>**उत्तर: (2) हर अपरिमेय संख्या वास्तविक संख्या है**"}, "solution_image": ""}, {"q_no": 18, "id": "50068", "topic": "", "difficulty_level": "", "question": {"en": "Which one of the following sets is empty?", "hi": "निम्नलिखित में से कौन सा समुच्चय रिक्त है?"}, "question_image": "", "options": {"option_1": {"en": "Natural numbers \\(\\cap\\) Even numbers", "hi": "प्राकृतिक संख्याएँ \\(\\cap\\) सम संख्याएँ", "image": ""}, "option_2": {"en": "Integers \\(\\cap\\) Irrational numbers", "hi": "पूर्णांक \\(\\cap\\) अपरिमेय संख्याएँ", "image": ""}, "option_3": {"en": "Whole numbers \\(\\cap\\) Rational numbers", "hi": "पूर्ण संख्याएँ \\(\\cap\\) परिमेय संख्याएँ", "image": ""}, "option_4": {"en": "Real numbers \\(\\cap\\) Irrational numbers", "hi": "वास्तविक संख्याएँ \\(\\cap\\) अपरिमेय संख्याएँ", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Integers are whole numbers, and irrational numbers are not integers. So Integers \\(\\cap\\) Irrationals \\(=\\varnothing\\).<br>**Ans: (2) Integers ∩ Irrational numbers**", "hi": "पूर्णांक अपरिमेय नहीं होते, अतः पूर्णांक \\(\\cap\\) अपरिमेय \\(=\\varnothing\\)।<br>**उत्तर: (2) पूर्णांक ∩ अपरिमेय संख्याएँ**"}, "solution_image": ""}, {"q_no": 19, "id": "50069", "topic": "", "difficulty_level": "", "question": {"en": "The radius of a cone is 7 cm and its slant height is 25 cm. Find the height of the cone.", "hi": "एक शंकु की त्रिज्या 7 सेमी और इसकी तिर्यक ऊँचाई 25 सेमी है। शंकु की ऊँचाई ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "24 cm", "hi": "24 सेमी", "image": ""}, "option_2": {"en": "26 cm", "hi": "26 सेमी", "image": ""}, "option_3": {"en": "22 cm", "hi": "22 सेमी", "image": ""}, "option_4": {"en": "20 cm", "hi": "20 सेमी", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Height \\(h=\\sqrt{l^{2}-r^{2}}=\\sqrt{25^{2}-7^{2}}=\\sqrt{625-49}=\\sqrt{576}=24\\) cm.<br>**Ans: (1) 24 cm**", "hi": "ऊँचाई \\(h=\\sqrt{l^{2}-r^{2}}=\\sqrt{25^{2}-7^{2}}=\\sqrt{625-49}=\\sqrt{576}=24\\) सेमी।<br>**उत्तर: (1) 24 सेमी**"}, "solution_image": ""}, {"q_no": 20, "id": "50070", "topic": "", "difficulty_level": "", "question": {"en": "Express the repeating decimal \\(0.41666\\ldots\\) as a simple fraction in its lowest terms.", "hi": "आवर्ती दशमलव \\(0.41666\\ldots\\) को उसके सरलतम रूप में एक साधारण भिन्न के रूप में व्यक्त कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "\\(\\frac{6}{18}\\)", "hi": "", "image": ""}, "option_2": {"en": "\\(\\frac{5}{12}\\)", "hi": "", "image": ""}, "option_3": {"en": "\\(\\frac{3}{18}\\)", "hi": "", "image": ""}, "option_4": {"en": "\\(\\frac{7}{15}\\)", "hi": "", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Let \\(x=0.41666\\ldots\\). Then \\(10x=4.1666\\ldots\\) and \\(100x=41.6666\\ldots\\).<br>\\(100x-10x=37.5\\), so \\(90x=37.5\\), \\(x=\\frac{37.5}{90}=\\frac{5}{12}\\).<br>**Ans: (2) 5/12**", "hi": "माना \\(x=0.41666\\ldots\\)। तब \\(10x=4.1666\\ldots\\) और \\(100x=41.6666\\ldots\\)।<br>\\(100x-10x=37.5\\), अतः \\(90x=37.5\\), \\(x=\\frac{37.5}{90}=\\frac{5}{12}\\)।<br>**उत्तर: (2) 5/12**"}, "solution_image": ""}, {"q_no": 21, "id": "50071", "topic": "", "difficulty_level": "", "question": {"en": "Solve the following expression and write your final answer as a simplified mixed fraction:<br>\\((4.875 - 2\\frac{5}{8}) \\div 0.175\\)", "hi": "निम्नलिखित व्यंजक को हल कीजिए और अपना अंतिम उत्तर एक सरलीकृत मिश्रित भिन्न के रूप में लिखिए:<br>\\((4.875 - 2\\frac{5}{8}) \\div 0.175\\)"}, "question_image": "", "options": {"option_1": {"en": "\\(13\\frac{3}{4}\\)", "hi": "", "image": ""}, "option_2": {"en": "\\(11\\frac{1}{2}\\)", "hi": "", "image": ""}, "option_3": {"en": "\\(12\\frac{3}{4}\\)", "hi": "", "image": ""}, "option_4": {"en": "\\(12\\frac{6}{7}\\)", "hi": "", "image": ""}}, "answer": "4", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "\\(4.875-2\\frac58=4.875-2.625=2.25=\\frac94\\). \\(0.175=\\frac{7}{40}\\).<br>\\(\\frac94\\div\\frac{7}{40}=\\frac94\\times\\frac{40}{7}=\\frac{90}{7}=12\\frac67\\).<br>**Ans: (4) \\(12\\frac67\\)**", "hi": "\\(4.875-2\\frac58=4.875-2.625=2.25=\\frac94\\)। \\(0.175=\\frac{7}{40}\\)।<br>\\(\\frac94\\div\\frac{7}{40}=\\frac94\\times\\frac{40}{7}=\\frac{90}{7}=12\\frac67\\)।<br>**उत्तर: (4) \\(12\\frac67\\)**"}, "solution_image": ""}, {"q_no": 22, "id": "50072", "topic": "", "difficulty_level": "", "question": {"en": "A train moving at 72 km/h crosses a bridge in 30 seconds. How much time will it take to cross the same bridge if the speed becomes 90 km/h?", "hi": "72 किमी/घंटा की चाल से चलने वाली एक ट्रेन एक पुल को 30 सेकंड में पार करती है। यदि चाल 90 किमी/घंटा हो जाए तो उसी पुल को पार करने में इसे कितना समय लगेगा?"}, "question_image": "", "options": {"option_1": {"en": "20 seconds", "hi": "20 सेकंड", "image": ""}, "option_2": {"en": "22 seconds", "hi": "22 सेकंड", "image": ""}, "option_3": {"en": "24 seconds", "hi": "24 सेकंड", "image": ""}, "option_4": {"en": "25 seconds", "hi": "25 सेकंड", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "In crossing the bridge the train covers its own length plus the bridge length. At 72 km/h = 20 m/s it takes 30 s, so this total distance is \\(20\\times30=600\\) m.<br>At 90 km/h = 25 m/s, the same distance takes \\(\\frac{600}{25}=24\\) s. The train length cancels because the total distance is the same in both cases.<br>**Ans: (3) 24 seconds**", "hi": "ट्रेन पुल पार करते समय अपनी लंबाई और पुल की लंबाई दोनों तय करती है। 72 किमी/घंटा = 20 मी/सेकंड पर 30 सेकंड लगते हैं, अतः यह कुल दूरी \\(20\\times30=600\\) मी है।<br>90 किमी/घंटा = 25 मी/सेकंड पर वही दूरी \\(\\frac{600}{25}=24\\) सेकंड में तय होती है। दोनों स्थितियों में कुल दूरी समान है, इसलिए ट्रेन की लंबाई का प्रभाव समाप्त हो जाता है।<br>**उत्तर: (3) 24 सेकंड**"}, "solution_image": ""}, {"q_no": 23, "id": "50073", "topic": "", "difficulty_level": "", "question": {"en": "A, B, and C invest money in the ratio \\(2 : 3 : 5\\). A invests for 12 months, B for 8 months, and C for 6 months. What is the ratio of their profits?", "hi": "A, B और C, \\(2 : 3 : 5\\) के अनुपात में धन निवेश करते हैं। A, 12 महीने के लिए, B, 8 महीने के लिए और C, 6 महीने के लिए निवेश करता है। उनके लाभ का अनुपात क्या है?"}, "question_image": "", "options": {"option_1": {"en": "\\(2 : 1 : 5\\)", "hi": "", "image": ""}, "option_2": {"en": "\\(2 : 4 : 5\\)", "hi": "", "image": ""}, "option_3": {"en": "\\(4 : 4 : 5\\)", "hi": "", "image": ""}, "option_4": {"en": "\\(3 : 1 : 5\\)", "hi": "", "image": ""}}, "answer": "3", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Profit \\(\\propto\\) investment \\(\\times\\) time. A: \\(2\\times12=24\\). B: \\(3\\times8=24\\). C: \\(5\\times6=30\\).<br>Ratio \\(=24:24:30=4:4:5\\).<br>**Ans: (3) 4 : 4 : 5**", "hi": "लाभ \\(\\propto\\) निवेश \\(\\times\\) समय। A: \\(2\\times12=24\\)। B: \\(3\\times8=24\\)। C: \\(5\\times6=30\\)।<br>अनुपात \\(=24:24:30=4:4:5\\)।<br>**उत्तर: (3) 4 : 4 : 5**"}, "solution_image": ""}, {"q_no": 24, "id": "50074", "topic": "", "difficulty_level": "", "question": {"en": "A \\(6\\text{ cm} \\times 6\\text{ cm}\\) square has a \\(2\\text{ cm} \\times 2\\text{ cm}\\) square cut out from one corner. Find the perimeter of the resulting figure.", "hi": "एक 6 सेमी × 6 सेमी वर्ग के एक कोने से 2 सेमी × 2 सेमी का एक वर्ग काटा जाता है। परिणामी आकृति का परिमाप ज्ञात कीजिए।"}, "question_image": "", "options": {"option_1": {"en": "24 cm", "hi": "24 सेमी", "image": ""}, "option_2": {"en": "20 cm", "hi": "20 सेमी", "image": ""}, "option_3": {"en": "18 cm", "hi": "18 सेमी", "image": ""}, "option_4": {"en": "14 cm", "hi": "14 सेमी", "image": ""}}, "answer": "1", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Cutting a \\(2\\times2\\) square from a corner: the two cut sides are replaced by two inner sides of the same total length. So the perimeter stays \\(4\\times6=24\\) cm.<br>**Ans: (1) 24 cm**", "hi": "कोने से \\(2\\times2\\) वर्ग काटने पर कटी हुई दो भुजाओं की जगह उतनी ही कुल लंबाई की दो भीतरी भुजाएँ आती हैं। अतः परिमाप \\(4\\times6=24\\) सेमी ही रहता है।<br>**उत्तर: (1) 24 सेमी**"}, "solution_image": ""}, {"q_no": 25, "id": "50075", "topic": "", "difficulty_level": "", "question": {"en": "A rectangular parallelepiped has a length of 8 cm, a width of 5 cm, and a height of 3 cm. What is its total surface area?", "hi": "एक आयताकार समानांतर षट्फलक (घनाभ) की लंबाई 8 सेमी, चौड़ाई 5 सेमी और ऊँचाई 3 सेमी है। इसका कुल पृष्ठीय क्षेत्रफल क्या है?"}, "question_image": "", "options": {"option_1": {"en": "168 cm²", "hi": "168 सेमी²", "image": ""}, "option_2": {"en": "158 cm²", "hi": "158 सेमी²", "image": ""}, "option_3": {"en": "128 cm²", "hi": "128 सेमी²", "image": ""}, "option_4": {"en": "138 cm²", "hi": "138 सेमी²", "image": ""}}, "answer": "2", "correct_score": "2", "negative_score": "0.5", "solution_text": {"en": "Total surface area \\(=2(lb+bh+hl)=2(8\\times5+5\\times3+3\\times8)=2(40+15+24)=2\\times79=158\\) cm².<br>**Ans: (2) 158 cm²**", "hi": "कुल पृष्ठीय क्षेत्रफल \\(=2(lb+bh+hl)=2(8\\times5+5\\times3+3\\times8)=2(40+15+24)=2\\times79=158\\) सेमी²।<br>**उत्तर: (2) 158 सेमी²**"}, "solution_image": ""}];
+var N = QUESTIONS.length;
+var STORAGE_KEY = CFG.storageKey;
+var OPT_LETTERS = ["A","B","C","D","E"];
+var OPT_KEYS = ["option_1","option_2","option_3","option_4","option_5"];
+
+var hasHindi = QUESTIONS.some(function(q){ return q.question && q.question.hi; });
+
+var state = null;
+var timerHandle = null;
+
+function $(id){ return document.getElementById(id); }
+
+function freshState(){
+  var qs = [];
+  for(var i=0;i<N;i++){ qs.push({status:"notvisited", selected:null, solutionSeen:false}); }
+  return {
+    phase: "welcome",
+    current: 0,
+    q: qs,
+    instantFeedback: false,
+    timeLeft: CFG.totalTimeSeconds,
+    startedAt: null,
+    finishedAt: null,
+    result: null,
+    solIndex: 0,
+    paletteHidden: false,
+    solPaletteHidden: false,
+    lang: "en",
+    solLang: "en"
+  };
+}
+
+function loadState(){
+  try{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return freshState();
+    var parsed = JSON.parse(raw);
+    if(!parsed || parsed.n !== N || !parsed.s || !parsed.s.q || parsed.s.q.length !== N) return freshState();
+    return parsed.s;
+  }catch(e){ return freshState(); }
+}
+
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify({n:N, s:state})); }catch(e){}
+}
+
+function escapeHtml(s){
+  var d = document.createElement("div");
+  d.textContent = s == null ? "" : String(s);
+  return d.innerHTML;
+}
+
+function qHtml(q, lang){ return (lang === "hi" && q.question.hi) ? q.question.hi : q.question.en; }
+function optHtml(q, key, lang){
+  var o = q.options[key];
+  if(!o) return "";
+  return (lang === "hi" && o.hi) ? o.hi : o.en;
+}
+function solHtml(q, lang){
+  if(!q.solution_text) return "";
+  return (lang === "hi" && q.solution_text.hi) ? q.solution_text.hi : q.solution_text.en;
+}
+
+function pad2(n){ n = Math.floor(n); return n < 10 ? "0"+n : ""+n; }
+function fmtClock(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return pad2(m) + ":" + pad2(s);
+}
+function fmtLong(sec){
+  sec = Math.max(0, Math.floor(sec));
+  var m = Math.floor(sec/60), s = sec%60;
+  return m + "m " + s + "s";
+}
+
+/* ================= HEADER / STATIC TEXT ================= */
+function initStaticText(){
+  document.title = CFG.examTitle + " | " + CFG.sectionLabel;
+  $("wTitle").textContent = CFG.examTitle;
+  $("wSub").textContent = CFG.sectionLabel;
+  $("wTotalQ").textContent = N;
+  $("wTotalTime").textContent = Math.round(CFG.totalTimeSeconds/60);
+  $("wMarks").textContent = "+" + CFG.correctScoreDisplay + " / -" + CFG.negativeScoreDisplay;
+
+  $("hdrTitle").textContent = CFG.examTitle;
+  $("hdrSub").textContent = CFG.sectionLabel;
+  $("solHdrTitle").textContent = CFG.examTitle;
+  $("sectionTab").textContent = CFG.sectionLabel;
+  $("solSectionTab").textContent = CFG.sectionLabel;
+  $("paletteTitle").textContent = CFG.sectionLabel + " :";
+  $("solPaletteTitle").textContent = CFG.sectionLabel + " :";
+  $("resSub").textContent = CFG.examTitle + " \u2014 " + CFG.sectionLabel;
+
+  if(hasHindi){
+    var opt = '<option value="en">English</option><option value="hi">Hindi</option>';
+    $("langSelect").innerHTML = opt;
+    $("solLangSelect").innerHTML = opt;
+  }
+}
+
+/* ================= WELCOME ================= */
+function initWelcome(){
+  $("startTestBtn").addEventListener("click", function(){
+    state.instantFeedback = $("instantFeedbackToggle").checked;
+    state.phase = "testing";
+    state.startedAt = state.startedAt || Date.now();
+    saveState();
+    enterTestPage();
+    try{
+      var el = document.documentElement;
+      if(el.requestFullscreen){ el.requestFullscreen().catch(function(){}); }
+    }catch(e){}
+  });
+}
+
+function enterTestPage(){
+  $("welcomePage").classList.add("hidden-page");
+  $("testPage").classList.remove("hidden-page");
+  $("langSelect").value = state.lang;
+  applyPaletteCollapse();
+  renderQuestion();
+  startTimer();
+}
+
+/* ================= STATUS / PALETTE ================= */
+function statusCounts(){
+  var c = {notvisited:0, notanswered:0, answered:0, marked:0, markedans:0};
+  for(var i=0;i<N;i++){ c[state.q[i].status]++; }
+  return c;
+}
+
+function renderPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = state.q[i].status;
+    var cur = (i === state.current) ? " current" : "";
+    html += '<button type="button" class="qnum ' + st + cur + '" onclick="goTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("paletteGrid").innerHTML = html;
+  var c = statusCounts();
+  $("stAnswered").textContent = c.answered;
+  $("stNotAnswered").textContent = c.notanswered;
+  $("stMarked").textContent = c.marked;
+  $("stAnsMarked").textContent = c.markedans;
+  $("stNotVisited").textContent = c.notvisited;
+  $("totalAnsweredTop").textContent = c.answered + c.markedans;
+}
+
+function togglePalette(){
+  state.paletteHidden = !state.paletteHidden;
+  applyPaletteCollapse();
+  saveState();
+}
+function applyPaletteCollapse(){
+  var p = $("paletteWrap");
+  p.classList.toggle("hidden", state.paletteHidden);
+  $("collapseArrow").innerHTML = state.paletteHidden ? "&#9654;" : "&#9664;";
+}
+
+/* ================= QUESTION RENDER ================= */
+function renderQuestion(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  if(st.status === "notvisited") st.status = "notanswered";
+
+  $("qNoHeading").textContent = "Question No " + (i+1);
+  var topicEl = $("qTopicTag");
+  if(q.topic){ topicEl.textContent = q.topic; topicEl.style.display = "inline-block"; }
+  else { topicEl.style.display = "none"; }
+
+  $("qText").innerHTML = qHtml(q, state.lang);
+  var imgEl = $("qImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var checked = st.selected === val ? "checked" : "";
+    var cls = st.selected === val ? "selected" : "";
+    var img = opt.image ? '<div class="qimg"><img src="'+opt.image+'" alt="option image"></div>' : "";
+    optsHtml += '<label class="' + cls + '" data-opt="' + val + '">' +
+      '<input type="radio" name="opt" value="' + val + '" ' + checked + ' onclick="selectOption(\'' + val + '\')">' +
+      OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.lang) + img +
+      '</label>';
+  });
+  $("qOptions").innerHTML = optsHtml;
+  decorateImages($("qText")); decorateImages($("qImg")); decorateImages($("qOptions"));
+
+  $("showSolBtn").style.display = state.instantFeedback ? "inline-flex" : "none";
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+
+  applyFeedback();
+  renderPalette();
+  saveState();
+}
+
+function applyFeedback(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var fb = $("fbStrip");
+  fb.className = "fb-strip";
+  fb.textContent = "";
+
+  var labels = $all("#qOptions label");
+  labels.forEach(function(lab){
+    lab.classList.remove("selected","fb-correct","fb-wrong");
+    var badge = lab.querySelector(".opt-badge");
+    if(badge) badge.remove();
+    var optKey = lab.getAttribute("data-opt");
+    var isSel = optKey === st.selected;
+    if(isSel) lab.classList.add("selected");
+
+    if(state.instantFeedback && st.selected){
+      var isCorrect = optKey === q.answer;
+      if(isCorrect){
+        lab.classList.add("fb-correct");
+        var b1 = document.createElement("span");
+        b1.className = "opt-badge ok";
+        b1.textContent = "Correct";
+        lab.appendChild(b1);
+      }
+      if(isSel && !isCorrect){
+        lab.classList.add("fb-wrong");
+        var b2 = document.createElement("span");
+        b2.className = "opt-badge no";
+        b2.textContent = "Your pick";
+        lab.appendChild(b2);
+      }
+    }
+  });
+
+  if(state.instantFeedback && st.selected){
+    var correct = st.selected === q.answer;
+    fb.classList.add("show", correct ? "ok" : "no");
+    fb.textContent = correct ? "Correct answer!" : "Incorrect. The correct option is highlighted in green.";
+  }
+
+  renderLiveSolutionBox();
+}
+
+function renderLiveSolutionBox(){
+  var i = state.current;
+  var q = QUESTIONS[i];
+  var st = state.q[i];
+  var box = $("liveSolutionBox");
+  if(state.instantFeedback && st.solutionSeen){
+    box.style.display = "block";
+    box.innerHTML = "<h4>Solution</h4><p><b>Correct Answer:</b> Option " + q.answer + "</p>" +
+      (solHtml(q, state.lang) || "<i>No solution text provided.</i>");
+    decorateImages(box);
+  } else {
+    box.style.display = "none";
+    box.innerHTML = "";
+  }
+}
+
+function toggleLiveSolution(){
+  var st = state.q[state.current];
+  st.solutionSeen = !st.solutionSeen;
+  saveState();
+  $("showSolBtn").textContent = st.solutionSeen ? "Hide Solution" : "Show Solution";
+  renderLiveSolutionBox();
+}
+
+function $all(sel){ return Array.prototype.slice.call(document.querySelectorAll(sel)); }
+
+/* ================= INTERACTIONS ================= */
+function selectOption(val){
+  state.q[state.current].selected = val;
+  applyFeedback();
+  saveState();
+}
+
+function commitStatusFromSelection(i){
+  var st = state.q[i];
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  if(st.selected !== null){
+    st.status = wasMarked ? "markedans" : "answered";
+  } else {
+    st.status = wasMarked ? "marked" : "notanswered";
+  }
+}
+
+function saveAndNext(){
+  commitStatusFromSelection(state.current);
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function markForReview(){
+  var st = state.q[state.current];
+  st.status = st.selected !== null ? "markedans" : "marked";
+  goTo(Math.min(state.current+1, N-1));
+}
+
+function clearResponse(){
+  var st = state.q[state.current];
+  st.selected = null;
+  st.solutionSeen = false;
+  var wasMarked = (st.status === "marked" || st.status === "markedans");
+  st.status = wasMarked ? "marked" : "notanswered";
+  renderQuestion();
+}
+
+function goPrev(){ goTo(Math.max(state.current-1, 0)); }
+function goTo(i){ if(i<0||i>=N) return; state.current = i; renderQuestion(); }
+
+function setLang(v){ state.lang = v; saveState(); renderQuestion(); }
+function setSolLang(v){ state.solLang = v; saveState(); renderSolQuestion(); }
+
+/* ================= ZOOM / FULLSCREEN ================= */
+var ZOOM_KEY = "sscscholars_zoom_level";
+var zoomLevel = 1;
+try{ var zz = parseFloat(localStorage.getItem(ZOOM_KEY)); if(zz >= 0.6 && zz <= 3) zoomLevel = zz; }catch(e){}
+function zoomChange(dir){
+  zoomLevel = Math.min(3, Math.max(0.6, Math.round((zoomLevel + dir*0.1)*100)/100));
+  applyZoom();
+}
+function zoomReset(){ zoomLevel = 1; applyZoom(); }
+function applyZoom(){
+  document.documentElement.style.setProperty("--zoom", zoomLevel);
+  var labs = document.querySelectorAll(".zoomLabel");
+  for(var i=0;i<labs.length;i++){ labs[i].textContent = Math.round(zoomLevel*100) + "%"; }
+  try{ localStorage.setItem(ZOOM_KEY, String(zoomLevel)); }catch(e){}
+  applyImgZoom();
+}
+
+/* ---- images inside question / option / solution HTML follow the same zoom ---- */
+function sizeImg(img){
+  if(!img.naturalWidth) return;
+  var host = img.closest(".qbody") || img.closest(".explbox") || document.body;
+  var cap = Math.max(160, host.clientWidth - 90);
+  var base = Math.min(img.naturalWidth, cap);
+  img.style.width = Math.round(base * zoomLevel) + "px";
+  img.style.height = "auto";
+}
+function applyImgZoom(){
+  var imgs = document.querySelectorAll(".zwrap img");
+  for(var i=0;i<imgs.length;i++){ sizeImg(imgs[i]); }
+}
+/* ---- Maths (LaTeX) rendering: KaTeX if loaded, else readable plain-text fallback ---- */
+var MATH_DELIMS = [
+  {left:"$$", right:"$$", display:true},
+  {left:"\\[", right:"\\]", display:true},
+  {left:"\\(", right:"\\)", display:false}
+];
+function texToHtml(t){
+  var s = t;
+  s = s.replace(/\\left|\\right|\\displaystyle|\\!|\\,|\\;|\\:/g, "");
+  s = s.replace(/\\text\{([^{}]*)\}|\\mathrm\{([^{}]*)\}|\\textbf\{([^{}]*)\}/g, function(m,a,b,c){ return a||b||c||""; });
+  for(var i=0;i<4;i++){
+    s = s.replace(/\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}/g, "($1)/($2)");
+    s = s.replace(/\\sqrt\[([^\]]*)\]\{([^{}]*)\}/g, "<sup>$1</sup>&radic;($2)");
+    s = s.replace(/\\sqrt\{([^{}]*)\}/g, "&radic;($1)");
+  }
+  s = s.replace(/\\sqrt\s*([0-9a-zA-Z])/g, "&radic;$1");
+  s = s.replace(/\^\{([^{}]*)\}/g, "<sup>$1</sup>").replace(/\^([0-9a-zA-Z])/g, "<sup>$1</sup>");
+  s = s.replace(/_\{([^{}]*)\}/g, "<sub>$1</sub>").replace(/_([0-9a-zA-Z])/g, "<sub>$1</sub>");
+  var map = {times:"×", div:"÷", pm:"±", mp:"∓", cdot:"·", le:"≤", leq:"≤", ge:"≥", geq:"≥", ne:"≠", neq:"≠",
+    approx:"≈", circ:"°", pi:"π", theta:"θ", alpha:"α", beta:"β", gamma:"γ", delta:"δ", Delta:"Δ", sigma:"σ",
+    lambda:"λ", mu:"μ", infty:"∞", therefore:"∴", because:"∵", rightarrow:"→", Rightarrow:"⇒", to:"→",
+    angle:"∠", triangle:"△", perp:"⊥", parallel:"∥", degree:"°", ldots:"…", cdots:"…", dots:"…", quad:" ", qquad:"  "};
+  s = s.replace(/\\([a-zA-Z]+)/g, function(m,n){ return map.hasOwnProperty(n) ? map[n] : n; });
+  s = s.replace(/\\%/g, "%").replace(/\\&/g, "&").replace(/\\\\/g, "<br>").replace(/\\ /g, " ");
+  s = s.replace(/[{}]/g, "");
+  return s;
+}
+function mathFallback(root){
+  var h = root.innerHTML;
+  if(h.indexOf("\\(") === -1 && h.indexOf("\\[") === -1 && h.indexOf("$$") === -1) return;
+  h = h.replace(/\\\(([\s\S]*?)\\\)/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\\\[([\s\S]*?)\\\]/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  h = h.replace(/\$\$([\s\S]*?)\$\$/g, function(m,t){ return "<span class=\"mathfb\">" + texToHtml(t) + "</span>"; });
+  root.innerHTML = h;
+}
+function renderMath(root){
+  if(!root) return;
+  if(typeof renderMathInElement === "function"){
+    try{ renderMathInElement(root, {delimiters: MATH_DELIMS, throwOnError:false, strict:false}); }catch(e){ mathFallback(root); }
+  } else {
+    mathFallback(root);
+  }
+}
+
+function decorateImages(root){
+  if(!root) return;
+  renderMath(root);
+  var imgs = root.querySelectorAll("img");
+  for(var i=0;i<imgs.length;i++){
+    var img = imgs[i];
+    if(img.parentNode && img.parentNode.classList && img.parentNode.classList.contains("zwrap")) continue;
+    img.removeAttribute("style");
+    img.removeAttribute("width");
+    img.removeAttribute("height");
+    var wrap = document.createElement("span");
+    wrap.className = "zwrap";
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(img);
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "zbtn"; b.title = "Open full-size / zoom"; b.innerHTML = "&#128269;";
+    wrap.appendChild(b);
+    if(img.complete && img.naturalWidth){ sizeImg(img); }
+    else { img.addEventListener("load", function(e){ sizeImg(e.target); }); }
+  }
+}
+window.addEventListener("resize", function(){ applyImgZoom(); });
+
+/* ---- Lightbox: wheel zoom, drag to pan, fit / 1:1 ---- */
+var lb = {scale:1, x:0, y:0, drag:false, sx:0, sy:0, fitScale:1};
+function lbEl(){ return {box:$("imgLightbox"), stage:$("lbStage"), img:$("lbImg")}; }
+function lbApply(){
+  var e = lbEl();
+  e.img.style.transform = "translate(" + lb.x + "px," + lb.y + "px) scale(" + lb.scale + ")";
+  $("lbPct").textContent = Math.round(lb.scale*100) + "%";
+}
+function lbOpen(src){
+  var e = lbEl();
+  e.box.classList.add("show");
+  e.img.onload = function(){ lbFit(); };
+  e.img.src = src;
+  if(e.img.complete && e.img.naturalWidth){ lbFit(); }
+}
+function lbFit(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  var iw = e.img.naturalWidth || 1, ih = e.img.naturalHeight || 1;
+  var sc = Math.min(sw/iw, sh/ih);
+  lb.fitScale = sc;
+  /* small images: blow them up so they are actually readable */
+  if(sc > 1) sc = Math.min(sc, 4);
+  lb.scale = sc;
+  lb.x = (sw - iw*sc)/2; lb.y = (sh - ih*sc)/2;
+  lbApply();
+}
+function lbActual(){
+  var e = lbEl();
+  var sw = e.stage.clientWidth, sh = e.stage.clientHeight;
+  lb.scale = 1;
+  lb.x = (sw - e.img.naturalWidth)/2; lb.y = (sh - e.img.naturalHeight)/2;
+  lbApply();
+}
+function lbZoomAt(factor, cx, cy){
+  var ns = Math.min(12, Math.max(0.1, lb.scale * factor));
+  var k = ns / lb.scale;
+  lb.x = cx - (cx - lb.x) * k;
+  lb.y = cy - (cy - lb.y) * k;
+  lb.scale = ns;
+  lbApply();
+}
+function lbZoom(dir){
+  var e = lbEl();
+  lbZoomAt(dir > 0 ? 1.25 : 0.8, e.stage.clientWidth/2, e.stage.clientHeight/2);
+}
+function lbClose(){ $("imgLightbox").classList.remove("show"); }
+function lbIsOpen(){ return $("imgLightbox").classList.contains("show"); }
+
+(function initLightbox(){
+  var stage = $("lbStage");
+  stage.addEventListener("wheel", function(ev){
+    ev.preventDefault();
+    var r = stage.getBoundingClientRect();
+    lbZoomAt(ev.deltaY < 0 ? 1.15 : 1/1.15, ev.clientX - r.left, ev.clientY - r.top);
+  }, {passive:false});
+  stage.addEventListener("pointerdown", function(ev){
+    lb.drag = true; lb.sx = ev.clientX - lb.x; lb.sy = ev.clientY - lb.y;
+    stage.classList.add("drag");
+    try{ stage.setPointerCapture(ev.pointerId); }catch(e){}
+  });
+  stage.addEventListener("pointermove", function(ev){
+    if(!lb.drag) return;
+    lb.x = ev.clientX - lb.sx; lb.y = ev.clientY - lb.sy; lbApply();
+  });
+  function endDrag(){ lb.drag = false; stage.classList.remove("drag"); }
+  stage.addEventListener("pointerup", endDrag);
+  stage.addEventListener("pointercancel", endDrag);
+  stage.addEventListener("dblclick", function(){
+    if(Math.abs(lb.scale - lb.fitScale) < 0.02 || lb.fitScale > 1){ var e = lbEl(); lbZoomAt(2, e.stage.clientWidth/2, e.stage.clientHeight/2); }
+    else { lbFit(); }
+  });
+  /* two-finger pinch on touch screens */
+  var pts = {}, pinchD = 0;
+  stage.addEventListener("pointerdown", function(ev){ pts[ev.pointerId] = ev; });
+  stage.addEventListener("pointermove", function(ev){
+    if(!pts[ev.pointerId]) return;
+    pts[ev.pointerId] = ev;
+    var ids = Object.keys(pts);
+    if(ids.length === 2){
+      var a = pts[ids[0]], b = pts[ids[1]];
+      var d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY);
+      if(pinchD){
+        var r = stage.getBoundingClientRect();
+        lbZoomAt(d/pinchD, (a.clientX+b.clientX)/2 - r.left, (a.clientY+b.clientY)/2 - r.top);
+      }
+      pinchD = d;
+    }
+  });
+  function pend(ev){ delete pts[ev.pointerId]; pinchD = 0; }
+  stage.addEventListener("pointerup", pend);
+  stage.addEventListener("pointercancel", pend);
+
+  /* open lightbox: magnifier button always; clicking the picture itself everywhere
+     except inside answer options (there a click must still select the option) */
+  document.addEventListener("click", function(ev){
+    var t = ev.target;
+    if(!t || !t.closest) return;
+    var wrap = t.closest(".zwrap");
+    if(!wrap) return;
+    var img = wrap.querySelector("img");
+    if(!img) return;
+    var isBtn = t.classList.contains("zbtn");
+    var inOption = !!t.closest(".options label");
+    if(isBtn || !inOption){
+      ev.preventDefault(); ev.stopPropagation();
+      lbOpen(img.currentSrc || img.src);
+    }
+  }, true);
+})();
+
+function toggleFullscreen(){
+  try{
+    if(!document.fullscreenElement){ document.documentElement.requestFullscreen().catch(function(){}); }
+    else { document.exitFullscreen().catch(function(){}); }
+  }catch(e){}
+}
+document.addEventListener("fullscreenchange", function(){
+  var btn = $("fsBtn");
+  if(btn) btn.textContent = document.fullscreenElement ? "Exit Full Screen" : "Full Screen";
+});
+
+/* ================= PAUSE / TIMER ================= */
+function togglePause(){
+  if(state.phase !== "testing" && state.phase !== "paused") return;
+  if(state.phase === "testing"){
+    state.phase = "paused";
+    clearInterval(timerHandle);
+    $("pauseOverlay").classList.add("show");
+  } else {
+    state.phase = "testing";
+    $("pauseOverlay").classList.remove("show");
+    startTimer();
+  }
+  saveState();
+}
+
+function startTimer(){
+  if(timerHandle) clearInterval(timerHandle);
+  renderTime();
+  timerHandle = setInterval(function(){
+    if(state.phase !== "testing") return;
+    state.timeLeft -= 1;
+    if(state.timeLeft <= 0){
+      state.timeLeft = 0;
+      renderTime();
+      clearInterval(timerHandle);
+      doSubmit();
+      return;
+    }
+    renderTime();
+    if(state.timeLeft % 5 === 0) saveState();
+  }, 1000);
+}
+
+function renderTime(){
+  var box = $("timeleftBox");
+  $("timeLeft").textContent = fmtClock(state.timeLeft);
+  if(box) box.classList.toggle("low", state.timeLeft <= 120);
+}
+
+/* ================= SUBMIT ================= */
+function confirmSubmit(){
+  renderPalette();
+  var c = statusCounts();
+  $("mAnswered").textContent = c.answered + c.markedans;
+  $("mNotAnswered").textContent = c.notanswered;
+  $("mMarked").textContent = c.marked + c.markedans;
+  $("mNotVisited").textContent = c.notvisited;
+  $("submitModal").classList.add("show");
+}
+function closeSubmitModal(){ $("submitModal").classList.remove("show"); }
+
+function computeResult(){
+  var correct=0, wrong=0, unattempt=0, marks=0, negMarksTotal=0, maxMarks=0;
+  for(var i=0;i<N;i++){
+    var q = QUESTIONS[i];
+    var sel = state.q[i].selected;
+    var cs = (q.correct_score !== undefined && q.correct_score !== null && q.correct_score !== "") ? parseFloat(q.correct_score) : CFG.defaultCorrectScore;
+    var ns = (q.negative_score !== undefined && q.negative_score !== null && q.negative_score !== "") ? parseFloat(q.negative_score) : CFG.defaultNegativeScore;
+    maxMarks += cs;
+    if(sel === null || sel === undefined){ unattempt++; }
+    else if(sel === q.answer){ correct++; marks += cs; }
+    else { wrong++; negMarksTotal += ns; marks -= ns; }
+  }
+  var attempted = correct + wrong;
+  var accuracy = attempted > 0 ? (correct/attempted*100) : 0;
+  var timeTaken = CFG.totalTimeSeconds - state.timeLeft;
+  return {
+    correct: correct, wrong: wrong, unattempt: unattempt,
+    score: Math.round(marks*100)/100,
+    maxMarks: Math.round(maxMarks*100)/100,
+    negMarksTotal: Math.round(negMarksTotal*100)/100,
+    accuracy: Math.round(accuracy*10)/10,
+    timeTaken: timeTaken,
+    avgTime: Math.round(timeTaken / N),
+    total: N
+  };
+}
+
+function doSubmit(){
+  closeSubmitModal();
+  clearInterval(timerHandle);
+  state.phase = "submitted";
+  state.finishedAt = Date.now();
+  state.result = computeResult();
+  saveState();
+  try{ if(document.fullscreenElement && document.exitFullscreen){ document.exitFullscreen().catch(function(){}); } }catch(e){}
+  $("testPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+function renderResult(){
+  var r = state.result || computeResult();
+  $("finalScore").textContent = r.score;
+  $("stCorrect").textContent = r.correct;
+  $("stWrong").textContent = r.wrong;
+  $("stUnattempt").textContent = r.unattempt;
+  $("stAccuracy").textContent = r.accuracy + "%";
+  $("stMaxMarks").textContent = r.maxMarks;
+  $("stNegMarks").textContent = r.negMarksTotal;
+  $("stTimeTaken").textContent = fmtLong(r.timeTaken);
+  $("stAvgTime").textContent = fmtLong(r.avgTime);
+}
+
+function restartTest(){
+  if(confirm("This will erase your current attempt and start over. Continue?")){
+    try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+    window.location.reload();
+  }
+}
+
+/* ================= SOLUTIONS PAGE ================= */
+function solStatus(i){
+  var sel = state.q[i].selected;
+  var q = QUESTIONS[i];
+  if(sel === null || sel === undefined) return "skipped";
+  return sel === q.answer ? "correct" : "wrong";
+}
+
+function renderSolPalette(){
+  var html = "";
+  for(var i=0;i<N;i++){
+    var st = solStatus(i);
+    var cls = st === "correct" ? "solcorrect" : st === "wrong" ? "solwrong" : "solskipped";
+    var cur = (i === state.solIndex) ? " current" : "";
+    html += '<button type="button" class="qnum ' + cls + cur + '" onclick="solGoTo(' + i + ')">' + (i+1) + '</button>';
+  }
+  $("solPaletteGrid").innerHTML = html;
+}
+
+function renderSolQuestion(){
+  var i = state.solIndex;
+  var q = QUESTIONS[i];
+  var sel = state.q[i].selected;
+  var st = solStatus(i);
+
+  $("solQNoHeading").textContent = "Question No " + (i+1);
+  var badge = st === "correct" ? '<span class="sol-badge correct">Correct</span>'
+            : st === "wrong" ? '<span class="sol-badge wrong">Wrong</span>'
+            : '<span class="sol-badge skipped">Skipped</span>';
+  $("solBadgeHolder").innerHTML = badge;
+  $("solLangSelect").value = state.solLang;
+
+  $("solQText").innerHTML = qHtml(q, state.solLang);
+  var imgEl = $("solQImg");
+  if(q.question_image){ imgEl.innerHTML = '<img src="'+q.question_image+'" alt="question image">'; imgEl.style.display = "block"; }
+  else { imgEl.style.display = "none"; imgEl.innerHTML = ""; }
+
+  var optsHtml = "";
+  OPT_KEYS.forEach(function(key, idx){
+    var opt = q.options[key];
+    if(!opt) return;
+    var val = String(idx+1);
+    var cls = "", tag = "";
+    if(val === q.answer){ cls = "right"; tag = '<span class="tagmini">CORRECT</span>'; }
+    else if(val === sel && sel !== q.answer){ cls = "picked-wrong"; tag = '<span class="tagmini">YOUR ANSWER</span>'; }
+    optsHtml += '<div class="soloption ' + cls + '">' + OPT_LETTERS[idx] + ') ' + optHtml(q, key, state.solLang) + ' ' + tag + '</div>';
+  });
+  $("solOptions").innerHTML = optsHtml;
+  decorateImages($("solQText")); decorateImages($("solQImg")); decorateImages($("solOptions"));
+
+  var explHead = '<h4>Explanation</h4>';
+  $("solExpl").innerHTML = explHead + (solHtml(q, state.solLang) || "<i>No solution text provided.</i>");
+  decorateImages($("solExpl"));
+
+  $("solPrevBtn").disabled = (i === 0);
+  $("solNextBtn").disabled = (i === N-1);
+
+  renderSolPalette();
+  saveState();
+}
+
+function solGoTo(i){ state.solIndex = i; renderSolQuestion(); }
+function solGoNext(){ solGoTo(Math.min(state.solIndex+1, N-1)); }
+function solGoPrev(){ solGoTo(Math.max(state.solIndex-1, 0)); }
+
+function toggleSolPalette(){
+  state.solPaletteHidden = !state.solPaletteHidden;
+  applySolPaletteCollapse();
+  saveState();
+}
+function applySolPaletteCollapse(){
+  var p = $("solPaletteWrap");
+  p.classList.toggle("hidden", state.solPaletteHidden);
+  $("solCollapseArrow").innerHTML = state.solPaletteHidden ? "&#9654;" : "&#9664;";
+}
+
+function showSolutions(){
+  $("resultPage").classList.add("hidden-page");
+  $("solutionPage").classList.remove("hidden-page");
+  state.solIndex = 0;
+  applySolPaletteCollapse();
+  renderSolQuestion();
+  saveState();
+}
+function backToResult(){
+  $("solutionPage").classList.add("hidden-page");
+  renderResult();
+  $("resultPage").classList.remove("hidden-page");
+}
+
+/* ================= KEYBOARD SHORTCUTS ================= */
+document.addEventListener("keydown", function(e){
+  if(lbIsOpen()){
+    if(e.key === "Escape") lbClose();
+    else if(e.key === "+" || e.key === "=") lbZoom(1);
+    else if(e.key === "-") lbZoom(-1);
+    else if(e.key === "0") lbFit();
+    return;
+  }
+  if(state.phase !== "testing") return;
+  if(e.target && (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT")) return;
+  if(["1","2","3","4","5"].indexOf(e.key) !== -1){
+    var lab = document.querySelector('#qOptions label[data-opt="'+e.key+'"] input');
+    if(lab){ lab.checked = true; selectOption(e.key); }
+  } else if(e.key === "ArrowRight"){ saveAndNext(); }
+  else if(e.key === "ArrowLeft"){ goPrev(); }
+});
+
+/* ================= INIT ================= */
+function boot(){
+  applyZoom();
+  state = loadState();
+  initStaticText();
+  initWelcome();
+
+  if(state.phase === "submitted"){
+    $("welcomePage").classList.add("hidden-page");
+    $("solLangSelect").value = state.solLang;
+    renderResult();
+    $("resultPage").classList.remove("hidden-page");
+  } else if(state.phase === "testing" || state.phase === "paused"){
+    $("instantFeedbackToggle").checked = state.instantFeedback;
+    enterTestPage();
+    if(state.phase === "paused"){
+      clearInterval(timerHandle);
+      $("pauseOverlay").classList.add("show");
+    }
+  }
+  /* else: stay on welcomePage (its default state in the markup) */
+}
+
+if(document.readyState === "loading"){
+  document.addEventListener("DOMContentLoaded", boot);
+} else {
+  boot();
+}
+
+</script>
+</body>
+</html>
